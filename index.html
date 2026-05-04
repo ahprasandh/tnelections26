@@ -4,7 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TN Elections 2026 — Live Results</title>
+  <meta name="description" content="Live Tamil Nadu Assembly Election 2026 results dashboard with interactive map, constituency-wise results, party summary, star candidates tracker, and 2021 comparison.">
+  <meta name="keywords" content="Tamil Nadu elections 2026, TN election results, live results, constituency results, assembly election, DMK, AIADMK, TVK, BJP, INC">
+  <meta name="author" content="TN Elections Dashboard">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#1a1a2e">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="TN Elections 2026 — Live Results Dashboard">
+  <meta property="og:description" content="Live Tamil Nadu Assembly Election 2026 results with interactive map, party-wise and constituency-wise breakdowns, star candidates tracker, and 2021 swing analysis.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/logo.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="TN Elections 2026 — Live Results Dashboard">
+  <meta name="twitter:description" content="Live Tamil Nadu Assembly Election 2026 results with interactive map, party-wise breakdowns, and star candidates tracker.">
+  <meta name="twitter:image" content="images/logo.png">
+
   <link rel="icon" type="image/png" href="images/logo.png">
+  <link rel="apple-touch-icon" href="images/logo.png">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <style>
     :root {
@@ -635,9 +654,9 @@ function renderResults() {
     return `<tr${rowClass}>
       <td class="text-center">${isStarConst(r.const_no) ? '<span class="star-badge" title="Star candidate">⭐</span>' : ''}${r.const_no}</td>
       <td class="fw"><a class="const-link" href="#" onclick="showConstPopup(${r.const_no});return false;">${esc(r.constituency)}</a></td>
-      <td>${esc(r.leading_candidate) || '-'} ${marginStr}</td>
+      <td>${r.leading_candidate ? candPhoto(r.const_no, r.leading_candidate) : ''}${esc(r.leading_candidate) || '-'} ${marginStr}</td>
       <td>${lp ? pb(lp) : '-'}</td>
-      <td>${esc(r.trailing_candidate) || '-'} ${trailMarginStr}</td>
+      <td>${r.trailing_candidate ? candPhoto(r.const_no, r.trailing_candidate) : ''}${esc(r.trailing_candidate) || '-'} ${trailMarginStr}</td>
       <td>${tp ? pb(tp) : '-'}</td>
       <td class="text-center">${esc(r.round) || '-'}</td>
       <td class="text-center"><span class="status ${statusCls}">${esc(statusText)}</span></td>
@@ -875,6 +894,7 @@ function showInfoPanel(acNo, props) {
     html += `
       <div class="candidate-row${i === 0 ? ' top' : ''}">
         <div class="rank">${i + 1}</div>
+        ${candPhoto(acNo, c.name)}
         <div class="candidate-info">
           <div class="candidate-name" title="${esc(c.name)}">${esc(c.name)}</div>
           <div class="candidate-votes">${c.total_votes.toLocaleString()} votes (${c.vote_percent}%)</div>
