@@ -1,0 +1,863 @@
+{
+  "national_parties": [
+    {
+      "abbreviation": "AITC",
+      "seats_contested": 2,
+      "seats_won": 0,
+      "forfeited_deposits": 2,
+      "votes": 963,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "BJP",
+      "seats_contested": 20,
+      "seats_won": 4,
+      "forfeited_deposits": 0,
+      "votes": 1213670,
+      "vote_share_pct": "2.62%"
+    },
+    {
+      "abbreviation": "BSP",
+      "seats_contested": 162,
+      "seats_won": 0,
+      "forfeited_deposits": 162,
+      "votes": 101144,
+      "vote_share_pct": "0.22%"
+    },
+    {
+      "abbreviation": "CPI",
+      "seats_contested": 6,
+      "seats_won": 2,
+      "forfeited_deposits": 0,
+      "votes": 504537,
+      "vote_share_pct": "1.09%"
+    },
+    {
+      "abbreviation": "CPI(M)",
+      "seats_contested": 6,
+      "seats_won": 2,
+      "forfeited_deposits": 0,
+      "votes": 390819,
+      "vote_share_pct": "0.85%"
+    },
+    {
+      "abbreviation": "INC",
+      "seats_contested": 25,
+      "seats_won": 18,
+      "forfeited_deposits": 0,
+      "votes": 1976527,
+      "vote_share_pct": "4.27%"
+    },
+    {
+      "abbreviation": "NCP",
+      "seats_contested": 6,
+      "seats_won": 0,
+      "forfeited_deposits": 6,
+      "votes": 3371,
+      "vote_share_pct": "0.01%"
+    },
+    {
+      "abbreviation": "NPEP",
+      "seats_contested": 3,
+      "seats_won": 0,
+      "forfeited_deposits": 3,
+      "votes": 1187,
+      "vote_share_pct": "0%"
+    }
+  ],
+  "state_parties": [
+    {
+      "abbreviation": "ADMK",
+      "seats_contested": 191,
+      "seats_won": 66,
+      "forfeited_deposits": 0,
+      "votes": 15391055,
+      "vote_share_pct": "33.29%"
+    },
+    {
+      "abbreviation": "DMDK",
+      "seats_contested": 60,
+      "seats_won": 0,
+      "forfeited_deposits": 60,
+      "votes": 200157,
+      "vote_share_pct": "0.43%"
+    },
+    {
+      "abbreviation": "DMK",
+      "seats_contested": 188,
+      "seats_won": 133,
+      "forfeited_deposits": 0,
+      "votes": 17430179,
+      "vote_share_pct": "37.7%"
+    },
+    {
+      "abbreviation": "AIMIM",
+      "seats_contested": 3,
+      "seats_won": 0,
+      "forfeited_deposits": 3,
+      "votes": 3134,
+      "vote_share_pct": "0.01%"
+    },
+    {
+      "abbreviation": "CPI(ML)(L)",
+      "seats_contested": 12,
+      "seats_won": 0,
+      "forfeited_deposits": 12,
+      "votes": 5135,
+      "vote_share_pct": "0.01%"
+    },
+    {
+      "abbreviation": "IUML",
+      "seats_contested": 3,
+      "seats_won": 0,
+      "forfeited_deposits": 0,
+      "votes": 222263,
+      "vote_share_pct": "0.48%"
+    },
+    {
+      "abbreviation": "JD(S)",
+      "seats_contested": 1,
+      "seats_won": 0,
+      "forfeited_deposits": 1,
+      "votes": 1189,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "LJP",
+      "seats_contested": 7,
+      "seats_won": 0,
+      "forfeited_deposits": 7,
+      "votes": 855,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "PMK",
+      "seats_contested": 23,
+      "seats_won": 5,
+      "forfeited_deposits": 1,
+      "votes": 1758774,
+      "vote_share_pct": "3.8%"
+    },
+    {
+      "abbreviation": "RJD",
+      "seats_contested": 2,
+      "seats_won": 0,
+      "forfeited_deposits": 2,
+      "votes": 478,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "SHS",
+      "seats_contested": 11,
+      "seats_won": 0,
+      "forfeited_deposits": 11,
+      "votes": 1112,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "SP",
+      "seats_contested": 1,
+      "seats_won": 0,
+      "forfeited_deposits": 1,
+      "votes": 162,
+      "vote_share_pct": "0%"
+    }
+  ],
+  "registered_unrecognized_parties": [
+    {
+      "abbreviation": "ABHM",
+      "seats_contested": 4,
+      "seats_won": 0,
+      "forfeited_deposits": 4,
+      "votes": 1929,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "ADK",
+      "seats_contested": 18,
+      "seats_won": 0,
+      "forfeited_deposits": 18,
+      "votes": 4198,
+      "vote_share_pct": "0.01%"
+    },
+    {
+      "abbreviation": "AHIMSASP",
+      "seats_contested": 3,
+      "seats_won": 0,
+      "forfeited_deposits": 3,
+      "votes": 2716,
+      "vote_share_pct": "0.01%"
+    },
+    {
+      "abbreviation": "AIJYMKG",
+      "seats_contested": 10,
+      "seats_won": 0,
+      "forfeited_deposits": 10,
+      "votes": 2505,
+      "vote_share_pct": "0.01%"
+    },
+    {
+      "abbreviation": "AIMGRMMK",
+      "seats_contested": 4,
+      "seats_won": 0,
+      "forfeited_deposits": 4,
+      "votes": 622,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "AINPMK",
+      "seats_contested": 2,
+      "seats_won": 0,
+      "forfeited_deposits": 2,
+      "votes": 351,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "AISMK",
+      "seats_contested": 3,
+      "seats_won": 0,
+      "forfeited_deposits": 3,
+      "votes": 6583,
+      "vote_share_pct": "0.01%"
+    },
+    {
+      "abbreviation": "AIUUK",
+      "seats_contested": 2,
+      "seats_won": 0,
+      "forfeited_deposits": 2,
+      "votes": 1594,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "AIVP",
+      "seats_contested": 1,
+      "seats_won": 0,
+      "forfeited_deposits": 1,
+      "votes": 379,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "AIYDPMP",
+      "seats_contested": 2,
+      "seats_won": 0,
+      "forfeited_deposits": 2,
+      "votes": 280,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "AJPK",
+      "seats_contested": 3,
+      "seats_won": 0,
+      "forfeited_deposits": 3,
+      "votes": 562,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "AMAK",
+      "seats_contested": 22,
+      "seats_won": 0,
+      "forfeited_deposits": 22,
+      "votes": 3216,
+      "vote_share_pct": "0.01%"
+    },
+    {
+      "abbreviation": "AMBDKPP",
+      "seats_contested": 1,
+      "seats_won": 0,
+      "forfeited_deposits": 1,
+      "votes": 177,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "AMDMK",
+      "seats_contested": 1,
+      "seats_won": 0,
+      "forfeited_deposits": 1,
+      "votes": 160,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "AMGRDMK",
+      "seats_contested": 17,
+      "seats_won": 0,
+      "forfeited_deposits": 17,
+      "votes": 3157,
+      "vote_share_pct": "0.01%"
+    },
+    {
+      "abbreviation": "AMMK",
+      "seats_contested": 1,
+      "seats_won": 0,
+      "forfeited_deposits": 1,
+      "votes": 232,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "AMMKMNKZ",
+      "seats_contested": 165,
+      "seats_won": 0,
+      "forfeited_deposits": 156,
+      "votes": 1085985,
+      "vote_share_pct": "2.35%"
+    },
+    {
+      "abbreviation": "AMPK",
+      "seats_contested": 28,
+      "seats_won": 0,
+      "forfeited_deposits": 28,
+      "votes": 7040,
+      "vote_share_pct": "0.02%"
+    },
+    {
+      "abbreviation": "ANSMK",
+      "seats_contested": 1,
+      "seats_won": 0,
+      "forfeited_deposits": 1,
+      "votes": 112,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "APEP",
+      "seats_contested": 2,
+      "seats_won": 0,
+      "forfeited_deposits": 2,
+      "votes": 482,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "APoI",
+      "seats_contested": 8,
+      "seats_won": 0,
+      "forfeited_deposits": 8,
+      "votes": 1203,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "APTADMK",
+      "seats_contested": 25,
+      "seats_won": 0,
+      "forfeited_deposits": 25,
+      "votes": 6933,
+      "vote_share_pct": "0.01%"
+    },
+    {
+      "abbreviation": "AUTMK",
+      "seats_contested": 1,
+      "seats_won": 0,
+      "forfeited_deposits": 1,
+      "votes": 497,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "BHUDRP",
+      "seats_contested": 15,
+      "seats_won": 0,
+      "forfeited_deposits": 15,
+      "votes": 1508,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "BMFP",
+      "seats_contested": 1,
+      "seats_won": 0,
+      "forfeited_deposits": 1,
+      "votes": 59,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "DAMK",
+      "seats_contested": 10,
+      "seats_won": 0,
+      "forfeited_deposits": 10,
+      "votes": 3532,
+      "vote_share_pct": "0.01%"
+    },
+    {
+      "abbreviation": "DESMI",
+      "seats_contested": 6,
+      "seats_won": 0,
+      "forfeited_deposits": 6,
+      "votes": 1264,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "DMMK",
+      "seats_contested": 1,
+      "seats_won": 0,
+      "forfeited_deposits": 1,
+      "votes": 200,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "DMSK",
+      "seats_contested": 19,
+      "seats_won": 0,
+      "forfeited_deposits": 19,
+      "votes": 3908,
+      "vote_share_pct": "0.01%"
+    },
+    {
+      "abbreviation": "DRMRPMKKC",
+      "seats_contested": 2,
+      "seats_won": 0,
+      "forfeited_deposits": 2,
+      "votes": 194,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "ETMK",
+      "seats_contested": 2,
+      "seats_won": 0,
+      "forfeited_deposits": 2,
+      "votes": 268,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "GPI",
+      "seats_contested": 16,
+      "seats_won": 0,
+      "forfeited_deposits": 16,
+      "votes": 3246,
+      "vote_share_pct": "0.01%"
+    },
+    {
+      "abbreviation": "HJP",
+      "seats_contested": 1,
+      "seats_won": 0,
+      "forfeited_deposits": 1,
+      "votes": 73,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "IDMMK",
+      "seats_contested": 6,
+      "seats_won": 0,
+      "forfeited_deposits": 6,
+      "votes": 956,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "IJK",
+      "seats_contested": 38,
+      "seats_won": 0,
+      "forfeited_deposits": 38,
+      "votes": 39288,
+      "vote_share_pct": "0.08%"
+    },
+    {
+      "abbreviation": "IMK",
+      "seats_contested": 1,
+      "seats_won": 0,
+      "forfeited_deposits": 1,
+      "votes": 146,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "INKK",
+      "seats_contested": 1,
+      "seats_won": 0,
+      "forfeited_deposits": 1,
+      "votes": 110,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "JJ",
+      "seats_contested": 1,
+      "seats_won": 0,
+      "forfeited_deposits": 1,
+      "votes": 113,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "KDC",
+      "seats_contested": 1,
+      "seats_won": 0,
+      "forfeited_deposits": 1,
+      "votes": 67,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "KDMMK",
+      "seats_contested": 1,
+      "seats_won": 0,
+      "forfeited_deposits": 1,
+      "votes": 943,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "MAHMMK",
+      "seats_contested": 1,
+      "seats_won": 0,
+      "forfeited_deposits": 1,
+      "votes": 52,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "MANAK",
+      "seats_contested": 1,
+      "seats_won": 0,
+      "forfeited_deposits": 1,
+      "votes": 104,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "mauk",
+      "seats_contested": 3,
+      "seats_won": 0,
+      "forfeited_deposits": 3,
+      "votes": 527,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "MGRMKKT",
+      "seats_contested": 5,
+      "seats_won": 0,
+      "forfeited_deposits": 5,
+      "votes": 504,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "MIDP",
+      "seats_contested": 58,
+      "seats_won": 0,
+      "forfeited_deposits": 58,
+      "votes": 11306,
+      "vote_share_pct": "0.02%"
+    },
+    {
+      "abbreviation": "MKat",
+      "seats_contested": 4,
+      "seats_won": 0,
+      "forfeited_deposits": 4,
+      "votes": 254,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "MKLMNTRAPR",
+      "seats_contested": 7,
+      "seats_won": 0,
+      "forfeited_deposits": 7,
+      "votes": 1276,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "MMKA",
+      "seats_contested": 5,
+      "seats_won": 0,
+      "forfeited_deposits": 5,
+      "votes": 667,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "MNK",
+      "seats_contested": 1,
+      "seats_won": 0,
+      "forfeited_deposits": 1,
+      "votes": 519,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "MNM",
+      "seats_contested": 180,
+      "seats_won": 0,
+      "forfeited_deposits": 178,
+      "votes": 1210667,
+      "vote_share_pct": "2.62%"
+    },
+    {
+      "abbreviation": "MSK",
+      "seats_contested": 1,
+      "seats_won": 0,
+      "forfeited_deposits": 1,
+      "votes": 112,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "MSKK",
+      "seats_contested": 2,
+      "seats_won": 0,
+      "forfeited_deposits": 2,
+      "votes": 295,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "MTMK",
+      "seats_contested": 1,
+      "seats_won": 0,
+      "forfeited_deposits": 1,
+      "votes": 102,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "NADLMMKLK",
+      "seats_contested": 8,
+      "seats_won": 0,
+      "forfeited_deposits": 8,
+      "votes": 1705,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "NDPOSI",
+      "seats_contested": 10,
+      "seats_won": 0,
+      "forfeited_deposits": 10,
+      "votes": 1012,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "NGPP",
+      "seats_contested": 20,
+      "seats_won": 0,
+      "forfeited_deposits": 20,
+      "votes": 5397,
+      "vote_share_pct": "0.01%"
+    },
+    {
+      "abbreviation": "NIDP",
+      "seats_contested": 10,
+      "seats_won": 0,
+      "forfeited_deposits": 10,
+      "votes": 4073,
+      "vote_share_pct": "0.01%"
+    },
+    {
+      "abbreviation": "NINIK",
+      "seats_contested": 4,
+      "seats_won": 0,
+      "forfeited_deposits": 4,
+      "votes": 375,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "NKMK",
+      "seats_contested": 3,
+      "seats_won": 0,
+      "forfeited_deposits": 3,
+      "votes": 425,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "NMK",
+      "seats_contested": 4,
+      "seats_won": 0,
+      "forfeited_deposits": 4,
+      "votes": 1463,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "NTK",
+      "seats_contested": 234,
+      "seats_won": 0,
+      "forfeited_deposits": 233,
+      "votes": 3042307,
+      "vote_share_pct": "6.58%"
+    },
+    {
+      "abbreviation": "PPIS",
+      "seats_contested": 2,
+      "seats_won": 0,
+      "forfeited_deposits": 2,
+      "votes": 297,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "PT",
+      "seats_contested": 36,
+      "seats_won": 0,
+      "forfeited_deposits": 36,
+      "votes": 39611,
+      "vote_share_pct": "0.09%"
+    },
+    {
+      "abbreviation": "RPI(S)",
+      "seats_contested": 1,
+      "seats_won": 0,
+      "forfeited_deposits": 1,
+      "votes": 62,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "RPPRINAT",
+      "seats_contested": 19,
+      "seats_won": 0,
+      "forfeited_deposits": 19,
+      "votes": 2489,
+      "vote_share_pct": "0.01%"
+    },
+    {
+      "abbreviation": "RSPS",
+      "seats_contested": 2,
+      "seats_won": 0,
+      "forfeited_deposits": 2,
+      "votes": 361,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "RUC",
+      "seats_contested": 1,
+      "seats_won": 0,
+      "forfeited_deposits": 1,
+      "votes": 82,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "SAP",
+      "seats_contested": 1,
+      "seats_won": 0,
+      "forfeited_deposits": 1,
+      "votes": 291,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "SDPI",
+      "seats_contested": 6,
+      "seats_won": 0,
+      "forfeited_deposits": 6,
+      "votes": 28060,
+      "vote_share_pct": "0.06%"
+    },
+    {
+      "abbreviation": "SIFB",
+      "seats_contested": 1,
+      "seats_won": 0,
+      "forfeited_deposits": 1,
+      "votes": 404,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "SMKNK",
+      "seats_contested": 12,
+      "seats_won": 0,
+      "forfeited_deposits": 12,
+      "votes": 1933,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "SUCI",
+      "seats_contested": 5,
+      "seats_won": 0,
+      "forfeited_deposits": 5,
+      "votes": 855,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "tmc",
+      "seats_contested": 1,
+      "seats_won": 0,
+      "forfeited_deposits": 1,
+      "votes": 118,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "TMGMK",
+      "seats_contested": 1,
+      "seats_won": 0,
+      "forfeited_deposits": 1,
+      "votes": 162,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "TMNP",
+      "seats_contested": 1,
+      "seats_won": 0,
+      "forfeited_deposits": 1,
+      "votes": 120,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "TMTHK",
+      "seats_contested": 8,
+      "seats_won": 0,
+      "forfeited_deposits": 8,
+      "votes": 2690,
+      "vote_share_pct": "0.01%"
+    },
+    {
+      "abbreviation": "TNLK",
+      "seats_contested": 30,
+      "seats_won": 0,
+      "forfeited_deposits": 30,
+      "votes": 22954,
+      "vote_share_pct": "0.05%"
+    },
+    {
+      "abbreviation": "TPSTP",
+      "seats_contested": 7,
+      "seats_won": 0,
+      "forfeited_deposits": 7,
+      "votes": 2050,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "TTNP",
+      "seats_contested": 1,
+      "seats_won": 0,
+      "forfeited_deposits": 1,
+      "votes": 176,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "UBM",
+      "seats_contested": 1,
+      "seats_won": 0,
+      "forfeited_deposits": 1,
+      "votes": 100,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "UlaMK",
+      "seats_contested": 1,
+      "seats_won": 0,
+      "forfeited_deposits": 1,
+      "votes": 235,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "USIP",
+      "seats_contested": 8,
+      "seats_won": 0,
+      "forfeited_deposits": 8,
+      "votes": 1980,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "VATAK",
+      "seats_contested": 1,
+      "seats_won": 0,
+      "forfeited_deposits": 1,
+      "votes": 261,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "VCK",
+      "seats_contested": 6,
+      "seats_won": 4,
+      "forfeited_deposits": 0,
+      "votes": 457763,
+      "vote_share_pct": "0.99%"
+    },
+    {
+      "abbreviation": "VidVP",
+      "seats_contested": 1,
+      "seats_won": 0,
+      "forfeited_deposits": 1,
+      "votes": 105,
+      "vote_share_pct": "0%"
+    },
+    {
+      "abbreviation": "VTVTK",
+      "seats_contested": 30,
+      "seats_won": 0,
+      "forfeited_deposits": 30,
+      "votes": 7000,
+      "vote_share_pct": "0.02%"
+    }
+  ],
+  "independents": {
+    "seats_contested": "-",
+    "seats_won": "-",
+    "forfeited_deposits": "-",
+    "votes": 345591,
+    "vote_share_pct": "0.75"
+  }
+}

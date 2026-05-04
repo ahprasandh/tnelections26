@@ -1,0 +1,80 @@
+{
+  "last_updated": "Last Updated at10:09 AM On 04/05/2026",
+  "totals": {
+    "won": 0,
+    "leading": 160,
+    "total": 160
+  },
+  "parties": [
+    {
+      "party": "TVK",
+      "party_name": "Tamilaga Vettri Kazhagam",
+      "won": 0,
+      "leading": 68,
+      "total": 68
+    },
+    {
+      "party": "ADMK",
+      "party_name": "All India Anna Dravida Munnetra Kazhagam",
+      "won": 0,
+      "leading": 51,
+      "total": 51
+    },
+    {
+      "party": "DMK",
+      "party_name": "Dravida Munnetra Kazhagam",
+      "won": 0,
+      "leading": 28,
+      "total": 28
+    },
+    {
+      "party": "INC",
+      "party_name": "Indian National Congress",
+      "won": 0,
+      "leading": 5,
+      "total": 5
+    },
+    {
+      "party": "PMK",
+      "party_name": "Pattali Makkal Katchi",
+      "won": 0,
+      "leading": 3,
+      "total": 3
+    },
+    {
+      "party": "BJP",
+      "party_name": "Bharatiya Janata Party",
+      "won": 0,
+      "leading": 1,
+      "total": 1
+    },
+    {
+      "party": "CPI",
+      "party_name": "Communist Party of India",
+      "won": 0,
+      "leading": 1,
+      "total": 1
+    },
+    {
+      "party": "AMMKMNKZ",
+      "party_name": "Amma Makkal Munnettra Kazagam",
+      "won": 0,
+      "leading": 1,
+      "total": 1
+    },
+    {
+      "party": "DMDK",
+      "party_name": "Desiya Murpokku Dravida Kazhagam",
+      "won": 0,
+      "leading": 1,
+      "total": 1
+    },
+    {
+      "party": "PT",
+      "party_name": "Puthiya Tamilagam",
+      "won": 0,
+      "leading": 1,
+      "total": 1
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "constituencies": {
+    "general": 188,
+    "sc": 44,
+    "st": 2,
+    "total": 234
+  },
+  "contestants": {
+    "NO. of Contestants in a Constituency": 1,
+    "NO Of Such CONSTITUENCIES": 0,
+    "Total Contestants in a Fray": null,
+    "Average Contestants Per Constituency": null,
+    "Minimum Contestants in a Constituency": null,
+    "Maximum Contestants in a Constituency": null
+  },
+  "Electors": "Male",
+  "No. Of valid VOTES(EVM Valid+postat Valid)": true,
+  "NO. OF VOTES REJECTED (postal)": true,
+  "NO. OF TEST VOTES,\nREJECTED VOTES DUE TO:\nOTHER REASON AND NOTA VOTES": true,
+  "NO. OF POLLING STATIONS": true,
+  "AVERAGE NO. OF ELECTORS\nPER POLLING STATION": true,
+  "Performance of Contesting Candidates": "Male"
+}

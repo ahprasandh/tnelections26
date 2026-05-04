@@ -1,0 +1,26 @@
+{
+  "1. NO. OF CONSTITUENCIES": {
+    "general": 188,
+    "sc": 44,
+    "st": 2,
+    "total": 234
+  },
+  "a. Postal Votes(For Service Voters\nUnder sub-Section(8) of Section 20 of\nR.P. Act,1950)": {
+    "general": 18672,
+    "sc": 3757,
+    "st": 83,
+    "total": 22512
+  },
+  "b. Postal Votes(For Govt. Servants\non election duty(including all Police\nPesonnel, drivers, conductors,\ncleaners) and Absentee Voters.": {
+    "general": 438124,
+    "sc": 96921,
+    "st": 5949,
+    "total": 540994
+  },
+  "TOTAL POSTAL VOTES": {
+    "general": 456796,
+    "sc": 100678,
+    "st": 6032,
+    "total": 563506
+  }
+}

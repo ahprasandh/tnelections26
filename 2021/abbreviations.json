@@ -1,0 +1,54 @@
+[
+  {
+    "abbreviation": "ABBREVIATIONS",
+    "description": "DESCRIPTIONS"
+  },
+  {
+    "abbreviation": "FD",
+    "description": "Forfeited Deposits"
+  },
+  {
+    "abbreviation": "GEN",
+    "description": "General Constituency"
+  },
+  {
+    "abbreviation": "SC",
+    "description": "Reserved for Scheduled Castes"
+  },
+  {
+    "abbreviation": "ST",
+    "description": "Reserved for Scheduled Tribes"
+  },
+  {
+    "abbreviation": "M",
+    "description": "Male"
+  },
+  {
+    "abbreviation": "F",
+    "description": "Female"
+  },
+  {
+    "abbreviation": "O",
+    "description": "Third Gender"
+  },
+  {
+    "abbreviation": "T",
+    "description": "Total"
+  },
+  {
+    "abbreviation": "N",
+    "description": "National Party"
+  },
+  {
+    "abbreviation": "S",
+    "description": "State Party"
+  },
+  {
+    "abbreviation": "U",
+    "description": "Registered (Unrecognised) Party"
+  },
+  {
+    "abbreviation": "Z",
+    "description": "Independent"
+  }
+]

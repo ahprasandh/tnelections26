@@ -1,0 +1,128 @@
+{
+  "NO. OF CONSTITUENCIES": {
+    "general": 188,
+    "sc": 44,
+    "st": 2,
+    "total": 234
+  },
+  "ELECTORS(Including SERVICE VOTERS)": {
+    "general": null,
+    "sc": null,
+    "st": null,
+    "total": null
+  },
+  "MALE": {
+    "general": 0,
+    "sc": 0,
+    "st": 0,
+    "total": 0
+  },
+  "FEMALE": {
+    "general": 0,
+    "sc": 0,
+    "st": 0,
+    "total": 0
+  },
+  "THIRD GENDER": {
+    "general": 0,
+    "sc": 0,
+    "st": 0,
+    "total": 0
+  },
+  "TOTAL": {
+    "general": 0,
+    "sc": 0,
+    "st": 0,
+    "total": 0
+  },
+  "ELECTORS WHO VOTED": {
+    "general": null,
+    "sc": null,
+    "st": null,
+    "total": null
+  },
+  "POSTAL(Details given in Annxure-1)": {
+    "general": 456796,
+    "sc": 100678,
+    "st": 6032,
+    "total": 563506
+  },
+  "TEST VOTES": {
+    "general": 40,
+    "sc": 0,
+    "st": 0,
+    "total": 40
+  },
+  "PROXY (already included in 3.a/3.b)": {
+    "general": 0,
+    "sc": 0,
+    "st": 0,
+    "total": 0
+  },
+  "OVERSEAS ELECTORS": {
+    "general": null,
+    "sc": null,
+    "st": null,
+    "total": null
+  },
+  "OVERSEAS ELECTORS WHO VOTED": {
+    "general": null,
+    "sc": null,
+    "st": null,
+    "total": null
+  },
+  "REJECTED VOTES": {
+    "general": null,
+    "sc": null,
+    "st": null,
+    "total": null
+  },
+  "VOTES(POSTAL)": {
+    "general": 61275,
+    "sc": 11330,
+    "st": 955,
+    "total": 73560
+  },
+  "PERCENTAGE(to Postal\nVotes)": {
+    "general": 13.41,
+    "sc": 11.25,
+    "st": 15.83,
+    "total": 13.05
+  },
+  "VOTES REJECTED FROM\nEVM(TEST VOTES+REJECTED DUE TO OTHER\nREASON)": {
+    "general": 29007,
+    "sc": 5307,
+    "st": 0,
+    "total": 34314
+  },
+  "NOTA VOTES(POSTAL + EVM)": {
+    "general": 273846,
+    "sc": 67708,
+    "st": 4037,
+    "total": 345591
+  },
+  "VALID VOTES(EXCLUDING NOTA VOTES)\n3.f-(6.a+6.c+7)": {
+    "general": 37264083,
+    "sc": 8192920,
+    "st": 434122,
+    "total": 45891125
+  },
+  "POLL PERCENTAGE": {
+    "general": 73,
+    "sc": 76.15,
+    "st": 83.23,
+    "total": 73.63
+  },
+  "NO. OF POLLING STATIONS": {
+    "general": 72875,
+    "sc": 15312,
+    "st": 750,
+    "total": 88937
+  },
+  "AVERAGE NO. OF\nELECTORS PER POLLING\nSTATION(including Service\nElectors)": {
+    "general": 707,
+    "sc": 710,
+    "st": 703,
+    "total": 708
+  }
+}

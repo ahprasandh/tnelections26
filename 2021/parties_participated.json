@@ -1,0 +1,440 @@
+{
+  "national_parties": [
+    {
+      "abbreviation": "AITC",
+      "party_name": "All India Trinamool Congress"
+    },
+    {
+      "abbreviation": "BJP",
+      "party_name": "Bharatiya Janata Party"
+    },
+    {
+      "abbreviation": "BSP",
+      "party_name": "Bahujan Samaj Party"
+    },
+    {
+      "abbreviation": "CPI",
+      "party_name": "Communist Party of India"
+    },
+    {
+      "abbreviation": "CPI(M)",
+      "party_name": "Communist Party of India (Marxist)"
+    },
+    {
+      "abbreviation": "INC",
+      "party_name": "Indian National Congress"
+    },
+    {
+      "abbreviation": "NCP",
+      "party_name": "Nationalist Congress Party"
+    },
+    {
+      "abbreviation": "NPEP",
+      "party_name": "National People's Party"
+    }
+  ],
+  "state_parties": [
+    {
+      "abbreviation": "ADMK",
+      "party_name": "All India Anna Dravida Munnetra Kazhagam"
+    },
+    {
+      "abbreviation": "DMDK",
+      "party_name": "Desiya Murpokku Dravida Kazhagam"
+    },
+    {
+      "abbreviation": "DMK",
+      "party_name": "Dravida Munnetra Kazhagam"
+    },
+    {
+      "abbreviation": "AIMIM",
+      "party_name": "All India Majlis-E-Ittehadul Muslimeen"
+    },
+    {
+      "abbreviation": "CPI(ML)(L)",
+      "party_name": "Communist Party of India (Marxist-Leninist) (Liberation)"
+    },
+    {
+      "abbreviation": "IUML",
+      "party_name": "Indian Union Muslim League"
+    },
+    {
+      "abbreviation": "JD(S)",
+      "party_name": "Janata Dal (Secular)"
+    },
+    {
+      "abbreviation": "LJP",
+      "party_name": "Lok Jan Shakti Party"
+    },
+    {
+      "abbreviation": "PMK",
+      "party_name": "Pattali Makkal Katchi"
+    },
+    {
+      "abbreviation": "RJD",
+      "party_name": "Rashtriya Janata Dal"
+    },
+    {
+      "abbreviation": "SHS",
+      "party_name": "Shiv Sena"
+    },
+    {
+      "abbreviation": "SP",
+      "party_name": "Samajwadi Party"
+    }
+  ],
+  "registered_unrecognized_parties": [
+    {
+      "abbreviation": "ABHM",
+      "party_name": "Akhil Bharat Hindu Mahasabha"
+    },
+    {
+      "abbreviation": "ADK",
+      "party_name": "Anna Dravidar Kazhagam"
+    },
+    {
+      "abbreviation": "AHIMSASP",
+      "party_name": "Ahimsa Socialist Party"
+    },
+    {
+      "abbreviation": "AIJYMKG",
+      "party_name": "All India Jananayaka Makkal Kazhagam"
+    },
+    {
+      "abbreviation": "AIMGRMMK",
+      "party_name": "All India MGR Makkal Munnetra Kazhagam"
+    },
+    {
+      "abbreviation": "AINPMK",
+      "party_name": "All India Pattali Munnetra Katchi"
+    },
+    {
+      "abbreviation": "AISMK",
+      "party_name": "All India Samathuva Makhal Katchi"
+    },
+    {
+      "abbreviation": "AIUUK",
+      "party_name": "All India Uzhavargal Uzhaippalargal Katchi"
+    },
+    {
+      "abbreviation": "AIVP",
+      "party_name": "Akila India Vallalar Peravai"
+    },
+    {
+      "abbreviation": "AIYDPMP",
+      "party_name": "All India Youth Development Party"
+    },
+    {
+      "abbreviation": "AJPK",
+      "party_name": "Aanaithinthiya Jananayaka Pathukappu Kazhagam"
+    },
+    {
+      "abbreviation": "AMAK",
+      "party_name": "Anaithu Makkal Arasiyal Katchi"
+    },
+    {
+      "abbreviation": "AMBDKPP",
+      "party_name": "Ambedkar Political Party"
+    },
+    {
+      "abbreviation": "AMDMK",
+      "party_name": "Anna MGR Dravida Munnetra Kazhagam"
+    },
+    {
+      "abbreviation": "AMGRDMK",
+      "party_name": "Anna MGR Dravida Makkal Kalgam"
+    },
+    {
+      "abbreviation": "AMMK",
+      "party_name": "Anaithu Makkal Munnetra Kazhagam"
+    },
+    {
+      "abbreviation": "AMMKMNKZ",
+      "party_name": "Amma Makkal Munnettra Kazagam"
+    },
+    {
+      "abbreviation": "AMPK",
+      "party_name": "Anaithu Makkal Puratchi Katchi"
+    },
+    {
+      "abbreviation": "ANSMK",
+      "party_name": "Anaithindia Samudaya Munnetra Kazhagam"
+    },
+    {
+      "abbreviation": "APEP",
+      "party_name": "All Pensioner’s Party"
+    },
+    {
+      "abbreviation": "APoI",
+      "party_name": "Ambedkarite Party of India"
+    },
+    {
+      "abbreviation": "APTADMK",
+      "party_name": "Anna Puratchi Thalaivar Amma Dravida Munnetra Kazhagam"
+    },
+    {
+      "abbreviation": "AUTMK",
+      "party_name": "Anaithu Ulaga Tamilargal Munnetra Kalagam"
+    },
+    {
+      "abbreviation": "BHUDRP",
+      "party_name": "Bahujan Dravida Party"
+    },
+    {
+      "abbreviation": "BMFP",
+      "party_name": "Bhartiya Manavadhikaar Federal Party"
+    },
+    {
+      "abbreviation": "DAMK",
+      "party_name": "Dhesiya Makkal Kazhagam"
+    },
+    {
+      "abbreviation": "DESMI",
+      "party_name": "Desiya Sirupanmayinar Makkal Iyakkam"
+    },
+    {
+      "abbreviation": "DMMK",
+      "party_name": "Desa Makkal Munnetrak Kazhgam"
+    },
+    {
+      "abbreviation": "DMSK",
+      "party_name": "Desiya Makkal Sakthi Katchi"
+    },
+    {
+      "abbreviation": "DRMRPMKKC",
+      "party_name": "Dravida Murpokku Makkal Katchi"
+    },
+    {
+      "abbreviation": "ETMK",
+      "party_name": "Ezhuchi Tamilargal Munnetra Kazhagam"
+    },
+    {
+      "abbreviation": "GPI",
+      "party_name": "Ganasangam Party of India"
+    },
+    {
+      "abbreviation": "HJP",
+      "party_name": "Hindustan Janta Party"
+    },
+    {
+      "abbreviation": "IDMMK",
+      "party_name": "India Dravida Makkal Munnetra Katchi"
+    },
+    {
+      "abbreviation": "IJK",
+      "party_name": "Indiya Jananayaka Katchi"
+    },
+    {
+      "abbreviation": "IMK",
+      "party_name": "Ilantamilar Munnani Kazhagam"
+    },
+    {
+      "abbreviation": "INKK",
+      "party_name": "Indhia Kudiarasu Katchi"
+    },
+    {
+      "abbreviation": "JJ",
+      "party_name": "Jebamani Janata"
+    },
+    {
+      "abbreviation": "KDC",
+      "party_name": "Kamarajar Deseeya Congress"
+    },
+    {
+      "abbreviation": "KDMMK",
+      "party_name": "Kongu Desa Marumalarchi Makkal Katchi"
+    },
+    {
+      "abbreviation": "MAHMMK",
+      "party_name": "Mahathma Makkal Munnetra Kazhakam"
+    },
+    {
+      "abbreviation": "MANAK",
+      "party_name": "Makkal Nalvaazhvuk Katchi"
+    },
+    {
+      "abbreviation": "mauk",
+      "party_name": "Manitha Urimaigal Kalaagam"
+    },
+    {
+      "abbreviation": "MGRMKKT",
+      "party_name": "MGR Makkal Katchi"
+    },
+    {
+      "abbreviation": "MIDP",
+      "party_name": "My India Party"
+    },
+    {
+      "abbreviation": "MKat",
+      "party_name": "Makkalatchi Katchi"
+    },
+    {
+      "abbreviation": "MKLMNTRAPR",
+      "party_name": "Makkal Munnetra Peravai"
+    },
+    {
+      "abbreviation": "MMKA",
+      "party_name": "Tamizhaga Murpokku Makkal Katchi"
+    },
+    {
+      "abbreviation": "MNK",
+      "party_name": "Makkal Nala Kazhagam"
+    },
+    {
+      "abbreviation": "MNM",
+      "party_name": "Makkal Needhi Maiam"
+    },
+    {
+      "abbreviation": "MSK",
+      "party_name": "MAKKAL SAKTHI KATCHI"
+    },
+    {
+      "abbreviation": "MSKK",
+      "party_name": "Makkal Sananayaga Kudiyarasu Katchi,"
+    },
+    {
+      "abbreviation": "MTMK",
+      "party_name": "Makkal Thilagam Munnetra Kazhagam,"
+    },
+    {
+      "abbreviation": "NADLMMKLK",
+      "party_name": "Naadaalum Makkal Katchi"
+    },
+    {
+      "abbreviation": "NDPOSI",
+      "party_name": "National Democratic Party of South India"
+    },
+    {
+      "abbreviation": "NGPP",
+      "party_name": "New Generation People’s Party"
+    },
+    {
+      "abbreviation": "NIDP",
+      "party_name": "Naam Indiar Party"
+    },
+    {
+      "abbreviation": "NINIK",
+      "party_name": "Nam India Naam Indiyar Katchi"
+    },
+    {
+      "abbreviation": "NKMK",
+      "party_name": "Namathu Kongu Munnetra Kalagam"
+    },
+    {
+      "abbreviation": "NMK",
+      "party_name": "Namadhu Makkal Katchi"
+    },
+    {
+      "abbreviation": "NTK",
+      "party_name": "Naam Tamilar Katchi"
+    },
+    {
+      "abbreviation": "PPIS",
+      "party_name": "People's Party of India(secular)"
+    },
+    {
+      "abbreviation": "PT",
+      "party_name": "Puthiya Tamilagam"
+    },
+    {
+      "abbreviation": "RPI(S)",
+      "party_name": "Republican Party of India (Sivaraj)"
+    },
+    {
+      "abbreviation": "RPPRINAT",
+      "party_name": "Republican Party of India (Athawale)"
+    },
+    {
+      "abbreviation": "RSPS",
+      "party_name": "Rashtriya Samaj Paksha"
+    },
+    {
+      "abbreviation": "RUC",
+      "party_name": "Rashtriya Ulama Council"
+    },
+    {
+      "abbreviation": "SAP",
+      "party_name": "Samata Party"
+    },
+    {
+      "abbreviation": "SDPI",
+      "party_name": "SOCIAL DEMOCRATIC PARTY OF INDIA"
+    },
+    {
+      "abbreviation": "SIFB",
+      "party_name": "South India Forward Bloc"
+    },
+    {
+      "abbreviation": "SMKNK",
+      "party_name": "Samaniya Makkal Nala Katchi"
+    },
+    {
+      "abbreviation": "SUCI",
+      "party_name": "SOCIALIST UNITY CENTRE OF INDIA (COMMUNIST)"
+    },
+    {
+      "abbreviation": "tmc",
+      "party_name": "Thamizhaga Munnetra Congress"
+    },
+    {
+      "abbreviation": "TMGMK",
+      "party_name": "Tamilnadu Mahatma Gandhi Makkal Katchi"
+    },
+    {
+      "abbreviation": "TMNP",
+      "party_name": "Tamilnadu Makkal Nalvazhvu Periyakkam"
+    },
+    {
+      "abbreviation": "TMTHK",
+      "party_name": "Tamilaga Makkal Thannurimai Katchi"
+    },
+    {
+      "abbreviation": "TNLK",
+      "party_name": "Tamil Nadu Ilangyar Katchi"
+    },
+    {
+      "abbreviation": "TPSTP",
+      "party_name": "Tipu Sultan Party"
+    },
+    {
+      "abbreviation": "TTNP",
+      "party_name": "Tamil Telugu National Party"
+    },
+    {
+      "abbreviation": "UBM",
+      "party_name": "Universal Brotherhood Movement"
+    },
+    {
+      "abbreviation": "UlaMK",
+      "party_name": "Ulaga Makkal Katchi"
+    },
+    {
+      "abbreviation": "USIP",
+      "party_name": "United States of India Party"
+    },
+    {
+      "abbreviation": "VATAK",
+      "party_name": "Valamaana Tamizhagam Katchi"
+    },
+    {
+      "abbreviation": "VCK",
+      "party_name": "Viduthalai Chiruthaigal Katchi"
+    },
+    {
+      "abbreviation": "VidVP",
+      "party_name": "Vidial Valarchi Perani"
+    },
+    {
+      "abbreviation": "VTVTK",
+      "party_name": "Veerath Thiyagi Viswanathadoss Thozhilalarkal Katchi"
+    },
+    {
+      "abbreviation": "IND",
+      "party_name": "Independent"
+    },
+    {
+      "abbreviation": "NOTA",
+      "party_name": "None of the Above"
+    }
+  ]
+}
