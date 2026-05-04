@@ -169,6 +169,10 @@
     th.sortable::after { content: ' ⇅'; font-size: 0.65rem; opacity: 0.4; }
     th.sortable.sort-asc::after { content: ' ▲'; opacity: 0.8; }
     th.sortable.sort-desc::after { content: ' ▼'; opacity: 0.8; }
+    .pp-sort { cursor: pointer; user-select: none; }
+    .pp-sort::after { content: ' ⇅'; font-size: 0.65rem; opacity: 0.4; }
+    .pp-sort.sort-asc::after { content: ' ▲'; opacity: 0.8; }
+    .pp-sort.sort-desc::after { content: ' ▼'; opacity: 0.8; }
 
     .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 2000; display: flex; align-items: center; justify-content: center; }
     .modal-box { background: var(--card); border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.25); max-width: 600px; width: 92vw; max-height: 80vh; overflow-y: auto; }
@@ -290,7 +294,7 @@
         <tbody></tbody>
       </table>
       <div id="others-accordion" style="display:none">
-        <button id="others-toggle" style="width:100%;padding:0.5rem;background:#f0f2f5;border:1px solid #ddd;border-top:none;border-radius:0 0 6px 6px;cursor:pointer;font-size:0.82rem;color:#555;display:flex;align-items:center;justify-content:center;gap:0.3rem">
+        <button id="others-toggle" style="width:100%;padding:0.5rem;background:var(--card);border:1px solid var(--border);border-top:none;border-radius:0 0 6px 6px;cursor:pointer;font-size:0.82rem;color:var(--text2);display:flex;align-items:center;justify-content:center;gap:0.3rem">
           <span id="others-label">Show others</span> <span id="others-arrow">▼</span>
         </button>
         <table id="party-table-others" style="display:none">
@@ -698,7 +702,7 @@ function render() {
     const cur = c.won + c.leading;
     const diff = cur - s21;
     const diffStr = diff > 0 ? `<span class="swing-up">+${diff}</span>` : diff < 0 ? `<span class="swing-down">${diff}</span>` : '<span style="color:#888">0</span>';
-    return `<tr>
+    return `<tr style="cursor:pointer" onclick="showPartyPopup('${esc(name).replace(/'/g, "\\'")}')">
       <td>${pb(p)} <span style="font-size:0.75rem;color:#888">${esc(name)}</span></td>
       <td><span style="font-size:0.75rem;font-weight:600;color:${allianceColor};white-space:nowrap">${esc(allianceName)}</span></td>
       <td class="text-center">${contested}</td>
@@ -1468,6 +1472,107 @@ function showConstPopup(constNo) {
     </div>`;
   overlay.addEventListener('click', e => { if (e.target === overlay) overlay.remove(); });
   overlay.querySelector('.modal-close').addEventListener('click', () => overlay.remove());
+  document.body.appendChild(overlay);
+  document.addEventListener('keydown', function escHandler(e) {
+    if (e.key === 'Escape') { overlay.remove(); document.removeEventListener('keydown', escHandler); }
+  });
+}
+
+function showPartyPopup(partyName) {
+  const p = pm(partyName);
+  // Gather all constituencies where this party has a candidate
+  const constRows = [];
+  for (const c of CANDIDATE_DATA.constituencies) {
+    const cands = c.candidates.filter(x => x.party === partyName);
+    if (cands.length === 0) continue;
+    const sorted = [...c.candidates].sort((a, b) => b.total_votes - a.total_votes);
+    const partyCand = cands[0];
+    const pos = sorted.findIndex(x => x.name === partyCand.name) + 1;
+    const cr = constResultMap[c.const_no];
+    const won = cr && (cr.status === 'Result Declared' || cr.status === 'Won') && cr.leading_party === partyName;
+    const leading = cr && cr.leading_party === partyName && !won;
+    let status = '', statusCls = 'status-progress';
+    if (won) { status = 'Won'; statusCls = 'status-won'; }
+    else if (leading) { status = 'Leading'; statusCls = 'status-leading'; }
+    else { status = pos > 0 ? '#' + pos : '-'; }
+    constRows.push({ cno: c.const_no, name: c.constituency, cand: partyCand, pos, won, leading, status, statusCls });
+  }
+  const statusOrder = r => r.won ? 0 : r.leading ? 1 : 2;
+  constRows.sort((a, b) => statusOrder(a) - statusOrder(b) || a.pos - b.pos);
+
+  const wonCount = constRows.filter(r => r.won).length;
+  const leadCount = constRows.filter(r => r.leading).length;
+  const totalVotes = constRows.reduce((s, r) => s + (r.cand.total_votes || 0), 0);
+
+  function buildRows(sortedRows) {
+    return sortedRows.map(r => {
+      return `<tr>
+      <td class="text-center">${r.cno}</td>
+      <td class="fw"><a class="const-link" href="#" onclick="event.stopPropagation();document.querySelector('.modal-overlay').remove();showConstPopup(${r.cno});return false;">${esc(r.name)}</a></td>
+      <td>${candPhoto(r.cno, r.cand.name)}${esc(r.cand.name)}</td>
+      <td class="text-right">${r.cand.total_votes.toLocaleString()}</td>
+      <td class="text-right">${r.cand.vote_percent}%</td>
+      <td class="text-center"><span class="status ${r.statusCls}">${r.status}</span></td>
+    </tr>`;
+    }).join('');
+  }
+
+  let ppSortCol = 'status', ppSortDir = 'asc';
+  function ppSort(col) {
+    if (ppSortCol === col) ppSortDir = ppSortDir === 'asc' ? 'desc' : 'asc';
+    else { ppSortCol = col; ppSortDir = 'asc'; }
+    const sorted = [...constRows];
+    const dir = ppSortDir === 'asc' ? 1 : -1;
+    if (col === 'status') {
+      sorted.sort((a, b) => dir * (statusOrder(a) - statusOrder(b)) || a.pos - b.pos);
+    } else if (col === 'name') {
+      sorted.sort((a, b) => dir * a.name.localeCompare(b.name));
+    } else if (col === 'cno') {
+      sorted.sort((a, b) => dir * (a.cno - b.cno));
+    } else if (col === 'votes') {
+      sorted.sort((a, b) => dir * (a.cand.total_votes - b.cand.total_votes));
+    }
+    const tbody = overlay.querySelector('tbody');
+    tbody.innerHTML = buildRows(sorted);
+    overlay.querySelectorAll('.pp-sort').forEach(th => th.classList.remove('sort-asc', 'sort-desc'));
+    overlay.querySelector(`.pp-sort[data-col="${col}"]`).classList.add(ppSortDir === 'asc' ? 'sort-asc' : 'sort-desc');
+  }
+
+  const overlay = document.createElement('div');
+  overlay.className = 'modal-overlay';
+  overlay.innerHTML = `
+    <div class="modal-box" style="max-width:800px">
+      <div class="modal-head">
+        <h3>${pb(p)} ${esc(partyName)} ${p.alliance ? '<span style="font-size:0.75rem;color:var(--text2)">(' + esc(p.alliance) + ')</span>' : ''}</h3>
+        <button class="modal-close" title="Close">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div style="display:flex;gap:1rem;margin-bottom:0.8rem;flex-wrap:wrap">
+          <div class="summary-card" style="min-width:80px;padding:0.6rem 0.8rem"><div class="num" style="font-size:1.3rem">${constRows.length}</div><div class="lbl">Contested</div></div>
+          <div class="summary-card" style="min-width:80px;padding:0.6rem 0.8rem"><div class="num" style="font-size:1.3rem;color:#28a745">${wonCount}</div><div class="lbl">Won</div></div>
+          <div class="summary-card" style="min-width:80px;padding:0.6rem 0.8rem"><div class="num" style="font-size:1.3rem;color:#007bff">${leadCount}</div><div class="lbl">Leading</div></div>
+          <div class="summary-card" style="min-width:80px;padding:0.6rem 0.8rem"><div class="num" style="font-size:1.3rem">${totalVotes.toLocaleString()}</div><div class="lbl">Total Votes</div></div>
+        </div>
+        <div style="max-height:50vh;overflow-y:auto">
+        <table>
+          <thead><tr>
+            <th class="text-center pp-sort" data-col="cno" style="width:40px;cursor:pointer">#</th>
+            <th class="pp-sort" data-col="name" style="cursor:pointer">Constituency</th>
+            <th>Candidate</th>
+            <th class="text-right pp-sort" data-col="votes" style="cursor:pointer">Votes</th>
+            <th class="text-right">%</th>
+            <th class="text-center pp-sort sort-asc" data-col="status" style="cursor:pointer">Status</th>
+          </tr></thead>
+          <tbody>${buildRows(constRows)}</tbody>
+        </table>
+        </div>
+      </div>
+    </div>`;
+  overlay.addEventListener('click', e => { if (e.target === overlay) overlay.remove(); });
+  overlay.querySelector('.modal-close').addEventListener('click', () => overlay.remove());
+  overlay.querySelectorAll('.pp-sort').forEach(th => {
+    th.addEventListener('click', () => ppSort(th.dataset.col));
+  });
   document.body.appendChild(overlay);
   document.addEventListener('keydown', function escHandler(e) {
     if (e.key === 'Escape') { overlay.remove(); document.removeEventListener('keydown', escHandler); }
