@@ -1080,7 +1080,7 @@ function renderStarTable() {
 
     const sorted = [...cand.candidates].sort((a, b) => b.total_votes - a.total_votes);
     // Find the star candidate in the list
-    const starWords = starName.toUpperCase().replace(/[^A-Z ]/g, '').split(/\s+/).filter(w => w.length > 2);
+    const starWords = starName.toUpperCase().replace(/[^A-Z ]/g, ' ').split(/\s+/).filter(w => w.length > 2);
     const starIdx = sorted.findIndex(c => { const n = c.name.toUpperCase(); return starWords.some(w => n.includes(w)); });
     const star = starIdx >= 0 ? sorted[starIdx] : null;
     if (!star) continue;
@@ -1151,7 +1151,7 @@ function featureStyle(feature) {
   let fillColor = '#d5d8dc', fillOpacity = 0.7;
   if (r && r.leading_party) {
     fillColor = pm(r.leading_party).color;
-    fillOpacity = (r.status === 'Result Declared' || r.status === 'Won') ? 0.85 : 0.6;
+    fillOpacity = (r.status === 'Result Declared' || r.status === 'Won') ? 0.92 : 0.75;
   }
   return { fillColor, fillOpacity, color: '#fff', weight: 1.2, opacity: 0.8 };
 }
@@ -1481,9 +1481,10 @@ document.querySelectorAll('th.sortable').forEach(th => {
 });
 
 /* ── Constituency Popup ── */
-function showConstPopup(constNo) {
+function showConstPopup(constNo, skipHash) {
   const cand = candidateMap[constNo];
   if (!cand || !cand.candidates || cand.candidates.length === 0) return;
+  if (!skipHash) history.replaceState(null, '', '#const=' + constNo);
   const sorted = [...cand.candidates].sort((a, b) => b.total_votes - a.total_votes);
   const constResult = constResultMap[constNo];
   const constName = cand.constituency || (constResult && constResult.constituency) || `#${constNo}`;
@@ -1616,16 +1617,17 @@ function showConstPopup(constNo) {
         ${section2021}
       </div>
     </div>`;
-  overlay.addEventListener('click', e => { if (e.target === overlay) overlay.remove(); });
-  overlay.querySelector('.modal-close').addEventListener('click', () => overlay.remove());
+  overlay.addEventListener('click', e => { if (e.target === overlay) { overlay.remove(); history.replaceState(null, '', location.pathname); } });
+  overlay.querySelector('.modal-close').addEventListener('click', () => { overlay.remove(); history.replaceState(null, '', location.pathname); });
   document.body.appendChild(overlay);
   document.addEventListener('keydown', function escHandler(e) {
-    if (e.key === 'Escape') { overlay.remove(); document.removeEventListener('keydown', escHandler); }
+    if (e.key === 'Escape') { overlay.remove(); document.removeEventListener('keydown', escHandler); history.replaceState(null, '', location.pathname); }
   });
 }
 
-function showPartyPopup(partyName) {
+function showPartyPopup(partyName, skipHash) {
   const p = pm(partyName);
+  if (!skipHash) history.replaceState(null, '', '#party=' + encodeURIComponent(partyName));
   // Gather all constituencies where this party has a candidate
   const constRows = [];
   for (const c of CANDIDATE_DATA.constituencies) {
@@ -1723,14 +1725,14 @@ function showPartyPopup(partyName) {
         </div>
       </div>
     </div>`;
-  overlay.addEventListener('click', e => { if (e.target === overlay) overlay.remove(); });
-  overlay.querySelector('.modal-close').addEventListener('click', () => overlay.remove());
+  overlay.addEventListener('click', e => { if (e.target === overlay) { overlay.remove(); history.replaceState(null, '', location.pathname); } });
+  overlay.querySelector('.modal-close').addEventListener('click', () => { overlay.remove(); history.replaceState(null, '', location.pathname); });
   overlay.querySelectorAll('.pp-sort').forEach(th => {
     th.addEventListener('click', () => ppSort(th.dataset.col));
   });
   document.body.appendChild(overlay);
   document.addEventListener('keydown', function escHandler(e) {
-    if (e.key === 'Escape') { overlay.remove(); document.removeEventListener('keydown', escHandler); }
+    if (e.key === 'Escape') { overlay.remove(); document.removeEventListener('keydown', escHandler); history.replaceState(null, '', location.pathname); }
   });
 }
 
@@ -1762,7 +1764,24 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e =
 });
 
 loadTrendsIndex();
-loadAll();
+loadAll().then(() => {
+  handleHashRoute();
+});
+
+function handleHashRoute() {
+  const hash = location.hash;
+  if (!hash) return;
+  const m = hash.match(/^#(const|party)=(.+)$/);
+  if (!m) return;
+  if (m[1] === 'const') {
+    const cno = Number(m[2]);
+    if (cno && candidateMap[cno]) showConstPopup(cno, true);
+  } else if (m[1] === 'party') {
+    const name = decodeURIComponent(m[2]);
+    showPartyPopup(name, true);
+  }
+}
+window.addEventListener('hashchange', handleHashRoute);
 </script>
 </body>
 </html>
