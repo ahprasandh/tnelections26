@@ -1,8 +1,8 @@
 {
-  "last_updated": "Last Updated at10:42 PM On 04/05/2026",
+  "last_updated": "Last Updated at10:33 PM On 04/05/2026",
   "totals": {
-    "won": 226,
-    "leading": 8,
+    "won": 222,
+    "leading": 12,
     "total": 234
   },
   "parties": [
@@ -16,15 +16,15 @@
     {
       "party": "DMK",
       "party_name": "Dravida Munnetra Kazhagam",
-      "won": 58,
-      "leading": 2,
+      "won": 56,
+      "leading": 4,
       "total": 60
     },
     {
       "party": "ADMK",
       "party_name": "All India Anna Dravida Munnetra Kazhagam",
-      "won": 46,
-      "leading": 1,
+      "won": 45,
+      "leading": 2,
       "total": 47
     },
     {
@@ -37,8 +37,8 @@
     {
       "party": "PMK",
       "party_name": "Pattali Makkal Katchi",
-      "won": 3,
-      "leading": 1,
+      "won": 2,
+      "leading": 2,
       "total": 4
     },
     {
