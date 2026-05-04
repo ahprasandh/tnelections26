@@ -372,7 +372,7 @@ const PARTY_META = {
   "Marumalarchi Dravida Munnetra Kazhagam":        { abbr: "MDMK",   color: "#8b0000", symbol: "🔝 Spinning Top", alliance: "DMK+" },
   "Naam Tamilar Katchi":                           { abbr: "NTK",    color: "#ff4500", symbol: "🧭 Compass", flagImg: "NTK_flag.jpg", symImg: "NTK_symbol.webp", alliance: "NTK" },
   "Tamilaga Vettri Kazhagam":                      { abbr: "TVK",    color: "#8B0000", symbol: "📯 Whistle", flagImg: "TVK_flag.jpeg", symImg: "TVK_symbol.webp", alliance: "TVK+" },
-  "Desiya Murpokku Dravida Kazhagam":              { abbr: "DMDK",   color: "#ffd700", symbol: "🥁 Nagara", flagImg: "DMDK_flag.webp", symImg: "DMDK_symbol.webp", alliance: "AIADMK+" },
+  "Desiya Murpokku Dravida Kazhagam":              { abbr: "DMDK",   color: "#ffd700", symbol: "🥁 Nagara", flagImg: "DMDK_flag.webp", symImg: "DMDK_symbol.webp", alliance: "DMK+" },
   "Viduthalai Chiruthaigal Katchi":                { abbr: "VCK",    color: "#0000ff", symbol: "🏺 Pot", flagImg: "VCK_flag.webp", symImg: "VCK_symbol.png", alliance: "DMK+" },
   "Communist Party of India":                      { abbr: "CPI",    color: "#ff0000", symbol: "🌾 Corn & Sickle", flagImg: "CPI_flag.webp", symImg: "CPI_symbol.webp", alliance: "DMK+" },
   "Communist Party of India (Marxist)":            { abbr: "CPI(M)", color: "#cc0000", symbol: "☭ Hammer Sickle Star", flagImg: "CPIM_flag.webp", symImg: "CPIM_symbol.webp", alliance: "DMK+" },
@@ -484,8 +484,8 @@ async function loadTrendsIndex() {
     }
     // Setup map slider
     const slider = document.getElementById('map-slider');
-    slider.max = mapSnapshots.length; // 0=oldest snapshot ... N=live
-    slider.value = mapSnapshots.length; // default to live
+    slider.max = mapSnapshots.length + 1; // 0=before counting, 1..N=snapshots, N+1=live
+    slider.value = mapSnapshots.length + 1; // default to live
   } catch(e) { /* no trends available yet */ }
 }
 
@@ -716,19 +716,66 @@ function render() {
     </tr>`;
   }
 
-  const top10 = visibleParties.slice(0, 10);
-  const others = visibleParties.slice(10);
+  // Compute alliance totals
+  const allianceTotals = {};
+  for (const [name, c] of sortedParties) {
+    const p = pm(name);
+    const al = p.alliance;
+    if (!al) continue;
+    if (!allianceTotals[al]) allianceTotals[al] = { won: 0, leading: 0, contested: 0, votes: 0, s21: 0 };
+    allianceTotals[al].won += c.won;
+    allianceTotals[al].leading += c.leading;
+    allianceTotals[al].contested += (partyContested[name] || 0);
+    allianceTotals[al].votes += (partyVotes[name] || 0);
+    allianceTotals[al].s21 += (seats2021[name] || 0);
+  }
 
-  document.querySelector('#party-table tbody').innerHTML = top10.map(([n, c]) => partyRow(n, c)).join('');
+  // Group parties by alliance, sorted by alliance total seats then party seats
+  const sortedAlliances = Object.entries(ALLIANCE_COLORS)
+    .filter(([al]) => allianceTotals[al])
+    .sort((a, b) => {
+      const ta = allianceTotals[a[0]], tb = allianceTotals[b[0]];
+      return (tb.won + tb.leading) - (ta.won + ta.leading);
+    });
 
+  const alliancePartyNames = new Set();
+  let groupedHTML = '';
+  for (const [al, color] of sortedAlliances) {
+    const t = allianceTotals[al];
+    const cur = t.won + t.leading;
+    const diff = cur - t.s21;
+    const diffStr = diff > 0 ? `<span class="swing-up">+${diff}</span>` : diff < 0 ? `<span class="swing-down">${diff}</span>` : '<span style="color:var(--text2)">0</span>';
+    const votePct = grandTotalVotes > 0 ? (t.votes / grandTotalVotes * 100).toFixed(2) : '0.00';
+    groupedHTML += `<tr style="background:${color}11;font-weight:700;border-bottom:2px solid ${color}44">
+      <td colspan="2"><span style="color:${color}">${esc(al)}</span></td>
+      <td class="text-center">${t.contested}</td>
+      <td class="text-center">${t.won}</td>
+      <td class="text-center">${t.leading}</td>
+      <td class="text-center">${cur}</td>
+      <td class="text-right">${t.votes.toLocaleString()}</td>
+      <td class="text-right">${votePct}%</td>
+      <td class="text-center">${t.s21}</td>
+      <td class="text-center">${diffStr}</td>
+    </tr>`;
+    // Member parties under this alliance, sorted by seats
+    const members = visibleParties.filter(([name]) => pm(name).alliance === al);
+    for (const [n, c] of members) {
+      alliancePartyNames.add(n);
+      groupedHTML += partyRow(n, c);
+    }
+  }
+  // Unaffiliated parties go into accordion
+  const unaffiliated = visibleParties.filter(([name]) => !alliancePartyNames.has(name));
   const accordion = document.getElementById('others-accordion');
-  if (others.length > 0) {
+  if (unaffiliated.length > 0) {
     accordion.style.display = '';
-    document.querySelector('#party-table-others tbody').innerHTML = others.map(([n, c]) => partyRow(n, c)).join('');
-    document.getElementById('others-label').textContent = `Show ${others.length} more parties`;
+    document.querySelector('#party-table-others tbody').innerHTML = unaffiliated.map(([n, c]) => partyRow(n, c)).join('');
+    document.getElementById('others-label').textContent = `Show ${unaffiliated.length} other parties`;
   } else {
     accordion.style.display = 'none';
   }
+
+  document.querySelector('#party-table tbody').innerHTML = groupedHTML;
 
   const sel = document.getElementById('filter-party');
   const existing = new Set([...sel.options].map(o => o.value));
@@ -927,11 +974,33 @@ function renderBeltTable() {
       }
     }
 
-    regionRows.push({ region, totalSeats, topP, topSeats: topParty[1], topVotePct, breakdown, top21P, top21Seats });
+    regionRows.push({ region, totalSeats, topP, topSeats: topParty[1], topVotePct, breakdown, top21P, top21Seats, regionResults });
   }
 
-  tbody.innerHTML = regionRows.map(r => `<tr>
-    <td class="fw">${r.region}</td>
+  tbody.innerHTML = regionRows.map((r, idx) => {
+    // Build constituency detail rows for expansion
+    const detailRows = r.regionResults
+      .map(cr => {
+        const lp = cr.leading_party ? pm(cr.leading_party) : null;
+        const marginVal = cr.margin !== '-' ? Number(cr.margin) : 0;
+        const marginStr = marginVal > 0 ? `<span style="font-size:0.75rem;color:#2e7d32">(+${marginVal.toLocaleString()})</span>` : '';
+        let statusCls = 'status-progress', statusText = cr.status || '-';
+        if (cr.status === 'Result Declared' || cr.status === 'Won') { statusCls = 'status-won'; statusText = 'Won'; }
+        else if (cr.leading_candidate) { statusCls = 'status-leading'; statusText = cr.round || 'Counting'; }
+        return `<tr class="belt-detail belt-detail-${idx}" style="display:none">
+          <td class="text-center">${cr.const_no}</td>
+          <td class="fw"><a class="const-link" href="#" onclick="showConstPopup(${cr.const_no});return false;">${esc(cr.constituency)}</a></td>
+          <td>${cr.leading_candidate ? candPhoto(cr.const_no, cr.leading_candidate) : ''}${esc(cr.leading_candidate) || '-'} ${marginStr}</td>
+          <td>${lp ? pb(lp) : '-'}</td>
+          <td class="text-center"><span class="status ${statusCls}">${esc(statusText)}</span></td>
+          <td></td><td></td><td></td>
+        </tr>`;
+      })
+      .sort((a, b) => 0) // keep original order
+      .join('');
+
+    return `<tr class="belt-region-row" style="cursor:pointer" data-idx="${idx}">
+    <td class="fw"><span class="belt-arrow" id="belt-arrow-${idx}" style="font-size:0.7rem;margin-right:0.3rem">▶</span>${r.region}</td>
     <td class="text-center">${r.totalSeats}</td>
     <td>${pb(r.topP)}</td>
     <td class="text-center fw">${r.topSeats}</td>
@@ -939,7 +1008,20 @@ function renderBeltTable() {
     <td>${pb(r.top21P)}</td>
     <td class="text-center">${r.top21Seats}</td>
     <td>${r.breakdown}</td>
-  </tr>`).join('');
+  </tr>${detailRows}`;
+  }).join('');
+
+  // Attach click handlers for expand/collapse
+  tbody.querySelectorAll('.belt-region-row').forEach(tr => {
+    tr.addEventListener('click', () => {
+      const idx = tr.dataset.idx;
+      const details = tbody.querySelectorAll('.belt-detail-' + idx);
+      const arrow = document.getElementById('belt-arrow-' + idx);
+      const visible = details[0] && details[0].style.display !== 'none';
+      details.forEach(d => d.style.display = visible ? 'none' : '');
+      arrow.textContent = visible ? '▶' : '▼';
+    });
+  });
 }
 
 /* ── Star Candidates ── */
@@ -1236,7 +1318,7 @@ function refreshMapStyles() {
 async function onMapSliderChange() {
   const slider = document.getElementById('map-slider');
   const val = parseInt(slider.value);
-  const isLive = val >= mapSnapshots.length;
+  const isLive = val >= mapSnapshots.length + 1;
 
   if (isLive) {
     document.getElementById('map-slider-label').textContent = '🔴 Live';
@@ -1246,7 +1328,15 @@ async function onMapSliderChange() {
     return;
   }
 
-  const snap = mapSnapshots[val];
+  if (val === 0) {
+    document.getElementById('map-slider-label').textContent = 'Before counting';
+    mapSliderConstResultMap = {};
+    mapSliderCandidateMap = {};
+    refreshMapStyles();
+    return;
+  }
+
+  const snap = mapSnapshots[val - 1];
   document.getElementById('map-slider-label').textContent = snap.label;
 
   // Load from cache or fetch
@@ -1540,6 +1630,8 @@ function showPartyPopup(partyName) {
       sorted.sort((a, b) => dir * (a.cno - b.cno));
     } else if (col === 'votes') {
       sorted.sort((a, b) => dir * (a.cand.total_votes - b.cand.total_votes));
+    } else if (col === 'margin') {
+      sorted.sort((a, b) => dir * (a.margin - b.margin));
     }
     const tbody = overlay.querySelector('tbody');
     tbody.innerHTML = buildRows(sorted);
@@ -1567,7 +1659,7 @@ function showPartyPopup(partyName) {
           <thead><tr>
             <th class="text-center pp-sort" data-col="cno" style="width:40px;cursor:pointer">#</th>
             <th class="pp-sort" data-col="name" style="cursor:pointer">Constituency</th>
-            <th>Candidate</th>
+            <th class="pp-sort" data-col="margin" style="cursor:pointer">Candidate</th>
             <th class="text-right pp-sort" data-col="votes" style="cursor:pointer">Votes</th>
             <th class="text-right">%</th>
             <th class="text-center">Round</th>
