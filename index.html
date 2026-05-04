@@ -96,11 +96,6 @@
     .map-yr-btn:first-child { border-radius: 20px 0 0 20px; }
     .map-yr-btn:last-child { border-radius: 0 20px 20px 0; }
     .map-yr-btn.active { background: var(--accent); color: #fff; box-shadow: 0 2px 8px rgba(67,97,238,0.3); }
-    .map-slider-wrap { padding: 0.5rem 1rem 0.7rem; border-top: 1px solid var(--border); display: flex; align-items: center; gap: 0.6rem; }
-    .map-slider-wrap input[type=range] { flex: 1; cursor: pointer; accent-color: var(--accent); }
-    .map-slider-label { font-size: 0.72rem; color: var(--text2); white-space: nowrap; min-width: 120px; text-align: center; }
-    .map-play-btn { width: 28px; height: 28px; border-radius: 50%; border: 1px solid var(--border); background: var(--card); cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 0.7rem; transition: all 0.15s; }
-    .map-play-btn:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
 
     /* Map */
     .map-section { display: flex; gap: 1rem; margin-bottom: 1rem; flex-wrap: wrap; }
@@ -223,7 +218,6 @@
     [data-theme="dark"] .modal-close:hover { color: #ddd; }
     [data-theme="dark"] #others-toggle { background: var(--card); border-color: var(--border); color: var(--text2); }
     [data-theme="dark"] .map-yr-btn { background: rgba(255,255,255,0.06); color: var(--text2); }
-    [data-theme="dark"] .map-play-btn { background: var(--card); border-color: var(--border); color: var(--text); }
     [data-theme="dark"] .header-left img { filter: brightness(0) invert(1); }
     [data-theme="dark"] #map { background: #111111; }
     [data-theme="dark"] .leaflet-container { background: #111111; }
@@ -279,11 +273,6 @@
     <div class="map-card">
       <div class="card-head">Constituency Map <div style="margin-left:auto;display:flex;gap:0;font-size:0.75rem;background:rgba(0,0,0,0.04);border-radius:20px;overflow:hidden"><button id="map-yr-2026" class="map-yr-btn active" onclick="setMapYear(2026)">2026</button><button id="map-yr-2021" class="map-yr-btn" onclick="setMapYear(2021)">2021</button></div></div>
       <div id="map"></div>
-      <div class="map-slider-wrap" id="map-slider-wrap">
-        <button class="map-play-btn" id="map-play-btn" title="Play">▶</button>
-        <input type="range" id="map-slider" min="0" max="0" value="0" step="1">
-        <div class="map-slider-label" id="map-slider-label">🔴 Live</div>
-      </div>
     </div>
     <div class="map-info-panel" id="info-panel">
       <div class="card-head">Constituency Details</div>
@@ -474,9 +463,6 @@ let grandTotalVotes2021 = 0;
 let electorsData = null; // { const_no: { male, female, third_gender, total } }
 let mapYear = 2026;
 let mapSnapshots = []; // [{timestamp, label}] oldest→newest
-let mapSnapshotCache = {}; // timestamp → {constResultMap, candidateMap}
-let mapSliderPlaying = false;
-let mapSliderTimer = null;
 
 // Build reverse map: abbr → full party name
 const abbrToFull = {};
@@ -505,11 +491,6 @@ async function loadTrendsIndex() {
       opt.textContent = snap.label;
       sel.appendChild(opt);
     }
-    // Setup map slider
-    const slider = document.getElementById('map-slider');
-    slider.max = mapSnapshots.length + 1; // 0=before counting, 1..N=snapshots, N+1=live
-    slider.value = mapSnapshots.length + 1; // default to live
-
     // Setup global slider
     const gSlider = document.getElementById('global-slider');
     gSlider.max = mapSnapshots.length; // 0..N-1 = snapshots, N = live
@@ -858,6 +839,7 @@ function render() {
   renderStarTable();
   renderBeltTable();
   renderDistrictTable();
+  refreshMapStyles();
   document.getElementById('footer').textContent = `Data: Election Commission of India • ${d.last_updated}`;
 }
 
@@ -1461,31 +1443,17 @@ function setMapYear(yr) {
   mapYear = yr;
   document.getElementById('map-yr-2026').classList.toggle('active', yr === 2026);
   document.getElementById('map-yr-2021').classList.toggle('active', yr === 2021);
-  document.getElementById('map-slider-wrap').style.display = yr === 2021 ? 'none' : '';
-  stopMapSlider();
-  if (yr === 2026) {
-    // Reset slider to live
-    const slider = document.getElementById('map-slider');
-    slider.value = slider.max;
-    document.getElementById('map-slider-label').textContent = '🔴 Live';
-    // Restore live data on map
-    mapSliderConstResultMap = null;
-    mapSliderCandidateMap = null;
-  }
   refreshMapStyles();
   document.getElementById('info-placeholder').style.display = '';
   document.getElementById('info-placeholder').textContent = `Hover over a constituency to see ${yr} results`;
   document.getElementById('info-content').style.display = 'none';
 }
 
-let mapSliderConstResultMap = null;
-let mapSliderCandidateMap = null;
-
 function getActiveConstResultMap() {
-  return (mapYear === 2026 && mapSliderConstResultMap) ? mapSliderConstResultMap : constResultMap;
+  return constResultMap;
 }
 function getActiveCandidateMap() {
-  return (mapYear === 2026 && mapSliderCandidateMap) ? mapSliderCandidateMap : candidateMap;
+  return candidateMap;
 }
 
 function refreshMapStyles() {
@@ -1498,87 +1466,6 @@ function refreshMapStyles() {
       }
     });
   }
-}
-
-async function onMapSliderChange() {
-  const slider = document.getElementById('map-slider');
-  const val = parseInt(slider.value);
-  const isLive = val >= mapSnapshots.length + 1;
-
-  if (isLive) {
-    document.getElementById('map-slider-label').textContent = '🔴 Live';
-    mapSliderConstResultMap = null;
-    mapSliderCandidateMap = null;
-    refreshMapStyles();
-    return;
-  }
-
-  if (val === 0) {
-    document.getElementById('map-slider-label').textContent = 'Before counting';
-    mapSliderConstResultMap = {};
-    mapSliderCandidateMap = {};
-    refreshMapStyles();
-    return;
-  }
-
-  const snap = mapSnapshots[val - 1];
-  document.getElementById('map-slider-label').textContent = snap.label;
-
-  // Load from cache or fetch
-  if (mapSnapshotCache[snap.timestamp]) {
-    const cached = mapSnapshotCache[snap.timestamp];
-    mapSliderConstResultMap = cached.constResultMap;
-    mapSliderCandidateMap = cached.candidateMap;
-    refreshMapStyles();
-    return;
-  }
-
-  try {
-    const t = Date.now();
-    const [cResp, dResp] = await Promise.all([
-      fetch('trends/constituencydata_' + snap.timestamp + '.json?' + t),
-      fetch('trends/candidatedata_' + snap.timestamp + '.json?' + t)
-    ]);
-    const cData = await cResp.json();
-    const dData = await dResp.json();
-    const crm = {};
-    for (const r of cData.results) crm[r.const_no] = r;
-    const cm = {};
-    for (const c of dData.constituencies) cm[c.const_no] = c;
-    mapSnapshotCache[snap.timestamp] = { constResultMap: crm, candidateMap: cm };
-    mapSliderConstResultMap = crm;
-    mapSliderCandidateMap = cm;
-    refreshMapStyles();
-  } catch(e) {
-    console.error('Failed to load snapshot', snap.timestamp, e);
-  }
-}
-
-function toggleMapSliderPlay() {
-  if (mapSliderPlaying) {
-    stopMapSlider();
-  } else {
-    const slider = document.getElementById('map-slider');
-    if (parseInt(slider.value) >= parseInt(slider.max)) slider.value = 0;
-    mapSliderPlaying = true;
-    document.getElementById('map-play-btn').textContent = '⏸';
-    mapSliderTimer = setInterval(() => {
-      const slider = document.getElementById('map-slider');
-      const next = parseInt(slider.value) + 1;
-      if (next > parseInt(slider.max)) {
-        stopMapSlider();
-        return;
-      }
-      slider.value = next;
-      onMapSliderChange();
-    }, 1500);
-  }
-}
-
-function stopMapSlider() {
-  mapSliderPlaying = false;
-  document.getElementById('map-play-btn').textContent = '▶';
-  if (mapSliderTimer) { clearInterval(mapSliderTimer); mapSliderTimer = null; }
 }
 
 function esc(s) {
@@ -1891,8 +1778,6 @@ function showPartyPopup(partyName, skipHash) {
 }
 
 document.getElementById('time-select').addEventListener('change', loadAll);
-document.getElementById('map-slider').addEventListener('input', onMapSliderChange);
-document.getElementById('map-play-btn').addEventListener('click', toggleMapSliderPlay);
 
 // Global slider
 let globalPlaying = false, globalPlayTimer = null;
