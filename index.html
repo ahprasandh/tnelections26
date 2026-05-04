@@ -290,7 +290,7 @@
     <div class="card-head">Party-wise Summary <label style="font-weight:400;font-size:0.78rem;color:var(--text2);cursor:pointer;margin-left:auto"><input type="checkbox" id="show-zero-parties" style="margin-right:0.3rem">Show 0-vote parties</label></div>
     <div style="overflow-x:auto">
       <table id="party-table">
-        <thead><tr><th>Party</th><th>Alliance</th><th class="text-center">Contested</th><th class="text-center">Won</th><th class="text-center">Leading</th><th class="text-center">Total</th><th class="text-right">Votes</th><th class="text-right">Vote %</th><th class="text-center">2021</th><th class="text-center">Change</th></tr></thead>
+        <thead><tr><th>Party</th><th>Alliance</th><th class="text-center">Contested</th><th class="text-center">Won</th><th class="text-center">Leading</th><th class="text-center">Total</th><th class="text-right">Votes</th><th class="text-right">Vote %</th><th class="text-center">2021</th><th class="text-right">2021 V%</th><th class="text-center">Change</th></tr></thead>
         <tbody></tbody>
       </table>
       <div id="others-accordion" style="display:none">
@@ -449,6 +449,8 @@ let map = null, geoLayer = null, highlightedLayer = null;
 let candidateMap = {}, constResultMap = {};
 let autoRefreshTimer = null;
 let data2021 = null; // { const_no: { winner, party_abbr, vote_pct, votes } }
+let partyVotes2021 = {}; // { fullPartyName: totalVotes }
+let grandTotalVotes2021 = 0;
 let mapYear = 2026;
 let mapSnapshots = []; // [{timestamp, label}] oldest→newest
 let mapSnapshotCache = {}; // timestamp → {constResultMap, candidateMap}
@@ -530,6 +532,12 @@ async function loadAll() {
         total_electors: c.total_electors || 0,
         candidates: c.candidates.length
       };
+      // Accumulate 2021 votes per party
+      for (const cand of c.candidates) {
+        const fullName = abbrToFull[cand.party] || cand.party;
+        partyVotes2021[fullName] = (partyVotes2021[fullName] || 0) + (cand.votes_total || 0);
+        grandTotalVotes2021 += (cand.votes_total || 0);
+      }
     }
   }
 
@@ -699,6 +707,8 @@ function render() {
     const allianceName = p.alliance || '—';
     const allianceColor = ALLIANCE_COLORS[p.alliance] || '#888';
     const s21 = seats2021[name] || 0;
+    const v21 = partyVotes2021[name] || 0;
+    const v21Pct = grandTotalVotes2021 > 0 ? (v21 / grandTotalVotes2021 * 100).toFixed(2) : '-';
     const cur = c.won + c.leading;
     const diff = cur - s21;
     const diffStr = diff > 0 ? `<span class="swing-up">+${diff}</span>` : diff < 0 ? `<span class="swing-down">${diff}</span>` : '<span style="color:var(--text2)">0</span>';
@@ -712,6 +722,7 @@ function render() {
       <td class="text-right">${votes.toLocaleString()}</td>
       <td class="text-right fw">${votePct}%</td>
       <td class="text-center">${s21}</td>
+      <td class="text-right">${v21 > 0 ? v21Pct + '%' : '-'}</td>
       <td class="text-center fw">${diffStr}</td>
     </tr>`;
   }
@@ -722,12 +733,13 @@ function render() {
     const p = pm(name);
     const al = p.alliance;
     if (!al) continue;
-    if (!allianceTotals[al]) allianceTotals[al] = { won: 0, leading: 0, contested: 0, votes: 0, s21: 0 };
+    if (!allianceTotals[al]) allianceTotals[al] = { won: 0, leading: 0, contested: 0, votes: 0, s21: 0, v21: 0 };
     allianceTotals[al].won += c.won;
     allianceTotals[al].leading += c.leading;
     allianceTotals[al].contested += (partyContested[name] || 0);
     allianceTotals[al].votes += (partyVotes[name] || 0);
     allianceTotals[al].s21 += (seats2021[name] || 0);
+    allianceTotals[al].v21 += (partyVotes2021[name] || 0);
   }
 
   // Group parties by alliance, sorted by alliance total seats then party seats
@@ -746,6 +758,7 @@ function render() {
     const diff = cur - t.s21;
     const diffStr = diff > 0 ? `<span class="swing-up">+${diff}</span>` : diff < 0 ? `<span class="swing-down">${diff}</span>` : '<span style="color:var(--text2)">0</span>';
     const votePct = grandTotalVotes > 0 ? (t.votes / grandTotalVotes * 100).toFixed(2) : '0.00';
+    const v21Pct = grandTotalVotes2021 > 0 ? (t.v21 / grandTotalVotes2021 * 100).toFixed(2) : '-';
     groupedHTML += `<tr style="background:${color}11;font-weight:700;border-bottom:2px solid ${color}44">
       <td colspan="2"><span style="color:${color}">${esc(al)}</span></td>
       <td class="text-center">${t.contested}</td>
@@ -755,6 +768,7 @@ function render() {
       <td class="text-right">${t.votes.toLocaleString()}</td>
       <td class="text-right">${votePct}%</td>
       <td class="text-center">${t.s21}</td>
+      <td class="text-right">${t.v21 > 0 ? v21Pct + '%' : '-'}</td>
       <td class="text-center">${diffStr}</td>
     </tr>`;
     // Member parties under this alliance, sorted by seats
