@@ -1600,7 +1600,7 @@ function showConstPopup(constNo, skipHash) {
             <div style="font-size:0.72rem;color:var(--text2);text-transform:uppercase">Margin</div>
             <div class="fw" style="font-size:1.2rem">${inr(marginVal)}</div>
           </div>` : ''}
-          ${(() => { const el = electorsData && electorsData[constNo]; if (!el) return ''; let tv = 0; for (const cd of sorted) tv += cd.total_votes || 0; const pct = el.total > 0 ? (tv / el.total * 100).toFixed(1) : '0.0'; return `<div style="text-align:center;background:var(--row-hover);padding:0.5rem 1rem;border-radius:8px"><div style="font-size:0.72rem;color:var(--text2);text-transform:uppercase">Turnout</div><div class="fw" style="font-size:1.2rem">${pct}%</div><div style="font-size:0.7rem;color:var(--text2)">${inr(el.total)} electors</div></div>`; })()}
+          ${(() => { const el = electorsData && electorsData[constNo]; if (!el) return ''; let tv = 0; for (const cd of sorted) tv += cd.total_votes || 0; const pct = el.total > 0 ? (tv / el.total * 100).toFixed(1) : '0.0'; const mPct = el.total > 0 ? (el.male / el.total * 100).toFixed(1) : '0'; const fPct = el.total > 0 ? (el.female / el.total * 100).toFixed(1) : '0'; return `<div style="text-align:center;background:var(--row-hover);padding:0.5rem 1rem;border-radius:8px"><div style="font-size:0.72rem;color:var(--text2);text-transform:uppercase">Turnout</div><div class="fw" style="font-size:1.2rem">${pct}%</div><div style="font-size:0.7rem;color:var(--text2)">${inr(el.total)} electors</div><div style="font-size:0.65rem;color:var(--text2)">♂ ${inr(el.male)} (${mPct}%) · ♀ ${inr(el.female)} (${fPct}%)</div></div>`; })()}
         </div>` : ''}
         <table>
           <thead><tr>
@@ -1646,7 +1646,7 @@ function showPartyPopup(partyName, skipHash) {
     let status = '', statusCls = 'status-progress';
     if (won) { status = 'Won'; statusCls = 'status-won'; }
     else if (leading) { status = 'Leading'; statusCls = 'status-leading'; }
-    else { status = pos > 0 ? '#' + pos : '-'; }
+    else { status = pos > 0 ? '#' + pos : '-'; statusCls = 'status-progress'; }
     constRows.push({ cno: c.const_no, name: c.constituency, cand: partyCand, pos, won, leading, status, statusCls, margin, round: cr ? (cr.round || '') : '' });
   }
   const statusOrder = r => r.won ? 0 : r.leading ? 1 : 2;
@@ -1671,13 +1671,15 @@ function showPartyPopup(partyName, skipHash) {
   }
 
   let ppSortCol = 'status', ppSortDir = 'asc';
+  let ppStatusSub = 'margin-desc'; // 'margin-desc' (highest first) or 'margin-asc' (least first)
   function ppSort(col) {
     if (ppSortCol === col) ppSortDir = ppSortDir === 'asc' ? 'desc' : 'asc';
     else { ppSortCol = col; ppSortDir = 'asc'; }
     const sorted = [...constRows];
     const dir = ppSortDir === 'asc' ? 1 : -1;
     if (col === 'status') {
-      sorted.sort((a, b) => dir * (statusOrder(a) - statusOrder(b)) || (b.cand.total_votes - a.cand.total_votes));
+      const mDir = ppStatusSub === 'margin-desc' ? -1 : 1;
+      sorted.sort((a, b) => dir * (statusOrder(a) - statusOrder(b)) || mDir * (Math.abs(a.margin) - Math.abs(b.margin)));
     } else if (col === 'name') {
       sorted.sort((a, b) => dir * a.name.localeCompare(b.name));
     } else if (col === 'cno') {
@@ -1691,6 +1693,8 @@ function showPartyPopup(partyName, skipHash) {
     tbody.innerHTML = buildRows(sorted);
     overlay.querySelectorAll('.pp-sort').forEach(th => th.classList.remove('sort-asc', 'sort-desc'));
     overlay.querySelector(`.pp-sort[data-col="${col}"]`).classList.add(ppSortDir === 'asc' ? 'sort-asc' : 'sort-desc');
+    const subBtn = overlay.querySelector('#pp-sub-sort');
+    if (subBtn) subBtn.style.display = col === 'status' ? '' : 'none';
   }
 
   const overlay = document.createElement('div');
@@ -1709,11 +1713,12 @@ function showPartyPopup(partyName, skipHash) {
           <div class="summary-card" style="min-width:80px;padding:0.6rem 0.8rem"><div class="num" style="font-size:1.3rem">${inr(totalVotes)}</div><div class="lbl">Total Votes</div></div>
         </div>
         <div style="max-height:50vh;overflow-y:auto">
+        <div id="pp-sub-sort" style="padding:0.3rem 0.5rem;text-align:right"><button id="pp-sub-btn" style="font-size:0.7rem;padding:0.2rem 0.6rem;border:1px solid var(--border);border-radius:4px;background:var(--card);color:var(--text);cursor:pointer">Margin: Highest first</button></div>
         <table>
           <thead><tr>
             <th class="text-center pp-sort" data-col="cno" style="width:40px;cursor:pointer">#</th>
             <th class="pp-sort" data-col="name" style="cursor:pointer">Constituency</th>
-            <th class="pp-sort" data-col="margin" style="cursor:pointer">Candidate</th>
+            <th class="pp-sort" data-col="margin" style="cursor:pointer" title="Sort by vote difference">Candidate</th>
             <th class="text-right pp-sort" data-col="votes" style="cursor:pointer" title="Sort by votes, then status">Votes</th>
             <th class="text-right">%</th>
             <th class="text-center">Round</th>
@@ -1721,7 +1726,6 @@ function showPartyPopup(partyName, skipHash) {
           </tr></thead>
           <tbody>${buildRows(constRows)}</tbody>
         </table>
-        <div style="text-align:right;padding:0.3rem 0.5rem;font-size:0.65rem;color:var(--text2)">Sorting by Status groups by won/leading then highest votes · Sorting by Votes breaks ties by status</div>
         </div>
       </div>
     </div>`;
@@ -1729,6 +1733,17 @@ function showPartyPopup(partyName, skipHash) {
   overlay.querySelector('.modal-close').addEventListener('click', () => { overlay.remove(); history.replaceState(null, '', location.pathname); });
   overlay.querySelectorAll('.pp-sort').forEach(th => {
     th.addEventListener('click', () => ppSort(th.dataset.col));
+  });
+  overlay.querySelector('#pp-sub-btn').addEventListener('click', (e) => {
+    e.stopPropagation();
+    ppStatusSub = ppStatusSub === 'margin-desc' ? 'margin-asc' : 'margin-desc';
+    overlay.querySelector('#pp-sub-btn').textContent = ppStatusSub === 'margin-desc' ? 'Margin: Highest first' : 'Margin: Least first';
+    // Re-sort without toggling direction
+    const sorted = [...constRows];
+    const dir = ppSortDir === 'asc' ? 1 : -1;
+    const mDir = ppStatusSub === 'margin-desc' ? -1 : 1;
+    sorted.sort((a, b) => dir * (statusOrder(a) - statusOrder(b)) || mDir * (Math.abs(a.margin) - Math.abs(b.margin)));
+    overlay.querySelector('tbody').innerHTML = buildRows(sorted);
   });
   document.body.appendChild(overlay);
   document.addEventListener('keydown', function escHandler(e) {
