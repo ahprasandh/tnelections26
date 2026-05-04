@@ -173,8 +173,8 @@
     .pp-sort.sort-asc::after { content: ' ▲'; opacity: 0.8; }
     .pp-sort.sort-desc::after { content: ' ▼'; opacity: 0.8; }
 
-    .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 2000; display: flex; align-items: center; justify-content: center; }
-    .modal-box { background: var(--card); border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.25); max-width: 600px; width: 92vw; max-height: 80vh; overflow-y: auto; }
+    .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 900; display: flex; align-items: flex-start; justify-content: center; padding-top: 60px; }
+    .modal-box { background: var(--card); border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.25); max-width: 600px; width: 92vw; max-height: calc(100vh - 80px); overflow-y: auto; }
     .modal-head { padding: 1rem 1.2rem; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; background: var(--card); z-index: 1; border-radius: 12px 12px 0 0; }
     .modal-head h3 { font-size: 1rem; }
     .modal-close { background: none; border: none; font-size: 1.4rem; cursor: pointer; color: #999; padding: 0 0.3rem; }
@@ -218,7 +218,7 @@
     [data-theme="dark"] .modal-close:hover { color: #ddd; }
     [data-theme="dark"] #others-toggle { background: var(--card); border-color: var(--border); color: var(--text2); }
     [data-theme="dark"] .map-yr-btn { background: rgba(255,255,255,0.06); color: var(--text2); }
-    [data-theme="dark"] .header-left img { filter: brightness(0) invert(1); }
+    [data-theme="dark"] .header-left img { }
     [data-theme="dark"] #map { background: #111111; }
     [data-theme="dark"] .leaflet-container { background: #111111; }
     [data-theme="dark"] .star-table tr.star-winning { background: rgba(46,125,50,0.12); }
@@ -386,7 +386,7 @@ const PARTY_META = {
   "Tamil Maanila Congress (Moopanar)":             { abbr: "TMC(M)", color: "#006400", symbol: "🚲 Bicycle", alliance: "DMK+" },
   "All India Majlis-E-Ittehadul Muslimeen":        { abbr: "AIMIM",  color: "#006633", symbol: "🪁 Kite" },
   "Kongunadu Makkal Desiya Katchi":                { abbr: "KMDK",   color: "#8B4513", symbol: "🦚 Peacock", alliance: "DMK+" },
-  "Indian Union Muslim League":                    { abbr: "IUML",   color: "#2e8b57", symbol: "🪜 Ladder", alliance: "DMK+" },
+  "Indian Union Muslim League":                    { abbr: "IUML",   color: "#2e8b57", symbol: "🪜 Ladder", flagImg: "IUML_flag.webp", symImg: "IUML_symbol.webp", alliance: "DMK+" },
   "Makkal Needhi Maiam":                           { abbr: "MNM",    color: "#ec1c24", symbol: "🔋 Battery Torch" },
   "Puthiya Tamilagam":                             { abbr: "PT",     color: "#800080", symbol: "🦁 Lion", flagImg: "PT_flag.png", symImg: "PT_symbol.png", alliance: "NDA" },
   "Indhiya Jananayaga Katchi":                     { abbr: "IJK",    color: "#c0392b", symbol: "🏠 Hut" },
@@ -1508,6 +1508,9 @@ document.querySelectorAll('th.sortable').forEach(th => {
 
 /* ── Constituency Popup ── */
 function showConstPopup(constNo, skipHash) {
+  // Remove existing overlay if any
+  document.querySelectorAll('.modal-overlay').forEach(el => el.remove());
+  activePopup = { type: 'const', id: constNo };
   const cand = candidateMap[constNo];
   if (!cand || !cand.candidates || cand.candidates.length === 0) return;
   if (!skipHash) history.replaceState(null, '', '#const=' + constNo);
@@ -1643,15 +1646,18 @@ function showConstPopup(constNo, skipHash) {
         ${section2021}
       </div>
     </div>`;
-  overlay.addEventListener('click', e => { if (e.target === overlay) { overlay.remove(); history.replaceState(null, '', location.pathname); } });
-  overlay.querySelector('.modal-close').addEventListener('click', () => { overlay.remove(); history.replaceState(null, '', location.pathname); });
+  overlay.addEventListener('click', e => { if (e.target === overlay) { overlay.remove(); activePopup = null; history.replaceState(null, '', location.pathname); } });
+  overlay.querySelector('.modal-close').addEventListener('click', () => { overlay.remove(); activePopup = null; history.replaceState(null, '', location.pathname); });
   document.body.appendChild(overlay);
   document.addEventListener('keydown', function escHandler(e) {
-    if (e.key === 'Escape') { overlay.remove(); document.removeEventListener('keydown', escHandler); history.replaceState(null, '', location.pathname); }
+    if (e.key === 'Escape') { overlay.remove(); activePopup = null; document.removeEventListener('keydown', escHandler); history.replaceState(null, '', location.pathname); }
   });
 }
 
 function showPartyPopup(partyName, skipHash) {
+  // Remove existing overlay if any
+  document.querySelectorAll('.modal-overlay').forEach(el => el.remove());
+  activePopup = { type: 'party', id: partyName };
   const p = pm(partyName);
   if (!skipHash) history.replaceState(null, '', '#party=' + encodeURIComponent(partyName));
   // Gather all constituencies where this party has a candidate
@@ -1755,8 +1761,8 @@ function showPartyPopup(partyName, skipHash) {
         </div>
       </div>
     </div>`;
-  overlay.addEventListener('click', e => { if (e.target === overlay) { overlay.remove(); history.replaceState(null, '', location.pathname); } });
-  overlay.querySelector('.modal-close').addEventListener('click', () => { overlay.remove(); history.replaceState(null, '', location.pathname); });
+  overlay.addEventListener('click', e => { if (e.target === overlay) { overlay.remove(); activePopup = null; history.replaceState(null, '', location.pathname); } });
+  overlay.querySelector('.modal-close').addEventListener('click', () => { overlay.remove(); activePopup = null; history.replaceState(null, '', location.pathname); });
   overlay.querySelectorAll('.pp-sort').forEach(th => {
     th.addEventListener('click', () => ppSort(th.dataset.col));
   });
@@ -1773,11 +1779,14 @@ function showPartyPopup(partyName, skipHash) {
   });
   document.body.appendChild(overlay);
   document.addEventListener('keydown', function escHandler(e) {
-    if (e.key === 'Escape') { overlay.remove(); document.removeEventListener('keydown', escHandler); history.replaceState(null, '', location.pathname); }
+    if (e.key === 'Escape') { overlay.remove(); activePopup = null; document.removeEventListener('keydown', escHandler); history.replaceState(null, '', location.pathname); }
   });
 }
 
 document.getElementById('time-select').addEventListener('change', loadAll);
+
+// Track open popup for auto-refresh on slider change
+let activePopup = null; // {type:'const', id:constNo} or {type:'party', id:partyName}
 
 // Global slider
 let globalPlaying = false, globalPlayTimer = null;
@@ -1794,7 +1803,12 @@ function onGlobalSliderChange() {
     sel.value = snap.timestamp;
     document.getElementById('global-slider-label').textContent = snap.label;
   }
-  loadAll();
+  loadAll().then(() => {
+    if (activePopup) {
+      if (activePopup.type === 'const') showConstPopup(activePopup.id, true);
+      else if (activePopup.type === 'party') showPartyPopup(activePopup.id, true);
+    }
+  });
 }
 function toggleGlobalPlay() {
   if (globalPlaying) {
