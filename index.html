@@ -1354,7 +1354,6 @@ function showInfoPanel(acNo, props) {
 
   const sorted = [...cand.candidates].sort((a, b) => b.total_votes - a.total_votes);
   const top = sorted.slice(0, 10);
-  const maxVotes = Math.max(...sorted.map(c => c.total_votes), 1);
 
   let html = `
     <div class="info-const-name">${isStarConst(acNo) ? '<span class="star-badge">⭐</span> ' : ''}${esc(cand.constituency)} <span style="font-weight:400;font-size:0.8rem;color:var(--text2)">#${acNo}</span></div>
@@ -1365,14 +1364,17 @@ function showInfoPanel(acNo, props) {
   for (let i = 0; i < top.length; i++) {
     const c = top[i];
     const p = pm(c.party);
-    const barW = maxVotes > 0 ? (c.total_votes / maxVotes * 100) : 0;
-    const diff = i === 0 ? '' : ` <span style="font-size:0.68rem;color:#c62828">(-${inr(sorted[0].total_votes - c.total_votes)})</span>`;
+    const barW = parseFloat(c.vote_percent) || 0;
+    const diff = i === 0
+      ? (sorted.length >= 2 ? `<div style="font-size:0.68rem;color:#2e7d32">(+${inr(sorted[0].total_votes - sorted[1].total_votes)})</div>` : '')
+      : `<div style="font-size:0.68rem;color:#c62828">(-${inr(sorted[0].total_votes - c.total_votes)})</div>`;
     html += `
       <div class="candidate-row${i === 0 ? ' top' : ''}">
         <div class="rank">${i + 1}</div>
         ${candPhoto(acNo, c.name)}
         <div class="candidate-info">
-          <div class="candidate-name" title="${esc(c.name)}">${esc(c.name)}${diff}</div>
+          <div class="candidate-name" title="${esc(c.name)}">${esc(c.name)}</div>
+          ${diff}
           <div class="candidate-votes">${inr(c.total_votes)} votes <span style="color:var(--text2)">(${c.vote_percent}%)</span></div>
           <div class="vote-bar-bg"><div class="vote-bar-fill" style="width:${barW}%;background:var(--text2)"></div></div>
         </div>
