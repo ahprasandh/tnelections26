@@ -229,6 +229,8 @@
     [data-theme="dark"] .flip-flipped { background: rgba(198,40,40,0.2); color: #ef5350; }
     [data-theme="dark"] .const-row-flipped { background: rgba(198,40,40,0.15) !important; }
     [data-theme="dark"] .winner-row { background: rgba(46,125,50,0.1) !important; }
+    [data-theme="dark"] .candidate-row.top { background: rgba(46,125,50,0.1); }
+    [data-theme="dark"] .vote-bar-bg { background: #333; }
   </style>
 </head>
 <body>
@@ -290,7 +292,7 @@
     <div class="card-head">Party-wise Summary <label style="font-weight:400;font-size:0.78rem;color:var(--text2);cursor:pointer;margin-left:auto"><input type="checkbox" id="show-zero-parties" style="margin-right:0.3rem">Show 0-vote parties</label></div>
     <div style="overflow-x:auto">
       <table id="party-table">
-        <thead><tr><th>Party</th><th>Alliance</th><th class="text-center">Contested</th><th class="text-center">Won</th><th class="text-center">Leading</th><th class="text-center">Total</th><th class="text-right">Votes</th><th class="text-right">Vote %</th><th class="text-center">2021</th><th class="text-right">2021 V%</th><th class="text-center">Change</th></tr></thead>
+        <thead><tr><th>Party</th><th>Alliance</th><th class="text-center">Contested</th><th class="text-center">Won</th><th class="text-center">Leading</th><th class="text-center">Total</th><th class="text-right">Votes</th><th class="text-right">Vote %</th><th class="text-center">2021</th><th class="text-right">2021 V%</th><th class="text-center">Change</th><th class="text-center">V% Chg</th></tr></thead>
         <tbody></tbody>
       </table>
       <div id="others-accordion" style="display:none">
@@ -412,11 +414,13 @@ const STAR_CANDIDATES = {
   119: 'S.P.VELUMANI',
   120: 'V SENTHILBALAJI',
   140: 'K.N.NEHRU',
+  141: 'C. JOSEPH VIJAY',
   152: 'PREMALATHA VIJAYAKANTH',
   184: 'SEEMAN',
   193: 'PALANIVEL THIAGA RAJAN',
   200: 'PANNEERSELVAM.O',
   204: 'NAINAR NAGENDRAN',
+  215: 'ANITHA R. RADHAKRISHNAN',
 };
 function isStarConst(constNo) { return constNo in STAR_CANDIDATES; }
 
@@ -440,7 +444,7 @@ function pb(p) {
 }
 function candPhoto(constNo, name) {
   if (!name || name === 'NOTA') return '';
-  const fn = `${constNo}_${name.trim().replace(/ /g, '_')}.jpg`;
+  const fn = `${constNo}_${name.trim().replace(/\s+/g, '_').replace(/[()]/g, '').replace(/\.+$/, '')}.jpg`;
   return `<img class="cand-photo" src="images/candidates/${encodeURIComponent(fn)}" alt="" onerror="this.style.display='none'">`;
 }
 
@@ -712,6 +716,8 @@ function render() {
     const cur = c.won + c.leading;
     const diff = cur - s21;
     const diffStr = diff > 0 ? `<span class="swing-up">+${diff}</span>` : diff < 0 ? `<span class="swing-down">${diff}</span>` : '<span style="color:var(--text2)">0</span>';
+    const vpDiff = v21 > 0 ? (parseFloat(votePct) - parseFloat(v21Pct)) : null;
+    const vpDiffStr = vpDiff !== null ? (vpDiff >= 0 ? `<span class="swing-up">+${vpDiff.toFixed(2)}%</span>` : `<span class="swing-down">${vpDiff.toFixed(2)}%</span>`) : '-';
     return `<tr style="cursor:pointer" onclick="showPartyPopup('${esc(name).replace(/'/g, "\\'")}')">
       <td>${pb(p)} <span style="font-size:0.75rem;color:var(--text2)">${esc(name)}</span></td>
       <td><span style="font-size:0.75rem;font-weight:600;color:${allianceColor};white-space:nowrap">${esc(allianceName)}</span></td>
@@ -719,11 +725,12 @@ function render() {
       <td class="text-center fw">${c.won}</td>
       <td class="text-center">${c.leading}</td>
       <td class="text-center fw">${cur}</td>
-      <td class="text-right">${votes.toLocaleString()}</td>
+      <td class="text-right">${inr(votes)}</td>
       <td class="text-right fw">${votePct}%</td>
       <td class="text-center">${s21}</td>
       <td class="text-right">${v21 > 0 ? v21Pct + '%' : '-'}</td>
       <td class="text-center fw">${diffStr}</td>
+      <td class="text-center fw">${vpDiffStr}</td>
     </tr>`;
   }
 
@@ -759,17 +766,20 @@ function render() {
     const diffStr = diff > 0 ? `<span class="swing-up">+${diff}</span>` : diff < 0 ? `<span class="swing-down">${diff}</span>` : '<span style="color:var(--text2)">0</span>';
     const votePct = grandTotalVotes > 0 ? (t.votes / grandTotalVotes * 100).toFixed(2) : '0.00';
     const v21Pct = grandTotalVotes2021 > 0 ? (t.v21 / grandTotalVotes2021 * 100).toFixed(2) : '-';
+    const vpDiff = t.v21 > 0 ? (parseFloat(votePct) - parseFloat(v21Pct)) : null;
+    const vpDiffStr = vpDiff !== null ? (vpDiff >= 0 ? `<span class="swing-up">+${vpDiff.toFixed(2)}%</span>` : `<span class="swing-down">${vpDiff.toFixed(2)}%</span>`) : '-';
     groupedHTML += `<tr style="background:${color}11;font-weight:700;border-bottom:2px solid ${color}44">
       <td colspan="2"><span style="color:${color}">${esc(al)}</span></td>
       <td class="text-center">${t.contested}</td>
       <td class="text-center">${t.won}</td>
       <td class="text-center">${t.leading}</td>
       <td class="text-center">${cur}</td>
-      <td class="text-right">${t.votes.toLocaleString()}</td>
+      <td class="text-right">${inr(t.votes)}</td>
       <td class="text-right">${votePct}%</td>
       <td class="text-center">${t.s21}</td>
       <td class="text-right">${t.v21 > 0 ? v21Pct + '%' : '-'}</td>
       <td class="text-center">${diffStr}</td>
+      <td class="text-center">${vpDiffStr}</td>
     </tr>`;
     // Member parties under this alliance, sorted by seats
     const members = visibleParties.filter(([name]) => pm(name).alliance === al);
@@ -863,7 +873,7 @@ function renderResults() {
     if (r.status === 'Result Declared' || r.status === 'Won') { statusCls = 'status-won'; statusText = 'Won'; }
     else if (r.leading_candidate) { statusCls = 'status-leading'; statusText = r.round || 'Counting'; }
     const marginVal = r.margin !== '-' ? Number(r.margin) : 0;
-    const marginStr = marginVal > 0 ? `<span style="font-size:0.75rem;color:#2e7d32">(+${marginVal.toLocaleString()})</span>` : '';
+    const marginStr = marginVal > 0 ? `<span style="font-size:0.75rem;color:#2e7d32">(+${inr(marginVal)})</span>` : '';
     // Compute trailing candidate's margin over 3rd place
     let trailMarginStr = '';
     const cm = candidateMap[r.const_no];
@@ -871,7 +881,7 @@ function renderResults() {
       const sorted3 = [...cm.candidates].sort((a, b) => b.total_votes - a.total_votes);
       if (sorted3.length >= 3) {
         const diff = sorted3[1].total_votes - sorted3[2].total_votes;
-        trailMarginStr = `<span style="font-size:0.75rem;color:#e65100">(+${diff.toLocaleString()} over 3rd)</span>`;
+        trailMarginStr = `<span style="font-size:0.75rem;color:#e65100">(+${inr(diff)} over 3rd)</span>`;
       }
     }
     // 2021 comparison
@@ -997,7 +1007,7 @@ function renderBeltTable() {
       .map(cr => {
         const lp = cr.leading_party ? pm(cr.leading_party) : null;
         const marginVal = cr.margin !== '-' ? Number(cr.margin) : 0;
-        const marginStr = marginVal > 0 ? `<span style="font-size:0.75rem;color:#2e7d32">(+${marginVal.toLocaleString()})</span>` : '';
+        const marginStr = marginVal > 0 ? `<span style="font-size:0.75rem;color:#2e7d32">(+${inr(marginVal)})</span>` : '';
         let statusCls = 'status-progress', statusText = cr.status || '-';
         if (cr.status === 'Result Declared' || cr.status === 'Won') { statusCls = 'status-won'; statusText = 'Won'; }
         else if (cr.leading_candidate) { statusCls = 'status-leading'; statusText = cr.round || 'Counting'; }
@@ -1075,9 +1085,9 @@ function renderStarTable() {
     return `<tr class="${r.isLeading ? 'star-winning' : 'star-losing'}">
       <td class="text-center">${r.cno}</td>
       <td class="fw"><a class="const-link" href="#" onclick="showConstPopup(${r.cno});return false;">${esc(r.constituency)}</a></td>
-      <td class="fw">${candPhoto(r.cno, r.star.name)}${r.isLeading ? '<span style="color:#2e7d32">▲</span>' : '<span style="color:#c62828">▼</span>'} ${esc(r.star.name)} <span style="font-size:0.75rem;color:${r.isLeading ? '#2e7d32' : '#c62828'}">(${r.isLeading ? '+' : '-'}${r.margin.toLocaleString()})</span></td>
+      <td class="fw">${candPhoto(r.cno, r.star.name)}${r.isLeading ? '<span style="color:#2e7d32">▲</span>' : '<span style="color:#c62828">▼</span>'} ${esc(r.star.name)} <span style="font-size:0.75rem;color:${r.isLeading ? '#2e7d32' : '#c62828'}">(${r.isLeading ? '+' : '-'}${inr(r.margin)})</span></td>
       <td>${pb(r.p)}</td>
-      <td class="text-right">${r.star.total_votes.toLocaleString()}</td>
+      <td class="text-right">${inr(r.star.total_votes)}</td>
       <td class="text-center fw">#${r.pos}</td>
       <td>${r.opponent ? esc(r.opponent.name) + ' <span style="font-size:0.75rem;color:var(--text2)">(' + (op ? op.abbr : '') + ')</span>' : '-'}</td>
       <td class="text-center"><span class="status ${r.statusCls}">${r.statusText}</span></td>
@@ -1139,7 +1149,7 @@ function onEachFeature(feature, layer) {
         const symImg = p.symImg ? `<img style="height:16px;width:16px;object-fit:contain;vertical-align:middle;background:rgba(255,255,255,0.85);border-radius:2px;padding:1px" src="images/${p.symImg}"> ` : '';
         const flagImg = p.flagImg ? `<img style="height:14px;width:20px;object-fit:cover;vertical-align:middle;border-radius:2px;border:1px solid rgba(255,255,255,0.3)" src="images/${p.flagImg}"> ` : '';
         tip += `<br><span class="tip-party">${symImg}${flagImg}${p.abbr} — ${esc(d.winner)}</span>`;
-        tip += `<br><span class="tip-party">${d.vote_pct}% · Margin: ${Number(d.margin).toLocaleString()}</span>`;
+        tip += `<br><span class="tip-party">${d.vote_pct}% · Margin: ${inr(d.margin)}</span>`;
       } else {
         tip += `<br><span class="tip-party">No data</span>`;
       }
@@ -1153,7 +1163,7 @@ function onEachFeature(feature, layer) {
       const symImg = p.symImg ? `<img style="height:16px;width:16px;object-fit:contain;vertical-align:middle;background:rgba(255,255,255,0.85);border-radius:2px;padding:1px" src="images/${p.symImg}"> ` : (p.symbol ? p.symbol + ' ' : '');
       const flagImg = p.flagImg ? `<img style="height:14px;width:20px;object-fit:cover;vertical-align:middle;border-radius:2px;border:1px solid rgba(255,255,255,0.3)" src="images/${p.flagImg}"> ` : '';
       tip += `<br><span class="tip-party">${symImg}${flagImg}${p.abbr} — ${esc(r.leading_candidate)}</span>`;
-      if (r.margin !== '-') tip += `<br><span class="tip-party">Margin: ${Number(r.margin).toLocaleString()}</span>`;
+      if (r.margin !== '-') tip += `<br><span class="tip-party">Margin: ${inr(r.margin)}</span>`;
     } else {
       tip += `<br><span class="tip-party">Counting not started</span>`;
     }
@@ -1215,7 +1225,7 @@ function showInfoPanel(acNo, props) {
         ${candPhoto(acNo, c.name)}
         <div class="candidate-info">
           <div class="candidate-name" title="${esc(c.name)}">${esc(c.name)}</div>
-          <div class="candidate-votes">${c.total_votes.toLocaleString()} votes (${c.vote_percent}%)</div>
+          <div class="candidate-votes">${inr(c.total_votes)} votes (${c.vote_percent}%)</div>
           <div class="vote-bar-bg"><div class="vote-bar-fill" style="width:${barW}%;background:${p.color}"></div></div>
         </div>
         <div class="candidate-party-badge">${pb(p)}</div>
@@ -1260,7 +1270,7 @@ function showInfoPanel2021(acNo, props) {
       <div class="rank">1</div>
       <div class="candidate-info">
         <div class="candidate-name">${esc(d.winner)}</div>
-        <div class="candidate-votes">${Number(d.votes).toLocaleString()} votes (${d.vote_pct}%)</div>
+        <div class="candidate-votes">${inr(d.votes)} votes (${d.vote_pct}%)</div>
         <div class="vote-bar-bg"><div class="vote-bar-fill" style="width:100%;background:${pw.color}"></div></div>
       </div>
       <div class="candidate-party-badge">${pb(pw)}</div>
@@ -1274,14 +1284,14 @@ function showInfoPanel2021(acNo, props) {
       <div class="rank">2</div>
       <div class="candidate-info">
         <div class="candidate-name">${esc(d.runner)}</div>
-        <div class="candidate-votes">${Number(d.runner_votes).toLocaleString()} votes</div>
+        <div class="candidate-votes">${inr(d.runner_votes)} votes</div>
         <div class="vote-bar-bg"><div class="vote-bar-fill" style="width:${barW}%;background:${pr ? pr.color : '#888'}"></div></div>
       </div>
       <div class="candidate-party-badge">${pr ? pb(pr) : ''}</div>
     </div>`;
   }
 
-  html += `<div style="padding:0.6rem 0;font-size:0.8rem;color:var(--text2)">Margin: <b>${Number(d.margin).toLocaleString()}</b> &bull; Candidates: ${d.candidates}</div>`;
+  html += `<div style="padding:0.6rem 0;font-size:0.8rem;color:var(--text2)">Margin: <b>${inr(d.margin)}</b> &bull; Candidates: ${d.candidates}</div>`;
 
   content.innerHTML = html;
 }
@@ -1416,6 +1426,11 @@ function esc(s) {
   d.textContent = s;
   return d.innerHTML;
 }
+function inr(n) {
+  n = Number(n);
+  if (isNaN(n)) return '0';
+  return n.toLocaleString('en-IN');
+}
 
 document.getElementById('search').addEventListener('input', renderResults);
 document.getElementById('filter-party').addEventListener('change', renderResults);
@@ -1477,9 +1492,9 @@ function showConstPopup(constNo) {
       <td class="text-center">${i + 1}</td>
       <td class="fw">${photo}${esc(c.name)}</td>
       <td>${pb(p)}</td>
-      <td class="text-right">${c.evm_votes.toLocaleString()}</td>
-      <td class="text-right">${c.postal_votes.toLocaleString()}</td>
-      <td class="text-right fw">${c.total_votes.toLocaleString()}</td>
+      <td class="text-right">${inr(c.evm_votes)}</td>
+      <td class="text-right">${inr(c.postal_votes)}</td>
+      <td class="text-right fw">${inr(c.total_votes)}</td>
       <td class="text-right">${c.vote_percent}%</td>
     </tr>`;
   }).join('');
@@ -1500,20 +1515,20 @@ function showConstPopup(constNo) {
           <div>
             <div style="font-size:0.72rem;color:var(--text2);text-transform:uppercase">Winner</div>
             <div style="display:flex;align-items:center;gap:0.5rem">${pb(p21)} <span class="fw">${esc(d21.winner)}</span></div>
-            <div style="font-size:0.82rem;color:var(--text2)">${d21.votes.toLocaleString()} votes (${d21.vote_pct}%)</div>
+            <div style="font-size:0.82rem;color:var(--text2)">${inr(d21.votes)} votes (${d21.vote_pct}%)</div>
           </div>
           ${d21.runner ? `<div>
             <div style="font-size:0.72rem;color:var(--text2);text-transform:uppercase">Runner-up</div>
             <div style="display:flex;align-items:center;gap:0.5rem">${pb(pm21(d21.runner_party))} <span class="fw">${esc(d21.runner)}</span></div>
-            <div style="font-size:0.82rem;color:var(--text2)">${d21.runner_votes.toLocaleString()} votes</div>
+            <div style="font-size:0.82rem;color:var(--text2)">${inr(d21.runner_votes)} votes</div>
           </div>` : ''}
           <div>
             <div style="font-size:0.72rem;color:var(--text2);text-transform:uppercase">2021 Margin</div>
-            <div class="fw" style="font-size:1rem">${d21.margin.toLocaleString()}</div>
+            <div class="fw" style="font-size:1rem">${inr(d21.margin)}</div>
           </div>
           ${d21.total_electors ? `<div>
             <div style="font-size:0.72rem;color:var(--text2);text-transform:uppercase">Electors (2021)</div>
-            <div style="font-size:0.9rem">${d21.total_electors.toLocaleString()}</div>
+            <div style="font-size:0.9rem">${inr(d21.total_electors)}</div>
           </div>` : ''}
           <div>
             <div style="font-size:0.72rem;color:var(--text2);text-transform:uppercase">Candidates (2021)</div>
@@ -1527,7 +1542,7 @@ function showConstPopup(constNo) {
             return !isNaN(diff) ? (diff >= 0 ? `<span class="swing-up">▲${diff.toFixed(1)}%</span>` : `<span class="swing-down">▼${Math.abs(diff).toFixed(1)}%</span>`) : '-';
           })()}
           &nbsp;•&nbsp;
-          <b>Margin:</b> ${marginVal > 0 ? marginVal.toLocaleString() : '-'} (2026) vs ${d21.margin.toLocaleString()} (2021)
+          <b>Margin:</b> ${marginVal > 0 ? inr(marginVal) : '-'} (2026) vs ${inr(d21.margin)} (2021)
         </div>` : ''}
       </div>`;
   }
@@ -1549,18 +1564,18 @@ function showConstPopup(constNo) {
             ${candPhoto(constNo, sorted[0].name).replace('cand-photo', 'cand-photo-lg')}
             <div class="fw" style="font-size:0.9rem">${esc(sorted[0].name)}</div>
             <div>${pb(pm(sorted[0].party))}</div>
-            <div class="fw" style="font-size:1.1rem;color:#2e7d32">${sorted[0].total_votes.toLocaleString()}</div>
+            <div class="fw" style="font-size:1.1rem;color:#2e7d32">${inr(sorted[0].total_votes)}</div>
           </div>
           <div style="text-align:center;font-size:1.5rem;font-weight:700;color:var(--text2)">vs</div>
           <div style="text-align:center">
             ${candPhoto(constNo, sorted[1].name).replace('cand-photo', 'cand-photo-lg')}
             <div class="fw" style="font-size:0.9rem">${esc(sorted[1].name)}</div>
             <div>${pb(pm(sorted[1].party))}</div>
-            <div class="fw" style="font-size:1.1rem;color:#c62828">${sorted[1].total_votes.toLocaleString()}</div>
+            <div class="fw" style="font-size:1.1rem;color:#c62828">${inr(sorted[1].total_votes)}</div>
           </div>
-          ${marginVal > 0 ? `<div style="text-align:center;background:#f0f2f5;padding:0.5rem 1rem;border-radius:8px">
+          ${marginVal > 0 ? `<div style="text-align:center;background:var(--row-hover);padding:0.5rem 1rem;border-radius:8px">
             <div style="font-size:0.72rem;color:var(--text2);text-transform:uppercase">Margin</div>
-            <div class="fw" style="font-size:1.2rem">${marginVal.toLocaleString()}</div>
+            <div class="fw" style="font-size:1.2rem">${inr(marginVal)}</div>
           </div>` : ''}
         </div>` : ''}
         <table>
@@ -1621,8 +1636,8 @@ function showPartyPopup(partyName) {
       return `<tr>
       <td class="text-center">${r.cno}</td>
       <td class="fw"><a class="const-link" href="#" onclick="event.stopPropagation();document.querySelector('.modal-overlay').remove();showConstPopup(${r.cno});return false;">${esc(r.name)}</a></td>
-      <td>${candPhoto(r.cno, r.cand.name)}${esc(r.cand.name)} ${r.margin !== 0 ? `<span style="font-size:0.75rem;color:${r.margin > 0 ? '#2e7d32' : '#c62828'}">(${r.margin > 0 ? '+' : ''}${r.margin.toLocaleString()})</span>` : ''}</td>
-      <td class="text-right">${r.cand.total_votes.toLocaleString()}</td>
+      <td>${candPhoto(r.cno, r.cand.name)}${esc(r.cand.name)} ${r.margin !== 0 ? `<span style="font-size:0.75rem;color:${r.margin > 0 ? '#2e7d32' : '#c62828'}">(${r.margin > 0 ? '+' : ''}${inr(r.margin)})</span>` : ''}</td>
+      <td class="text-right">${inr(r.cand.total_votes)}</td>
       <td class="text-right">${r.cand.vote_percent}%</td>
       <td class="text-center">${esc(r.round) || '-'}</td>
       <td class="text-center"><span class="status ${r.statusCls}">${r.status}</span></td>
@@ -1666,7 +1681,7 @@ function showPartyPopup(partyName) {
           <div class="summary-card" style="min-width:80px;padding:0.6rem 0.8rem"><div class="num" style="font-size:1.3rem">${constRows.length}</div><div class="lbl">Contested</div></div>
           <div class="summary-card" style="min-width:80px;padding:0.6rem 0.8rem"><div class="num" style="font-size:1.3rem;color:#28a745">${wonCount}</div><div class="lbl">Won</div></div>
           <div class="summary-card" style="min-width:80px;padding:0.6rem 0.8rem"><div class="num" style="font-size:1.3rem;color:#007bff">${leadCount}</div><div class="lbl">Leading</div></div>
-          <div class="summary-card" style="min-width:80px;padding:0.6rem 0.8rem"><div class="num" style="font-size:1.3rem">${totalVotes.toLocaleString()}</div><div class="lbl">Total Votes</div></div>
+          <div class="summary-card" style="min-width:80px;padding:0.6rem 0.8rem"><div class="num" style="font-size:1.3rem">${inr(totalVotes)}</div><div class="lbl">Total Votes</div></div>
         </div>
         <div style="max-height:50vh;overflow-y:auto">
         <table>
