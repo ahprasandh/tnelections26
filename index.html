@@ -1110,7 +1110,7 @@ function renderStarTable() {
       <td>${pb(r.p)}</td>
       <td class="text-right">${inr(r.star.total_votes)}</td>
       <td class="text-center fw">#${r.pos}</td>
-      <td>${r.opponent ? esc(r.opponent.name) + ' <span style="font-size:0.75rem;color:var(--text2)">(' + (op ? op.abbr : '') + ')</span>' : '-'}</td>
+      <td>${r.opponent ? candPhoto(r.cno, r.opponent.name) + esc(r.opponent.name) + ' <span style="font-size:0.75rem;color:var(--text2)">(' + (op ? op.abbr : '') + ')</span>' : '-'}</td>
       <td class="text-center"><span class="status ${r.statusCls}">${r.statusText}</span></td>
     </tr>`;
   }).join('');

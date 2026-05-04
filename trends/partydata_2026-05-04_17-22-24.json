@@ -1,30 +1,30 @@
 {
-  "last_updated": "Last Updated at05:27 PM On 04/05/2026",
+  "last_updated": "Last Updated at05:18 PM On 04/05/2026",
   "totals": {
-    "won": 27,
-    "leading": 207,
+    "won": 21,
+    "leading": 213,
     "total": 234
   },
   "parties": [
     {
       "party": "TVK",
       "party_name": "Tamilaga Vettri Kazhagam",
-      "won": 15,
-      "leading": 94,
-      "total": 109
+      "won": 13,
+      "leading": 95,
+      "total": 108
     },
     {
       "party": "DMK",
       "party_name": "Dravida Munnetra Kazhagam",
-      "won": 8,
-      "leading": 51,
-      "total": 59
+      "won": 7,
+      "leading": 53,
+      "total": 60
     },
     {
       "party": "ADMK",
       "party_name": "All India Anna Dravida Munnetra Kazhagam",
-      "won": 2,
-      "leading": 43,
+      "won": 0,
+      "leading": 45,
       "total": 45
     },
     {
@@ -51,8 +51,8 @@
     {
       "party": "CPI",
       "party_name": "Communist Party of India",
-      "won": 1,
-      "leading": 1,
+      "won": 0,
+      "leading": 2,
       "total": 2
     },
     {

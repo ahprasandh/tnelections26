@@ -1,31 +1,31 @@
 {
-  "last_updated": "Last Updated at05:27 PM On 04/05/2026",
+  "last_updated": "Last Updated at04:51 PM On 04/05/2026",
   "totals": {
-    "won": 27,
-    "leading": 207,
+    "won": 15,
+    "leading": 219,
     "total": 234
   },
   "parties": [
     {
       "party": "TVK",
       "party_name": "Tamilaga Vettri Kazhagam",
-      "won": 15,
-      "leading": 94,
+      "won": 8,
+      "leading": 101,
       "total": 109
     },
     {
       "party": "DMK",
       "party_name": "Dravida Munnetra Kazhagam",
-      "won": 8,
-      "leading": 51,
+      "won": 6,
+      "leading": 53,
       "total": 59
     },
     {
       "party": "ADMK",
       "party_name": "All India Anna Dravida Munnetra Kazhagam",
-      "won": 2,
-      "leading": 43,
-      "total": 45
+      "won": 0,
+      "leading": 44,
+      "total": 44
     },
     {
       "party": "PMK",
@@ -42,6 +42,13 @@
       "total": 5
     },
     {
+      "party": "BJP",
+      "party_name": "Bharatiya Janata Party",
+      "won": 0,
+      "leading": 3,
+      "total": 3
+    },
+    {
       "party": "IUML",
       "party_name": "Indian Union Muslim League",
       "won": 0,
@@ -49,15 +56,8 @@
       "total": 2
     },
     {
-      "party": "CPI",
-      "party_name": "Communist Party of India",
-      "won": 1,
-      "leading": 1,
-      "total": 2
-    },
-    {
-      "party": "BJP",
-      "party_name": "Bharatiya Janata Party",
+      "party": "VCK",
+      "party_name": "Viduthalai Chiruthaigal Katchi",
       "won": 0,
       "leading": 2,
       "total": 2
@@ -77,8 +77,8 @@
       "total": 1
     },
     {
-      "party": "VCK",
-      "party_name": "Viduthalai Chiruthaigal Katchi",
+      "party": "CPI",
+      "party_name": "Communist Party of India",
       "won": 0,
       "leading": 1,
       "total": 1
