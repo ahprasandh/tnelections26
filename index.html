@@ -59,8 +59,12 @@
     .header-left { display: flex; align-items: center; gap: 0.7rem; }
     .header-left img { height: 32px; width: 32px; object-fit: contain; }
     .header-left h1 { font-size: 1.1rem; font-weight: 700; white-space: nowrap; }
-    .header-center { flex: 1; display: flex; align-items: center; justify-content: center; gap: 0.6rem; }
+    .header-center { flex: 1; display: flex; align-items: center; justify-content: center; gap: 0.5rem; }
     .header-right { display: flex; align-items: center; gap: 0.6rem; }
+    .global-play-btn { width: 30px; height: 30px; border-radius: 50%; border: 1px solid var(--border); background: var(--card); cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 0.7rem; color: var(--text); transition: all 0.15s; flex-shrink: 0; }
+    .global-play-btn:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
+    .global-slider { flex: 1; max-width: 400px; min-width: 120px; cursor: pointer; accent-color: var(--accent); height: 6px; }
+    .global-slider-label { font-size: 0.82rem; font-weight: 600; color: var(--text); white-space: nowrap; min-width: 100px; text-align: center; }
     .header .meta { font-size: 0.72rem; color: var(--text2); width: 100%; text-align: center; margin-top: -0.2rem; }
     .header .meta span { margin: 0 0.4rem; }
     .time-select { padding: 0.3rem 0.6rem; border-radius: 6px; border: 1px solid var(--border); font-size: 0.8rem; background: var(--card); color: var(--text); cursor: pointer; }
@@ -241,10 +245,12 @@
     <h1>TN Elections 2026</h1>
   </div>
   <div class="header-center">
-    <select id="time-select" class="time-select">
+    <select id="time-select" class="time-select" style="display:none">
       <option value="live" selected>🔴 Live</option>
     </select>
-    <span id="time-label" style="font-size:0.75rem;color:var(--text2)"></span>
+    <button class="global-play-btn" id="global-play-btn" title="Play through snapshots">▶</button>
+    <input type="range" class="global-slider" id="global-slider" min="0" max="0" value="0" step="1">
+    <div class="global-slider-label" id="global-slider-label">🔴 Live</div>
   </div>
   <div class="header-right">
     <button class="theme-toggle" id="theme-toggle" title="Toggle theme"><svg id="theme-icon-moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg><svg id="theme-icon-sun" viewBox="0 0 24 24" style="display:none"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></button>
@@ -503,6 +509,11 @@ async function loadTrendsIndex() {
     const slider = document.getElementById('map-slider');
     slider.max = mapSnapshots.length + 1; // 0=before counting, 1..N=snapshots, N+1=live
     slider.value = mapSnapshots.length + 1; // default to live
+
+    // Setup global slider
+    const gSlider = document.getElementById('global-slider');
+    gSlider.max = mapSnapshots.length; // 0..N-1 = snapshots, N = live
+    gSlider.value = mapSnapshots.length; // default to live
   } catch(e) { /* no trends available yet */ }
 }
 
@@ -522,8 +533,8 @@ async function loadAll() {
   }
 
   const geoUrl = 'tn_map.json?' + t;
-  const label = document.getElementById('time-label');
-  label.textContent = isLive ? '' : 'Viewing snapshot';
+  const gLabel = document.getElementById('global-slider-label');
+  if (gLabel) gLabel.textContent = isLive ? '🔴 Live' : 'Viewing snapshot';
 
   const fetches = [fetch(constUrl), fetch(candUrl), fetch(geoUrl)];
   // Load 2021 data once
@@ -1882,6 +1893,51 @@ function showPartyPopup(partyName, skipHash) {
 document.getElementById('time-select').addEventListener('change', loadAll);
 document.getElementById('map-slider').addEventListener('input', onMapSliderChange);
 document.getElementById('map-play-btn').addEventListener('click', toggleMapSliderPlay);
+
+// Global slider
+let globalPlaying = false, globalPlayTimer = null;
+function onGlobalSliderChange() {
+  const gSlider = document.getElementById('global-slider');
+  const val = parseInt(gSlider.value);
+  const sel = document.getElementById('time-select');
+  const isLive = val >= mapSnapshots.length;
+  if (isLive) {
+    sel.value = 'live';
+    document.getElementById('global-slider-label').textContent = '🔴 Live';
+  } else {
+    const snap = mapSnapshots[val];
+    sel.value = snap.timestamp;
+    document.getElementById('global-slider-label').textContent = snap.label;
+  }
+  loadAll();
+}
+function toggleGlobalPlay() {
+  if (globalPlaying) {
+    clearInterval(globalPlayTimer);
+    globalPlaying = false;
+    document.getElementById('global-play-btn').textContent = '▶';
+    return;
+  }
+  const gSlider = document.getElementById('global-slider');
+  if (parseInt(gSlider.value) >= parseInt(gSlider.max)) gSlider.value = 0;
+  globalPlaying = true;
+  document.getElementById('global-play-btn').textContent = '⏸';
+  globalPlayTimer = setInterval(() => {
+    const gSlider = document.getElementById('global-slider');
+    const next = parseInt(gSlider.value) + 1;
+    if (next > parseInt(gSlider.max)) {
+      clearInterval(globalPlayTimer);
+      globalPlaying = false;
+      document.getElementById('global-play-btn').textContent = '▶';
+      return;
+    }
+    gSlider.value = next;
+    onGlobalSliderChange();
+  }, 2000);
+  onGlobalSliderChange();
+}
+document.getElementById('global-slider').addEventListener('input', onGlobalSliderChange);
+document.getElementById('global-play-btn').addEventListener('click', toggleGlobalPlay);
 
 // Theme toggle
 const themeToggle = document.getElementById('theme-toggle');
