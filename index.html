@@ -382,7 +382,7 @@ const PARTY_META = {
   "Viduthalai Chiruthaigal Katchi":                { abbr: "VCK",    color: "#0000ff", symbol: "🏺 Pot", flagImg: "VCK_flag.webp", symImg: "VCK_symbol.png", alliance: "DMK+" },
   "Communist Party of India":                      { abbr: "CPI",    color: "#ff0000", symbol: "🌾 Corn & Sickle", flagImg: "CPI_flag.webp", symImg: "CPI_symbol.webp", alliance: "DMK+" },
   "Communist Party of India (Marxist)":            { abbr: "CPI(M)", color: "#cc0000", symbol: "☭ Hammer Sickle Star", flagImg: "CPIM_flag.webp", symImg: "CPIM_symbol.webp", alliance: "DMK+" },
-  "Amma Makkal Munnettra Kazagam":                 { abbr: "AMMK",   color: "#228b22", symbol: "🫕 Pressure Cooker", alliance: "AIADMK+" },
+  "Amma Makkal Munnettra Kazagam":                 { abbr: "AMMK",   color: "#228b22", symbol: "🫕 Pressure Cooker", flagImg: "AMMK_flag.jpeg", alliance: "AIADMK+" },
   "Tamil Maanila Congress (Moopanar)":             { abbr: "TMC(M)", color: "#006400", symbol: "🚲 Bicycle", alliance: "DMK+" },
   "All India Majlis-E-Ittehadul Muslimeen":        { abbr: "AIMIM",  color: "#006633", symbol: "🪁 Kite" },
   "Kongunadu Makkal Desiya Katchi":                { abbr: "KMDK",   color: "#8B4513", symbol: "🦚 Peacock", alliance: "DMK+" },
@@ -573,6 +573,14 @@ async function loadAll() {
 
   render();
   renderMap();
+
+  // Auto-refresh open popup with new data
+  if (activePopup) {
+    try {
+      if (activePopup.type === 'const') showConstPopup(activePopup.id, true);
+      else if (activePopup.type === 'party') showPartyPopup(activePopup.id, true);
+    } catch(e) { console.error('Popup refresh error', e); }
+  }
 }
 
 /* ── Hemicycle (Parliament-style semi-circle of dots) ── */
@@ -1237,6 +1245,12 @@ function renderStarTable() {
 
 /* ── Map ── */
 function renderMap() {
+  if (map) {
+    // Map already initialized — just refresh styles
+    refreshMapStyles();
+    return;
+  }
+
   map = L.map('map', {
     zoomControl: true,
     scrollWheelZoom: true,
@@ -1803,12 +1817,7 @@ function onGlobalSliderChange() {
     sel.value = snap.timestamp;
     document.getElementById('global-slider-label').textContent = snap.label;
   }
-  loadAll().then(() => {
-    if (activePopup) {
-      if (activePopup.type === 'const') showConstPopup(activePopup.id, true);
-      else if (activePopup.type === 'party') showPartyPopup(activePopup.id, true);
-    }
-  });
+  loadAll();
 }
 function toggleGlobalPlay() {
   if (globalPlaying) {
