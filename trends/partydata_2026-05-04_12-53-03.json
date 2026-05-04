@@ -1,5 +1,5 @@
 {
-  "last_updated": "Last Updated at01:12 PM On 04/05/2026",
+  "last_updated": "Last Updated at12:48 PM On 04/05/2026",
   "totals": {
     "won": 0,
     "leading": 234,
@@ -10,8 +10,8 @@
       "party": "TVK",
       "party_name": "Tamilaga Vettri Kazhagam",
       "won": 0,
-      "leading": 110,
-      "total": 110
+      "leading": 106,
+      "total": 106
     },
     {
       "party": "ADMK",
@@ -24,8 +24,8 @@
       "party": "DMK",
       "party_name": "Dravida Munnetra Kazhagam",
       "won": 0,
-      "leading": 48,
-      "total": 48
+      "leading": 49,
+      "total": 49
     },
     {
       "party": "PMK",
@@ -38,12 +38,26 @@
       "party": "INC",
       "party_name": "Indian National Congress",
       "won": 0,
-      "leading": 4,
-      "total": 4
+      "leading": 5,
+      "total": 5
+    },
+    {
+      "party": "BJP",
+      "party_name": "Bharatiya Janata Party",
+      "won": 0,
+      "leading": 2,
+      "total": 2
     },
     {
       "party": "CPI(M)",
       "party_name": "Communist Party of India (Marxist)",
+      "won": 0,
+      "leading": 2,
+      "total": 2
+    },
+    {
+      "party": "DMDK",
+      "party_name": "Desiya Murpokku Dravida Kazhagam",
       "won": 0,
       "leading": 2,
       "total": 2
@@ -65,20 +79,6 @@
     {
       "party": "IUML",
       "party_name": "Indian Union Muslim League",
-      "won": 0,
-      "leading": 1,
-      "total": 1
-    },
-    {
-      "party": "BJP",
-      "party_name": "Bharatiya Janata Party",
-      "won": 0,
-      "leading": 1,
-      "total": 1
-    },
-    {
-      "party": "DMDK",
-      "party_name": "Desiya Murpokku Dravida Kazhagam",
       "won": 0,
       "leading": 1,
       "total": 1

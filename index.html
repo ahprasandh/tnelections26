@@ -287,7 +287,7 @@
   </div>
 
   <div class="card">
-    <div class="card-head">Party-wise Summary <label style="font-weight:400;font-size:0.78rem;color:#888;cursor:pointer;margin-left:auto"><input type="checkbox" id="show-zero-parties" style="margin-right:0.3rem">Show 0-vote parties</label></div>
+    <div class="card-head">Party-wise Summary <label style="font-weight:400;font-size:0.78rem;color:var(--text2);cursor:pointer;margin-left:auto"><input type="checkbox" id="show-zero-parties" style="margin-right:0.3rem">Show 0-vote parties</label></div>
     <div style="overflow-x:auto">
       <table id="party-table">
         <thead><tr><th>Party</th><th>Alliance</th><th class="text-center">Contested</th><th class="text-center">Won</th><th class="text-center">Leading</th><th class="text-center">Total</th><th class="text-right">Votes</th><th class="text-right">Vote %</th><th class="text-center">2021</th><th class="text-center">Change</th></tr></thead>
@@ -307,7 +307,7 @@
   <div class="card">
     <div class="card-head">
       Constituency-wise Results
-      <span id="shown-count" style="font-weight:400;font-size:0.8rem;color:#888"></span>
+      <span id="shown-count" style="font-weight:400;font-size:0.8rem;color:var(--text2)"></span>
     </div>
     <div class="toolbar">
       <input type="text" id="search" placeholder="Search constituency or candidate...">
@@ -326,11 +326,11 @@
           <tr>
             <th class="text-center sortable" data-col="const_no" style="width:50px">No.</th>
             <th class="sortable" data-col="constituency">Constituency</th>
-            <th>Leading Candidate</th>
+            <th class="sortable" data-col="margin">Leading Candidate</th>
             <th>Party</th>
             <th>Trailing Candidate</th>
             <th>Party</th>
-            <th class="text-center">Round</th>
+            <th class="text-center sortable" data-col="round">Round</th>
             <th class="text-center sortable" data-col="status">Status</th>
             <th>2021 Winner</th>
           </tr>
@@ -701,9 +701,9 @@ function render() {
     const s21 = seats2021[name] || 0;
     const cur = c.won + c.leading;
     const diff = cur - s21;
-    const diffStr = diff > 0 ? `<span class="swing-up">+${diff}</span>` : diff < 0 ? `<span class="swing-down">${diff}</span>` : '<span style="color:#888">0</span>';
+    const diffStr = diff > 0 ? `<span class="swing-up">+${diff}</span>` : diff < 0 ? `<span class="swing-down">${diff}</span>` : '<span style="color:var(--text2)">0</span>';
     return `<tr style="cursor:pointer" onclick="showPartyPopup('${esc(name).replace(/'/g, "\\'")}')">
-      <td>${pb(p)} <span style="font-size:0.75rem;color:#888">${esc(name)}</span></td>
+      <td>${pb(p)} <span style="font-size:0.75rem;color:var(--text2)">${esc(name)}</span></td>
       <td><span style="font-size:0.75rem;font-weight:600;color:${allianceColor};white-space:nowrap">${esc(allianceName)}</span></td>
       <td class="text-center">${contested}</td>
       <td class="text-center fw">${c.won}</td>
@@ -781,6 +781,10 @@ function renderResults() {
       if (sortCol === 'const_no') { va = a.const_no; vb = b.const_no; }
       else if (sortCol === 'constituency') { va = (a.constituency || '').toLowerCase(); vb = (b.constituency || '').toLowerCase(); }
       else if (sortCol === 'margin') { va = Number(a.margin) || 0; vb = Number(b.margin) || 0; }
+      else if (sortCol === 'round') {
+        const rn = s => { const m = (s || '').match(/(\d+)/); return m ? parseInt(m[1]) : 0; };
+        va = rn(a.round); vb = rn(b.round);
+      }
       else if (sortCol === 'status') {
         const order = s => (s === 'Result Declared' || s === 'Won') ? 0 : s ? 1 : 2;
         va = order(a.status); vb = order(b.status);
@@ -834,7 +838,7 @@ function renderResults() {
           }
         }
       }
-      col2021 = `${pb(p21)} <span style="font-size:0.72rem;color:#888">${esc(d21.winner)}</span>${flipBadge} ${swingStr}`;
+      col2021 = `${pb(p21)} <span style="font-size:0.72rem;color:var(--text2)">${esc(d21.winner)}</span>${flipBadge} ${swingStr}`;
     }
     const isFlippedRow = d21 && r.leading_party && pm21(d21.party).abbr !== (lp ? lp.abbr : '');
     const col2021Style = isFlippedRow ? ' class="const-row-flipped" style="background:rgba(255,235,238,0.4)"' : '';
@@ -979,7 +983,7 @@ function renderStarTable() {
       <td>${pb(r.p)}</td>
       <td class="text-right">${r.star.total_votes.toLocaleString()}</td>
       <td class="text-center fw">#${r.pos}</td>
-      <td>${r.opponent ? esc(r.opponent.name) + ' <span style="font-size:0.75rem;color:#888">(' + (op ? op.abbr : '') + ')</span>' : '-'}</td>
+      <td>${r.opponent ? esc(r.opponent.name) + ' <span style="font-size:0.75rem;color:var(--text2)">(' + (op ? op.abbr : '') + ')</span>' : '-'}</td>
       <td class="text-center"><span class="status ${r.statusCls}">${r.statusText}</span></td>
     </tr>`;
   }).join('');
@@ -1100,7 +1104,7 @@ function showInfoPanel(acNo, props) {
   const maxVotes = Math.max(...sorted.map(c => c.total_votes), 1);
 
   let html = `
-    <div class="info-const-name">${isStarConst(acNo) ? '<span class="star-badge">⭐</span> ' : ''}${esc(cand.constituency)} <span style="font-weight:400;font-size:0.8rem;color:#888">#${acNo}</span></div>
+    <div class="info-const-name">${isStarConst(acNo) ? '<span class="star-badge">⭐</span> ' : ''}${esc(cand.constituency)} <span style="font-weight:400;font-size:0.8rem;color:var(--text2)">#${acNo}</span></div>
     <div class="info-district">${esc(props.DIST_NAME)} District</div>
     <div class="info-round">${esc(cand.round_status)}${r ? ' • ' + esc(r.status) : ''}</div>
   `;
@@ -1123,7 +1127,7 @@ function showInfoPanel(acNo, props) {
   }
 
   if (sorted.length > 10) {
-    html += `<div style="text-align:center;padding:0.5rem;font-size:0.75rem;color:#888">+${sorted.length - 10} more candidates</div>`;
+    html += `<div style="text-align:center;padding:0.5rem;font-size:0.75rem;color:var(--text2)">+${sorted.length - 10} more candidates</div>`;
   }
 
   content.innerHTML = html;
@@ -1150,7 +1154,7 @@ function showInfoPanel2021(acNo, props) {
   const pr = rFullName ? pm(rFullName) : null;
 
   let html = `
-    <div class="info-const-name">${esc(props.AC_NAME)} <span style="font-weight:400;font-size:0.8rem;color:#888">#${acNo}</span></div>
+    <div class="info-const-name">${esc(props.AC_NAME)} <span style="font-weight:400;font-size:0.8rem;color:var(--text2)">#${acNo}</span></div>
     <div class="info-district">${esc(props.DIST_NAME)} District</div>
     <div class="info-round" style="color:var(--text2)">2021 Final Result</div>
   `;
@@ -1386,33 +1390,33 @@ function showConstPopup(constNo) {
       ? (isFlipped ? '<span class="flip-badge flip-flipped" style="font-size:0.8rem;padding:0.2rem 0.5rem">FLIPPED</span>' : '<span class="flip-badge flip-retained" style="font-size:0.8rem;padding:0.2rem 0.5rem">RETAINED</span>')
       : '';
     section2021 = `
-      <div style="margin-top:1rem;padding:1rem;background:#f8f9fa;border-radius:8px;border:1px solid #e0e0e0">
+      <div style="margin-top:1rem;padding:1rem;background:var(--row-hover);border-radius:8px;border:1px solid var(--border)">
         <div style="font-weight:700;font-size:0.9rem;margin-bottom:0.6rem">📊 2021 Election Result ${flipTag}</div>
         <div style="display:flex;align-items:center;gap:1.5rem;flex-wrap:wrap;margin-bottom:0.5rem">
           <div>
-            <div style="font-size:0.72rem;color:#888;text-transform:uppercase">Winner</div>
+            <div style="font-size:0.72rem;color:var(--text2);text-transform:uppercase">Winner</div>
             <div style="display:flex;align-items:center;gap:0.5rem">${pb(p21)} <span class="fw">${esc(d21.winner)}</span></div>
-            <div style="font-size:0.82rem;color:#555">${d21.votes.toLocaleString()} votes (${d21.vote_pct}%)</div>
+            <div style="font-size:0.82rem;color:var(--text2)">${d21.votes.toLocaleString()} votes (${d21.vote_pct}%)</div>
           </div>
           ${d21.runner ? `<div>
-            <div style="font-size:0.72rem;color:#888;text-transform:uppercase">Runner-up</div>
+            <div style="font-size:0.72rem;color:var(--text2);text-transform:uppercase">Runner-up</div>
             <div style="display:flex;align-items:center;gap:0.5rem">${pb(pm21(d21.runner_party))} <span class="fw">${esc(d21.runner)}</span></div>
-            <div style="font-size:0.82rem;color:#555">${d21.runner_votes.toLocaleString()} votes</div>
+            <div style="font-size:0.82rem;color:var(--text2)">${d21.runner_votes.toLocaleString()} votes</div>
           </div>` : ''}
           <div>
-            <div style="font-size:0.72rem;color:#888;text-transform:uppercase">2021 Margin</div>
+            <div style="font-size:0.72rem;color:var(--text2);text-transform:uppercase">2021 Margin</div>
             <div class="fw" style="font-size:1rem">${d21.margin.toLocaleString()}</div>
           </div>
           ${d21.total_electors ? `<div>
-            <div style="font-size:0.72rem;color:#888;text-transform:uppercase">Electors (2021)</div>
+            <div style="font-size:0.72rem;color:var(--text2);text-transform:uppercase">Electors (2021)</div>
             <div style="font-size:0.9rem">${d21.total_electors.toLocaleString()}</div>
           </div>` : ''}
           <div>
-            <div style="font-size:0.72rem;color:#888;text-transform:uppercase">Candidates (2021)</div>
+            <div style="font-size:0.72rem;color:var(--text2);text-transform:uppercase">Candidates (2021)</div>
             <div style="font-size:0.9rem">${d21.candidates}</div>
           </div>
         </div>
-        ${sorted.length > 0 && constResult && constResult.leading_candidate ? `<div style="font-size:0.82rem;color:#555;margin-top:0.5rem;padding-top:0.5rem;border-top:1px solid #e0e0e0">
+        ${sorted.length > 0 && constResult && constResult.leading_candidate ? `<div style="font-size:0.82rem;color:var(--text2);margin-top:0.5rem;padding-top:0.5rem;border-top:1px solid var(--border)">
           <b>Vote % Swing:</b> ${(() => {
             const cur = parseFloat(sorted[0].vote_percent);
             const diff = cur - d21.vote_pct;
@@ -1432,7 +1436,7 @@ function showConstPopup(constNo) {
   overlay.innerHTML = `
     <div class="modal-box" style="max-width:900px">
       <div class="modal-head">
-        <h3>${starBadge}${esc(constName)} <span style="font-weight:400;font-size:0.8rem;color:#888">#${constNo}${district ? ' • ' + esc(district) : ''} • ${esc(cand.round_status)}</span> ${statusHTML}</h3>
+        <h3>${starBadge}${esc(constName)} <span style="font-weight:400;font-size:0.8rem;color:var(--text2)">#${constNo}${district ? ' • ' + esc(district) : ''} • ${esc(cand.round_status)}</span> ${statusHTML}</h3>
         <button class="modal-close" title="Close">&times;</button>
       </div>
       <div class="modal-body">
@@ -1443,7 +1447,7 @@ function showConstPopup(constNo) {
             <div>${pb(pm(sorted[0].party))}</div>
             <div class="fw" style="font-size:1.1rem;color:#2e7d32">${sorted[0].total_votes.toLocaleString()}</div>
           </div>
-          <div style="text-align:center;font-size:1.5rem;font-weight:700;color:#888">vs</div>
+          <div style="text-align:center;font-size:1.5rem;font-weight:700;color:var(--text2)">vs</div>
           <div style="text-align:center">
             ${candPhoto(constNo, sorted[1].name).replace('cand-photo', 'cand-photo-lg')}
             <div class="fw" style="font-size:0.9rem">${esc(sorted[1].name)}</div>
@@ -1451,7 +1455,7 @@ function showConstPopup(constNo) {
             <div class="fw" style="font-size:1.1rem;color:#c62828">${sorted[1].total_votes.toLocaleString()}</div>
           </div>
           ${marginVal > 0 ? `<div style="text-align:center;background:#f0f2f5;padding:0.5rem 1rem;border-radius:8px">
-            <div style="font-size:0.72rem;color:#888;text-transform:uppercase">Margin</div>
+            <div style="font-size:0.72rem;color:var(--text2);text-transform:uppercase">Margin</div>
             <div class="fw" style="font-size:1.2rem">${marginVal.toLocaleString()}</div>
           </div>` : ''}
         </div>` : ''}
@@ -1488,6 +1492,10 @@ function showPartyPopup(partyName) {
     const sorted = [...c.candidates].sort((a, b) => b.total_votes - a.total_votes);
     const partyCand = cands[0];
     const pos = sorted.findIndex(x => x.name === partyCand.name) + 1;
+    // Compute margin: difference between this candidate and the adjacent rival
+    let margin = 0;
+    if (pos === 1 && sorted.length >= 2) margin = sorted[0].total_votes - sorted[1].total_votes;
+    else if (pos > 1) margin = partyCand.total_votes - sorted[pos - 2].total_votes;
     const cr = constResultMap[c.const_no];
     const won = cr && (cr.status === 'Result Declared' || cr.status === 'Won') && cr.leading_party === partyName;
     const leading = cr && cr.leading_party === partyName && !won;
@@ -1495,7 +1503,7 @@ function showPartyPopup(partyName) {
     if (won) { status = 'Won'; statusCls = 'status-won'; }
     else if (leading) { status = 'Leading'; statusCls = 'status-leading'; }
     else { status = pos > 0 ? '#' + pos : '-'; }
-    constRows.push({ cno: c.const_no, name: c.constituency, cand: partyCand, pos, won, leading, status, statusCls });
+    constRows.push({ cno: c.const_no, name: c.constituency, cand: partyCand, pos, won, leading, status, statusCls, margin, round: cr ? (cr.round || '') : '' });
   }
   const statusOrder = r => r.won ? 0 : r.leading ? 1 : 2;
   constRows.sort((a, b) => statusOrder(a) - statusOrder(b) || a.pos - b.pos);
@@ -1509,9 +1517,10 @@ function showPartyPopup(partyName) {
       return `<tr>
       <td class="text-center">${r.cno}</td>
       <td class="fw"><a class="const-link" href="#" onclick="event.stopPropagation();document.querySelector('.modal-overlay').remove();showConstPopup(${r.cno});return false;">${esc(r.name)}</a></td>
-      <td>${candPhoto(r.cno, r.cand.name)}${esc(r.cand.name)}</td>
+      <td>${candPhoto(r.cno, r.cand.name)}${esc(r.cand.name)} ${r.margin !== 0 ? `<span style="font-size:0.75rem;color:${r.margin > 0 ? '#2e7d32' : '#c62828'}">(${r.margin > 0 ? '+' : ''}${r.margin.toLocaleString()})</span>` : ''}</td>
       <td class="text-right">${r.cand.total_votes.toLocaleString()}</td>
       <td class="text-right">${r.cand.vote_percent}%</td>
+      <td class="text-center">${esc(r.round) || '-'}</td>
       <td class="text-center"><span class="status ${r.statusCls}">${r.status}</span></td>
     </tr>`;
     }).join('');
@@ -1561,6 +1570,7 @@ function showPartyPopup(partyName) {
             <th>Candidate</th>
             <th class="text-right pp-sort" data-col="votes" style="cursor:pointer">Votes</th>
             <th class="text-right">%</th>
+            <th class="text-center">Round</th>
             <th class="text-center pp-sort sort-asc" data-col="status" style="cursor:pointer">Status</th>
           </tr></thead>
           <tbody>${buildRows(constRows)}</tbody>
