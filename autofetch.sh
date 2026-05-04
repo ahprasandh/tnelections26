@@ -31,7 +31,13 @@ while true; do
     echo "----------------------------------------"
     sh "$SCRIPT_DIR/fetch.sh"
     echo "----------------------------------------"
-    echo "[$(date '+%H:%M:%S')] Fetch complete. Sleeping until next slot..."
+    echo "[$(date '+%H:%M:%S')] Fetch complete."
+
+    # Commit and push changes
+    cd "$SCRIPT_DIR"
+    git add . && git commit -m "$(date '+%Y-%m-%d %H:%M:%S')" && git push
+    echo "[$(date '+%H:%M:%S')] Pushed to git."
+    echo "Sleeping until next slot..."
 
     # Sleep 60s to avoid re-triggering in the same minute
     sleep 60

@@ -320,7 +320,7 @@
         <option value="leading">Leading</option>
         <option value="progress">In Progress</option>
       </select>
-      <label style="font-size:0.82rem;cursor:pointer;display:flex;align-items:center;gap:0.3rem;white-space:nowrap"><input type="checkbox" id="filter-star"> ⭐ Star only</label>
+
     </div>
     <div class="scroll-table">
       <table>
@@ -345,7 +345,7 @@
     <div class="card-head">🗺️ Region-wise Summary</div>
     <div style="overflow-x:auto">
       <table class="results-table" id="belt-table">
-        <thead><tr><th>Region</th><th>Seats</th><th>Leading Party</th><th>Won+Leading</th><th>Vote %</th><th>2021 Leader</th><th>2021 Seats</th><th>Breakdown</th></tr></thead>
+        <thead><tr><th>Region</th><th>Seats</th><th>Leading Party</th><th>Won+Leading</th><th>Vote %</th><th>Turnout</th><th>2021 Leader</th><th>2021 Seats</th><th>Breakdown</th></tr></thead>
         <tbody></tbody>
       </table>
     </div>
@@ -409,7 +409,7 @@ const STAR_CANDIDATES = {
   59: 'SOWMIYA ANBUMANI',
   86: 'EDAPPADI PALANISWAMI. K',
   106: 'SENGOTTAIYAN.K.A',
-  112: 'L.MURUGAN',
+  112: 'MURUGAN',
   118: 'VANATHI SRINIVASAN',
   119: 'S.P.VELUMANI',
   120: 'V SENTHILBALAJI',
@@ -444,7 +444,8 @@ function pb(p) {
 }
 function candPhoto(constNo, name) {
   if (!name || name === 'NOTA') return '';
-  const fn = `${constNo}_${name.trim().replace(/\s+/g, '_').replace(/[()]/g, '').replace(/\.+$/, '')}.jpg`;
+  const clean = name.trim().toUpperCase().replace(/[^A-Z0-9 .]/g, '').replace(/\s+/g, '_').replace(/^[._]+|[._]+$/g, '');
+  const fn = `${constNo}_${clean}.jpg`;
   return `<img class="cand-photo" src="images/candidates/${encodeURIComponent(fn)}" alt="" onerror="this.style.display='none'">`;
 }
 
@@ -455,6 +456,7 @@ let autoRefreshTimer = null;
 let data2021 = null; // { const_no: { winner, party_abbr, vote_pct, votes } }
 let partyVotes2021 = {}; // { fullPartyName: totalVotes }
 let grandTotalVotes2021 = 0;
+let electorsData = null; // { const_no: { male, female, third_gender, total } }
 let mapYear = 2026;
 let mapSnapshots = []; // [{timestamp, label}] oldest→newest
 let mapSnapshotCache = {}; // timestamp → {constResultMap, candidateMap}
@@ -516,14 +518,17 @@ async function loadAll() {
 
   const fetches = [fetch(constUrl), fetch(candUrl), fetch(geoUrl)];
   // Load 2021 data once
-  if (!data2021) fetches.push(fetch('2021/detailed_results.json'));
+  const need2021 = !data2021;
+  const needElectors = !electorsData;
+  if (need2021) fetches.push(fetch('2021/detailed_results.json'));
+  if (needElectors) fetches.push(fetch('electors_gender_2026.json'));
 
   const responses = await Promise.all(fetches);
   CONST_DATA = await responses[0].json();
   CANDIDATE_DATA = await responses[1].json();
   GEO_DATA = await responses[2].json();
 
-  if (!data2021 && responses[3]) {
+  if (need2021 && responses[3]) {
     const d21 = await responses[3].json();
     data2021 = {};
     for (const c of d21.constituencies) {
@@ -543,6 +548,17 @@ async function loadAll() {
         grandTotalVotes2021 += (cand.votes_total || 0);
       }
     }
+  }
+
+  // Load electors data
+  const electorsIdx = 3 + (need2021 ? 1 : 0);
+  if (needElectors && responses[electorsIdx]) {
+    const eData = await responses[electorsIdx].json();
+    electorsData = {};
+    for (const c of eData.constituencies) {
+      electorsData[c.const_no] = { male: c.male, female: c.female, third_gender: c.third_gender, total: c.total };
+    }
+    electorsData._grand = eData.grand_total;
   }
 
   // No auto-refresh
@@ -676,6 +692,8 @@ function render() {
     <div class="summary-card"><div class="num" style="color:#28a745">${declared}</div><div class="lbl">Declared</div></div>
     <div class="summary-card"><div class="num" style="color:#007bff">${counting}</div><div class="lbl">Counting</div></div>
     <div class="summary-card"><div class="num" style="color:#999">${pending}</div><div class="lbl">Pending</div></div>
+    ${electorsData && electorsData._grand ? `<div class="summary-card"><div class="num">${inr(electorsData._grand.total)}</div><div class="lbl">Total Electors</div></div>` : ''}
+    ${electorsData && electorsData._grand ? (() => { let tv = 0; for (const c of CANDIDATE_DATA.constituencies) for (const cd of c.candidates) tv += cd.total_votes || 0; const pct = electorsData._grand.total > 0 ? (tv / electorsData._grand.total * 100).toFixed(1) : '0.0'; return `<div class="summary-card"><div class="num">${pct}%</div><div class="lbl">Turnout</div></div>`; })() : ''}
   `;
 
   let barHTML = '', legendHTML = '';
@@ -801,6 +819,10 @@ function render() {
 
   document.querySelector('#party-table tbody').innerHTML = groupedHTML;
 
+  // Update Votes header with total count
+  const votesHeader = document.querySelector('#party-table thead th:nth-child(7)');
+  if (votesHeader) votesHeader.innerHTML = `Votes<br><span style="font-weight:400;font-size:0.68rem;color:var(--text2)">${inr(grandTotalVotes)}</span>`;
+
   const sel = document.getElementById('filter-party');
   const existing = new Set([...sel.options].map(o => o.value));
   for (const [name] of sortedParties) {
@@ -822,10 +844,7 @@ function renderResults() {
   const query = document.getElementById('search').value.toLowerCase();
   const partyFilter = document.getElementById('filter-party').value;
   const statusFilter = document.getElementById('filter-status').value;
-  const starOnly = document.getElementById('filter-star').checked;
-
   const filtered = CONST_DATA.results.filter(r => {
-    if (starOnly && !isStarConst(r.const_no)) return false;
     if (query) {
       const hay = (r.constituency + r.leading_candidate + r.trailing_candidate + r.leading_party + r.trailing_party).toLowerCase();
       if (!hay.includes(query)) return false;
@@ -998,7 +1017,7 @@ function renderBeltTable() {
       }
     }
 
-    regionRows.push({ region, totalSeats, topP, topSeats: topParty[1], topVotePct, breakdown, top21P, top21Seats, regionResults });
+    regionRows.push({ region, totalSeats, topP, topSeats: topParty[1], topVotePct, breakdown, top21P, top21Seats, regionResults, totalVotes });
   }
 
   tbody.innerHTML = regionRows.map((r, idx) => {
@@ -1017,7 +1036,7 @@ function renderBeltTable() {
           <td>${cr.leading_candidate ? candPhoto(cr.const_no, cr.leading_candidate) : ''}${esc(cr.leading_candidate) || '-'} ${marginStr}</td>
           <td>${lp ? pb(lp) : '-'}</td>
           <td class="text-center"><span class="status ${statusCls}">${esc(statusText)}</span></td>
-          <td></td><td></td><td></td>
+          <td></td><td></td><td></td><td></td>
         </tr>`;
       })
       .sort((a, b) => 0) // keep original order
@@ -1029,6 +1048,7 @@ function renderBeltTable() {
     <td>${pb(r.topP)}</td>
     <td class="text-center fw">${r.topSeats}</td>
     <td class="text-right fw">${r.topVotePct}%</td>
+    <td class="text-right">${(() => { if (!electorsData) return '-'; let re = 0; for (const cr of r.regionResults) { const el = electorsData[cr.const_no]; if (el) re += el.total; } return re > 0 ? (r.totalVotes / re * 100).toFixed(1) + '%' : '-'; })()}</td>
     <td>${pb(r.top21P)}</td>
     <td class="text-center">${r.top21Seats}</td>
     <td>${r.breakdown}</td>
@@ -1060,7 +1080,8 @@ function renderStarTable() {
 
     const sorted = [...cand.candidates].sort((a, b) => b.total_votes - a.total_votes);
     // Find the star candidate in the list
-    const starIdx = sorted.findIndex(c => c.name.toUpperCase().includes(starName.toUpperCase().split('.')[0].split(' ')[0]));
+    const starWords = starName.toUpperCase().replace(/[^A-Z ]/g, '').split(/\s+/).filter(w => w.length > 2);
+    const starIdx = sorted.findIndex(c => { const n = c.name.toUpperCase(); return starWords.some(w => n.includes(w)); });
     const star = starIdx >= 0 ? sorted[starIdx] : null;
     if (!star) continue;
 
@@ -1212,21 +1233,22 @@ function showInfoPanel(acNo, props) {
   let html = `
     <div class="info-const-name">${isStarConst(acNo) ? '<span class="star-badge">⭐</span> ' : ''}${esc(cand.constituency)} <span style="font-weight:400;font-size:0.8rem;color:var(--text2)">#${acNo}</span></div>
     <div class="info-district">${esc(props.DIST_NAME)} District</div>
-    <div class="info-round">${esc(cand.round_status)}${r ? ' • ' + esc(r.status) : ''}</div>
+    <div class="info-round">${esc(cand.round_status)}${r ? ' • ' + esc(r.status) : ''}${(() => { const el = electorsData && electorsData[acNo]; if (!el) return ''; let tv = 0; for (const cd of sorted) tv += cd.total_votes || 0; const pct = el.total > 0 ? (tv / el.total * 100).toFixed(1) : '0.0'; return ' • Turnout: ' + pct + '%'; })()}</div>
   `;
 
   for (let i = 0; i < top.length; i++) {
     const c = top[i];
     const p = pm(c.party);
     const barW = maxVotes > 0 ? (c.total_votes / maxVotes * 100) : 0;
+    const diff = i === 0 ? '' : ` <span style="font-size:0.68rem;color:#c62828">(-${inr(sorted[0].total_votes - c.total_votes)})</span>`;
     html += `
       <div class="candidate-row${i === 0 ? ' top' : ''}">
         <div class="rank">${i + 1}</div>
         ${candPhoto(acNo, c.name)}
         <div class="candidate-info">
-          <div class="candidate-name" title="${esc(c.name)}">${esc(c.name)}</div>
-          <div class="candidate-votes">${inr(c.total_votes)} votes (${c.vote_percent}%)</div>
-          <div class="vote-bar-bg"><div class="vote-bar-fill" style="width:${barW}%;background:${p.color}"></div></div>
+          <div class="candidate-name" title="${esc(c.name)}">${esc(c.name)}${diff}</div>
+          <div class="candidate-votes">${inr(c.total_votes)} votes <span style="color:var(--text2)">(${c.vote_percent}%)</span></div>
+          <div class="vote-bar-bg"><div class="vote-bar-fill" style="width:${barW}%;background:var(--text2)"></div></div>
         </div>
         <div class="candidate-party-badge">${pb(p)}</div>
       </div>`;
@@ -1435,7 +1457,7 @@ function inr(n) {
 document.getElementById('search').addEventListener('input', renderResults);
 document.getElementById('filter-party').addEventListener('change', renderResults);
 document.getElementById('filter-status').addEventListener('change', renderResults);
-document.getElementById('filter-star').addEventListener('change', renderResults);
+
 document.getElementById('show-zero-parties').addEventListener('change', () => render());
 document.getElementById('others-toggle').addEventListener('click', () => {
   const tbl = document.getElementById('party-table-others');
@@ -1477,9 +1499,9 @@ function showConstPopup(constNo) {
   let statusHTML = '';
   if (constResult) {
     const s = constResult.status;
-    if (s === 'Result Declared' || s === 'Won') statusHTML = '<span class="status status-won">Won</span>';
-    else if (constResult.leading_candidate) statusHTML = `<span class="status status-leading">${esc(constResult.round) || 'Counting'}</span>`;
-    else statusHTML = '<span class="status status-progress">Awaiting</span>';
+    if (s === 'Result Declared' || s === 'Won') statusHTML = '<span class="status status-won" style="font-size:0.85rem;padding:0.25rem 0.7rem">✓ Won</span>';
+    else if (constResult.leading_candidate) statusHTML = `<span class="status status-leading" style="font-size:0.85rem;padding:0.25rem 0.7rem">${esc(constResult.round) || 'Counting'}</span>`;
+    else statusHTML = '<span class="status status-progress" style="font-size:0.85rem;padding:0.25rem 0.7rem">Awaiting</span>';
   }
 
   // Margin
@@ -1561,7 +1583,7 @@ function showConstPopup(constNo) {
       <div class="modal-body">
         ${sorted.length >= 2 ? `<div style="display:flex;align-items:center;justify-content:center;gap:2rem;padding:1rem 0;flex-wrap:wrap">
           <div style="text-align:center">
-            ${candPhoto(constNo, sorted[0].name).replace('cand-photo', 'cand-photo-lg')}
+            <div style="position:relative;display:inline-block">${candPhoto(constNo, sorted[0].name).replace('cand-photo', 'cand-photo-lg')}${constResult && (constResult.status === 'Result Declared' || constResult.status === 'Won') ? '<span style="position:absolute;bottom:-2px;right:-6px;font-size:1.3rem" title="Winner">🏆</span>' : ''}</div>
             <div class="fw" style="font-size:0.9rem">${esc(sorted[0].name)}</div>
             <div>${pb(pm(sorted[0].party))}</div>
             <div class="fw" style="font-size:1.1rem;color:#2e7d32">${inr(sorted[0].total_votes)}</div>
@@ -1577,6 +1599,7 @@ function showConstPopup(constNo) {
             <div style="font-size:0.72rem;color:var(--text2);text-transform:uppercase">Margin</div>
             <div class="fw" style="font-size:1.2rem">${inr(marginVal)}</div>
           </div>` : ''}
+          ${(() => { const el = electorsData && electorsData[constNo]; if (!el) return ''; let tv = 0; for (const cd of sorted) tv += cd.total_votes || 0; const pct = el.total > 0 ? (tv / el.total * 100).toFixed(1) : '0.0'; return `<div style="text-align:center;background:var(--row-hover);padding:0.5rem 1rem;border-radius:8px"><div style="font-size:0.72rem;color:var(--text2);text-transform:uppercase">Turnout</div><div class="fw" style="font-size:1.2rem">${pct}%</div><div style="font-size:0.7rem;color:var(--text2)">${inr(el.total)} electors</div></div>`; })()}
         </div>` : ''}
         <table>
           <thead><tr>
@@ -1652,15 +1675,15 @@ function showPartyPopup(partyName) {
     const sorted = [...constRows];
     const dir = ppSortDir === 'asc' ? 1 : -1;
     if (col === 'status') {
-      sorted.sort((a, b) => dir * (statusOrder(a) - statusOrder(b)) || a.pos - b.pos);
+      sorted.sort((a, b) => dir * (statusOrder(a) - statusOrder(b)) || (b.cand.total_votes - a.cand.total_votes));
     } else if (col === 'name') {
       sorted.sort((a, b) => dir * a.name.localeCompare(b.name));
     } else if (col === 'cno') {
       sorted.sort((a, b) => dir * (a.cno - b.cno));
     } else if (col === 'votes') {
-      sorted.sort((a, b) => dir * (a.cand.total_votes - b.cand.total_votes));
+      sorted.sort((a, b) => dir * (a.cand.total_votes - b.cand.total_votes) || (statusOrder(a) - statusOrder(b)));
     } else if (col === 'margin') {
-      sorted.sort((a, b) => dir * (a.margin - b.margin));
+      sorted.sort((a, b) => dir * (a.margin - b.margin) || (statusOrder(a) - statusOrder(b)));
     }
     const tbody = overlay.querySelector('tbody');
     tbody.innerHTML = buildRows(sorted);
@@ -1689,13 +1712,14 @@ function showPartyPopup(partyName) {
             <th class="text-center pp-sort" data-col="cno" style="width:40px;cursor:pointer">#</th>
             <th class="pp-sort" data-col="name" style="cursor:pointer">Constituency</th>
             <th class="pp-sort" data-col="margin" style="cursor:pointer">Candidate</th>
-            <th class="text-right pp-sort" data-col="votes" style="cursor:pointer">Votes</th>
+            <th class="text-right pp-sort" data-col="votes" style="cursor:pointer" title="Sort by votes, then status">Votes</th>
             <th class="text-right">%</th>
             <th class="text-center">Round</th>
-            <th class="text-center pp-sort sort-asc" data-col="status" style="cursor:pointer">Status</th>
+            <th class="text-center pp-sort sort-asc" data-col="status" style="cursor:pointer" title="Sort by status, then votes">Status</th>
           </tr></thead>
           <tbody>${buildRows(constRows)}</tbody>
         </table>
+        <div style="text-align:right;padding:0.3rem 0.5rem;font-size:0.65rem;color:var(--text2)">Sorting by Status groups by won/leading then highest votes · Sorting by Votes breaks ties by status</div>
         </div>
       </div>
     </div>`;

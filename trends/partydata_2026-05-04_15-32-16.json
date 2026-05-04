@@ -1,63 +1,56 @@
 {
-  "last_updated": "Last Updated at03:57 PM On 04/05/2026",
+  "last_updated": "Last Updated at03:27 PM On 04/05/2026",
   "totals": {
-    "won": 6,
-    "leading": 228,
+    "won": 5,
+    "leading": 229,
     "total": 234
   },
   "parties": [
     {
       "party": "TVK",
       "party_name": "Tamilaga Vettri Kazhagam",
-      "won": 2,
-      "leading": 104,
-      "total": 106
+      "won": 1,
+      "leading": 101,
+      "total": 102
     },
     {
       "party": "DMK",
       "party_name": "Dravida Munnetra Kazhagam",
       "won": 3,
-      "leading": 57,
-      "total": 60
+      "leading": 59,
+      "total": 62
     },
     {
       "party": "ADMK",
       "party_name": "All India Anna Dravida Munnetra Kazhagam",
       "won": 0,
-      "leading": 46,
-      "total": 46
-    },
-    {
-      "party": "INC",
-      "party_name": "Indian National Congress",
-      "won": 1,
-      "leading": 4,
-      "total": 5
+      "leading": 49,
+      "total": 49
     },
     {
       "party": "PMK",
       "party_name": "Pattali Makkal Katchi",
       "won": 0,
-      "leading": 4,
+      "leading": 5,
+      "total": 5
+    },
+    {
+      "party": "INC",
+      "party_name": "Indian National Congress",
+      "won": 1,
+      "leading": 3,
       "total": 4
     },
     {
-      "party": "CPI",
-      "party_name": "Communist Party of India",
-      "won": 0,
-      "leading": 3,
-      "total": 3
-    },
-    {
-      "party": "IUML",
-      "party_name": "Indian Union Muslim League",
+      "party": "DMDK",
+      "party_name": "Desiya Murpokku Dravida Kazhagam",
       "won": 0,
       "leading": 2,
       "total": 2
     },
     {
-      "party": "VCK",
-      "party_name": "Viduthalai Chiruthaigal Katchi",
+      "party": "IUML",
+      "party_name": "Indian Union Muslim League",
       "won": 0,
       "leading": 2,
       "total": 2
@@ -70,22 +63,29 @@
       "total": 2
     },
     {
-      "party": "CPI(M)",
-      "party_name": "Communist Party of India (Marxist)",
+      "party": "VCK",
+      "party_name": "Viduthalai Chiruthaigal Katchi",
       "won": 0,
       "leading": 2,
       "total": 2
     },
     {
-      "party": "DMDK",
-      "party_name": "Desiya Murpokku Dravida Kazhagam",
+      "party": "CPI",
+      "party_name": "Communist Party of India",
+      "won": 0,
+      "leading": 2,
+      "total": 2
+    },
+    {
+      "party": "AMMKMNKZ",
+      "party_name": "Amma Makkal Munnettra Kazagam",
       "won": 0,
       "leading": 1,
       "total": 1
     },
     {
-      "party": "AMMKMNKZ",
-      "party_name": "Amma Makkal Munnettra Kazagam",
+      "party": "CPI(M)",
+      "party_name": "Communist Party of India (Marxist)",
       "won": 0,
       "leading": 1,
       "total": 1

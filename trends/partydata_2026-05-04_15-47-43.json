@@ -1,31 +1,31 @@
 {
-  "last_updated": "Last Updated at03:57 PM On 04/05/2026",
+  "last_updated": "Last Updated at03:42 PM On 04/05/2026",
   "totals": {
-    "won": 6,
-    "leading": 228,
+    "won": 5,
+    "leading": 229,
     "total": 234
   },
   "parties": [
     {
       "party": "TVK",
       "party_name": "Tamilaga Vettri Kazhagam",
-      "won": 2,
-      "leading": 104,
-      "total": 106
+      "won": 1,
+      "leading": 106,
+      "total": 107
     },
     {
       "party": "DMK",
       "party_name": "Dravida Munnetra Kazhagam",
       "won": 3,
-      "leading": 57,
-      "total": 60
+      "leading": 56,
+      "total": 59
     },
     {
       "party": "ADMK",
       "party_name": "All India Anna Dravida Munnetra Kazhagam",
       "won": 0,
-      "leading": 46,
-      "total": 46
+      "leading": 47,
+      "total": 47
     },
     {
       "party": "INC",
@@ -42,8 +42,8 @@
       "total": 4
     },
     {
-      "party": "CPI",
-      "party_name": "Communist Party of India",
+      "party": "BJP",
+      "party_name": "Bharatiya Janata Party",
       "won": 0,
       "leading": 3,
       "total": 3
@@ -63,15 +63,8 @@
       "total": 2
     },
     {
-      "party": "BJP",
-      "party_name": "Bharatiya Janata Party",
-      "won": 0,
-      "leading": 2,
-      "total": 2
-    },
-    {
-      "party": "CPI(M)",
-      "party_name": "Communist Party of India (Marxist)",
+      "party": "CPI",
+      "party_name": "Communist Party of India",
       "won": 0,
       "leading": 2,
       "total": 2
@@ -86,6 +79,13 @@
     {
       "party": "AMMKMNKZ",
       "party_name": "Amma Makkal Munnettra Kazagam",
+      "won": 0,
+      "leading": 1,
+      "total": 1
+    },
+    {
+      "party": "CPI(M)",
+      "party_name": "Communist Party of India (Marxist)",
       "won": 0,
       "leading": 1,
       "total": 1
