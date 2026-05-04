@@ -350,6 +350,15 @@
       </table>
     </div>
   </div>
+  <div class="card" id="district-card">
+    <div class="card-head">🏛️ District-wise Summary</div>
+    <div style="overflow-x:auto">
+      <table class="results-table" id="district-table">
+        <thead><tr><th>District</th><th>Seats</th><th>Leading Party</th><th>Won+Leading</th><th>Vote %</th><th>Turnout</th><th>2021 Leader</th><th>2021 Seats</th><th>Breakdown</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
   <div class="card" id="star-card">
     <div class="card-head">⭐ Star Candidates Tracker</div>
     <div style="overflow-x:auto">
@@ -837,6 +846,7 @@ function render() {
   renderResults();
   renderStarTable();
   renderBeltTable();
+  renderDistrictTable();
   document.getElementById('footer').textContent = `Data: Election Commission of India • ${d.last_updated}`;
 }
 
