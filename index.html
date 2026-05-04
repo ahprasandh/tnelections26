@@ -1078,6 +1078,122 @@ function renderBeltTable() {
   });
 }
 
+/* ── District-wise Table ── */
+function renderDistrictTable() {
+  const acDist = {};
+  if (GEO_DATA) {
+    for (const f of GEO_DATA.features) {
+      acDist[f.properties.AC_NO] = f.properties.DIST_NAME;
+    }
+  }
+
+  const distMap = {};
+  for (const r of CONST_DATA.results) {
+    const dist = acDist[r.const_no];
+    if (!dist) continue;
+    if (!distMap[dist]) distMap[dist] = [];
+    distMap[dist].push(r);
+  }
+
+  const tbody = document.querySelector('#district-table tbody');
+  const distRows = [];
+
+  for (const [district, distResults] of Object.entries(distMap)) {
+    const totalSeats = distResults.length;
+
+    const partySeats = {}, partyVotes = {};
+    let totalVotes = 0;
+    for (const r of distResults) {
+      if (r.leading_party) {
+        partySeats[r.leading_party] = (partySeats[r.leading_party] || 0) + 1;
+      }
+      const cm = candidateMap[r.const_no];
+      if (cm && cm.candidates) {
+        for (const c of cm.candidates) {
+          partyVotes[c.party] = (partyVotes[c.party] || 0) + c.total_votes;
+          totalVotes += c.total_votes;
+        }
+      }
+    }
+
+    const sortedParties = Object.entries(partySeats).sort((a, b) => b[1] - a[1]);
+    const topParty = sortedParties[0] || ['-', 0];
+    const topP = pm(topParty[0]);
+    const topVotes = partyVotes[topParty[0]] || 0;
+    const topVotePct = totalVotes > 0 ? (topVotes / totalVotes * 100).toFixed(1) : '0.0';
+
+    const breakdown = sortedParties.slice(0, 4).map(([name, seats]) => {
+      const p = pm(name);
+      return `<span class="party-name" style="background:${p.color};font-size:0.65rem;padding:0.1rem 0.3rem">${p.abbr} ${seats}</span>`;
+    }).join(' ');
+
+    let top21P = { abbr: '-', color: '#ccc', symbol: '' }, top21Seats = 0;
+    if (data2021) {
+      const seats21 = {};
+      for (const r of distResults) {
+        const d21 = data2021[r.const_no];
+        if (d21) {
+          const fullName = abbrToFull[d21.party] || d21.party;
+          seats21[fullName] = (seats21[fullName] || 0) + 1;
+        }
+      }
+      const sorted21 = Object.entries(seats21).sort((a, b) => b[1] - a[1]);
+      if (sorted21.length > 0) {
+        top21P = pm(sorted21[0][0]);
+        top21Seats = sorted21[0][1];
+      }
+    }
+
+    distRows.push({ district, totalSeats, topP, topSeats: topParty[1], topVotePct, breakdown, top21P, top21Seats, distResults, totalVotes });
+  }
+
+  distRows.sort((a, b) => a.district.localeCompare(b.district));
+
+  tbody.innerHTML = distRows.map((r, idx) => {
+    const detailRows = r.distResults
+      .map(cr => {
+        const lp = cr.leading_party ? pm(cr.leading_party) : null;
+        const marginVal = cr.margin !== '-' ? Number(cr.margin) : 0;
+        const marginStr = marginVal > 0 ? `<span style="font-size:0.75rem;color:#2e7d32">(+${inr(marginVal)})</span>` : '';
+        let statusCls = 'status-progress', statusText = cr.status || '-';
+        if (cr.status === 'Result Declared' || cr.status === 'Won') { statusCls = 'status-won'; statusText = 'Won'; }
+        else if (cr.leading_candidate) { statusCls = 'status-leading'; statusText = cr.round || 'Counting'; }
+        return `<tr class="dist-detail dist-detail-${idx}" style="display:none">
+          <td class="text-center">${cr.const_no}</td>
+          <td class="fw"><a class="const-link" href="#" onclick="showConstPopup(${cr.const_no});return false;">${esc(cr.constituency)}</a></td>
+          <td>${cr.leading_candidate ? candPhoto(cr.const_no, cr.leading_candidate) : ''}${esc(cr.leading_candidate) || '-'} ${marginStr}</td>
+          <td>${lp ? pb(lp) : '-'}</td>
+          <td class="text-center"><span class="status ${statusCls}">${esc(statusText)}</span></td>
+          <td></td><td></td><td></td><td></td>
+        </tr>`;
+      })
+      .join('');
+
+    return `<tr class="dist-region-row" style="cursor:pointer" data-idx="${idx}">
+    <td class="fw"><span class="dist-arrow" id="dist-arrow-${idx}" style="font-size:0.7rem;margin-right:0.3rem">▶</span>${r.district}</td>
+    <td class="text-center">${r.totalSeats}</td>
+    <td>${pb(r.topP)}</td>
+    <td class="text-center fw">${r.topSeats}</td>
+    <td class="text-right fw">${r.topVotePct}%</td>
+    <td class="text-right">${(() => { if (!electorsData) return '-'; let re = 0; for (const cr of r.distResults) { const el = electorsData[cr.const_no]; if (el) re += el.total; } return re > 0 ? (r.totalVotes / re * 100).toFixed(1) + '%' : '-'; })()}</td>
+    <td>${pb(r.top21P)}</td>
+    <td class="text-center">${r.top21Seats}</td>
+    <td>${r.breakdown}</td>
+  </tr>${detailRows}`;
+  }).join('');
+
+  tbody.querySelectorAll('.dist-region-row').forEach(tr => {
+    tr.addEventListener('click', () => {
+      const idx = tr.dataset.idx;
+      const details = tbody.querySelectorAll('.dist-detail-' + idx);
+      const arrow = document.getElementById('dist-arrow-' + idx);
+      const visible = details[0] && details[0].style.display !== 'none';
+      details.forEach(d => d.style.display = visible ? 'none' : '');
+      arrow.textContent = visible ? '▶' : '▼';
+    });
+  });
+}
+
 /* ── Star Candidates ── */
 function renderStarTable() {
   const tbody = document.querySelector('#star-table tbody');
