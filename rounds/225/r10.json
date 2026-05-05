@@ -1,0 +1,47 @@
+{
+  "round": 10,
+  "candidates": [
+    {
+      "name": "DR.ESAKKI SUBAYA",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 24540,
+      "postal_votes": 3246,
+      "total_votes": 27786
+    },
+    {
+      "name": "R.ESAIKANNAN",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 247,
+      "postal_votes": 28,
+      "total_votes": 275
+    },
+    {
+      "name": "DR.V.SIVASANKARAN",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 6031,
+      "postal_votes": 557,
+      "total_votes": 6588
+    },
+    {
+      "name": "V.P.DURAI",
+      "party": "Indian National Congress",
+      "evm_votes": 19291,
+      "postal_votes": 2367,
+      "total_votes": 21658
+    },
+    {
+      "name": "S.RAJAGOPAL",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 20981,
+      "postal_votes": 2727,
+      "total_votes": 23708
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 396,
+      "postal_votes": 56,
+      "total_votes": 452
+    }
+  ]
+}

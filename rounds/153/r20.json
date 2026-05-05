@@ -1,0 +1,89 @@
+{
+  "round": 20,
+  "candidates": [
+    {
+      "name": "SABA.RAJENDRAN",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 51820,
+      "postal_votes": 131,
+      "total_votes": 51951
+    },
+    {
+      "name": "RAJENDRAN.R",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 62803,
+      "postal_votes": 59,
+      "total_votes": 62862
+    },
+    {
+      "name": "VEERAMANI.B",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 4367,
+      "postal_votes": 15,
+      "total_votes": 4382
+    },
+    {
+      "name": "JOTHIMURUGAN.V",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 130,
+      "postal_votes": 0,
+      "total_votes": 130
+    },
+    {
+      "name": "ANAND.K",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 33814,
+      "postal_votes": 142,
+      "total_votes": 33956
+    },
+    {
+      "name": "THIRUMALVALAVAN.T",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 11237,
+      "postal_votes": 9,
+      "total_votes": 11246
+    },
+    {
+      "name": "MAYAKRISHNAN.K",
+      "party": "Veerath Thiyagi Viswanathadoss Thozhilalarkal Katchi",
+      "evm_votes": 136,
+      "postal_votes": 0,
+      "total_votes": 136
+    },
+    {
+      "name": "KARTHIKEYAN.C.M",
+      "party": "Independent",
+      "evm_votes": 457,
+      "postal_votes": 0,
+      "total_votes": 457
+    },
+    {
+      "name": "SATHIYASEELAN.M",
+      "party": "Independent",
+      "evm_votes": 99,
+      "postal_votes": 1,
+      "total_votes": 100
+    },
+    {
+      "name": "CHEZHIYAN.G",
+      "party": "Independent",
+      "evm_votes": 219,
+      "postal_votes": 1,
+      "total_votes": 220
+    },
+    {
+      "name": "MANIMARAN.P",
+      "party": "Independent",
+      "evm_votes": 343,
+      "postal_votes": 0,
+      "total_votes": 343
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 762,
+      "postal_votes": 2,
+      "total_votes": 764
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "round": 7,
+  "candidates": [
+    {
+      "name": "G.HARI",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 22073,
+      "postal_votes": 3168,
+      "total_votes": 25241
+    },
+    {
+      "name": "D.KRISHNAMURTHY",
+      "party": "Desiya Murpokku Dravida Kazhagam",
+      "evm_votes": 15011,
+      "postal_votes": 2366,
+      "total_votes": 17377
+    },
+    {
+      "name": "CHANDRAN .S.S",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 1732,
+      "postal_votes": 258,
+      "total_votes": 1990
+    },
+    {
+      "name": "MUTHURAJ.G",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 133,
+      "postal_votes": 31,
+      "total_votes": 164
+    },
+    {
+      "name": "M.SATHYA KUMAR",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 19974,
+      "postal_votes": 3692,
+      "total_votes": 23666
+    },
+    {
+      "name": "BALAJI.A",
+      "party": "Thakkam Katchi",
+      "evm_votes": 64,
+      "postal_votes": 11,
+      "total_votes": 75
+    },
+    {
+      "name": "PAVENDHAN.Y.R",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 26,
+      "postal_votes": 4,
+      "total_votes": 30
+    },
+    {
+      "name": "KRISHNAMOORTHY.K",
+      "party": "Independent",
+      "evm_votes": 45,
+      "postal_votes": 16,
+      "total_votes": 61
+    },
+    {
+      "name": "KRISHNAMOORTHY.D",
+      "party": "Independent",
+      "evm_votes": 107,
+      "postal_votes": 24,
+      "total_votes": 131
+    },
+    {
+      "name": "KRISHNAMOORTHY.M",
+      "party": "Independent",
+      "evm_votes": 280,
+      "postal_votes": 39,
+      "total_votes": 319
+    },
+    {
+      "name": "SHETTU.S",
+      "party": "Independent",
+      "evm_votes": 25,
+      "postal_votes": 13,
+      "total_votes": 38
+    },
+    {
+      "name": "DR.A.V.NARENDRAN",
+      "party": "Independent",
+      "evm_votes": 58,
+      "postal_votes": 10,
+      "total_votes": 68
+    },
+    {
+      "name": "JAMBU.B",
+      "party": "Independent",
+      "evm_votes": 199,
+      "postal_votes": 38,
+      "total_votes": 237
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 323,
+      "postal_votes": 40,
+      "total_votes": 363
+    }
+  ]
+}

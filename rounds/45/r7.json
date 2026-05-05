@@ -1,0 +1,89 @@
+{
+  "round": 7,
+  "candidates": [
+    {
+      "name": "DR. RAJESWARI. R",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 15571,
+      "postal_votes": 3026,
+      "total_votes": 18597
+    },
+    {
+      "name": "KALAIYENTHIRI. R",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 1640,
+      "postal_votes": 221,
+      "total_votes": 1861
+    },
+    {
+      "name": "JEGAN MOORTHY. M",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 16946,
+      "postal_votes": 2322,
+      "total_votes": 19268
+    },
+    {
+      "name": "ANANDALAI THANGARAJ. M",
+      "party": "All India Puratchi Thalaivar Makkal Munnettra Kazhagam",
+      "evm_votes": 166,
+      "postal_votes": 27,
+      "total_votes": 193
+    },
+    {
+      "name": "THENRAL KUMAR. E",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 22502,
+      "postal_votes": 3458,
+      "total_votes": 25960
+    },
+    {
+      "name": "RAJA. M",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 67,
+      "postal_votes": 8,
+      "total_votes": 75
+    },
+    {
+      "name": "KUMARESAN. L",
+      "party": "Independent",
+      "evm_votes": 45,
+      "postal_votes": 6,
+      "total_votes": 51
+    },
+    {
+      "name": "SATHISH. A",
+      "party": "Independent",
+      "evm_votes": 59,
+      "postal_votes": 13,
+      "total_votes": 72
+    },
+    {
+      "name": "MURUGAN. K.P",
+      "party": "Independent",
+      "evm_votes": 48,
+      "postal_votes": 9,
+      "total_votes": 57
+    },
+    {
+      "name": "JAYASHANKAR. J",
+      "party": "Independent",
+      "evm_votes": 80,
+      "postal_votes": 14,
+      "total_votes": 94
+    },
+    {
+      "name": "JAYA BHARATH. J",
+      "party": "Independent",
+      "evm_votes": 56,
+      "postal_votes": 8,
+      "total_votes": 64
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 334,
+      "postal_votes": 34,
+      "total_votes": 368
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "round": 25,
+  "candidates": [
+    {
+      "name": "ANBUSELVI A",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 9266,
+      "postal_votes": 101,
+      "total_votes": 9367
+    },
+    {
+      "name": "ERAMAKRISHNAN N",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 80193,
+      "postal_votes": 3401,
+      "total_votes": 83594
+    },
+    {
+      "name": "JAKKAIYAN S.T.K.",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 26430,
+      "postal_votes": 423,
+      "total_votes": 26853
+    },
+    {
+      "name": "KATHIRAVAN S",
+      "party": "New Generation People's Party",
+      "evm_votes": 316,
+      "postal_votes": 1,
+      "total_votes": 317
+    },
+    {
+      "name": "MUTHU BAGAVATHI M.",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 421,
+      "postal_votes": 6,
+      "total_votes": 427
+    },
+    {
+      "name": "JEGANATHMISHRA PLA",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 82906,
+      "postal_votes": 1434,
+      "total_votes": 84340
+    },
+    {
+      "name": "ASHOK KUMAR A",
+      "party": "Independent",
+      "evm_votes": 180,
+      "postal_votes": 1,
+      "total_votes": 181
+    },
+    {
+      "name": "ARUNKUMAR A",
+      "party": "Independent",
+      "evm_votes": 158,
+      "postal_votes": 3,
+      "total_votes": 161
+    },
+    {
+      "name": "SARAVANAN S.R.",
+      "party": "Independent",
+      "evm_votes": 109,
+      "postal_votes": 1,
+      "total_votes": 110
+    },
+    {
+      "name": "SUBRAMANIYAM L R",
+      "party": "Independent",
+      "evm_votes": 60,
+      "postal_votes": 1,
+      "total_votes": 61
+    },
+    {
+      "name": "THASTHAKEER I",
+      "party": "Independent",
+      "evm_votes": 190,
+      "postal_votes": 0,
+      "total_votes": 190
+    },
+    {
+      "name": "NANTHAKUMAR A.",
+      "party": "Independent",
+      "evm_votes": 69,
+      "postal_votes": 0,
+      "total_votes": 69
+    },
+    {
+      "name": "BALAN R",
+      "party": "Independent",
+      "evm_votes": 101,
+      "postal_votes": 2,
+      "total_votes": 103
+    },
+    {
+      "name": "PRAKASH P.",
+      "party": "Independent",
+      "evm_votes": 252,
+      "postal_votes": 1,
+      "total_votes": 253
+    },
+    {
+      "name": "PRAKASH P.",
+      "party": "Independent",
+      "evm_votes": 176,
+      "postal_votes": 1,
+      "total_votes": 177
+    },
+    {
+      "name": "MUTHUSELVAM G.",
+      "party": "Independent",
+      "evm_votes": 212,
+      "postal_votes": 1,
+      "total_votes": 213
+    },
+    {
+      "name": "RAJADURAI S",
+      "party": "Independent",
+      "evm_votes": 95,
+      "postal_votes": 1,
+      "total_votes": 96
+    },
+    {
+      "name": "RAJAMOHAMMED T",
+      "party": "Independent",
+      "evm_votes": 417,
+      "postal_votes": 4,
+      "total_votes": 421
+    },
+    {
+      "name": "VINOTH KUMAR R",
+      "party": "Independent",
+      "evm_votes": 151,
+      "postal_votes": 3,
+      "total_votes": 154
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 612,
+      "postal_votes": 32,
+      "total_votes": 644
+    }
+  ]
+}

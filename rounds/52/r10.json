@@ -1,0 +1,117 @@
+{
+  "round": 10,
+  "candidates": [
+    {
+      "name": "KAVINKUMAR. S",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 1715,
+      "postal_votes": 322,
+      "total_votes": 2037
+    },
+    {
+      "name": "E.C. GOVINDARASAN",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 25221,
+      "postal_votes": 2711,
+      "total_votes": 27932
+    },
+    {
+      "name": "D. SIVASANKARAN",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 290,
+      "postal_votes": 30,
+      "total_votes": 320
+    },
+    {
+      "name": "D. MATHIAZHAGAN",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 23571,
+      "postal_votes": 2648,
+      "total_votes": 26219
+    },
+    {
+      "name": "S. ALBERT FRANCIS XAVIER",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 263,
+      "postal_votes": 18,
+      "total_votes": 281
+    },
+    {
+      "name": "A. SUDHAKAR",
+      "party": "Republican Party of India (Athawale)",
+      "evm_votes": 251,
+      "postal_votes": 37,
+      "total_votes": 288
+    },
+    {
+      "name": "M. NEDUNCHEZLIAN",
+      "party": "Periyar Ambedkar Munnetra Kazhagam (PAMK)",
+      "evm_votes": 116,
+      "postal_votes": 17,
+      "total_votes": 133
+    },
+    {
+      "name": "MANI. K",
+      "party": "All India Youth Development Party",
+      "evm_votes": 200,
+      "postal_votes": 21,
+      "total_votes": 221
+    },
+    {
+      "name": "E. MURALIDHARAN",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 26480,
+      "postal_votes": 3660,
+      "total_votes": 30140
+    },
+    {
+      "name": "K. ANNADURAI",
+      "party": "Independent",
+      "evm_votes": 58,
+      "postal_votes": 11,
+      "total_votes": 69
+    },
+    {
+      "name": "ANITHA MAYAPERUMAL",
+      "party": "Independent",
+      "evm_votes": 55,
+      "postal_votes": 7,
+      "total_votes": 62
+    },
+    {
+      "name": "D. GOVINDARAJAN",
+      "party": "Independent",
+      "evm_votes": 87,
+      "postal_votes": 7,
+      "total_votes": 94
+    },
+    {
+      "name": "E.C. GOVINDARAJE",
+      "party": "Independent",
+      "evm_votes": 116,
+      "postal_votes": 15,
+      "total_votes": 131
+    },
+    {
+      "name": "S. SASIKUMAR",
+      "party": "Independent",
+      "evm_votes": 97,
+      "postal_votes": 16,
+      "total_votes": 113
+    },
+    {
+      "name": "MATHESH. R",
+      "party": "Independent",
+      "evm_votes": 105,
+      "postal_votes": 32,
+      "total_votes": 137
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 239,
+      "postal_votes": 29,
+      "total_votes": 268
+    }
+  ]
+}

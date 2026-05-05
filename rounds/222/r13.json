@@ -1,0 +1,166 @@
+{
+  "round": 13,
+  "candidates": [
+    {
+      "name": "ISAKI PANDIAN",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 228,
+      "postal_votes": 21,
+      "total_votes": 249
+    },
+    {
+      "name": "DR.KALAI KATHIRAVAN",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 38558,
+      "postal_votes": 2823,
+      "total_votes": 41381
+    },
+    {
+      "name": "S.SELVA MOHANDAS PANDIAN",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 31107,
+      "postal_votes": 3677,
+      "total_votes": 34784
+    },
+    {
+      "name": "P. PUSHPALATHA",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 5973,
+      "postal_votes": 969,
+      "total_votes": 6942
+    },
+    {
+      "name": "GOMATHI SANKAR",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 99,
+      "postal_votes": 8,
+      "total_votes": 107
+    },
+    {
+      "name": "R. SELVAKUMAR",
+      "party": "Naam Indiar Party",
+      "evm_votes": 23,
+      "postal_votes": 1,
+      "total_votes": 24
+    },
+    {
+      "name": "S.THIRUMALAI KUMAR",
+      "party": "Puthiya Tamilagam",
+      "evm_votes": 405,
+      "postal_votes": 3,
+      "total_votes": 408
+    },
+    {
+      "name": "M.POOSA DURAI",
+      "party": "All India Puratchi Thalaivar Makkal Munnettra Kazhagam",
+      "evm_votes": 1514,
+      "postal_votes": 8,
+      "total_votes": 1522
+    },
+    {
+      "name": "S.MANOGARAN",
+      "party": "Kamarajar Deseeya Congress",
+      "evm_votes": 81,
+      "postal_votes": 4,
+      "total_votes": 85
+    },
+    {
+      "name": "A. RAJAPRAKASH",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 26585,
+      "postal_votes": 1960,
+      "total_votes": 28545
+    },
+    {
+      "name": "GANESHAN. S",
+      "party": "Independent",
+      "evm_votes": 42,
+      "postal_votes": 6,
+      "total_votes": 48
+    },
+    {
+      "name": "K.M.KALIAPPAN",
+      "party": "Independent",
+      "evm_votes": 63,
+      "postal_votes": 4,
+      "total_votes": 67
+    },
+    {
+      "name": "R.KRISHNAN",
+      "party": "Independent",
+      "evm_votes": 82,
+      "postal_votes": 7,
+      "total_votes": 89
+    },
+    {
+      "name": "SHAHUL HAMEED",
+      "party": "Independent",
+      "evm_votes": 104,
+      "postal_votes": 11,
+      "total_votes": 115
+    },
+    {
+      "name": "S. THANGAPALAM",
+      "party": "Independent",
+      "evm_votes": 152,
+      "postal_votes": 15,
+      "total_votes": 167
+    },
+    {
+      "name": "DURAIRAJ",
+      "party": "Independent",
+      "evm_votes": 152,
+      "postal_votes": 8,
+      "total_votes": 160
+    },
+    {
+      "name": "P.NOBLE KRISHNA",
+      "party": "Independent",
+      "evm_votes": 94,
+      "postal_votes": 8,
+      "total_votes": 102
+    },
+    {
+      "name": "G. POORANA SELVAN",
+      "party": "Independent",
+      "evm_votes": 218,
+      "postal_votes": 30,
+      "total_votes": 248
+    },
+    {
+      "name": "M. PONNUDURAI",
+      "party": "Independent",
+      "evm_votes": 103,
+      "postal_votes": 20,
+      "total_votes": 123
+    },
+    {
+      "name": "A.MARIAPPAN",
+      "party": "Independent",
+      "evm_votes": 48,
+      "postal_votes": 5,
+      "total_votes": 53
+    },
+    {
+      "name": "K.MUTHU",
+      "party": "Independent",
+      "evm_votes": 42,
+      "postal_votes": 5,
+      "total_votes": 47
+    },
+    {
+      "name": "R. RAMKUMAR",
+      "party": "Independent",
+      "evm_votes": 88,
+      "postal_votes": 10,
+      "total_votes": 98
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 337,
+      "postal_votes": 24,
+      "total_votes": 361
+    }
+  ]
+}

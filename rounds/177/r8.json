@@ -1,0 +1,82 @@
+{
+  "round": 8,
+  "candidates": [
+    {
+      "name": "ASHOKKUMAR. N",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 20027,
+      "postal_votes": 4264,
+      "total_votes": 24291
+    },
+    {
+      "name": "GOVI.ELANGO",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 20398,
+      "postal_votes": 2145,
+      "total_votes": 22543
+    },
+    {
+      "name": "BHUVANA MANIYARASAN",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 3227,
+      "postal_votes": 399,
+      "total_votes": 3626
+    },
+    {
+      "name": "NEIVELI SASIKUMAR",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 186,
+      "postal_votes": 21,
+      "total_votes": 207
+    },
+    {
+      "name": "D.CHANDRAKANDEEBAN",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 16414,
+      "postal_votes": 2228,
+      "total_votes": 18642
+    },
+    {
+      "name": "G.CHITHIRAVELU",
+      "party": "Puthiya Tamilagam",
+      "evm_votes": 129,
+      "postal_votes": 8,
+      "total_votes": 137
+    },
+    {
+      "name": "R.RAVI",
+      "party": "All India Puratchi Thalaivar Makkal Munnettra Kazhagam",
+      "evm_votes": 377,
+      "postal_votes": 10,
+      "total_votes": 387
+    },
+    {
+      "name": "T.ARULMURUGAN",
+      "party": "Independent",
+      "evm_votes": 116,
+      "postal_votes": 13,
+      "total_votes": 129
+    },
+    {
+      "name": "U.UTHAYAKUMAR",
+      "party": "Independent",
+      "evm_votes": 114,
+      "postal_votes": 14,
+      "total_votes": 128
+    },
+    {
+      "name": "PASUMAIBHOOMI NATARAJAN",
+      "party": "Independent",
+      "evm_votes": 172,
+      "postal_votes": 17,
+      "total_votes": 189
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 248,
+      "postal_votes": 34,
+      "total_votes": 282
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "round": 10,
+  "candidates": [
+    {
+      "name": "DURAI. CHANDRASEKARAN",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 31037,
+      "postal_votes": 3138,
+      "total_votes": 34175
+    },
+    {
+      "name": "DURAI. SENTHILNATHAN",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 3757,
+      "postal_votes": 445,
+      "total_votes": 4202
+    },
+    {
+      "name": "VELU. KARTHIKEYAN",
+      "party": "Amma Makkal Munnettra Kazagam",
+      "evm_votes": 22349,
+      "postal_votes": 2244,
+      "total_votes": 24593
+    },
+    {
+      "name": "MATHI. MANIKANDAN",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 25322,
+      "postal_votes": 2639,
+      "total_votes": 27961
+    },
+    {
+      "name": "S. VIJAYAKUMAR",
+      "party": "Anna Puratchi Thalaivar Amma Dravida Munnetra Kazhagam",
+      "evm_votes": 122,
+      "postal_votes": 12,
+      "total_votes": 134
+    },
+    {
+      "name": "VIJAYA BABU",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 320,
+      "postal_votes": 56,
+      "total_votes": 376
+    },
+    {
+      "name": "V. VENU",
+      "party": "Puthiya Tamilagam",
+      "evm_votes": 89,
+      "postal_votes": 18,
+      "total_votes": 107
+    },
+    {
+      "name": "ABIMAN",
+      "party": "Independent",
+      "evm_votes": 43,
+      "postal_votes": 8,
+      "total_votes": 51
+    },
+    {
+      "name": "ER.S. ARJUN",
+      "party": "Independent",
+      "evm_votes": 41,
+      "postal_votes": 2,
+      "total_votes": 43
+    },
+    {
+      "name": "R. SATHIYANARAYANAN",
+      "party": "Independent",
+      "evm_votes": 59,
+      "postal_votes": 2,
+      "total_votes": 61
+    },
+    {
+      "name": "RAJASEKARAN. S",
+      "party": "Independent",
+      "evm_votes": 111,
+      "postal_votes": 17,
+      "total_votes": 128
+    },
+    {
+      "name": "R. RAJKUMAR",
+      "party": "Independent",
+      "evm_votes": 109,
+      "postal_votes": 11,
+      "total_votes": 120
+    },
+    {
+      "name": "JAYAINDHRAESWARAN",
+      "party": "Independent",
+      "evm_votes": 55,
+      "postal_votes": 7,
+      "total_votes": 62
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 339,
+      "postal_votes": 38,
+      "total_votes": 377
+    }
+  ]
+}

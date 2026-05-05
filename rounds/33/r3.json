@@ -1,0 +1,89 @@
+{
+  "round": 3,
+  "candidates": [
+    {
+      "name": "AMBETH RAJAN",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 1161,
+      "postal_votes": 463,
+      "total_votes": 1624
+    },
+    {
+      "name": "R. PANNEERDOSS",
+      "party": "Viduthalai Chiruthaigal Katchi",
+      "evm_votes": 5146,
+      "postal_votes": 2554,
+      "total_votes": 7700
+    },
+    {
+      "name": "Dr.D.VINOTH KUMAR",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 51,
+      "postal_votes": 25,
+      "total_votes": 76
+    },
+    {
+      "name": "A.SELVARAJ",
+      "party": "Mannin Maithargal Kazhagam",
+      "evm_votes": 34,
+      "postal_votes": 14,
+      "total_votes": 48
+    },
+    {
+      "name": "V. DESAPPAN",
+      "party": "Samata Party",
+      "evm_votes": 19,
+      "postal_votes": 6,
+      "total_votes": 25
+    },
+    {
+      "name": "K. BALU",
+      "party": "Pattali Makkal Katchi",
+      "evm_votes": 3154,
+      "postal_votes": 1357,
+      "total_votes": 4511
+    },
+    {
+      "name": "B.VIJAYARAJ",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 10721,
+      "postal_votes": 4012,
+      "total_votes": 14733
+    },
+    {
+      "name": "V M CHANDIRAN",
+      "party": "Independent",
+      "evm_votes": 32,
+      "postal_votes": 9,
+      "total_votes": 41
+    },
+    {
+      "name": "S. GNANASEKARAN",
+      "party": "Independent",
+      "evm_votes": 13,
+      "postal_votes": 14,
+      "total_votes": 27
+    },
+    {
+      "name": "D. PANNEERSELVAM",
+      "party": "Independent",
+      "evm_votes": 52,
+      "postal_votes": 11,
+      "total_votes": 63
+    },
+    {
+      "name": "S. MESHAK",
+      "party": "Independent",
+      "evm_votes": 35,
+      "postal_votes": 16,
+      "total_votes": 51
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 115,
+      "postal_votes": 57,
+      "total_votes": 172
+    }
+  ]
+}

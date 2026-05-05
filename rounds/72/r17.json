@@ -1,0 +1,110 @@
+{
+  "round": 17,
+  "candidates": [
+    {
+      "name": "ARJUNAN. P",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 48810,
+      "postal_votes": 3946,
+      "total_votes": 52756
+    },
+    {
+      "name": "PACHIMUTHU. P",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 3908,
+      "postal_votes": 281,
+      "total_votes": 4189
+    },
+    {
+      "name": "VANNI ARASU",
+      "party": "Viduthalai Chiruthaigal Katchi",
+      "evm_votes": 47991,
+      "postal_votes": 3505,
+      "total_votes": 51496
+    },
+    {
+      "name": "VENKATACHALAPATHY. A",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 323,
+      "postal_votes": 19,
+      "total_votes": 342
+    },
+    {
+      "name": "SAKTHIVEL. S",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 43607,
+      "postal_votes": 2806,
+      "total_votes": 46413
+    },
+    {
+      "name": "MOHAN. A",
+      "party": "MAKKAL SAKTHI KATCHI",
+      "evm_votes": 118,
+      "postal_votes": 8,
+      "total_votes": 126
+    },
+    {
+      "name": "RAMNESHWARAN. V",
+      "party": "Thakkam Katchi",
+      "evm_votes": 39,
+      "postal_votes": 8,
+      "total_votes": 47
+    },
+    {
+      "name": "VANJINATHAN. C",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 57,
+      "postal_votes": 4,
+      "total_votes": 61
+    },
+    {
+      "name": "CHANDARAN. A",
+      "party": "Independent",
+      "evm_votes": 66,
+      "postal_votes": 7,
+      "total_votes": 73
+    },
+    {
+      "name": "DURKALI. N",
+      "party": "Independent",
+      "evm_votes": 46,
+      "postal_votes": 5,
+      "total_votes": 51
+    },
+    {
+      "name": "DEVAKUMARAN. E",
+      "party": "Independent",
+      "evm_votes": 128,
+      "postal_votes": 14,
+      "total_votes": 142
+    },
+    {
+      "name": "PON.SIVAKUMAR",
+      "party": "Independent",
+      "evm_votes": 146,
+      "postal_votes": 14,
+      "total_votes": 160
+    },
+    {
+      "name": "VINOTH. S",
+      "party": "Independent",
+      "evm_votes": 318,
+      "postal_votes": 47,
+      "total_votes": 365
+    },
+    {
+      "name": "VISWANATHAN. S.A",
+      "party": "Independent",
+      "evm_votes": 159,
+      "postal_votes": 16,
+      "total_votes": 175
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 591,
+      "postal_votes": 27,
+      "total_votes": 618
+    }
+  ]
+}

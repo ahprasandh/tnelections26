@@ -1,0 +1,103 @@
+{
+  "round": 11,
+  "candidates": [
+    {
+      "name": "M. SINDHU EZHILARASAN",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 3456,
+      "postal_votes": 447,
+      "total_votes": 3903
+    },
+    {
+      "name": "K. SELVAPERUNTHAGAI",
+      "party": "Indian National Congress",
+      "evm_votes": 27144,
+      "postal_votes": 2825,
+      "total_votes": 29969
+    },
+    {
+      "name": "K. PALANI",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 25467,
+      "postal_votes": 2856,
+      "total_votes": 28323
+    },
+    {
+      "name": "A. GURUANANDHAN",
+      "party": "Anaithinthiya Anna Dravida Makkal Seyal katchi",
+      "evm_votes": 163,
+      "postal_votes": 15,
+      "total_votes": 178
+    },
+    {
+      "name": "A.GNANASEKARAN",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 91,
+      "postal_votes": 31,
+      "total_votes": 122
+    },
+    {
+      "name": "M.TAMILARASAN",
+      "party": "Communist Party of India (Marxist-Leninist) (Liberation)",
+      "evm_votes": 145,
+      "postal_votes": 21,
+      "total_votes": 166
+    },
+    {
+      "name": "THENNARASU.K",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 43824,
+      "postal_votes": 5160,
+      "total_votes": 48984
+    },
+    {
+      "name": "D.PURUSHOTHAMAN",
+      "party": "All India Puratchi Thalaivar Makkal Munnettra Kazhagam",
+      "evm_votes": 266,
+      "postal_votes": 8,
+      "total_votes": 274
+    },
+    {
+      "name": "ELANGOVAN SIVAKUMAR",
+      "party": "Independent",
+      "evm_votes": 41,
+      "postal_votes": 2,
+      "total_votes": 43
+    },
+    {
+      "name": "J. NITHYA",
+      "party": "Independent",
+      "evm_votes": 36,
+      "postal_votes": 6,
+      "total_votes": 42
+    },
+    {
+      "name": "E. MURUGAN",
+      "party": "Independent",
+      "evm_votes": 32,
+      "postal_votes": 4,
+      "total_votes": 36
+    },
+    {
+      "name": "G. RAJATHI",
+      "party": "Independent",
+      "evm_votes": 76,
+      "postal_votes": 4,
+      "total_votes": 80
+    },
+    {
+      "name": "P. VEDHAGIRI",
+      "party": "Independent",
+      "evm_votes": 96,
+      "postal_votes": 8,
+      "total_votes": 104
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 303,
+      "postal_votes": 39,
+      "total_votes": 342
+    }
+  ]
+}

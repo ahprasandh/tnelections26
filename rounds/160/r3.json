@@ -1,0 +1,82 @@
+{
+  "round": 3,
+  "candidates": [
+    {
+      "name": "GAJENDRAN.KANAGA",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 57,
+      "postal_votes": 25,
+      "total_votes": 82
+    },
+    {
+      "name": "SAKTHI.M",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 5824,
+      "postal_votes": 3832,
+      "total_votes": 9656
+    },
+    {
+      "name": "SUBASH.R",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 601,
+      "postal_votes": 225,
+      "total_votes": 826
+    },
+    {
+      "name": "SENTHILSELVAN.R",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 6664,
+      "postal_votes": 3200,
+      "total_votes": 9864
+    },
+    {
+      "name": "GOPINATH.S",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 5185,
+      "postal_votes": 2366,
+      "total_votes": 7551
+    },
+    {
+      "name": "PANDIYAN.C.R",
+      "party": "Indhu Dravida Makkal Katchi",
+      "evm_votes": 21,
+      "postal_votes": 10,
+      "total_votes": 31
+    },
+    {
+      "name": "BABUSANKAR.R",
+      "party": "Our Mahathma National Party",
+      "evm_votes": 20,
+      "postal_votes": 7,
+      "total_votes": 27
+    },
+    {
+      "name": "PETHAPERUMAL.K",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 15,
+      "postal_votes": 7,
+      "total_votes": 22
+    },
+    {
+      "name": "MALATHI.A",
+      "party": "All India Puratchi Thalaivar Makkal Munnettra Kazhagam",
+      "evm_votes": 35,
+      "postal_votes": 10,
+      "total_votes": 45
+    },
+    {
+      "name": "TAMILVENTHAN.R",
+      "party": "Independent",
+      "evm_votes": 19,
+      "postal_votes": 10,
+      "total_votes": 29
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 45,
+      "postal_votes": 29,
+      "total_votes": 74
+    }
+  ]
+}

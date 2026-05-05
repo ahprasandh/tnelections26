@@ -1,0 +1,159 @@
+{
+  "round": 4,
+  "candidates": [
+    {
+      "name": "RM. KARUMANICKAM",
+      "party": "Indian National Congress",
+      "evm_votes": 7296,
+      "postal_votes": 3108,
+      "total_votes": 10404
+    },
+    {
+      "name": "M.KEERTHIKA",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 6194,
+      "postal_votes": 1935,
+      "total_votes": 8129
+    },
+    {
+      "name": "N PREMNATH",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 1349,
+      "postal_votes": 435,
+      "total_votes": 1784
+    },
+    {
+      "name": "A MUTHUSAMY",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 26,
+      "postal_votes": 9,
+      "total_votes": 35
+    },
+    {
+      "name": "R ILAIYARAJA",
+      "party": "Indhu Dravida Makkal Katchi",
+      "evm_votes": 29,
+      "postal_votes": 8,
+      "total_votes": 37
+    },
+    {
+      "name": "K KALEESWARAN",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 28,
+      "postal_votes": 13,
+      "total_votes": 41
+    },
+    {
+      "name": "S SURESH KASINI VENTHAN",
+      "party": "All India Forward Bloc",
+      "evm_votes": 101,
+      "postal_votes": 38,
+      "total_votes": 139
+    },
+    {
+      "name": "S.BALUSAMY",
+      "party": "Puthiya Tamilagam",
+      "evm_votes": 53,
+      "postal_votes": 12,
+      "total_votes": 65
+    },
+    {
+      "name": "RAJEEV",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 6214,
+      "postal_votes": 2139,
+      "total_votes": 8353
+    },
+    {
+      "name": "MS ABDUL BAKKI",
+      "party": "Independent",
+      "evm_votes": 36,
+      "postal_votes": 22,
+      "total_votes": 58
+    },
+    {
+      "name": "ALLA PICHAI",
+      "party": "Independent",
+      "evm_votes": 11,
+      "postal_votes": 2,
+      "total_votes": 13
+    },
+    {
+      "name": "ALAGARSAMY PANDIAN",
+      "party": "Independent",
+      "evm_votes": 53,
+      "postal_votes": 38,
+      "total_votes": 91
+    },
+    {
+      "name": "N ANBU BAGURUDEEN",
+      "party": "Independent",
+      "evm_votes": 13,
+      "postal_votes": 3,
+      "total_votes": 16
+    },
+    {
+      "name": "SAKTHIK KUMAR",
+      "party": "Independent",
+      "evm_votes": 17,
+      "postal_votes": 1,
+      "total_votes": 18
+    },
+    {
+      "name": "B SIKKANDAR",
+      "party": "Independent",
+      "evm_votes": 31,
+      "postal_votes": 11,
+      "total_votes": 42
+    },
+    {
+      "name": "A SEGU ALI UDUMAN",
+      "party": "Independent",
+      "evm_votes": 43,
+      "postal_votes": 7,
+      "total_votes": 50
+    },
+    {
+      "name": "R THILAGESWARAN",
+      "party": "Independent",
+      "evm_votes": 58,
+      "postal_votes": 19,
+      "total_votes": 77
+    },
+    {
+      "name": "A DINESH KUMAR",
+      "party": "Independent",
+      "evm_votes": 47,
+      "postal_votes": 9,
+      "total_votes": 56
+    },
+    {
+      "name": "DEVASITHAM",
+      "party": "Independent",
+      "evm_votes": 15,
+      "postal_votes": 2,
+      "total_votes": 17
+    },
+    {
+      "name": "A MANI",
+      "party": "Independent",
+      "evm_votes": 4,
+      "postal_votes": 3,
+      "total_votes": 7
+    },
+    {
+      "name": "M.VIJAY",
+      "party": "Independent",
+      "evm_votes": 15,
+      "postal_votes": 2,
+      "total_votes": 17
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 38,
+      "postal_votes": 15,
+      "total_votes": 53
+    }
+  ]
+}

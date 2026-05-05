@@ -1,0 +1,117 @@
+{
+  "round": 25,
+  "candidates": [
+    {
+      "name": "V.P.KANDASAMY",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 69983,
+      "postal_votes": 3637,
+      "total_votes": 73620
+    },
+    {
+      "name": "THALAPATHY MURUGESAN",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 72299,
+      "postal_votes": 2527,
+      "total_votes": 74826
+    },
+    {
+      "name": "DR.S.RAJASEKARAN",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 9169,
+      "postal_votes": 206,
+      "total_votes": 9375
+    },
+    {
+      "name": "KANTHASAMY.K.",
+      "party": "Anna Puratchi Thalaivar Amma Dravida Munnetra Kazhagam",
+      "evm_votes": 248,
+      "postal_votes": 6,
+      "total_votes": 254
+    },
+    {
+      "name": "NM.SUKUMAR",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 82968,
+      "postal_votes": 1967,
+      "total_votes": 84935
+    },
+    {
+      "name": "SUMAN SINGH.R.",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 189,
+      "postal_votes": 4,
+      "total_votes": 193
+    },
+    {
+      "name": "NAGARAJ.K.",
+      "party": "Ganasangam Party of India",
+      "evm_votes": 117,
+      "postal_votes": 3,
+      "total_votes": 120
+    },
+    {
+      "name": "NELSON.W.",
+      "party": "Tamilaga Makkal Nala Katchi",
+      "evm_votes": 65,
+      "postal_votes": 2,
+      "total_votes": 67
+    },
+    {
+      "name": "PALANISAMY.M.",
+      "party": "Party for the Rights of Other backward Classes",
+      "evm_votes": 144,
+      "postal_votes": 3,
+      "total_votes": 147
+    },
+    {
+      "name": "PAPPA MUTHULAKSHMI.P.",
+      "party": "All India Puratchi Thalaivar Makkal Munnettra Kazhagam",
+      "evm_votes": 200,
+      "postal_votes": 2,
+      "total_votes": 202
+    },
+    {
+      "name": "KANDASAMY.A.",
+      "party": "Independent",
+      "evm_votes": 88,
+      "postal_votes": 4,
+      "total_votes": 92
+    },
+    {
+      "name": "KANDASAMY.R.",
+      "party": "Independent",
+      "evm_votes": 229,
+      "postal_votes": 9,
+      "total_votes": 238
+    },
+    {
+      "name": "KANDASAMY.V.",
+      "party": "Independent",
+      "evm_votes": 72,
+      "postal_votes": 2,
+      "total_votes": 74
+    },
+    {
+      "name": "MURUGESAN.N.",
+      "party": "Independent",
+      "evm_votes": 110,
+      "postal_votes": 7,
+      "total_votes": 117
+    },
+    {
+      "name": "MURUGESH.R.",
+      "party": "Independent",
+      "evm_votes": 335,
+      "postal_votes": 14,
+      "total_votes": 349
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 1164,
+      "postal_votes": 34,
+      "total_votes": 1198
+    }
+  ]
+}

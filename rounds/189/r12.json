@@ -1,0 +1,117 @@
+{
+  "round": 12,
+  "candidates": [
+    {
+      "name": "SELVAM K",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 5155,
+      "postal_votes": 434,
+      "total_votes": 5589
+    },
+    {
+      "name": "MAHENDRAN K",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 11687,
+      "postal_votes": 1043,
+      "total_votes": 12730
+    },
+    {
+      "name": "MOORTHY P",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 40575,
+      "postal_votes": 3039,
+      "total_votes": 43614
+    },
+    {
+      "name": "KARTHIKEYAN S",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 44253,
+      "postal_votes": 3589,
+      "total_votes": 47842
+    },
+    {
+      "name": "BHARATHIRAJA A",
+      "party": "Puthiya Tamilagam",
+      "evm_votes": 198,
+      "postal_votes": 18,
+      "total_votes": 216
+    },
+    {
+      "name": "PRINCE S",
+      "party": "Republican Party of India (Athawale)",
+      "evm_votes": 561,
+      "postal_votes": 56,
+      "total_votes": 617
+    },
+    {
+      "name": "BOOMIRAJAN K",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 50,
+      "postal_votes": 4,
+      "total_votes": 54
+    },
+    {
+      "name": "ARASU S",
+      "party": "Independent",
+      "evm_votes": 58,
+      "postal_votes": 5,
+      "total_votes": 63
+    },
+    {
+      "name": "ARUN PANDIAN A J",
+      "party": "Independent",
+      "evm_votes": 50,
+      "postal_votes": 6,
+      "total_votes": 56
+    },
+    {
+      "name": "AJAY KANNAN A",
+      "party": "Independent",
+      "evm_votes": 54,
+      "postal_votes": 9,
+      "total_votes": 63
+    },
+    {
+      "name": "KARTHIKEYAN G",
+      "party": "Independent",
+      "evm_votes": 266,
+      "postal_votes": 29,
+      "total_votes": 295
+    },
+    {
+      "name": "CHANDRA MOULISWARAN A",
+      "party": "Independent",
+      "evm_votes": 28,
+      "postal_votes": 0,
+      "total_votes": 28
+    },
+    {
+      "name": "PITCHAI V",
+      "party": "Independent",
+      "evm_votes": 77,
+      "postal_votes": 3,
+      "total_votes": 80
+    },
+    {
+      "name": "MUGESHKUMAR M",
+      "party": "Independent",
+      "evm_votes": 178,
+      "postal_votes": 6,
+      "total_votes": 184
+    },
+    {
+      "name": "VELLADURAI A",
+      "party": "Independent",
+      "evm_votes": 50,
+      "postal_votes": 4,
+      "total_votes": 54
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 527,
+      "postal_votes": 42,
+      "total_votes": 569
+    }
+  ]
+}

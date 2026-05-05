@@ -1,0 +1,117 @@
+{
+  "round": 6,
+  "candidates": [
+    {
+      "name": "NACHIMUTHU. S",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 132,
+      "postal_votes": 23,
+      "total_votes": 155
+    },
+    {
+      "name": "PANDI. N",
+      "party": "Communist Party of India (Marxist)",
+      "evm_votes": 14447,
+      "postal_votes": 2858,
+      "total_votes": 17305
+    },
+    {
+      "name": "MURUGESWARI. B",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 1228,
+      "postal_votes": 301,
+      "total_votes": 1529
+    },
+    {
+      "name": "RAVIMANOHARAN. K",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 15360,
+      "postal_votes": 2925,
+      "total_votes": 18285
+    },
+    {
+      "name": "DR. PRAVEEN KUMAR. M",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 13115,
+      "postal_votes": 3417,
+      "total_votes": 16532
+    },
+    {
+      "name": "RAMAMOORTHI. G",
+      "party": "Rashtriya Samaj Dal (R)",
+      "evm_votes": 43,
+      "postal_votes": 13,
+      "total_votes": 56
+    },
+    {
+      "name": "VAYKKALDURAI. K",
+      "party": "Puthiya Tamilagam",
+      "evm_votes": 52,
+      "postal_votes": 5,
+      "total_votes": 57
+    },
+    {
+      "name": "ASHOKKUMAR. G",
+      "party": "Independent",
+      "evm_votes": 68,
+      "postal_votes": 8,
+      "total_votes": 76
+    },
+    {
+      "name": "ANBARASU. R",
+      "party": "Independent",
+      "evm_votes": 15,
+      "postal_votes": 5,
+      "total_votes": 20
+    },
+    {
+      "name": "THANNASIAPPAN. P",
+      "party": "Independent",
+      "evm_votes": 20,
+      "postal_votes": 5,
+      "total_votes": 25
+    },
+    {
+      "name": "THIRUMALAISAMY. B",
+      "party": "Independent",
+      "evm_votes": 17,
+      "postal_votes": 1,
+      "total_votes": 18
+    },
+    {
+      "name": "BALACHANDRAN. M",
+      "party": "Independent",
+      "evm_votes": 40,
+      "postal_votes": 4,
+      "total_votes": 44
+    },
+    {
+      "name": "PRAVEENKUMAR. R",
+      "party": "Independent",
+      "evm_votes": 52,
+      "postal_votes": 13,
+      "total_votes": 65
+    },
+    {
+      "name": "MADHESWARI. R",
+      "party": "Independent",
+      "evm_votes": 45,
+      "postal_votes": 3,
+      "total_votes": 48
+    },
+    {
+      "name": "JAYAKUMAR. T",
+      "party": "Independent",
+      "evm_votes": 89,
+      "postal_votes": 18,
+      "total_votes": 107
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 203,
+      "postal_votes": 51,
+      "total_votes": 254
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "round": 8,
+  "candidates": [
+    {
+      "name": "SABA.RAJENDRAN",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 20106,
+      "postal_votes": 2494,
+      "total_votes": 22600
+    },
+    {
+      "name": "RAJENDRAN.R",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 29539,
+      "postal_votes": 4111,
+      "total_votes": 33650
+    },
+    {
+      "name": "VEERAMANI.B",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 1505,
+      "postal_votes": 179,
+      "total_votes": 1684
+    },
+    {
+      "name": "JOTHIMURUGAN.V",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 44,
+      "postal_votes": 6,
+      "total_votes": 50
+    },
+    {
+      "name": "ANAND.K",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 10650,
+      "postal_votes": 1320,
+      "total_votes": 11970
+    },
+    {
+      "name": "THIRUMALVALAVAN.T",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 6612,
+      "postal_votes": 1044,
+      "total_votes": 7656
+    },
+    {
+      "name": "MAYAKRISHNAN.K",
+      "party": "Veerath Thiyagi Viswanathadoss Thozhilalarkal Katchi",
+      "evm_votes": 66,
+      "postal_votes": 18,
+      "total_votes": 84
+    },
+    {
+      "name": "KARTHIKEYAN.C.M",
+      "party": "Independent",
+      "evm_votes": 228,
+      "postal_votes": 33,
+      "total_votes": 261
+    },
+    {
+      "name": "SATHIYASEELAN.M",
+      "party": "Independent",
+      "evm_votes": 50,
+      "postal_votes": 3,
+      "total_votes": 53
+    },
+    {
+      "name": "CHEZHIYAN.G",
+      "party": "Independent",
+      "evm_votes": 98,
+      "postal_votes": 9,
+      "total_votes": 107
+    },
+    {
+      "name": "MANIMARAN.P",
+      "party": "Independent",
+      "evm_votes": 175,
+      "postal_votes": 14,
+      "total_votes": 189
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 287,
+      "postal_votes": 28,
+      "total_votes": 315
+    }
+  ]
+}

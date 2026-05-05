@@ -1,0 +1,278 @@
+{
+  "round": 12,
+  "candidates": [
+    {
+      "name": "R.S.RAAJESH",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 16017,
+      "postal_votes": 1846,
+      "total_votes": 17863
+    },
+    {
+      "name": "VENNILA.T",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 3608,
+      "postal_votes": 303,
+      "total_votes": 3911
+    },
+    {
+      "name": "J. JOHN EBENEZER",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 32241,
+      "postal_votes": 2002,
+      "total_votes": 34243
+    },
+    {
+      "name": "E. RAAMADASAN",
+      "party": "Makkal Nalvaazhvuk Katchi",
+      "evm_votes": 146,
+      "postal_votes": 14,
+      "total_votes": 160
+    },
+    {
+      "name": "D.KARTHIKEYAN",
+      "party": "Samata Party",
+      "evm_votes": 28,
+      "postal_votes": 4,
+      "total_votes": 32
+    },
+    {
+      "name": "CHANDRASEKAR",
+      "party": "Tamizhaga Murpokku Makkal Katchi",
+      "evm_votes": 23,
+      "postal_votes": 2,
+      "total_votes": 25
+    },
+    {
+      "name": "B.NAVIN",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 223,
+      "postal_votes": 12,
+      "total_votes": 235
+    },
+    {
+      "name": "N. MARIE WILSON",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 61929,
+      "postal_votes": 5338,
+      "total_votes": 67267
+    },
+    {
+      "name": "A.MOHANRAJ",
+      "party": "Socialist Unity Centre Of India (COMMUNIST)",
+      "evm_votes": 92,
+      "postal_votes": 7,
+      "total_votes": 99
+    },
+    {
+      "name": "AMUDHA.N",
+      "party": "Independent",
+      "evm_votes": 17,
+      "postal_votes": 0,
+      "total_votes": 17
+    },
+    {
+      "name": "D. AJITH KUMAR",
+      "party": "Independent",
+      "evm_votes": 16,
+      "postal_votes": 4,
+      "total_votes": 20
+    },
+    {
+      "name": "S.EMMANUVEL",
+      "party": "Independent",
+      "evm_votes": 11,
+      "postal_votes": 2,
+      "total_votes": 13
+    },
+    {
+      "name": "A. USHA",
+      "party": "Independent",
+      "evm_votes": 21,
+      "postal_votes": 6,
+      "total_votes": 27
+    },
+    {
+      "name": "R.ETHIRAJ",
+      "party": "Independent",
+      "evm_votes": 26,
+      "postal_votes": 3,
+      "total_votes": 29
+    },
+    {
+      "name": "V.SHANKAR",
+      "party": "Independent",
+      "evm_votes": 17,
+      "postal_votes": 3,
+      "total_votes": 20
+    },
+    {
+      "name": "M. SATHISH",
+      "party": "Independent",
+      "evm_votes": 70,
+      "postal_votes": 8,
+      "total_votes": 78
+    },
+    {
+      "name": "J.SARAVANAKUMAR",
+      "party": "Independent",
+      "evm_votes": 104,
+      "postal_votes": 3,
+      "total_votes": 107
+    },
+    {
+      "name": "L.SARAVANAN",
+      "party": "Independent",
+      "evm_votes": 25,
+      "postal_votes": 2,
+      "total_votes": 27
+    },
+    {
+      "name": "V.SUDHAKAR",
+      "party": "Independent",
+      "evm_votes": 51,
+      "postal_votes": 3,
+      "total_votes": 54
+    },
+    {
+      "name": "K. SUJITH",
+      "party": "Independent",
+      "evm_votes": 15,
+      "postal_votes": 2,
+      "total_votes": 17
+    },
+    {
+      "name": "R.TAMILARASAN",
+      "party": "Independent",
+      "evm_votes": 23,
+      "postal_votes": 1,
+      "total_votes": 24
+    },
+    {
+      "name": "TAMILSELVAN",
+      "party": "Independent",
+      "evm_votes": 16,
+      "postal_votes": 1,
+      "total_votes": 17
+    },
+    {
+      "name": "R.DEVAKUMAR",
+      "party": "Independent",
+      "evm_votes": 22,
+      "postal_votes": 1,
+      "total_votes": 23
+    },
+    {
+      "name": "D.PRABHU",
+      "party": "Independent",
+      "evm_votes": 122,
+      "postal_votes": 14,
+      "total_votes": 136
+    },
+    {
+      "name": "G. BOTHI RAJAN",
+      "party": "Independent",
+      "evm_votes": 31,
+      "postal_votes": 1,
+      "total_votes": 32
+    },
+    {
+      "name": "MANIKANDAN.H",
+      "party": "Independent",
+      "evm_votes": 19,
+      "postal_votes": 1,
+      "total_votes": 20
+    },
+    {
+      "name": "G. MADHAN KUMAR",
+      "party": "Independent",
+      "evm_votes": 11,
+      "postal_votes": 1,
+      "total_votes": 12
+    },
+    {
+      "name": "V. MADHAN MOHAN",
+      "party": "Independent",
+      "evm_votes": 23,
+      "postal_votes": 2,
+      "total_votes": 25
+    },
+    {
+      "name": "P. MARIMUTHU",
+      "party": "Independent",
+      "evm_votes": 13,
+      "postal_votes": 2,
+      "total_votes": 15
+    },
+    {
+      "name": "R. MUTHU CHELLA BHARATHI",
+      "party": "Independent",
+      "evm_votes": 22,
+      "postal_votes": 2,
+      "total_votes": 24
+    },
+    {
+      "name": "K. MURALI",
+      "party": "Independent",
+      "evm_votes": 53,
+      "postal_votes": 4,
+      "total_votes": 57
+    },
+    {
+      "name": "J.MURALI KRISHNAN",
+      "party": "Independent",
+      "evm_votes": 23,
+      "postal_votes": 2,
+      "total_votes": 25
+    },
+    {
+      "name": "C. RAJAMANICKAM",
+      "party": "Independent",
+      "evm_votes": 36,
+      "postal_votes": 4,
+      "total_votes": 40
+    },
+    {
+      "name": "J.VIJAYAN",
+      "party": "Independent",
+      "evm_votes": 14,
+      "postal_votes": 2,
+      "total_votes": 16
+    },
+    {
+      "name": "A.VIJAY",
+      "party": "Independent",
+      "evm_votes": 38,
+      "postal_votes": 5,
+      "total_votes": 43
+    },
+    {
+      "name": "G. VIJAY",
+      "party": "Independent",
+      "evm_votes": 34,
+      "postal_votes": 3,
+      "total_votes": 37
+    },
+    {
+      "name": "C.JANARTHANAN",
+      "party": "Independent",
+      "evm_votes": 30,
+      "postal_votes": 1,
+      "total_votes": 31
+    },
+    {
+      "name": "D. JANARTHANAN",
+      "party": "Independent",
+      "evm_votes": 18,
+      "postal_votes": 2,
+      "total_votes": 20
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 347,
+      "postal_votes": 36,
+      "total_votes": 383
+    }
+  ]
+}

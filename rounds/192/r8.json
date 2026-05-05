@@ -1,0 +1,54 @@
+{
+  "round": 8,
+  "candidates": [
+    {
+      "name": "RAAMA SREENIVASAN",
+      "party": "Bharatiya Janata Party",
+      "evm_votes": 13347,
+      "postal_votes": 1957,
+      "total_votes": 15304
+    },
+    {
+      "name": "B.M.SUMATHY",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 2197,
+      "postal_votes": 294,
+      "total_votes": 2491
+    },
+    {
+      "name": "M.BOOMINATHAN",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 17986,
+      "postal_votes": 2184,
+      "total_votes": 20170
+    },
+    {
+      "name": "S.IRUTHYARAJ",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 158,
+      "postal_votes": 16,
+      "total_votes": 174
+    },
+    {
+      "name": "M.M.GOPISON",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 24844,
+      "postal_votes": 3446,
+      "total_votes": 28290
+    },
+    {
+      "name": "K.JEYA",
+      "party": "Independent",
+      "evm_votes": 114,
+      "postal_votes": 11,
+      "total_votes": 125
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 263,
+      "postal_votes": 34,
+      "total_votes": 297
+    }
+  ]
+}

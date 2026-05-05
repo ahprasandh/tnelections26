@@ -1,0 +1,103 @@
+{
+  "round": 11,
+  "candidates": [
+    {
+      "name": "ILAYANAGULAN. K",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 2680,
+      "postal_votes": 265,
+      "total_votes": 2945
+    },
+    {
+      "name": "NIVEDHA M MURUGAN",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 30961,
+      "postal_votes": 4147,
+      "total_votes": 35108
+    },
+    {
+      "name": "PAVUNRAJ. S",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 32349,
+      "postal_votes": 1774,
+      "total_votes": 34123
+    },
+    {
+      "name": "PRABAKARAN. V",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 174,
+      "postal_votes": 6,
+      "total_votes": 180
+    },
+    {
+      "name": "PURATCHIDASAN. T",
+      "party": "Anaithinthiya Anna Dravida Makkal Seyal katchi",
+      "evm_votes": 120,
+      "postal_votes": 8,
+      "total_votes": 128
+    },
+    {
+      "name": "VIJAYALAIYAN. J",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 24746,
+      "postal_votes": 1620,
+      "total_votes": 26366
+    },
+    {
+      "name": "ANANDARAJ. D",
+      "party": "Independent",
+      "evm_votes": 49,
+      "postal_votes": 5,
+      "total_votes": 54
+    },
+    {
+      "name": "INBARAJ. T",
+      "party": "Independent",
+      "evm_votes": 91,
+      "postal_votes": 7,
+      "total_votes": 98
+    },
+    {
+      "name": "NOOR NISHA. M",
+      "party": "Independent",
+      "evm_votes": 51,
+      "postal_votes": 1,
+      "total_votes": 52
+    },
+    {
+      "name": "MAYA VENKATESAN. M",
+      "party": "Independent",
+      "evm_votes": 535,
+      "postal_votes": 7,
+      "total_votes": 542
+    },
+    {
+      "name": "MURUGAN. S",
+      "party": "Independent",
+      "evm_votes": 26,
+      "postal_votes": 3,
+      "total_votes": 29
+    },
+    {
+      "name": "MUJIBUR RAHMAN. E.M.M",
+      "party": "Independent",
+      "evm_votes": 126,
+      "postal_votes": 11,
+      "total_votes": 137
+    },
+    {
+      "name": "SHANGAMITHTHIRAN. A",
+      "party": "Independent",
+      "evm_votes": 179,
+      "postal_votes": 11,
+      "total_votes": 190
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 235,
+      "postal_votes": 21,
+      "total_votes": 256
+    }
+  ]
+}

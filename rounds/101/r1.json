@@ -1,0 +1,75 @@
+{
+  "round": 1,
+  "candidates": [
+    {
+      "name": "INDIRANI.T",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 0,
+      "postal_votes": 2191,
+      "total_votes": 2191
+    },
+    {
+      "name": "SATHYABAMA.P",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 0,
+      "postal_votes": 4273,
+      "total_votes": 4273
+    },
+    {
+      "name": "DHIVYA",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 0,
+      "postal_votes": 199,
+      "total_votes": 199
+    },
+    {
+      "name": "GOWRI CHITRA",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 0,
+      "postal_votes": 1717,
+      "total_votes": 1717
+    },
+    {
+      "name": "ANANTHI.S",
+      "party": "Independent",
+      "evm_votes": 0,
+      "postal_votes": 6,
+      "total_votes": 6
+    },
+    {
+      "name": "INDHIRANI.C",
+      "party": "Independent",
+      "evm_votes": 0,
+      "postal_votes": 8,
+      "total_votes": 8
+    },
+    {
+      "name": "GOWRI.P",
+      "party": "Independent",
+      "evm_votes": 0,
+      "postal_votes": 7,
+      "total_votes": 7
+    },
+    {
+      "name": "MOHANRAJ.M",
+      "party": "Independent",
+      "evm_votes": 0,
+      "postal_votes": 8,
+      "total_votes": 8
+    },
+    {
+      "name": "ROHINI.S",
+      "party": "Independent",
+      "evm_votes": 0,
+      "postal_votes": 15,
+      "total_votes": 15
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 0,
+      "postal_votes": 51,
+      "total_votes": 51
+    }
+  ]
+}

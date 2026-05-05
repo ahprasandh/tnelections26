@@ -1,0 +1,103 @@
+{
+  "round": 3,
+  "candidates": [
+    {
+      "name": "TAMILSELVAN. M",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 550,
+      "postal_votes": 337,
+      "total_votes": 887
+    },
+    {
+      "name": "MUKKUR N. SUBRAMANIAN",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 7334,
+      "postal_votes": 4254,
+      "total_votes": 11588
+    },
+    {
+      "name": "JOTHI. O",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 3970,
+      "postal_votes": 2478,
+      "total_votes": 6448
+    },
+    {
+      "name": "KUTTIMANI. S",
+      "party": "Veerath Thiyagi Viswanathadoss Thozhilalarkal Katchi",
+      "evm_votes": 26,
+      "postal_votes": 15,
+      "total_votes": 41
+    },
+    {
+      "name": "CHANDRASEKARAN. M",
+      "party": "All India Jananayaka Makkal Kazhagam",
+      "evm_votes": 13,
+      "postal_votes": 5,
+      "total_votes": 18
+    },
+    {
+      "name": "SRINIVASAN. K",
+      "party": "Aanaithinthiya Jananayaka Pathukappu Kazhagam",
+      "evm_votes": 19,
+      "postal_votes": 10,
+      "total_votes": 29
+    },
+    {
+      "name": "DURUGAN. M",
+      "party": "Vanchit Bahujan Aaghadi",
+      "evm_votes": 41,
+      "postal_votes": 24,
+      "total_votes": 65
+    },
+    {
+      "name": "DUSI K MOHAN",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 5071,
+      "postal_votes": 2757,
+      "total_votes": 7828
+    },
+    {
+      "name": "PALANI. M",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 12,
+      "postal_votes": 11,
+      "total_votes": 23
+    },
+    {
+      "name": "RAGUPATHI. S",
+      "party": "Anti Corruption Dynamic Party",
+      "evm_votes": 15,
+      "postal_votes": 3,
+      "total_votes": 18
+    },
+    {
+      "name": "VENKATESAN. V",
+      "party": "Anaithindia Samudaya Munnetra Kazhagam",
+      "evm_votes": 17,
+      "postal_votes": 8,
+      "total_votes": 25
+    },
+    {
+      "name": "ARJUNAN. M",
+      "party": "Independent",
+      "evm_votes": 18,
+      "postal_votes": 11,
+      "total_votes": 29
+    },
+    {
+      "name": "MOHAN. R",
+      "party": "Independent",
+      "evm_votes": 37,
+      "postal_votes": 28,
+      "total_votes": 65
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 59,
+      "postal_votes": 47,
+      "total_votes": 106
+    }
+  ]
+}

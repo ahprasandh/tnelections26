@@ -1,0 +1,103 @@
+{
+  "round": 13,
+  "candidates": [
+    {
+      "name": "NIVIN SIMON. J",
+      "party": "Bharatiya Janata Party",
+      "evm_votes": 17793,
+      "postal_votes": 844,
+      "total_votes": 18637
+    },
+    {
+      "name": "RAJESH KUMAR. S",
+      "party": "Indian National Congress",
+      "evm_votes": 36110,
+      "postal_votes": 3994,
+      "total_votes": 40104
+    },
+    {
+      "name": "HIMLAR",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 5869,
+      "postal_votes": 536,
+      "total_votes": 6405
+    },
+    {
+      "name": "SABIN. S",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 37904,
+      "postal_votes": 2351,
+      "total_votes": 40255
+    },
+    {
+      "name": "PRABHU. S",
+      "party": "Thamizhaka Padaippalar Makkal Katchi",
+      "evm_votes": 250,
+      "postal_votes": 16,
+      "total_votes": 266
+    },
+    {
+      "name": "RUBIN ANTONY",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 87,
+      "postal_votes": 7,
+      "total_votes": 94
+    },
+    {
+      "name": "JUSTIN. T",
+      "party": "Indian Christian Front",
+      "evm_votes": 45,
+      "postal_votes": 9,
+      "total_votes": 54
+    },
+    {
+      "name": "DR. RAMACHANDRAN. M",
+      "party": "Independent",
+      "evm_votes": 28,
+      "postal_votes": 4,
+      "total_votes": 32
+    },
+    {
+      "name": "SATHEESH. S",
+      "party": "Independent",
+      "evm_votes": 92,
+      "postal_votes": 5,
+      "total_votes": 97
+    },
+    {
+      "name": "AJAI (ALIAS) NAGARAJAN",
+      "party": "Independent",
+      "evm_votes": 95,
+      "postal_votes": 7,
+      "total_votes": 102
+    },
+    {
+      "name": "BERRILA. L",
+      "party": "Independent",
+      "evm_votes": 105,
+      "postal_votes": 16,
+      "total_votes": 121
+    },
+    {
+      "name": "BABY RAJ. P",
+      "party": "Independent",
+      "evm_votes": 93,
+      "postal_votes": 10,
+      "total_votes": 103
+    },
+    {
+      "name": "JUSTIN. M",
+      "party": "Independent",
+      "evm_votes": 120,
+      "postal_votes": 11,
+      "total_votes": 131
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 291,
+      "postal_votes": 17,
+      "total_votes": 308
+    }
+  ]
+}

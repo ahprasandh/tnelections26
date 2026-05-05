@@ -1,0 +1,89 @@
+{
+  "round": 22,
+  "candidates": [
+    {
+      "name": "SHAN. RAMANATHAN",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 64948,
+      "postal_votes": 3480,
+      "total_votes": 68428
+    },
+    {
+      "name": "N. KRISHNAKUMAR",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 8542,
+      "postal_votes": 571,
+      "total_votes": 9113
+    },
+    {
+      "name": "KARUPPU MURUGANANTHAM",
+      "party": "Bharatiya Janata Party",
+      "evm_votes": 25125,
+      "postal_votes": 978,
+      "total_votes": 26103
+    },
+    {
+      "name": "H. MOHAMED ABDUL KHADIR",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 258,
+      "postal_votes": 4,
+      "total_votes": 262
+    },
+    {
+      "name": "S. MUTHUVEL",
+      "party": "Bahujan Dravida Party",
+      "evm_votes": 481,
+      "postal_votes": 22,
+      "total_votes": 503
+    },
+    {
+      "name": "R. VIJAYSARAVANAN",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 82220,
+      "postal_votes": 3760,
+      "total_votes": 85980
+    },
+    {
+      "name": "S. KARIKALA CHOLAN",
+      "party": "Independent",
+      "evm_votes": 758,
+      "postal_votes": 25,
+      "total_votes": 783
+    },
+    {
+      "name": "D. KUMARAN",
+      "party": "Independent",
+      "evm_votes": 150,
+      "postal_votes": 5,
+      "total_votes": 155
+    },
+    {
+      "name": "M. SANTHOSH",
+      "party": "Independent",
+      "evm_votes": 162,
+      "postal_votes": 7,
+      "total_votes": 169
+    },
+    {
+      "name": "R. SABTHAGIRI",
+      "party": "Independent",
+      "evm_votes": 128,
+      "postal_votes": 7,
+      "total_votes": 135
+    },
+    {
+      "name": "R. MURALIDHARAN",
+      "party": "Independent",
+      "evm_votes": 760,
+      "postal_votes": 21,
+      "total_votes": 781
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 1168,
+      "postal_votes": 57,
+      "total_votes": 1225
+    }
+  ]
+}

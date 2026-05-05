@@ -1,0 +1,117 @@
+{
+  "round": 5,
+  "candidates": [
+    {
+      "name": "S. THIRUKKUMARAN",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 746,
+      "postal_votes": 199,
+      "total_votes": 945
+    },
+    {
+      "name": "DURAIMURUGAN",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 10752,
+      "postal_votes": 2942,
+      "total_votes": 13694
+    },
+    {
+      "name": "J. RAMESH",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 77,
+      "postal_votes": 18,
+      "total_votes": 95
+    },
+    {
+      "name": "V. RAMU",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 15865,
+      "postal_votes": 3649,
+      "total_votes": 19514
+    },
+    {
+      "name": "INDU .W",
+      "party": "Tamil Manila Murpokku Dravida Kazhagam",
+      "evm_votes": 66,
+      "postal_votes": 11,
+      "total_votes": 77
+    },
+    {
+      "name": "GANESAN .P",
+      "party": "Indhu Dravida Makkal Katchi",
+      "evm_votes": 14,
+      "postal_votes": 4,
+      "total_votes": 18
+    },
+    {
+      "name": "V. CHANDRAN",
+      "party": "All India Puratchi Thalaivar Makkal Munnettra Kazhagam",
+      "evm_votes": 35,
+      "postal_votes": 4,
+      "total_votes": 39
+    },
+    {
+      "name": "DR M SUDHAKAR",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 10057,
+      "postal_votes": 2809,
+      "total_votes": 12866
+    },
+    {
+      "name": "S. BALAJI",
+      "party": "Tamil Nadu Ilangyar Katchi",
+      "evm_votes": 23,
+      "postal_votes": 5,
+      "total_votes": 28
+    },
+    {
+      "name": "S. RAMAN",
+      "party": "Independent",
+      "evm_votes": 14,
+      "postal_votes": 1,
+      "total_votes": 15
+    },
+    {
+      "name": "SARAVANAN .D",
+      "party": "Independent",
+      "evm_votes": 11,
+      "postal_votes": 5,
+      "total_votes": 16
+    },
+    {
+      "name": "M. SUTHAKAR",
+      "party": "Independent",
+      "evm_votes": 33,
+      "postal_votes": 6,
+      "total_votes": 39
+    },
+    {
+      "name": "DHANASEKAR",
+      "party": "Independent",
+      "evm_votes": 35,
+      "postal_votes": 6,
+      "total_votes": 41
+    },
+    {
+      "name": "DHANANCHEZHIYAN",
+      "party": "Independent",
+      "evm_votes": 59,
+      "postal_votes": 12,
+      "total_votes": 71
+    },
+    {
+      "name": "D. RAMU",
+      "party": "Independent",
+      "evm_votes": 87,
+      "postal_votes": 19,
+      "total_votes": 106
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 84,
+      "postal_votes": 30,
+      "total_votes": 114
+    }
+  ]
+}

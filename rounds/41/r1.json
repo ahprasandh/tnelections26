@@ -1,0 +1,117 @@
+{
+  "round": 1,
+  "candidates": [
+    {
+      "name": "R. GANDHI",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 0,
+      "postal_votes": 3672,
+      "total_votes": 3672
+    },
+    {
+      "name": "V.M. KARTHIKEYAN",
+      "party": "Bharatiya Janata Party",
+      "evm_votes": 0,
+      "postal_votes": 1746,
+      "total_votes": 1746
+    },
+    {
+      "name": "THAARIKHA SALMAN",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 0,
+      "postal_votes": 402,
+      "total_votes": 402
+    },
+    {
+      "name": "J.JENIFERJANET",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 0,
+      "postal_votes": 27,
+      "total_votes": 27
+    },
+    {
+      "name": "THAHIRA",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 0,
+      "postal_votes": 5113,
+      "total_votes": 5113
+    },
+    {
+      "name": "S.MUNISAMY",
+      "party": "Anti Corruption Dynamic Party",
+      "evm_votes": 0,
+      "postal_votes": 15,
+      "total_votes": 15
+    },
+    {
+      "name": "N.VISWANATHAN",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 0,
+      "postal_votes": 10,
+      "total_votes": 10
+    },
+    {
+      "name": "J. HASSAIN",
+      "party": "Independent",
+      "evm_votes": 0,
+      "postal_votes": 13,
+      "total_votes": 13
+    },
+    {
+      "name": "K. SAKTHIVEL NATHAN",
+      "party": "Independent",
+      "evm_votes": 0,
+      "postal_votes": 39,
+      "total_votes": 39
+    },
+    {
+      "name": "N. SUGUMAR",
+      "party": "Independent",
+      "evm_votes": 0,
+      "postal_votes": 1,
+      "total_votes": 1
+    },
+    {
+      "name": "V. SURESH",
+      "party": "Independent",
+      "evm_votes": 0,
+      "postal_votes": 5,
+      "total_votes": 5
+    },
+    {
+      "name": "V. DHARMENDIRAN",
+      "party": "Independent",
+      "evm_votes": 0,
+      "postal_votes": 20,
+      "total_votes": 20
+    },
+    {
+      "name": "A. NARESHKUMAR",
+      "party": "Independent",
+      "evm_votes": 0,
+      "postal_votes": 3,
+      "total_votes": 3
+    },
+    {
+      "name": "J. MOHAN",
+      "party": "Independent",
+      "evm_votes": 0,
+      "postal_votes": 8,
+      "total_votes": 8
+    },
+    {
+      "name": "S.JAYAPRAKASH",
+      "party": "Independent",
+      "evm_votes": 0,
+      "postal_votes": 12,
+      "total_votes": 12
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 0,
+      "postal_votes": 66,
+      "total_votes": 66
+    }
+  ]
+}

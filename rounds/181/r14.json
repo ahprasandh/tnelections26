@@ -1,0 +1,110 @@
+{
+  "round": 14,
+  "candidates": [
+    {
+      "name": "REGUPATHY.S",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 34747,
+      "postal_votes": 2885,
+      "total_votes": 37632
+    },
+    {
+      "name": "LAKSHMI SRINIVASAN",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 5379,
+      "postal_votes": 283,
+      "total_votes": 5662
+    },
+    {
+      "name": "VAIRAMUTHU.PK",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 36442,
+      "postal_votes": 1993,
+      "total_votes": 38435
+    },
+    {
+      "name": "CHINTHAMANI.C",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 33785,
+      "postal_votes": 2374,
+      "total_votes": 36159
+    },
+    {
+      "name": "SUBBIAH.A",
+      "party": "Puthiya Tamilagam",
+      "evm_votes": 236,
+      "postal_votes": 10,
+      "total_votes": 246
+    },
+    {
+      "name": "MUTHUKARUPPAN.CN",
+      "party": "Party for the Rights of Other backward Classes",
+      "evm_votes": 162,
+      "postal_votes": 3,
+      "total_votes": 165
+    },
+    {
+      "name": "RAMSINGH.SK",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 61,
+      "postal_votes": 0,
+      "total_votes": 61
+    },
+    {
+      "name": "RAJA.K",
+      "party": "All India Puratchi Thalaivar Makkal Munnettra Kazhagam",
+      "evm_votes": 78,
+      "postal_votes": 6,
+      "total_votes": 84
+    },
+    {
+      "name": "ESWAR.S",
+      "party": "Independent",
+      "evm_votes": 139,
+      "postal_votes": 7,
+      "total_votes": 146
+    },
+    {
+      "name": "SATHISHKUMAR.M",
+      "party": "Independent",
+      "evm_votes": 58,
+      "postal_votes": 1,
+      "total_votes": 59
+    },
+    {
+      "name": "CHINNATHAMBI.P",
+      "party": "Independent",
+      "evm_votes": 129,
+      "postal_votes": 4,
+      "total_votes": 133
+    },
+    {
+      "name": "SUBRAMANIAN.P",
+      "party": "Independent",
+      "evm_votes": 180,
+      "postal_votes": 5,
+      "total_votes": 185
+    },
+    {
+      "name": "DURAIRAJAN.M",
+      "party": "Independent",
+      "evm_votes": 194,
+      "postal_votes": 3,
+      "total_votes": 197
+    },
+    {
+      "name": "RAMNATH.T",
+      "party": "Independent",
+      "evm_votes": 176,
+      "postal_votes": 3,
+      "total_votes": 179
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 619,
+      "postal_votes": 37,
+      "total_votes": 656
+    }
+  ]
+}

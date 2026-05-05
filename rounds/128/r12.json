@@ -1,0 +1,110 @@
+{
+  "round": 12,
+  "candidates": [
+    {
+      "name": "SAKKARAPANI. R",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 45449,
+      "postal_votes": 4717,
+      "total_votes": 50166
+    },
+    {
+      "name": "MURUGARAJ. P",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 236,
+      "postal_votes": 18,
+      "total_votes": 254
+    },
+    {
+      "name": "RAGUPATHI. P",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 2901,
+      "postal_votes": 160,
+      "total_votes": 3061
+    },
+    {
+      "name": "VIDIYAL S. SEKAR",
+      "party": "Bharatiya Janata Party",
+      "evm_votes": 24837,
+      "postal_votes": 2516,
+      "total_votes": 27353
+    },
+    {
+      "name": "MOHAN. S",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 24031,
+      "postal_votes": 1425,
+      "total_votes": 25456
+    },
+    {
+      "name": "ALAGIYANNAN. A",
+      "party": "Independent",
+      "evm_votes": 159,
+      "postal_votes": 8,
+      "total_votes": 167
+    },
+    {
+      "name": "ARUMUGAM. M",
+      "party": "Independent",
+      "evm_votes": 38,
+      "postal_votes": 3,
+      "total_votes": 41
+    },
+    {
+      "name": "ANANTHRAJ. T",
+      "party": "Independent",
+      "evm_votes": 38,
+      "postal_votes": 12,
+      "total_votes": 50
+    },
+    {
+      "name": "KUMARRATHINAM. M",
+      "party": "Independent",
+      "evm_votes": 94,
+      "postal_votes": 4,
+      "total_votes": 98
+    },
+    {
+      "name": "CHELLAMUTHU. K",
+      "party": "Independent",
+      "evm_votes": 56,
+      "postal_votes": 3,
+      "total_votes": 59
+    },
+    {
+      "name": "NAGUL PRAKASH. A",
+      "party": "Independent",
+      "evm_votes": 127,
+      "postal_votes": 6,
+      "total_votes": 133
+    },
+    {
+      "name": "PRABAHARAN. M",
+      "party": "Independent",
+      "evm_votes": 335,
+      "postal_votes": 38,
+      "total_votes": 373
+    },
+    {
+      "name": "MANIKANNAN. A",
+      "party": "Independent",
+      "evm_votes": 100,
+      "postal_votes": 8,
+      "total_votes": 108
+    },
+    {
+      "name": "RAGHUNATH. K",
+      "party": "Independent",
+      "evm_votes": 121,
+      "postal_votes": 7,
+      "total_votes": 128
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 799,
+      "postal_votes": 66,
+      "total_votes": 865
+    }
+  ]
+}

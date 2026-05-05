@@ -1,0 +1,180 @@
+{
+  "round": 6,
+  "candidates": [
+    {
+      "name": "INBARASAN G",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 165,
+      "postal_votes": 16,
+      "total_votes": 181
+    },
+    {
+      "name": "ANNIYUR SIVA @ SIVASHANMUGAM A",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 12487,
+      "postal_votes": 3467,
+      "total_votes": 15954
+    },
+    {
+      "name": "SUBHA CHANDRASEKARAN A",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 1246,
+      "postal_votes": 345,
+      "total_votes": 1591
+    },
+    {
+      "name": "SIVAKUMAR C",
+      "party": "Pattali Makkal Katchi",
+      "evm_votes": 15690,
+      "postal_votes": 3038,
+      "total_votes": 18728
+    },
+    {
+      "name": "SETTU C",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 98,
+      "postal_votes": 30,
+      "total_votes": 128
+    },
+    {
+      "name": "THAMIZHVENGAI KA",
+      "party": "Desiya Makkal Sakthi Katchi",
+      "evm_votes": 31,
+      "postal_votes": 2,
+      "total_votes": 33
+    },
+    {
+      "name": "BACKIYALAKSHMI C",
+      "party": "Thakkam Katchi",
+      "evm_votes": 28,
+      "postal_votes": 8,
+      "total_votes": 36
+    },
+    {
+      "name": "MOHAMMAD SIDDIQ M H",
+      "party": "Veerath Thiyagi Viswanathadoss Thozhilalarkal Katchi",
+      "evm_votes": 18,
+      "postal_votes": 5,
+      "total_votes": 23
+    },
+    {
+      "name": "RAMACHANDRAN P",
+      "party": "Anti Corruption Dynamic Party",
+      "evm_votes": 97,
+      "postal_votes": 19,
+      "total_votes": 116
+    },
+    {
+      "name": "VIJAI VADIVEL A",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 15143,
+      "postal_votes": 3483,
+      "total_votes": 18626
+    },
+    {
+      "name": "STALIN D",
+      "party": "Aanaithinthiya Jananayaka Pathukappu Kazhagam",
+      "evm_votes": 35,
+      "postal_votes": 5,
+      "total_votes": 40
+    },
+    {
+      "name": "YEASURAJA M",
+      "party": "Independent",
+      "evm_votes": 30,
+      "postal_votes": 7,
+      "total_votes": 37
+    },
+    {
+      "name": "GOKUL RAJ B",
+      "party": "Independent",
+      "evm_votes": 56,
+      "postal_votes": 14,
+      "total_votes": 70
+    },
+    {
+      "name": "SAKTHIVEL A",
+      "party": "Independent",
+      "evm_votes": 16,
+      "postal_votes": 8,
+      "total_votes": 24
+    },
+    {
+      "name": "SANMUGAM B",
+      "party": "Independent",
+      "evm_votes": 93,
+      "postal_votes": 26,
+      "total_votes": 119
+    },
+    {
+      "name": "SHANMUGAM P",
+      "party": "Independent",
+      "evm_votes": 66,
+      "postal_votes": 9,
+      "total_votes": 75
+    },
+    {
+      "name": "SHANMUGAM R",
+      "party": "Independent",
+      "evm_votes": 37,
+      "postal_votes": 9,
+      "total_votes": 46
+    },
+    {
+      "name": "SIVAKUMAR S",
+      "party": "Independent",
+      "evm_votes": 109,
+      "postal_votes": 26,
+      "total_votes": 135
+    },
+    {
+      "name": "SELVAKUMAR S",
+      "party": "Independent",
+      "evm_votes": 30,
+      "postal_votes": 10,
+      "total_votes": 40
+    },
+    {
+      "name": "TAMILSELVAN D",
+      "party": "Independent",
+      "evm_votes": 51,
+      "postal_votes": 23,
+      "total_votes": 74
+    },
+    {
+      "name": "PRABHAKARAN D",
+      "party": "Independent",
+      "evm_votes": 13,
+      "postal_votes": 5,
+      "total_votes": 18
+    },
+    {
+      "name": "MURUGAN C",
+      "party": "Independent",
+      "evm_votes": 17,
+      "postal_votes": 9,
+      "total_votes": 26
+    },
+    {
+      "name": "RAMACHANDRAN A",
+      "party": "Independent",
+      "evm_votes": 24,
+      "postal_votes": 2,
+      "total_votes": 26
+    },
+    {
+      "name": "RAJARAM M",
+      "party": "Independent",
+      "evm_votes": 34,
+      "postal_votes": 12,
+      "total_votes": 46
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 87,
+      "postal_votes": 17,
+      "total_votes": 104
+    }
+  ]
+}

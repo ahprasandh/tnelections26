@@ -1,0 +1,96 @@
+{
+  "round": 17,
+  "candidates": [
+    {
+      "name": "EZHIL ELAVARASI. R",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 10181,
+      "postal_votes": 695,
+      "total_votes": 10876
+    },
+    {
+      "name": "ADVOCATE. KATHIRAVAN. K.K",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 38863,
+      "postal_votes": 2473,
+      "total_votes": 41336
+    },
+    {
+      "name": "DR. MUTHIAH. S",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 37189,
+      "postal_votes": 2896,
+      "total_votes": 40085
+    },
+    {
+      "name": "AMIRTHA. M",
+      "party": "All India Puratchi Thalaivar Makkal Munnettra Kazhagam",
+      "evm_votes": 1373,
+      "postal_votes": 72,
+      "total_votes": 1445
+    },
+    {
+      "name": "RATHINA PRAKASH. K",
+      "party": "Puthiya Tamilagam",
+      "evm_votes": 572,
+      "postal_votes": 48,
+      "total_votes": 620
+    },
+    {
+      "name": "GOPIRAJAN. G",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 40018,
+      "postal_votes": 2226,
+      "total_votes": 42244
+    },
+    {
+      "name": "KATHIRAVAN. R",
+      "party": "Independent",
+      "evm_votes": 261,
+      "postal_votes": 12,
+      "total_votes": 273
+    },
+    {
+      "name": "KARTHIK VANI. B",
+      "party": "Independent",
+      "evm_votes": 156,
+      "postal_votes": 9,
+      "total_votes": 165
+    },
+    {
+      "name": "MUTHTHIAH. M",
+      "party": "Independent",
+      "evm_votes": 157,
+      "postal_votes": 5,
+      "total_votes": 162
+    },
+    {
+      "name": "RADHA KRISHNAN. G",
+      "party": "Independent",
+      "evm_votes": 96,
+      "postal_votes": 8,
+      "total_votes": 104
+    },
+    {
+      "name": "RAJA. M",
+      "party": "Independent",
+      "evm_votes": 176,
+      "postal_votes": 13,
+      "total_votes": 189
+    },
+    {
+      "name": "RAJU. A",
+      "party": "Independent",
+      "evm_votes": 187,
+      "postal_votes": 17,
+      "total_votes": 204
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 511,
+      "postal_votes": 34,
+      "total_votes": 545
+    }
+  ]
+}

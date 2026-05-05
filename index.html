@@ -1554,13 +1554,15 @@ function showConstPopup(constNo, skipHash) {
   let rows = sorted.map((c, i) => {
     const p = pm(c.party);
     const photo = candPhoto(constNo, c.name);
+    const diff = i === 0 ? (sorted.length > 1 ? c.total_votes - sorted[1].total_votes : 0) : c.total_votes - sorted[0].total_votes;
+    const diffStr = i === 0 ? `<span style="color:#2e7d32;font-size:0.75rem">+${inr(diff)}</span>` : `<span style="color:#c62828;font-size:0.75rem">${inr(diff)}</span>`;
     return `<tr${i === 0 ? ' class="winner-row" style="background:#f0faf0"' : ''}>
       <td class="text-center">${i + 1}</td>
       <td class="fw">${photo}${esc(c.name)}</td>
       <td>${pb(p)}</td>
       <td class="text-right">${inr(c.evm_votes)}</td>
       <td class="text-right">${inr(c.postal_votes)}</td>
-      <td class="text-right fw">${inr(c.total_votes)}</td>
+      <td class="text-right fw">${inr(c.total_votes)} ${diffStr}</td>
       <td class="text-right">${c.vote_percent}%</td>
     </tr>`;
   }).join('');
@@ -1645,6 +1647,11 @@ function showConstPopup(constNo, skipHash) {
           </div>` : ''}
           ${(() => { const el = electorsData && electorsData[constNo]; if (!el) return ''; let tv = 0; for (const cd of sorted) tv += cd.total_votes || 0; const pct = el.total > 0 ? (tv / el.total * 100).toFixed(1) : '0.0'; const mPct = el.total > 0 ? (el.male / el.total * 100).toFixed(1) : '0'; const fPct = el.total > 0 ? (el.female / el.total * 100).toFixed(1) : '0'; return `<div style="text-align:center;background:var(--row-hover);padding:0.5rem 1rem;border-radius:8px"><div style="font-size:0.72rem;color:var(--text2);text-transform:uppercase">Turnout</div><div class="fw" style="font-size:1.2rem">${pct}%</div><div style="font-size:0.7rem;color:var(--text2)">${inr(el.total)} electors</div><div style="font-size:0.65rem;color:var(--text2)">♂ ${inr(el.male)} (${mPct}%) · ♀ ${inr(el.female)} (${fPct}%)</div></div>`; })()}
         </div>` : ''}
+        <div id="cp-round-slider-wrap" style="display:none;padding:0.5rem 0;display:flex;align-items:center;gap:0.6rem">
+          <button id="cp-round-play" style="width:28px;height:28px;border-radius:50%;border:1px solid var(--border);background:var(--card);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:0.7rem;flex-shrink:0" title="Play rounds">▶</button>
+          <input type="range" id="cp-round-slider" min="1" max="1" value="1" step="1" style="flex:1;cursor:pointer;accent-color:var(--accent)">
+          <div id="cp-round-label" style="font-size:0.78rem;font-weight:600;color:var(--text);white-space:nowrap;min-width:90px;text-align:center">Final</div>
+        </div>
         <table>
           <thead><tr>
             <th class="text-center" style="width:35px">#</th>
@@ -1655,16 +1662,117 @@ function showConstPopup(constNo, skipHash) {
             <th class="text-right">Total</th>
             <th class="text-right">%</th>
           </tr></thead>
-          <tbody>${rows}</tbody>
+          <tbody id="cp-round-tbody">${rows}</tbody>
         </table>
         ${section2021}
       </div>
     </div>`;
-  overlay.addEventListener('click', e => { if (e.target === overlay) { overlay.remove(); activePopup = null; history.replaceState(null, '', location.pathname); } });
+  overlay._roundPlaying = false;
+  overlay.addEventListener('click', e => { if (e.target === overlay && !overlay._roundPlaying) { overlay.remove(); activePopup = null; history.replaceState(null, '', location.pathname); } });
   overlay.querySelector('.modal-close').addEventListener('click', () => { overlay.remove(); activePopup = null; history.replaceState(null, '', location.pathname); });
   document.body.appendChild(overlay);
   document.addEventListener('keydown', function escHandler(e) {
-    if (e.key === 'Escape') { overlay.remove(); activePopup = null; document.removeEventListener('keydown', escHandler); history.replaceState(null, '', location.pathname); }
+    if (e.key === 'Escape' && !overlay._roundPlaying) { overlay.remove(); activePopup = null; document.removeEventListener('keydown', escHandler); history.replaceState(null, '', location.pathname); }
+  });
+
+  // Load round slider
+  initConstRoundSlider(overlay, constNo, sorted);
+}
+
+/* ── Round Slider in Constituency Popup ── */
+async function initConstRoundSlider(overlay, constNo, finalSorted) {
+  const wrap = overlay.querySelector('#cp-round-slider-wrap');
+  const slider = overlay.querySelector('#cp-round-slider');
+  const label = overlay.querySelector('#cp-round-label');
+  const playBtn = overlay.querySelector('#cp-round-play');
+  const tbody = overlay.querySelector('#cp-round-tbody');
+  if (!wrap || !slider) return;
+
+  // Fetch round count
+  let numRounds = 0;
+  try {
+    const resp = await fetch('rounds/' + constNo + '/info.json?' + Date.now());
+    if (resp.ok) {
+      const info = await resp.json();
+      numRounds = info.num_rounds || 0;
+    }
+  } catch(e) {}
+  if (numRounds < 2) return; // No point showing slider for 0-1 rounds
+
+  // Show slider, max = numRounds (last = Final)
+  wrap.style.display = 'flex';
+  slider.min = 1;
+  slider.max = numRounds;
+  slider.value = numRounds; // Start at final
+  label.textContent = 'Round ' + numRounds + ' (Final)';
+
+  const roundCache = {};
+  // Cache final data
+  roundCache[numRounds] = finalSorted;
+
+  function buildRoundRows(candidates) {
+    const sorted = [...candidates].sort((a, b) => b.total_votes - a.total_votes);
+    const totalVotes = sorted.reduce((s, c) => s + (c.total_votes || 0), 0);
+    return sorted.map((c, i) => {
+      const p = pm(c.party);
+      const photo = candPhoto(constNo, c.name);
+      const pct = totalVotes > 0 ? (c.total_votes / totalVotes * 100).toFixed(1) : '0.0';
+      const diff = i === 0 ? (sorted.length > 1 ? c.total_votes - sorted[1].total_votes : 0) : c.total_votes - sorted[0].total_votes;
+      const diffStr = i === 0 ? `<span style="color:#2e7d32;font-size:0.75rem">+${inr(diff)}</span>` : `<span style="color:#c62828;font-size:0.75rem">${inr(diff)}</span>`;
+      return `<tr${i === 0 ? ' class="winner-row" style="background:#f0faf0"' : ''}>
+        <td class="text-center">${i + 1}</td>
+        <td class="fw">${photo}${esc(c.name)}</td>
+        <td>${pb(p)}</td>
+        <td class="text-right">${inr(c.evm_votes)}</td>
+        <td class="text-right">${inr(c.postal_votes)}</td>
+        <td class="text-right fw">${inr(c.total_votes)} ${diffStr}</td>
+        <td class="text-right">${pct}%</td>
+      </tr>`;
+    }).join('');
+  }
+
+  async function showRound(r) {
+    const isFinal = r >= numRounds;
+    label.textContent = isFinal ? 'Round ' + numRounds + ' (Final)' : 'Round ' + r + '/' + numRounds;
+
+    if (roundCache[r]) {
+      tbody.innerHTML = buildRoundRows(roundCache[r]);
+      return;
+    }
+    try {
+      const resp = await fetch('rounds/' + constNo + '/r' + r + '.json?' + Date.now());
+      if (resp.ok) {
+        const data = await resp.json();
+        roundCache[r] = data.candidates;
+        tbody.innerHTML = buildRoundRows(data.candidates);
+      }
+    } catch(e) {}
+  }
+
+  slider.addEventListener('input', () => { if (!globalPlaying) showRound(parseInt(slider.value)); });
+
+  // Play/pause
+  let playing = false, timer = null;
+  function stopPlay() {
+    playing = false;
+    overlay._roundPlaying = false;
+    playBtn.textContent = '▶';
+    if (timer) { clearInterval(timer); timer = null; }
+  }
+  playBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (globalPlaying) return;
+    if (playing) { stopPlay(); return; }
+    if (parseInt(slider.value) >= numRounds) slider.value = 0;
+    playing = true;
+    overlay._roundPlaying = true;
+    playBtn.textContent = '⏸';
+    timer = setInterval(() => {
+      const next = parseInt(slider.value) + 1;
+      if (next > numRounds) { stopPlay(); return; }
+      slider.value = next;
+      showRound(next);
+    }, 800);
   });
 }
 
@@ -1820,16 +1928,19 @@ function onGlobalSliderChange() {
   loadAll();
 }
 function toggleGlobalPlay() {
+  const cpWrap = document.querySelector('#cp-round-slider-wrap');
   if (globalPlaying) {
     clearInterval(globalPlayTimer);
     globalPlaying = false;
     document.getElementById('global-play-btn').textContent = '▶';
+    if (cpWrap) cpWrap.style.display = 'flex';
     return;
   }
   const gSlider = document.getElementById('global-slider');
   if (parseInt(gSlider.value) >= parseInt(gSlider.max)) gSlider.value = 0;
   globalPlaying = true;
   document.getElementById('global-play-btn').textContent = '⏸';
+  if (cpWrap) cpWrap.style.display = 'none';
   globalPlayTimer = setInterval(() => {
     const gSlider = document.getElementById('global-slider');
     const next = parseInt(gSlider.value) + 1;

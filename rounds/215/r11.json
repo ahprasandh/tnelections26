@@ -1,0 +1,103 @@
+{
+  "round": 11,
+  "candidates": [
+    {
+      "name": "ANITHA R. RADHAKRISHNAN",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 31658,
+      "postal_votes": 6724,
+      "total_votes": 38382
+    },
+    {
+      "name": "OPHILIYA",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 4848,
+      "postal_votes": 146,
+      "total_votes": 4994
+    },
+    {
+      "name": "K R M RADHAKRISHNAN",
+      "party": "Bharatiya Janata Party",
+      "evm_votes": 14157,
+      "postal_votes": 46,
+      "total_votes": 14203
+    },
+    {
+      "name": "GOPALAKRISHNAN",
+      "party": "All India Puratchi Thalaivar Makkal Munnettra Kazhagam",
+      "evm_votes": 200,
+      "postal_votes": 5,
+      "total_votes": 205
+    },
+    {
+      "name": "PACKIA SAM. T",
+      "party": "Naam Indiar Party",
+      "evm_votes": 47,
+      "postal_votes": 1,
+      "total_votes": 48
+    },
+    {
+      "name": "MAHARAJAN. M",
+      "party": "Puthiya Makkal Tamil Desam Katchi",
+      "evm_votes": 158,
+      "postal_votes": 2,
+      "total_votes": 160
+    },
+    {
+      "name": "J. MURUGAN",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 31205,
+      "postal_votes": 769,
+      "total_votes": 31974
+    },
+    {
+      "name": "RASIK MUSSAMMIL. K",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 125,
+      "postal_votes": 10,
+      "total_votes": 135
+    },
+    {
+      "name": "SHAIK ABDUL KADER. P.S.J",
+      "party": "Independent",
+      "evm_votes": 74,
+      "postal_votes": 12,
+      "total_votes": 86
+    },
+    {
+      "name": "MEERA SAHIB",
+      "party": "Independent",
+      "evm_votes": 70,
+      "postal_votes": 44,
+      "total_votes": 114
+    },
+    {
+      "name": "RAJALINGAM. M",
+      "party": "Independent",
+      "evm_votes": 33,
+      "postal_votes": 0,
+      "total_votes": 33
+    },
+    {
+      "name": "VEERAPPA. T",
+      "party": "Independent",
+      "evm_votes": 52,
+      "postal_votes": 0,
+      "total_votes": 52
+    },
+    {
+      "name": "VENKATESH PERUMAL. S",
+      "party": "Independent",
+      "evm_votes": 59,
+      "postal_votes": 2,
+      "total_votes": 61
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 260,
+      "postal_votes": 31,
+      "total_votes": 291
+    }
+  ]
+}

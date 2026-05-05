@@ -1,0 +1,110 @@
+{
+  "round": 26,
+  "candidates": [
+    {
+      "name": "ARUNKUMAR PRG",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 91352,
+      "postal_votes": 4747,
+      "total_votes": 96099
+    },
+    {
+      "name": "KALAMANI JAGANATHAN",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 14765,
+      "postal_votes": 741,
+      "total_votes": 15506
+    },
+    {
+      "name": "SURYA PRAKASH K.P",
+      "party": "Indian National Congress",
+      "evm_votes": 81356,
+      "postal_votes": 3189,
+      "total_votes": 84545
+    },
+    {
+      "name": "K.VELMURUGAN",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 473,
+      "postal_votes": 19,
+      "total_votes": 492
+    },
+    {
+      "name": "THOZHAR.N.ARUNKUMAR",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 369,
+      "postal_votes": 21,
+      "total_votes": 390
+    },
+    {
+      "name": "KANIMOZHI SANTHOSH",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 132595,
+      "postal_votes": 5117,
+      "total_votes": 137712
+    },
+    {
+      "name": "S.THAMARAI KANNAN",
+      "party": "Party for the Rights of Other backward Classes",
+      "evm_votes": 318,
+      "postal_votes": 6,
+      "total_votes": 324
+    },
+    {
+      "name": "V.PUSHPANANTHAM",
+      "party": "Tamizhaga Murpokku Makkal Katchi",
+      "evm_votes": 110,
+      "postal_votes": 2,
+      "total_votes": 112
+    },
+    {
+      "name": "MALLIGA.M",
+      "party": "All India Puratchi Thalaivar Makkal Munnettra Kazhagam",
+      "evm_votes": 286,
+      "postal_votes": 9,
+      "total_votes": 295
+    },
+    {
+      "name": "KANIMOZHI.K",
+      "party": "Independent",
+      "evm_votes": 517,
+      "postal_votes": 15,
+      "total_votes": 532
+    },
+    {
+      "name": "SURIYAKUMAR.K",
+      "party": "Independent",
+      "evm_votes": 214,
+      "postal_votes": 7,
+      "total_votes": 221
+    },
+    {
+      "name": "A.BALAMURUGAN",
+      "party": "Independent",
+      "evm_votes": 297,
+      "postal_votes": 22,
+      "total_votes": 319
+    },
+    {
+      "name": "M.RAJALINGAM",
+      "party": "Independent",
+      "evm_votes": 310,
+      "postal_votes": 11,
+      "total_votes": 321
+    },
+    {
+      "name": "M.JOHN BOSCO",
+      "party": "Independent",
+      "evm_votes": 278,
+      "postal_votes": 18,
+      "total_votes": 296
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 1861,
+      "postal_votes": 84,
+      "total_votes": 1945
+    }
+  ]
+}

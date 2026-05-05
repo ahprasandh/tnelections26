@@ -1,0 +1,117 @@
+{
+  "round": 5,
+  "candidates": [
+    {
+      "name": "AMBETHKUMAR. S",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 11482,
+      "postal_votes": 2982,
+      "total_votes": 14464
+    },
+    {
+      "name": "GANESH. R",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 1094,
+      "postal_votes": 199,
+      "total_votes": 1293
+    },
+    {
+      "name": "RANI. P",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 12416,
+      "postal_votes": 2851,
+      "total_votes": 15267
+    },
+    {
+      "name": "UDHAYAKUMAR. M",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 11222,
+      "postal_votes": 2451,
+      "total_votes": 13673
+    },
+    {
+      "name": "THAMARAI SELVI. S",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 60,
+      "postal_votes": 24,
+      "total_votes": 84
+    },
+    {
+      "name": "MUTHUSELVAM. V",
+      "party": "Anti Corruption Dynamic Party",
+      "evm_votes": 19,
+      "postal_votes": 6,
+      "total_votes": 25
+    },
+    {
+      "name": "MUTHUPERUMAL. K",
+      "party": "Aanaithinthiya Jananayaka Pathukappu Kazhagam",
+      "evm_votes": 34,
+      "postal_votes": 8,
+      "total_votes": 42
+    },
+    {
+      "name": "RAKESH SHARMA. R",
+      "party": "Thakkam Katchi",
+      "evm_votes": 15,
+      "postal_votes": 3,
+      "total_votes": 18
+    },
+    {
+      "name": "AMBEDKAR. T",
+      "party": "Independent",
+      "evm_votes": 10,
+      "postal_votes": 5,
+      "total_votes": 15
+    },
+    {
+      "name": "ARJUNAN. M",
+      "party": "Independent",
+      "evm_votes": 12,
+      "postal_votes": 0,
+      "total_votes": 12
+    },
+    {
+      "name": "UDHAYAKUMAR. N",
+      "party": "Independent",
+      "evm_votes": 31,
+      "postal_votes": 5,
+      "total_votes": 36
+    },
+    {
+      "name": "KANNIYAPPAN. S",
+      "party": "Independent",
+      "evm_votes": 21,
+      "postal_votes": 7,
+      "total_votes": 28
+    },
+    {
+      "name": "PONNAMBALAM. P",
+      "party": "Independent",
+      "evm_votes": 56,
+      "postal_votes": 8,
+      "total_votes": 64
+    },
+    {
+      "name": "RANI. A",
+      "party": "Independent",
+      "evm_votes": 116,
+      "postal_votes": 41,
+      "total_votes": 157
+    },
+    {
+      "name": "JAISANKAR. M",
+      "party": "Independent",
+      "evm_votes": 51,
+      "postal_votes": 20,
+      "total_votes": 71
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 158,
+      "postal_votes": 62,
+      "total_votes": 220
+    }
+  ]
+}

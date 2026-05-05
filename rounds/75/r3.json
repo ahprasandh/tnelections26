@@ -1,0 +1,180 @@
+{
+  "round": 3,
+  "candidates": [
+    {
+      "name": "INBARASAN G",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 102,
+      "postal_votes": 32,
+      "total_votes": 134
+    },
+    {
+      "name": "ANNIYUR SIVA @ SIVASHANMUGAM A",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 4895,
+      "postal_votes": 2408,
+      "total_votes": 7303
+    },
+    {
+      "name": "SUBHA CHANDRASEKARAN A",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 530,
+      "postal_votes": 236,
+      "total_votes": 766
+    },
+    {
+      "name": "SIVAKUMAR C",
+      "party": "Pattali Makkal Katchi",
+      "evm_votes": 7104,
+      "postal_votes": 2190,
+      "total_votes": 9294
+    },
+    {
+      "name": "SETTU C",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 44,
+      "postal_votes": 14,
+      "total_votes": 58
+    },
+    {
+      "name": "THAMIZHVENGAI KA",
+      "party": "Desiya Makkal Sakthi Katchi",
+      "evm_votes": 18,
+      "postal_votes": 5,
+      "total_votes": 23
+    },
+    {
+      "name": "BACKIYALAKSHMI C",
+      "party": "Thakkam Katchi",
+      "evm_votes": 18,
+      "postal_votes": 7,
+      "total_votes": 25
+    },
+    {
+      "name": "MOHAMMAD SIDDIQ M H",
+      "party": "Veerath Thiyagi Viswanathadoss Thozhilalarkal Katchi",
+      "evm_votes": 12,
+      "postal_votes": 1,
+      "total_votes": 13
+    },
+    {
+      "name": "RAMACHANDRAN P",
+      "party": "Anti Corruption Dynamic Party",
+      "evm_votes": 50,
+      "postal_votes": 22,
+      "total_votes": 72
+    },
+    {
+      "name": "VIJAI VADIVEL A",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 6183,
+      "postal_votes": 3128,
+      "total_votes": 9311
+    },
+    {
+      "name": "STALIN D",
+      "party": "Aanaithinthiya Jananayaka Pathukappu Kazhagam",
+      "evm_votes": 20,
+      "postal_votes": 7,
+      "total_votes": 27
+    },
+    {
+      "name": "YEASURAJA M",
+      "party": "Independent",
+      "evm_votes": 15,
+      "postal_votes": 6,
+      "total_votes": 21
+    },
+    {
+      "name": "GOKUL RAJ B",
+      "party": "Independent",
+      "evm_votes": 23,
+      "postal_votes": 9,
+      "total_votes": 32
+    },
+    {
+      "name": "SAKTHIVEL A",
+      "party": "Independent",
+      "evm_votes": 8,
+      "postal_votes": 3,
+      "total_votes": 11
+    },
+    {
+      "name": "SANMUGAM B",
+      "party": "Independent",
+      "evm_votes": 43,
+      "postal_votes": 14,
+      "total_votes": 57
+    },
+    {
+      "name": "SHANMUGAM P",
+      "party": "Independent",
+      "evm_votes": 34,
+      "postal_votes": 9,
+      "total_votes": 43
+    },
+    {
+      "name": "SHANMUGAM R",
+      "party": "Independent",
+      "evm_votes": 20,
+      "postal_votes": 2,
+      "total_votes": 22
+    },
+    {
+      "name": "SIVAKUMAR S",
+      "party": "Independent",
+      "evm_votes": 48,
+      "postal_votes": 21,
+      "total_votes": 69
+    },
+    {
+      "name": "SELVAKUMAR S",
+      "party": "Independent",
+      "evm_votes": 15,
+      "postal_votes": 4,
+      "total_votes": 19
+    },
+    {
+      "name": "TAMILSELVAN D",
+      "party": "Independent",
+      "evm_votes": 29,
+      "postal_votes": 6,
+      "total_votes": 35
+    },
+    {
+      "name": "PRABHAKARAN D",
+      "party": "Independent",
+      "evm_votes": 8,
+      "postal_votes": 1,
+      "total_votes": 9
+    },
+    {
+      "name": "MURUGAN C",
+      "party": "Independent",
+      "evm_votes": 6,
+      "postal_votes": 2,
+      "total_votes": 8
+    },
+    {
+      "name": "RAMACHANDRAN A",
+      "party": "Independent",
+      "evm_votes": 14,
+      "postal_votes": 2,
+      "total_votes": 16
+    },
+    {
+      "name": "RAJARAM M",
+      "party": "Independent",
+      "evm_votes": 16,
+      "postal_votes": 6,
+      "total_votes": 22
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 41,
+      "postal_votes": 22,
+      "total_votes": 63
+    }
+  ]
+}

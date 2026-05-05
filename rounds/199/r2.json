@@ -1,0 +1,103 @@
+{
+  "round": 2,
+  "candidates": [
+    {
+      "name": "SAKTHIVEL P.",
+      "party": "Viduthalai Chiruthaigal Katchi",
+      "evm_votes": 2652,
+      "postal_votes": 2842,
+      "total_votes": 5494
+    },
+    {
+      "name": "VIMALA R.",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 279,
+      "postal_votes": 369,
+      "total_votes": 648
+    },
+    {
+      "name": "DR KATHIRKAMU K.",
+      "party": "Amma Makkal Munnettra Kazagam",
+      "evm_votes": 1809,
+      "postal_votes": 1696,
+      "total_votes": 3505
+    },
+    {
+      "name": "SABARI IYNGARAN G.",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 3583,
+      "postal_votes": 3492,
+      "total_votes": 7075
+    },
+    {
+      "name": "MARISAMY V.",
+      "party": "Puthiya Tamilagam",
+      "evm_votes": 15,
+      "postal_votes": 60,
+      "total_votes": 75
+    },
+    {
+      "name": "RANJEETH KUMAR J.",
+      "party": "Socialist Unity Centre Of India (COMMUNIST)",
+      "evm_votes": 6,
+      "postal_votes": 4,
+      "total_votes": 10
+    },
+    {
+      "name": "ABITHA M.",
+      "party": "Independent",
+      "evm_votes": 10,
+      "postal_votes": 20,
+      "total_votes": 30
+    },
+    {
+      "name": "KUMAR S.",
+      "party": "Independent",
+      "evm_votes": 8,
+      "postal_votes": 5,
+      "total_votes": 13
+    },
+    {
+      "name": "SANMUGAVEL K.",
+      "party": "Independent",
+      "evm_votes": 3,
+      "postal_votes": 8,
+      "total_votes": 11
+    },
+    {
+      "name": "SELVARAJ R.",
+      "party": "Independent",
+      "evm_votes": 11,
+      "postal_votes": 9,
+      "total_votes": 20
+    },
+    {
+      "name": "PALANICHAMY T.",
+      "party": "Independent",
+      "evm_votes": 29,
+      "postal_votes": 31,
+      "total_votes": 60
+    },
+    {
+      "name": "DR. MOHANRAJ A.C. (P.T)",
+      "party": "Independent",
+      "evm_votes": 13,
+      "postal_votes": 9,
+      "total_votes": 22
+    },
+    {
+      "name": "VAIRAMUTHU D.",
+      "party": "Independent",
+      "evm_votes": 7,
+      "postal_votes": 20,
+      "total_votes": 27
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 39,
+      "postal_votes": 50,
+      "total_votes": 89
+    }
+  ]
+}

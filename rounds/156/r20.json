@@ -1,0 +1,89 @@
+{
+  "round": 20,
+  "candidates": [
+    {
+      "name": "KAVITHA RENGANATHAN",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 4560,
+      "postal_votes": 184,
+      "total_votes": 4744
+    },
+    {
+      "name": "M  KANAGARAJ",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 262,
+      "postal_votes": 7,
+      "total_votes": 269
+    },
+    {
+      "name": "M.R.K.PANNEERSELVAM",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 72030,
+      "postal_votes": 3748,
+      "total_votes": 75778
+    },
+    {
+      "name": "A  BHUVANENTHIRAN",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 66634,
+      "postal_votes": 1810,
+      "total_votes": 68444
+    },
+    {
+      "name": "T  KANNAN",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 6795,
+      "postal_votes": 270,
+      "total_votes": 7065
+    },
+    {
+      "name": "R  SRINIVASAN",
+      "party": "Tamil Telugu National Party",
+      "evm_votes": 297,
+      "postal_votes": 22,
+      "total_votes": 319
+    },
+    {
+      "name": "RAJKUMAR D",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 50476,
+      "postal_votes": 2147,
+      "total_votes": 52623
+    },
+    {
+      "name": "ARUMUGAM  R",
+      "party": "Independent",
+      "evm_votes": 879,
+      "postal_votes": 49,
+      "total_votes": 928
+    },
+    {
+      "name": "DHANAKESAVAMOORTHY A.C.T",
+      "party": "Independent",
+      "evm_votes": 256,
+      "postal_votes": 9,
+      "total_votes": 265
+    },
+    {
+      "name": "MANIMALA  R",
+      "party": "Independent",
+      "evm_votes": 431,
+      "postal_votes": 25,
+      "total_votes": 456
+    },
+    {
+      "name": "MUTHAZHAGAN  N",
+      "party": "Independent",
+      "evm_votes": 245,
+      "postal_votes": 7,
+      "total_votes": 252
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 593,
+      "postal_votes": 16,
+      "total_votes": 609
+    }
+  ]
+}

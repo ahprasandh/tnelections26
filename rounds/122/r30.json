@@ -1,0 +1,47 @@
+{
+  "round": 30,
+  "candidates": [
+    {
+      "name": "SABARI KARTHIKEYAN K.V.K.S",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 86925,
+      "postal_votes": 335,
+      "total_votes": 87260
+    },
+    {
+      "name": "DAMODARAN S",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 66912,
+      "postal_votes": 95,
+      "total_votes": 67007
+    },
+    {
+      "name": "BANUPRIYA M",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 9568,
+      "postal_votes": 23,
+      "total_votes": 9591
+    },
+    {
+      "name": "MARIYAPPAN R",
+      "party": "Ganasangam Party of India",
+      "evm_votes": 547,
+      "postal_votes": 1,
+      "total_votes": 548
+    },
+    {
+      "name": "VIGNESH K",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 99112,
+      "postal_votes": 244,
+      "total_votes": 99356
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 1696,
+      "postal_votes": 3,
+      "total_votes": 1699
+    }
+  ]
+}

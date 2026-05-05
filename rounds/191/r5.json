@@ -1,0 +1,103 @@
+{
+  "round": 5,
+  "candidates": [
+    {
+      "name": "P.SARAVANAN",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 5294,
+      "postal_votes": 1357,
+      "total_votes": 6651
+    },
+    {
+      "name": "G.THALAPATHI",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 10579,
+      "postal_votes": 2819,
+      "total_votes": 13398
+    },
+    {
+      "name": "V THIRUNAVUKKARASU",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 1506,
+      "postal_votes": 404,
+      "total_votes": 1910
+    },
+    {
+      "name": "A.KALLANAI",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 17558,
+      "postal_votes": 4154,
+      "total_votes": 21712
+    },
+    {
+      "name": "R RAJKUMAR",
+      "party": "Naam Indiar Party",
+      "evm_votes": 20,
+      "postal_votes": 11,
+      "total_votes": 31
+    },
+    {
+      "name": "M J VOLTAIRE",
+      "party": "Socialist Unity Centre Of India (COMMUNIST)",
+      "evm_votes": 18,
+      "postal_votes": 2,
+      "total_votes": 20
+    },
+    {
+      "name": "N.KUPPUSAMY",
+      "party": "Independent",
+      "evm_votes": 4,
+      "postal_votes": 1,
+      "total_votes": 5
+    },
+    {
+      "name": "J.KESAVARAJAH",
+      "party": "Independent",
+      "evm_votes": 19,
+      "postal_votes": 7,
+      "total_votes": 26
+    },
+    {
+      "name": "M.P.SANKARAPANDI",
+      "party": "Independent",
+      "evm_votes": 72,
+      "postal_votes": 5,
+      "total_votes": 77
+    },
+    {
+      "name": "C.SATHISHKUMAR",
+      "party": "Independent",
+      "evm_votes": 19,
+      "postal_votes": 2,
+      "total_votes": 21
+    },
+    {
+      "name": "D.MOHAMED ISMAIL",
+      "party": "Independent",
+      "evm_votes": 39,
+      "postal_votes": 11,
+      "total_votes": 50
+    },
+    {
+      "name": "P MUTHUSAMY",
+      "party": "Independent",
+      "evm_votes": 36,
+      "postal_votes": 7,
+      "total_votes": 43
+    },
+    {
+      "name": "A.RAJANGAM",
+      "party": "Independent",
+      "evm_votes": 27,
+      "postal_votes": 6,
+      "total_votes": 33
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 123,
+      "postal_votes": 31,
+      "total_votes": 154
+    }
+  ]
+}

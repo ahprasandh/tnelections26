@@ -1,0 +1,117 @@
+{
+  "round": 4,
+  "candidates": [
+    {
+      "name": "AMUTHA.N",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 1193,
+      "postal_votes": 474,
+      "total_votes": 1667
+    },
+    {
+      "name": "M.GAJENDRAN",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 5266,
+      "postal_votes": 2019,
+      "total_votes": 7285
+    },
+    {
+      "name": "KARTHIKDHANDAPANI",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 8033,
+      "postal_votes": 3046,
+      "total_votes": 11079
+    },
+    {
+      "name": "S. SARAVANAN",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 28,
+      "postal_votes": 9,
+      "total_votes": 37
+    },
+    {
+      "name": "S.SELVAM (A) CHELLA",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 33,
+      "postal_votes": 7,
+      "total_votes": 40
+    },
+    {
+      "name": "S. THIYAGARAJAN",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 12184,
+      "postal_votes": 4466,
+      "total_votes": 16650
+    },
+    {
+      "name": "M.ANANDAN",
+      "party": "Independent",
+      "evm_votes": 18,
+      "postal_votes": 8,
+      "total_votes": 26
+    },
+    {
+      "name": "A.ESAKKIAPPAN",
+      "party": "Independent",
+      "evm_votes": 6,
+      "postal_votes": 4,
+      "total_votes": 10
+    },
+    {
+      "name": "KARTHICK.A",
+      "party": "Independent",
+      "evm_votes": 7,
+      "postal_votes": 3,
+      "total_votes": 10
+    },
+    {
+      "name": "G. CHRISTOPHER",
+      "party": "Independent",
+      "evm_votes": 3,
+      "postal_votes": 2,
+      "total_votes": 5
+    },
+    {
+      "name": "S.DELHI BABU",
+      "party": "Independent",
+      "evm_votes": 6,
+      "postal_votes": 4,
+      "total_votes": 10
+    },
+    {
+      "name": "T. PREM BALAJI",
+      "party": "Independent",
+      "evm_votes": 7,
+      "postal_votes": 2,
+      "total_votes": 9
+    },
+    {
+      "name": "V. RAMAKRISHNAN",
+      "party": "Independent",
+      "evm_votes": 13,
+      "postal_votes": 8,
+      "total_votes": 21
+    },
+    {
+      "name": "C.VIMALRAJ",
+      "party": "Independent",
+      "evm_votes": 18,
+      "postal_votes": 8,
+      "total_votes": 26
+    },
+    {
+      "name": "P.GEORGE DEVADOSS",
+      "party": "Independent",
+      "evm_votes": 6,
+      "postal_votes": 7,
+      "total_votes": 13
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 159,
+      "postal_votes": 49,
+      "total_votes": 208
+    }
+  ]
+}

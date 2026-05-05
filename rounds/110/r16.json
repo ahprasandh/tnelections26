@@ -1,0 +1,54 @@
+{
+  "round": 16,
+  "candidates": [
+    {
+      "name": "K. DEENU",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 4009,
+      "postal_votes": 243,
+      "total_votes": 4252
+    },
+    {
+      "name": "A. RAMU",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 36023,
+      "postal_votes": 2479,
+      "total_votes": 38502
+    },
+    {
+      "name": "M. RAJU",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 42896,
+      "postal_votes": 2539,
+      "total_votes": 45435
+    },
+    {
+      "name": "C. THANGARAJU",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 36798,
+      "postal_votes": 2099,
+      "total_votes": 38897
+    },
+    {
+      "name": "C. DINESH KUMAR",
+      "party": "Independent",
+      "evm_votes": 483,
+      "postal_votes": 38,
+      "total_votes": 521
+    },
+    {
+      "name": "D. VIDHYASAGAR",
+      "party": "Independent",
+      "evm_votes": 279,
+      "postal_votes": 21,
+      "total_votes": 300
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 638,
+      "postal_votes": 28,
+      "total_votes": 666
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "round": 2,
+  "candidates": [
+    {
+      "name": "J.EMALAN",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 320,
+      "postal_votes": 315,
+      "total_votes": 635
+    },
+    {
+      "name": "PARITHA PURUSHOTHAMAN.G",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 4396,
+      "postal_votes": 4706,
+      "total_votes": 9102
+    },
+    {
+      "name": "K.B.PRADAP",
+      "party": "Desiya Murpokku Dravida Kazhagam",
+      "evm_votes": 2224,
+      "postal_votes": 1722,
+      "total_votes": 3946
+    },
+    {
+      "name": "T.POOVARASAN",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 27,
+      "postal_votes": 17,
+      "total_votes": 44
+    },
+    {
+      "name": "K.ASHA",
+      "party": "Puthiya Tamilagam",
+      "evm_votes": 40,
+      "postal_votes": 18,
+      "total_votes": 58
+    },
+    {
+      "name": "K.SINDU",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 3994,
+      "postal_votes": 3060,
+      "total_votes": 7054
+    },
+    {
+      "name": "K.THABITHAL",
+      "party": "All India Puratchi Thalaivar Makkal Munnettra Kazhagam",
+      "evm_votes": 20,
+      "postal_votes": 15,
+      "total_votes": 35
+    },
+    {
+      "name": "SUBAKARAN.A",
+      "party": "Independent",
+      "evm_votes": 39,
+      "postal_votes": 28,
+      "total_votes": 67
+    },
+    {
+      "name": "M.SUMATHI",
+      "party": "Independent",
+      "evm_votes": 10,
+      "postal_votes": 5,
+      "total_votes": 15
+    },
+    {
+      "name": "BHARATH  MATHIRUBAN",
+      "party": "Independent",
+      "evm_votes": 24,
+      "postal_votes": 15,
+      "total_votes": 39
+    },
+    {
+      "name": "A.RAJESH",
+      "party": "Independent",
+      "evm_votes": 20,
+      "postal_votes": 11,
+      "total_votes": 31
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 33,
+      "postal_votes": 34,
+      "total_votes": 67
+    }
+  ]
+}

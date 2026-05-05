@@ -1,0 +1,54 @@
+{
+  "round": 21,
+  "candidates": [
+    {
+      "name": "BHOJARAJAN.M",
+      "party": "Bharatiya Janata Party",
+      "evm_votes": 47571,
+      "postal_votes": 163,
+      "total_votes": 47734
+    },
+    {
+      "name": "RAGUPATHY.B",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 4530,
+      "postal_votes": 21,
+      "total_votes": 4551
+    },
+    {
+      "name": "RAMACHANDRAN.B",
+      "party": "Indian National Congress",
+      "evm_votes": 44628,
+      "postal_votes": 251,
+      "total_votes": 44879
+    },
+    {
+      "name": "IBRAHIM.R",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 46709,
+      "postal_votes": 293,
+      "total_votes": 47002
+    },
+    {
+      "name": "SAVEETHA.R",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 409,
+      "postal_votes": 0,
+      "total_votes": 409
+    },
+    {
+      "name": "MANIAN.R",
+      "party": "Independent",
+      "evm_votes": 452,
+      "postal_votes": 0,
+      "total_votes": 452
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 1497,
+      "postal_votes": 5,
+      "total_votes": 1502
+    }
+  ]
+}

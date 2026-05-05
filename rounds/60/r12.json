@@ -1,0 +1,110 @@
+{
+  "round": 12,
+  "candidates": [
+    {
+      "name": "ARCHANA TAMILARUVI",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 2509,
+      "postal_votes": 196,
+      "total_votes": 2705
+    },
+    {
+      "name": "PALANIAPPAN. P",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 25134,
+      "postal_votes": 3617,
+      "total_votes": 28751
+    },
+    {
+      "name": "MARAGATHAM VETRIVEL",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 57800,
+      "postal_votes": 3064,
+      "total_votes": 60864
+    },
+    {
+      "name": "GANESAN. S",
+      "party": "Vishwa Tamil Kazhagam",
+      "evm_votes": 439,
+      "postal_votes": 28,
+      "total_votes": 467
+    },
+    {
+      "name": "CHENNAKRISHNAN. V",
+      "party": "All India Puratchi Thalaivar Makkal Munnettra Kazhagam",
+      "evm_votes": 96,
+      "postal_votes": 4,
+      "total_votes": 100
+    },
+    {
+      "name": "THILAGAVATHI. S",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 26848,
+      "postal_votes": 2326,
+      "total_votes": 29174
+    },
+    {
+      "name": "POOVARASU",
+      "party": "Tamilar Makkal Katchi",
+      "evm_votes": 63,
+      "postal_votes": 5,
+      "total_votes": 68
+    },
+    {
+      "name": "JAMUNARANI. M",
+      "party": "Naadaalum Makkal Katchi",
+      "evm_votes": 91,
+      "postal_votes": 11,
+      "total_votes": 102
+    },
+    {
+      "name": "SATHISH. S",
+      "party": "Independent",
+      "evm_votes": 46,
+      "postal_votes": 2,
+      "total_votes": 48
+    },
+    {
+      "name": "CHINNASAMY. P",
+      "party": "Independent",
+      "evm_votes": 31,
+      "postal_votes": 2,
+      "total_votes": 33
+    },
+    {
+      "name": "TAMILRAJ. K",
+      "party": "Independent",
+      "evm_votes": 67,
+      "postal_votes": 2,
+      "total_votes": 69
+    },
+    {
+      "name": "PALANIAPPAN. R",
+      "party": "Independent",
+      "evm_votes": 177,
+      "postal_votes": 8,
+      "total_votes": 185
+    },
+    {
+      "name": "MURUGAN. S",
+      "party": "Independent",
+      "evm_votes": 196,
+      "postal_votes": 12,
+      "total_votes": 208
+    },
+    {
+      "name": "MOORTHI. P",
+      "party": "Independent",
+      "evm_votes": 146,
+      "postal_votes": 17,
+      "total_votes": 163
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 320,
+      "postal_votes": 15,
+      "total_votes": 335
+    }
+  ]
+}

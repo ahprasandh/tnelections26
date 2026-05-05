@@ -1,0 +1,117 @@
+{
+  "round": 23,
+  "candidates": [
+    {
+      "name": "KARIKALAN B",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 4635,
+      "postal_votes": 19,
+      "total_votes": 4654
+    },
+    {
+      "name": "GOWTHAM D",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 68126,
+      "postal_votes": 292,
+      "total_votes": 68418
+    },
+    {
+      "name": "MURUGAN P",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 53756,
+      "postal_votes": 83,
+      "total_votes": 53839
+    },
+    {
+      "name": "VINAYAGAMOORTHY M",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 265,
+      "postal_votes": 0,
+      "total_votes": 265
+    },
+    {
+      "name": "ANANDAKUMAR P M",
+      "party": "Thakkam Katchi",
+      "evm_votes": 95,
+      "postal_votes": 0,
+      "total_votes": 95
+    },
+    {
+      "name": "SAKTHIVEL S",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 283,
+      "postal_votes": 0,
+      "total_votes": 283
+    },
+    {
+      "name": "SURESH P",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 61364,
+      "postal_votes": 225,
+      "total_votes": 61589
+    },
+    {
+      "name": "AYYANAR E",
+      "party": "Independent",
+      "evm_votes": 93,
+      "postal_votes": 0,
+      "total_votes": 93
+    },
+    {
+      "name": "SATHYARAMAN P",
+      "party": "Independent",
+      "evm_votes": 170,
+      "postal_votes": 2,
+      "total_votes": 172
+    },
+    {
+      "name": "SIVAKUMAR R",
+      "party": "Independent",
+      "evm_votes": 111,
+      "postal_votes": 0,
+      "total_votes": 111
+    },
+    {
+      "name": "SURESH C V",
+      "party": "Independent",
+      "evm_votes": 66,
+      "postal_votes": 1,
+      "total_votes": 67
+    },
+    {
+      "name": "THANGARASU N",
+      "party": "Independent",
+      "evm_votes": 56,
+      "postal_votes": 0,
+      "total_votes": 56
+    },
+    {
+      "name": "MURALI M",
+      "party": "Independent",
+      "evm_votes": 83,
+      "postal_votes": 0,
+      "total_votes": 83
+    },
+    {
+      "name": "RADHIKA S",
+      "party": "Independent",
+      "evm_votes": 196,
+      "postal_votes": 1,
+      "total_votes": 197
+    },
+    {
+      "name": "VETRIVEL G",
+      "party": "Independent",
+      "evm_votes": 566,
+      "postal_votes": 5,
+      "total_votes": 571
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 509,
+      "postal_votes": 1,
+      "total_votes": 510
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "round": 10,
+  "candidates": [
+    {
+      "name": "THAMIMUN ANSARI. M",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 30367,
+      "postal_votes": 3861,
+      "total_votes": 34228
+    },
+    {
+      "name": "THAMIZH",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 2708,
+      "postal_votes": 223,
+      "total_votes": 2931
+    },
+    {
+      "name": "PANDIAN. K.A",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 30803,
+      "postal_votes": 2510,
+      "total_votes": 33313
+    },
+    {
+      "name": "DHANASEKARAN. M",
+      "party": "All India Puratchi Thalaivar Makkal Munnettra Kazhagam",
+      "evm_votes": 162,
+      "postal_votes": 15,
+      "total_votes": 177
+    },
+    {
+      "name": "NEDUNCHEZHIYAN",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 21045,
+      "postal_votes": 2771,
+      "total_votes": 23816
+    },
+    {
+      "name": "MUNISANKAR. K",
+      "party": "Anna Puratchi Thalaivar Amma Dravida Munnetra Kazhagam",
+      "evm_votes": 57,
+      "postal_votes": 7,
+      "total_votes": 64
+    },
+    {
+      "name": "EASAN NATARAJAN. T",
+      "party": "Independent",
+      "evm_votes": 58,
+      "postal_votes": 4,
+      "total_votes": 62
+    },
+    {
+      "name": "THIRUGNANAM. K",
+      "party": "Independent",
+      "evm_votes": 85,
+      "postal_votes": 11,
+      "total_votes": 96
+    },
+    {
+      "name": "MANIMARAN. D",
+      "party": "Independent",
+      "evm_votes": 96,
+      "postal_votes": 17,
+      "total_votes": 113
+    },
+    {
+      "name": "VENKATESAN. D",
+      "party": "Independent",
+      "evm_votes": 82,
+      "postal_votes": 8,
+      "total_votes": 90
+    },
+    {
+      "name": "ER. JAYAKKUMAR. R",
+      "party": "Independent",
+      "evm_votes": 75,
+      "postal_votes": 6,
+      "total_votes": 81
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 309,
+      "postal_votes": 29,
+      "total_votes": 338
+    }
+  ]
+}

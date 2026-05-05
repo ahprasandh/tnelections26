@@ -1,0 +1,103 @@
+{
+  "round": 18,
+  "candidates": [
+    {
+      "name": "P.SARAVANAN",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 22195,
+      "postal_votes": 1094,
+      "total_votes": 23289
+    },
+    {
+      "name": "G.THALAPATHI",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 48527,
+      "postal_votes": 3001,
+      "total_votes": 51528
+    },
+    {
+      "name": "V THIRUNAVUKKARASU",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 6506,
+      "postal_votes": 372,
+      "total_votes": 6878
+    },
+    {
+      "name": "A.KALLANAI",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 65048,
+      "postal_votes": 3172,
+      "total_votes": 68220
+    },
+    {
+      "name": "R RAJKUMAR",
+      "party": "Naam Indiar Party",
+      "evm_votes": 118,
+      "postal_votes": 7,
+      "total_votes": 125
+    },
+    {
+      "name": "M J VOLTAIRE",
+      "party": "Socialist Unity Centre Of India (COMMUNIST)",
+      "evm_votes": 109,
+      "postal_votes": 4,
+      "total_votes": 113
+    },
+    {
+      "name": "N.KUPPUSAMY",
+      "party": "Independent",
+      "evm_votes": 24,
+      "postal_votes": 1,
+      "total_votes": 25
+    },
+    {
+      "name": "J.KESAVARAJAH",
+      "party": "Independent",
+      "evm_votes": 71,
+      "postal_votes": 5,
+      "total_votes": 76
+    },
+    {
+      "name": "M.P.SANKARAPANDI",
+      "party": "Independent",
+      "evm_votes": 118,
+      "postal_votes": 2,
+      "total_votes": 120
+    },
+    {
+      "name": "C.SATHISHKUMAR",
+      "party": "Independent",
+      "evm_votes": 82,
+      "postal_votes": 2,
+      "total_votes": 84
+    },
+    {
+      "name": "D.MOHAMED ISMAIL",
+      "party": "Independent",
+      "evm_votes": 142,
+      "postal_votes": 6,
+      "total_votes": 148
+    },
+    {
+      "name": "P MUTHUSAMY",
+      "party": "Independent",
+      "evm_votes": 93,
+      "postal_votes": 2,
+      "total_votes": 95
+    },
+    {
+      "name": "A.RAJANGAM",
+      "party": "Independent",
+      "evm_votes": 126,
+      "postal_votes": 2,
+      "total_votes": 128
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 663,
+      "postal_votes": 31,
+      "total_votes": 694
+    }
+  ]
+}

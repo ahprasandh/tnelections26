@@ -1,0 +1,110 @@
+{
+  "round": 7,
+  "candidates": [
+    {
+      "name": "CHINNAIYAN POOSARI",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 110,
+      "postal_votes": 23,
+      "total_votes": 133
+    },
+    {
+      "name": "K.N.NEHRU",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 21287,
+      "postal_votes": 3429,
+      "total_votes": 24716
+    },
+    {
+      "name": "K.BHUVANESWARI",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 2007,
+      "postal_votes": 340,
+      "total_votes": 2347
+    },
+    {
+      "name": "M.RAJASEKARAN",
+      "party": "Amma Makkal Munnettra Kazagam",
+      "evm_votes": 4659,
+      "postal_votes": 940,
+      "total_votes": 5599
+    },
+    {
+      "name": "R.PRABU",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 98,
+      "postal_votes": 7,
+      "total_votes": 105
+    },
+    {
+      "name": "G.RAMAMOORTHI",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 23745,
+      "postal_votes": 3399,
+      "total_votes": 27144
+    },
+    {
+      "name": "A.VEERAMANI",
+      "party": "Samaniya Makkal Nala Katchi",
+      "evm_votes": 31,
+      "postal_votes": 3,
+      "total_votes": 34
+    },
+    {
+      "name": "M.KALAIMANI",
+      "party": "Independent",
+      "evm_votes": 35,
+      "postal_votes": 4,
+      "total_votes": 39
+    },
+    {
+      "name": "M.CHANDRASEKARAN",
+      "party": "Independent",
+      "evm_votes": 28,
+      "postal_votes": 2,
+      "total_votes": 30
+    },
+    {
+      "name": "SAMPATH",
+      "party": "Independent",
+      "evm_votes": 45,
+      "postal_votes": 3,
+      "total_votes": 48
+    },
+    {
+      "name": "SUNDARAPANDIYARAJA",
+      "party": "Independent",
+      "evm_votes": 28,
+      "postal_votes": 6,
+      "total_votes": 34
+    },
+    {
+      "name": "P.RAJENDRAN",
+      "party": "Independent",
+      "evm_votes": 38,
+      "postal_votes": 1,
+      "total_votes": 39
+    },
+    {
+      "name": "A.VASUDEVAN",
+      "party": "Independent",
+      "evm_votes": 51,
+      "postal_votes": 5,
+      "total_votes": 56
+    },
+    {
+      "name": "JEEVANANTHAM.M",
+      "party": "Independent",
+      "evm_votes": 67,
+      "postal_votes": 10,
+      "total_votes": 77
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 320,
+      "postal_votes": 66,
+      "total_votes": 386
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "round": 20,
+  "candidates": [
+    {
+      "name": "EZHIL CAROLINE",
+      "party": "Viduthalai Chiruthaigal Katchi",
+      "evm_votes": 47214,
+      "postal_votes": 2326,
+      "total_votes": 49540
+    },
+    {
+      "name": "P. SUDHAKAR",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 407,
+      "postal_votes": 25,
+      "total_votes": 432
+    },
+    {
+      "name": "S. RAVI",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 45730,
+      "postal_votes": 2689,
+      "total_votes": 48419
+    },
+    {
+      "name": "K. RAJKUMAR",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 4859,
+      "postal_votes": 210,
+      "total_votes": 5069
+    },
+    {
+      "name": "V. GANDHIRAJ",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 69412,
+      "postal_votes": 2886,
+      "total_votes": 72298
+    },
+    {
+      "name": "N. LAKSHMIPATHY",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 220,
+      "postal_votes": 6,
+      "total_votes": 226
+    },
+    {
+      "name": "VETRIVEL. M",
+      "party": "Aanaithinthiya Jananayaka Pathukappu Kazhagam",
+      "evm_votes": 215,
+      "postal_votes": 29,
+      "total_votes": 244
+    },
+    {
+      "name": "P. GOVINDARAJ",
+      "party": "Independent",
+      "evm_votes": 64,
+      "postal_votes": 3,
+      "total_votes": 67
+    },
+    {
+      "name": "M. SANTHANAM",
+      "party": "Independent",
+      "evm_votes": 137,
+      "postal_votes": 7,
+      "total_votes": 144
+    },
+    {
+      "name": "N. PRAVEENKUMAR",
+      "party": "Independent",
+      "evm_votes": 221,
+      "postal_votes": 11,
+      "total_votes": 232
+    },
+    {
+      "name": "M. MANIKANDAN",
+      "party": "Independent",
+      "evm_votes": 71,
+      "postal_votes": 4,
+      "total_votes": 75
+    },
+    {
+      "name": "T. MURALIDHARAN",
+      "party": "Independent",
+      "evm_votes": 181,
+      "postal_votes": 7,
+      "total_votes": 188
+    },
+    {
+      "name": "G. MOHAN",
+      "party": "Independent",
+      "evm_votes": 96,
+      "postal_votes": 6,
+      "total_votes": 102
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 838,
+      "postal_votes": 38,
+      "total_votes": 876
+    }
+  ]
+}

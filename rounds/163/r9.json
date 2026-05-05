@@ -1,0 +1,103 @@
+{
+  "round": 9,
+  "candidates": [
+    {
+      "name": "THANKA.KATHIRAVAN",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 20706,
+      "postal_votes": 1086,
+      "total_votes": 21792
+    },
+    {
+      "name": "FATHIMA FARHANA.S",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 2604,
+      "postal_votes": 175,
+      "total_votes": 2779
+    },
+    {
+      "name": "M.H.JAWAHIRULLAH",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 28907,
+      "postal_votes": 4642,
+      "total_votes": 33549
+    },
+    {
+      "name": "M.SUGUMAR",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 19044,
+      "postal_votes": 1776,
+      "total_votes": 20820
+    },
+    {
+      "name": "J.V.DURAI",
+      "party": "All India Youth Development Party",
+      "evm_votes": 88,
+      "postal_votes": 11,
+      "total_votes": 99
+    },
+    {
+      "name": "K.RAJASEKAR",
+      "party": "Puthiya Tamilagam",
+      "evm_votes": 40,
+      "postal_votes": 0,
+      "total_votes": 40
+    },
+    {
+      "name": "VALLABADAS.E",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 30,
+      "postal_votes": 8,
+      "total_votes": 38
+    },
+    {
+      "name": "M.IYYANKALAI",
+      "party": "Independent",
+      "evm_votes": 23,
+      "postal_votes": 3,
+      "total_votes": 26
+    },
+    {
+      "name": "T.KATHIRAVAN",
+      "party": "Independent",
+      "evm_votes": 20,
+      "postal_votes": 5,
+      "total_votes": 25
+    },
+    {
+      "name": "SAKTHIVEL",
+      "party": "Independent",
+      "evm_votes": 63,
+      "postal_votes": 4,
+      "total_votes": 67
+    },
+    {
+      "name": "N P BHASHGARAN",
+      "party": "Independent",
+      "evm_votes": 63,
+      "postal_votes": 6,
+      "total_votes": 69
+    },
+    {
+      "name": "S.PREM",
+      "party": "Independent",
+      "evm_votes": 90,
+      "postal_votes": 5,
+      "total_votes": 95
+    },
+    {
+      "name": "N.VIJAYARAGAVAN",
+      "party": "Independent",
+      "evm_votes": 97,
+      "postal_votes": 5,
+      "total_votes": 102
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 208,
+      "postal_votes": 26,
+      "total_votes": 234
+    }
+  ]
+}

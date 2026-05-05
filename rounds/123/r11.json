@@ -1,0 +1,103 @@
+{
+  "round": 11,
+  "candidates": [
+    {
+      "name": "C.M. ARUCHAMY",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 187,
+      "postal_votes": 16,
+      "total_votes": 203
+    },
+    {
+      "name": "N. SENTHIL KUMAR",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 2453,
+      "postal_votes": 240,
+      "total_votes": 2693
+    },
+    {
+      "name": "K. NITHYANANDHAN",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 31887,
+      "postal_votes": 3320,
+      "total_votes": 35207
+    },
+    {
+      "name": "POLLACHI V. JAYARAMAN",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 33571,
+      "postal_votes": 2734,
+      "total_votes": 36305
+    },
+    {
+      "name": "G. RAMANATHAN",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 24107,
+      "postal_votes": 2674,
+      "total_votes": 26781
+    },
+    {
+      "name": "V. KARTHIKEYAN",
+      "party": "Independent",
+      "evm_votes": 108,
+      "postal_votes": 14,
+      "total_votes": 122
+    },
+    {
+      "name": "P. NAGARAJ",
+      "party": "Independent",
+      "evm_votes": 55,
+      "postal_votes": 4,
+      "total_votes": 59
+    },
+    {
+      "name": "T. NITHYANANTHAM",
+      "party": "Independent",
+      "evm_votes": 60,
+      "postal_votes": 4,
+      "total_votes": 64
+    },
+    {
+      "name": "K. NITHYANANDAN",
+      "party": "Independent",
+      "evm_votes": 70,
+      "postal_votes": 1,
+      "total_votes": 71
+    },
+    {
+      "name": "M. JAYAPRATHAP",
+      "party": "Independent",
+      "evm_votes": 145,
+      "postal_votes": 4,
+      "total_votes": 149
+    },
+    {
+      "name": "S. JEYARAM",
+      "party": "Independent",
+      "evm_votes": 223,
+      "postal_votes": 18,
+      "total_votes": 241
+    },
+    {
+      "name": "M. JAYARAM",
+      "party": "Independent",
+      "evm_votes": 369,
+      "postal_votes": 35,
+      "total_votes": 404
+    },
+    {
+      "name": "M. JAYARAMAN",
+      "party": "Independent",
+      "evm_votes": 183,
+      "postal_votes": 11,
+      "total_votes": 194
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 411,
+      "postal_votes": 56,
+      "total_votes": 467
+    }
+  ]
+}

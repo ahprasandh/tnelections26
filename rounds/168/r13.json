@@ -1,0 +1,68 @@
+{
+  "round": 13,
+  "candidates": [
+    {
+      "name": "ASWINI B",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 4689,
+      "postal_votes": 425,
+      "total_votes": 5114
+    },
+    {
+      "name": "KALAIVANAN POONDI  K",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 44571,
+      "postal_votes": 3431,
+      "total_votes": 48002
+    },
+    {
+      "name": "CHANDRASEKARAN  GOVI",
+      "party": "Bharatiya Janata Party",
+      "evm_votes": 19604,
+      "postal_votes": 1941,
+      "total_votes": 21545
+    },
+    {
+      "name": "KANTHAN A",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 265,
+      "postal_votes": 26,
+      "total_votes": 291
+    },
+    {
+      "name": "THIYAGARAJAN .M",
+      "party": "Puthiya Tamilagam",
+      "evm_votes": 236,
+      "postal_votes": 16,
+      "total_votes": 252
+    },
+    {
+      "name": "VEERAMANI V",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 37748,
+      "postal_votes": 3264,
+      "total_votes": 41012
+    },
+    {
+      "name": "MUTHARASAN S",
+      "party": "Independent",
+      "evm_votes": 164,
+      "postal_votes": 9,
+      "total_votes": 173
+    },
+    {
+      "name": "SAHUL HAMEED M",
+      "party": "Independent",
+      "evm_votes": 247,
+      "postal_votes": 24,
+      "total_votes": 271
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 431,
+      "postal_votes": 24,
+      "total_votes": 455
+    }
+  ]
+}

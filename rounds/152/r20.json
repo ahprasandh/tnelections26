@@ -1,0 +1,138 @@
+{
+  "round": 20,
+  "candidates": [
+    {
+      "name": "ANANTHI DHANDAPANI",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 5127,
+      "postal_votes": 256,
+      "total_votes": 5383
+    },
+    {
+      "name": "SIVAPRAKASAM.V",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 322,
+      "postal_votes": 11,
+      "total_votes": 333
+    },
+    {
+      "name": "PREMALLATHA VIJAYAKANT",
+      "party": "Desiya Murpokku Dravida Kazhagam",
+      "evm_votes": 57669,
+      "postal_votes": 2483,
+      "total_votes": 60152
+    },
+    {
+      "name": "ARIVAZHAGAN.E.N",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 1715,
+      "postal_votes": 50,
+      "total_votes": 1765
+    },
+    {
+      "name": "ARIVUDAINAMBI.S",
+      "party": "Anti Corruption Dynamic Party",
+      "evm_votes": 799,
+      "postal_votes": 19,
+      "total_votes": 818
+    },
+    {
+      "name": "SATHIYA.B",
+      "party": "Anna Makkal Katchi",
+      "evm_votes": 137,
+      "postal_votes": 5,
+      "total_votes": 142
+    },
+    {
+      "name": "SIDHARTHAN.S",
+      "party": "Desiya Makkal Sakthi Katchi",
+      "evm_votes": 186,
+      "postal_votes": 6,
+      "total_votes": 192
+    },
+    {
+      "name": "GNANASUNDARI.M",
+      "party": "Aanaithinthiya Jananayaka Pathukappu Kazhagam",
+      "evm_votes": 553,
+      "postal_votes": 11,
+      "total_votes": 564
+    },
+    {
+      "name": "DR.TAMIZHARASI.P",
+      "party": "Pattali Makkal Katchi",
+      "evm_votes": 50960,
+      "postal_votes": 1904,
+      "total_votes": 52864
+    },
+    {
+      "name": "VIJAY.S",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 55386,
+      "postal_votes": 2817,
+      "total_votes": 58203
+    },
+    {
+      "name": "EZHILKUMAR.K",
+      "party": "Independent",
+      "evm_votes": 142,
+      "postal_votes": 5,
+      "total_votes": 147
+    },
+    {
+      "name": "SIVASANKARAN.K",
+      "party": "Independent",
+      "evm_votes": 146,
+      "postal_votes": 1,
+      "total_votes": 147
+    },
+    {
+      "name": "SRINIVASAN.R",
+      "party": "Independent",
+      "evm_votes": 278,
+      "postal_votes": 4,
+      "total_votes": 282
+    },
+    {
+      "name": "DURAI.K",
+      "party": "Independent",
+      "evm_votes": 625,
+      "postal_votes": 18,
+      "total_votes": 643
+    },
+    {
+      "name": "DEIVEEGADASS.M",
+      "party": "Independent",
+      "evm_votes": 147,
+      "postal_votes": 3,
+      "total_votes": 150
+    },
+    {
+      "name": "BALU.P",
+      "party": "Independent",
+      "evm_votes": 221,
+      "postal_votes": 6,
+      "total_votes": 227
+    },
+    {
+      "name": "PRABAKARAN.T",
+      "party": "Independent",
+      "evm_votes": 106,
+      "postal_votes": 5,
+      "total_votes": 111
+    },
+    {
+      "name": "JAYAPRAKASH.S",
+      "party": "Independent",
+      "evm_votes": 136,
+      "postal_votes": 5,
+      "total_votes": 141
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 600,
+      "postal_votes": 34,
+      "total_votes": 634
+    }
+  ]
+}

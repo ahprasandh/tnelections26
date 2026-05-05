@@ -1,0 +1,117 @@
+{
+  "round": 16,
+  "candidates": [
+    {
+      "name": "K.SELVARAJ",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 32162,
+      "postal_votes": 1900,
+      "total_votes": 34062
+    },
+    {
+      "name": "K.V.THAMILINIYAN",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 5460,
+      "postal_votes": 440,
+      "total_votes": 5900
+    },
+    {
+      "name": "K.P.PARAMASIVAM",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 36335,
+      "postal_votes": 2268,
+      "total_votes": 38603
+    },
+    {
+      "name": "K.RATHINASAMY",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 206,
+      "postal_votes": 8,
+      "total_votes": 214
+    },
+    {
+      "name": "K.SAKTHIVEL",
+      "party": "Anna Puratchi Thalaivar Amma Dravida Munnetra Kazhagam",
+      "evm_votes": 51,
+      "postal_votes": 5,
+      "total_votes": 56
+    },
+    {
+      "name": "S.DHARMARAJ",
+      "party": "Tamilaga Makkal Nala Katchi",
+      "evm_votes": 137,
+      "postal_votes": 12,
+      "total_votes": 149
+    },
+    {
+      "name": "K.RAMKUMAR",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 50228,
+      "postal_votes": 3895,
+      "total_votes": 54123
+    },
+    {
+      "name": "A.ANNADURAI",
+      "party": "Independent",
+      "evm_votes": 201,
+      "postal_votes": 11,
+      "total_votes": 212
+    },
+    {
+      "name": "ANNADURAI.R",
+      "party": "Independent",
+      "evm_votes": 124,
+      "postal_votes": 13,
+      "total_votes": 137
+    },
+    {
+      "name": "S.ARUMUGAM",
+      "party": "Independent",
+      "evm_votes": 106,
+      "postal_votes": 8,
+      "total_votes": 114
+    },
+    {
+      "name": "A.SARAVANAN",
+      "party": "Independent",
+      "evm_votes": 34,
+      "postal_votes": 0,
+      "total_votes": 34
+    },
+    {
+      "name": "G.SELVARAJ",
+      "party": "Independent",
+      "evm_votes": 76,
+      "postal_votes": 4,
+      "total_votes": 80
+    },
+    {
+      "name": "M. SELVARAJ",
+      "party": "Independent",
+      "evm_votes": 53,
+      "postal_votes": 1,
+      "total_votes": 54
+    },
+    {
+      "name": "V.MOHANRAJ",
+      "party": "Independent",
+      "evm_votes": 182,
+      "postal_votes": 10,
+      "total_votes": 192
+    },
+    {
+      "name": "A. RAMESH",
+      "party": "Independent",
+      "evm_votes": 140,
+      "postal_votes": 19,
+      "total_votes": 159
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 626,
+      "postal_votes": 41,
+      "total_votes": 667
+    }
+  ]
+}

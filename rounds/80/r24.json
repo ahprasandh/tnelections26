@@ -1,0 +1,89 @@
+{
+  "round": 24,
+  "candidates": [
+    {
+      "name": "NAGAMMAL RAJKODI",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 6357,
+      "postal_votes": 295,
+      "total_votes": 6652
+    },
+    {
+      "name": "MALATHI K",
+      "party": "Viduthalai Chiruthaigal Katchi",
+      "evm_votes": 67121,
+      "postal_votes": 2337,
+      "total_votes": 69458
+    },
+    {
+      "name": "RAJEEVGANDHI S",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 69503,
+      "postal_votes": 3329,
+      "total_votes": 72832
+    },
+    {
+      "name": "ARUL VIGNESH C",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 70108,
+      "postal_votes": 3114,
+      "total_votes": 73222
+    },
+    {
+      "name": "SELVARAJ M",
+      "party": "Independent",
+      "evm_votes": 188,
+      "postal_votes": 7,
+      "total_votes": 195
+    },
+    {
+      "name": "PRABU C",
+      "party": "Independent",
+      "evm_votes": 129,
+      "postal_votes": 4,
+      "total_votes": 133
+    },
+    {
+      "name": "MALATHI K",
+      "party": "Independent",
+      "evm_votes": 156,
+      "postal_votes": 6,
+      "total_votes": 162
+    },
+    {
+      "name": "RAJIVGANDHI S",
+      "party": "Independent",
+      "evm_votes": 162,
+      "postal_votes": 10,
+      "total_votes": 172
+    },
+    {
+      "name": "RAJIVGANDHI P",
+      "party": "Independent",
+      "evm_votes": 272,
+      "postal_votes": 12,
+      "total_votes": 284
+    },
+    {
+      "name": "VASANTHAKUMAR S",
+      "party": "Independent",
+      "evm_votes": 341,
+      "postal_votes": 19,
+      "total_votes": 360
+    },
+    {
+      "name": "VIGNESH G",
+      "party": "Independent",
+      "evm_votes": 576,
+      "postal_votes": 21,
+      "total_votes": 597
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 752,
+      "postal_votes": 28,
+      "total_votes": 780
+    }
+  ]
+}

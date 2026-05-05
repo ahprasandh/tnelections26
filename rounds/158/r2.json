@@ -1,0 +1,89 @@
+{
+  "round": 2,
+  "candidates": [
+    {
+      "name": "THAMIMUN ANSARI. M",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 3035,
+      "postal_votes": 2993,
+      "total_votes": 6028
+    },
+    {
+      "name": "THAMIZH",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 449,
+      "postal_votes": 346,
+      "total_votes": 795
+    },
+    {
+      "name": "PANDIAN. K.A",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 4147,
+      "postal_votes": 4801,
+      "total_votes": 8948
+    },
+    {
+      "name": "DHANASEKARAN. M",
+      "party": "All India Puratchi Thalaivar Makkal Munnettra Kazhagam",
+      "evm_votes": 18,
+      "postal_votes": 23,
+      "total_votes": 41
+    },
+    {
+      "name": "NEDUNCHEZHIYAN",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 2710,
+      "postal_votes": 2154,
+      "total_votes": 4864
+    },
+    {
+      "name": "MUNISANKAR. K",
+      "party": "Anna Puratchi Thalaivar Amma Dravida Munnetra Kazhagam",
+      "evm_votes": 4,
+      "postal_votes": 4,
+      "total_votes": 8
+    },
+    {
+      "name": "EASAN NATARAJAN. T",
+      "party": "Independent",
+      "evm_votes": 7,
+      "postal_votes": 9,
+      "total_votes": 16
+    },
+    {
+      "name": "THIRUGNANAM. K",
+      "party": "Independent",
+      "evm_votes": 10,
+      "postal_votes": 7,
+      "total_votes": 17
+    },
+    {
+      "name": "MANIMARAN. D",
+      "party": "Independent",
+      "evm_votes": 22,
+      "postal_votes": 8,
+      "total_votes": 30
+    },
+    {
+      "name": "VENKATESAN. D",
+      "party": "Independent",
+      "evm_votes": 11,
+      "postal_votes": 10,
+      "total_votes": 21
+    },
+    {
+      "name": "ER. JAYAKKUMAR. R",
+      "party": "Independent",
+      "evm_votes": 8,
+      "postal_votes": 8,
+      "total_votes": 16
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 50,
+      "postal_votes": 33,
+      "total_votes": 83
+    }
+  ]
+}

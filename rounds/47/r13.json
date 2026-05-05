@@ -1,0 +1,117 @@
+{
+  "round": 13,
+  "candidates": [
+    {
+      "name": "SUBRAMANI.P",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 270,
+      "postal_votes": 21,
+      "total_votes": 291
+    },
+    {
+      "name": "SENDHIL KUMAR.G",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 24621,
+      "postal_votes": 2454,
+      "total_votes": 27075
+    },
+    {
+      "name": "MURUGESAN.G",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 2066,
+      "postal_votes": 244,
+      "total_votes": 2310
+    },
+    {
+      "name": "ANBARASU.P",
+      "party": "Aanaithinthiya Jananayaka Pathukappu Kazhagam",
+      "evm_votes": 101,
+      "postal_votes": 7,
+      "total_votes": 108
+    },
+    {
+      "name": "SUNDARAMMAL",
+      "party": "Makkal Arasial Katchi",
+      "evm_votes": 248,
+      "postal_votes": 21,
+      "total_votes": 269
+    },
+    {
+      "name": "SYED FAROOQ BASHA SSB",
+      "party": "Indian Union Muslim League",
+      "evm_votes": 48910,
+      "postal_votes": 2364,
+      "total_votes": 51274
+    },
+    {
+      "name": "SYED BHURHANUDEEN",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 32789,
+      "postal_votes": 4119,
+      "total_votes": 36908
+    },
+    {
+      "name": "DEVENDRAN.J",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 104,
+      "postal_votes": 6,
+      "total_votes": 110
+    },
+    {
+      "name": "ABDUL WAHID.A",
+      "party": "Independent",
+      "evm_votes": 53,
+      "postal_votes": 3,
+      "total_votes": 56
+    },
+    {
+      "name": "SRINIVASAN.A",
+      "party": "Independent",
+      "evm_votes": 64,
+      "postal_votes": 17,
+      "total_votes": 81
+    },
+    {
+      "name": "SELVARAJ.M",
+      "party": "Independent",
+      "evm_votes": 52,
+      "postal_votes": 6,
+      "total_votes": 58
+    },
+    {
+      "name": "NAVEEN.R",
+      "party": "Independent",
+      "evm_votes": 61,
+      "postal_votes": 7,
+      "total_votes": 68
+    },
+    {
+      "name": "MANJUNATH.K",
+      "party": "Independent",
+      "evm_votes": 65,
+      "postal_votes": 7,
+      "total_votes": 72
+    },
+    {
+      "name": "MANOJ.S",
+      "party": "Independent",
+      "evm_votes": 69,
+      "postal_votes": 7,
+      "total_votes": 76
+    },
+    {
+      "name": "RAJESH.T",
+      "party": "Independent",
+      "evm_votes": 73,
+      "postal_votes": 7,
+      "total_votes": 80
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 300,
+      "postal_votes": 22,
+      "total_votes": 322
+    }
+  ]
+}

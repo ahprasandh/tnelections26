@@ -1,0 +1,103 @@
+{
+  "round": 12,
+  "candidates": [
+    {
+      "name": "ANCY SHOBA RANI. L",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 6439,
+      "postal_votes": 387,
+      "total_votes": 6826
+    },
+    {
+      "name": "SIVAKUMAR. T",
+      "party": "Bharatiya Janata Party",
+      "evm_votes": 17573,
+      "postal_votes": 3126,
+      "total_votes": 20699
+    },
+    {
+      "name": "THARAHAI CUTHBERT",
+      "party": "Indian National Congress",
+      "evm_votes": 36520,
+      "postal_votes": 2765,
+      "total_votes": 39285
+    },
+    {
+      "name": "RAJASINGH. C",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 153,
+      "postal_votes": 12,
+      "total_votes": 165
+    },
+    {
+      "name": "ANTHONY MUTHU. S.M",
+      "party": "Communist Party of India (Marxist-Leninist) (Liberation)",
+      "evm_votes": 152,
+      "postal_votes": 9,
+      "total_votes": 161
+    },
+    {
+      "name": "GANESH. N",
+      "party": "Thamizhaka Padaippalar Makkal Katchi",
+      "evm_votes": 95,
+      "postal_votes": 14,
+      "total_votes": 109
+    },
+    {
+      "name": "CHRIST MILLER. S",
+      "party": "All India Puratchi Thalaivar Makkal Munnettra Kazhagam",
+      "evm_votes": 72,
+      "postal_votes": 4,
+      "total_votes": 76
+    },
+    {
+      "name": "KOIL RAJ. R",
+      "party": "Naam Indiar Party",
+      "evm_votes": 71,
+      "postal_votes": 12,
+      "total_votes": 83
+    },
+    {
+      "name": "PREM ALEX LAWRENCE",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 29889,
+      "postal_votes": 2993,
+      "total_votes": 32882
+    },
+    {
+      "name": "MURALI. M",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 70,
+      "postal_votes": 1,
+      "total_votes": 71
+    },
+    {
+      "name": "ANTONY ALANKARAM. K",
+      "party": "Independent",
+      "evm_votes": 55,
+      "postal_votes": 5,
+      "total_votes": 60
+    },
+    {
+      "name": "SARAVANAN. M",
+      "party": "Independent",
+      "evm_votes": 71,
+      "postal_votes": 10,
+      "total_votes": 81
+    },
+    {
+      "name": "SELVARAJ. M",
+      "party": "Independent",
+      "evm_votes": 121,
+      "postal_votes": 16,
+      "total_votes": 137
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 224,
+      "postal_votes": 35,
+      "total_votes": 259
+    }
+  ]
+}

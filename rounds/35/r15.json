@@ -1,0 +1,75 @@
+{
+  "round": 15,
+  "candidates": [
+    {
+      "name": "S.AMULU PONMALAR",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 40571,
+      "postal_votes": 3073,
+      "total_votes": 43644
+    },
+    {
+      "name": "MARAGATHAM KUMARAVEL.K",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 47591,
+      "postal_votes": 3617,
+      "total_votes": 51208
+    },
+    {
+      "name": "NEELAM E.RAMKUMAR",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 242,
+      "postal_votes": 13,
+      "total_votes": 255
+    },
+    {
+      "name": "G.JANAKIRAMAN",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 3348,
+      "postal_votes": 254,
+      "total_votes": 3602
+    },
+    {
+      "name": "EZHIL KATHARINE EZHILMALAI",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 42842,
+      "postal_votes": 2937,
+      "total_votes": 45779
+    },
+    {
+      "name": "R.SUGAN",
+      "party": "All India Puratchi Thalaivar Makkal Munnettra Kazhagam",
+      "evm_votes": 168,
+      "postal_votes": 17,
+      "total_votes": 185
+    },
+    {
+      "name": "S.PUNNIYAKOTTI",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 137,
+      "postal_votes": 12,
+      "total_votes": 149
+    },
+    {
+      "name": "M.KADIRVEL",
+      "party": "Independent",
+      "evm_votes": 73,
+      "postal_votes": 4,
+      "total_votes": 77
+    },
+    {
+      "name": "RANJITHAM.M",
+      "party": "Independent",
+      "evm_votes": 242,
+      "postal_votes": 23,
+      "total_votes": 265
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 556,
+      "postal_votes": 46,
+      "total_votes": 602
+    }
+  ]
+}

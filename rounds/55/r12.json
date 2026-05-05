@@ -1,0 +1,103 @@
+{
+  "round": 12,
+  "candidates": [
+    {
+      "name": "SATHYA.S.A.",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 24379,
+      "postal_votes": 2563,
+      "total_votes": 26942
+    },
+    {
+      "name": "BALAKRISHNAREDDY. P",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 47196,
+      "postal_votes": 3853,
+      "total_votes": 51049
+    },
+    {
+      "name": "STALIN.R",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 2182,
+      "postal_votes": 226,
+      "total_votes": 2408
+    },
+    {
+      "name": "SURYA. Y",
+      "party": "Republican Party of India (Athawale)",
+      "evm_votes": 346,
+      "postal_votes": 27,
+      "total_votes": 373
+    },
+    {
+      "name": "PONNUMANI.R",
+      "party": "Tamilar Makkal Katchi",
+      "evm_votes": 84,
+      "postal_votes": 7,
+      "total_votes": 91
+    },
+    {
+      "name": "VENDARKARASAN.S",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 20411,
+      "postal_votes": 2474,
+      "total_votes": 22885
+    },
+    {
+      "name": "GANESH.M",
+      "party": "Independent",
+      "evm_votes": 55,
+      "postal_votes": 7,
+      "total_votes": 62
+    },
+    {
+      "name": "DR.SHANMUGAM.A.R.",
+      "party": "Independent",
+      "evm_votes": 31,
+      "postal_votes": 1,
+      "total_votes": 32
+    },
+    {
+      "name": "DEVAPPA.Y",
+      "party": "Independent",
+      "evm_votes": 45,
+      "postal_votes": 10,
+      "total_votes": 55
+    },
+    {
+      "name": "PATTABIRAMA. C",
+      "party": "Independent",
+      "evm_votes": 60,
+      "postal_votes": 2,
+      "total_votes": 62
+    },
+    {
+      "name": "MASOOD.S",
+      "party": "Independent",
+      "evm_votes": 91,
+      "postal_votes": 9,
+      "total_votes": 100
+    },
+    {
+      "name": "MARIYA FRANCIS.S",
+      "party": "Independent",
+      "evm_votes": 100,
+      "postal_votes": 13,
+      "total_votes": 113
+    },
+    {
+      "name": "RAJENDRAN.P",
+      "party": "Independent",
+      "evm_votes": 117,
+      "postal_votes": 15,
+      "total_votes": 132
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 500,
+      "postal_votes": 56,
+      "total_votes": 556
+    }
+  ]
+}

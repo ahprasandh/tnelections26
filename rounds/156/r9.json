@@ -1,0 +1,89 @@
+{
+  "round": 9,
+  "candidates": [
+    {
+      "name": "KAVITHA RENGANATHAN",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 1874,
+      "postal_votes": 191,
+      "total_votes": 2065
+    },
+    {
+      "name": "M  KANAGARAJ",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 83,
+      "postal_votes": 9,
+      "total_votes": 92
+    },
+    {
+      "name": "M.R.K.PANNEERSELVAM",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 27160,
+      "postal_votes": 4833,
+      "total_votes": 31993
+    },
+    {
+      "name": "A  BHUVANENTHIRAN",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 29451,
+      "postal_votes": 3740,
+      "total_votes": 33191
+    },
+    {
+      "name": "T  KANNAN",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 3312,
+      "postal_votes": 460,
+      "total_votes": 3772
+    },
+    {
+      "name": "R  SRINIVASAN",
+      "party": "Tamil Telugu National Party",
+      "evm_votes": 114,
+      "postal_votes": 12,
+      "total_votes": 126
+    },
+    {
+      "name": "RAJKUMAR D",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 18790,
+      "postal_votes": 2290,
+      "total_votes": 21080
+    },
+    {
+      "name": "ARUMUGAM  R",
+      "party": "Independent",
+      "evm_votes": 390,
+      "postal_votes": 43,
+      "total_votes": 433
+    },
+    {
+      "name": "DHANAKESAVAMOORTHY A.C.T",
+      "party": "Independent",
+      "evm_votes": 87,
+      "postal_votes": 16,
+      "total_votes": 103
+    },
+    {
+      "name": "MANIMALA  R",
+      "party": "Independent",
+      "evm_votes": 177,
+      "postal_votes": 21,
+      "total_votes": 198
+    },
+    {
+      "name": "MUTHAZHAGAN  N",
+      "party": "Independent",
+      "evm_votes": 107,
+      "postal_votes": 15,
+      "total_votes": 122
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 204,
+      "postal_votes": 32,
+      "total_votes": 236
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "round": 11,
+  "candidates": [
+    {
+      "name": "AUSTIN",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 28505,
+      "postal_votes": 3067,
+      "total_votes": 31572
+    },
+    {
+      "name": "GANDHI M R",
+      "party": "Bharatiya Janata Party",
+      "evm_votes": 26215,
+      "postal_votes": 1981,
+      "total_votes": 28196
+    },
+    {
+      "name": "MUTHUKUMAR M",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 3941,
+      "postal_votes": 353,
+      "total_votes": 4294
+    },
+    {
+      "name": "ANTONY MICHAEL J",
+      "party": "Viro Ke Vir Indian Party",
+      "evm_votes": 61,
+      "postal_votes": 4,
+      "total_votes": 65
+    },
+    {
+      "name": "SALATE KANAGARAJ A",
+      "party": "Naam Indiar Party",
+      "evm_votes": 34,
+      "postal_votes": 4,
+      "total_votes": 38
+    },
+    {
+      "name": "DINO T",
+      "party": "Naadaalum Makkal Katchi",
+      "evm_votes": 161,
+      "postal_votes": 20,
+      "total_votes": 181
+    },
+    {
+      "name": "NAGARAJAN L",
+      "party": "Thamizhaka Padaippalar Makkal Katchi",
+      "evm_votes": 126,
+      "postal_votes": 17,
+      "total_votes": 143
+    },
+    {
+      "name": "BERVIN KINGS G",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 28571,
+      "postal_votes": 2790,
+      "total_votes": 31361
+    },
+    {
+      "name": "VALLIMAYIL P",
+      "party": "Communist Party of India (Marxist-Leninist) Red Star",
+      "evm_votes": 65,
+      "postal_votes": 8,
+      "total_votes": 73
+    },
+    {
+      "name": "AJITH KUMAR A",
+      "party": "Independent",
+      "evm_votes": 57,
+      "postal_votes": 6,
+      "total_votes": 63
+    },
+    {
+      "name": "GUNASEKARAN S",
+      "party": "Independent",
+      "evm_votes": 62,
+      "postal_votes": 3,
+      "total_votes": 65
+    },
+    {
+      "name": "SIVAKUMAR A",
+      "party": "Independent",
+      "evm_votes": 222,
+      "postal_votes": 5,
+      "total_votes": 227
+    },
+    {
+      "name": "SUYAMBULINGAM A",
+      "party": "Independent",
+      "evm_votes": 112,
+      "postal_votes": 5,
+      "total_votes": 117
+    },
+    {
+      "name": "SUYAMBULINGAM P",
+      "party": "Independent",
+      "evm_votes": 73,
+      "postal_votes": 6,
+      "total_votes": 79
+    },
+    {
+      "name": "DINESH",
+      "party": "Independent",
+      "evm_votes": 51,
+      "postal_votes": 3,
+      "total_votes": 54
+    },
+    {
+      "name": "NAGOOR MEERAN PEER MOHAMED U",
+      "party": "Independent",
+      "evm_votes": 138,
+      "postal_votes": 7,
+      "total_votes": 145
+    },
+    {
+      "name": "MOHIDEEN FAIGEE ALIAS SOORANKUDY FAIGEE",
+      "party": "Independent",
+      "evm_votes": 202,
+      "postal_votes": 17,
+      "total_votes": 219
+    },
+    {
+      "name": "RETNA MONY S",
+      "party": "Independent",
+      "evm_votes": 82,
+      "postal_votes": 4,
+      "total_votes": 86
+    },
+    {
+      "name": "VAIRAM PILLAI S",
+      "party": "Independent",
+      "evm_votes": 22,
+      "postal_votes": 2,
+      "total_votes": 24
+    },
+    {
+      "name": "JEBARSON S",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 30,
+      "postal_votes": 5,
+      "total_votes": 35
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 193,
+      "postal_votes": 26,
+      "total_votes": 219
+    }
+  ]
+}

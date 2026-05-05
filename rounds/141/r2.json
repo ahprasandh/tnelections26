@@ -1,0 +1,152 @@
+{
+  "round": 2,
+  "candidates": [
+    {
+      "name": "R. ELANGOVAN",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 10,
+      "postal_votes": 13,
+      "total_votes": 23
+    },
+    {
+      "name": "S. INIGO IRUDAYARAJ",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 2221,
+      "postal_votes": 2734,
+      "total_votes": 4955
+    },
+    {
+      "name": "DR.KRISHNASAMY .V",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 191,
+      "postal_votes": 265,
+      "total_votes": 456
+    },
+    {
+      "name": "G. RAJASEKARAN",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 1063,
+      "postal_votes": 1277,
+      "total_votes": 2340
+    },
+    {
+      "name": "ANAND SELVARAJ",
+      "party": "National Maha Sabha Party",
+      "evm_votes": 2,
+      "postal_votes": 9,
+      "total_votes": 11
+    },
+    {
+      "name": "N. GOBINATH",
+      "party": "Puthiya Tamilagam",
+      "evm_votes": 2,
+      "postal_votes": 3,
+      "total_votes": 5
+    },
+    {
+      "name": "SUKUMAR .S",
+      "party": "Thamizhaka Padaippalar Makkal Katchi",
+      "evm_votes": 3,
+      "postal_votes": 7,
+      "total_votes": 10
+    },
+    {
+      "name": "C. NANDA KUMAR",
+      "party": "All India Puratchi Thalaivar Makkal Munnettra Kazhagam",
+      "evm_votes": 3,
+      "postal_votes": 7,
+      "total_votes": 10
+    },
+    {
+      "name": "R. MUTHUKUMAR",
+      "party": "Samaniya Makkal Nala Katchi",
+      "evm_votes": 1,
+      "postal_votes": 2,
+      "total_votes": 3
+    },
+    {
+      "name": "ROYAL RAJA",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 52,
+      "postal_votes": 15,
+      "total_votes": 67
+    },
+    {
+      "name": "VIJAY .K",
+      "party": "All India Jananayaka Makkal Kazhagam",
+      "evm_votes": 5,
+      "postal_votes": 11,
+      "total_votes": 16
+    },
+    {
+      "name": "VIJAIA MOHANAAJI .MA",
+      "party": "Vidial Valarchi Perani",
+      "evm_votes": 8,
+      "postal_votes": 9,
+      "total_votes": 17
+    },
+    {
+      "name": "C. JOSEPH VIJAY",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 3870,
+      "postal_votes": 4384,
+      "total_votes": 8254
+    },
+    {
+      "name": "T. GANGAI ULAGANATHAN",
+      "party": "Independent",
+      "evm_votes": 0,
+      "postal_votes": 5,
+      "total_votes": 5
+    },
+    {
+      "name": "KANNAN .S",
+      "party": "Independent",
+      "evm_votes": 5,
+      "postal_votes": 5,
+      "total_votes": 10
+    },
+    {
+      "name": "P. CHARLES SAGAYARAJ",
+      "party": "Independent",
+      "evm_votes": 17,
+      "postal_votes": 12,
+      "total_votes": 29
+    },
+    {
+      "name": "G. SEBASTIAN ANAND",
+      "party": "Independent",
+      "evm_votes": 5,
+      "postal_votes": 4,
+      "total_votes": 9
+    },
+    {
+      "name": "S. PANNEER SELVAM",
+      "party": "Independent",
+      "evm_votes": 4,
+      "postal_votes": 5,
+      "total_votes": 9
+    },
+    {
+      "name": "J. ROBERT CHRISTY",
+      "party": "Independent",
+      "evm_votes": 1,
+      "postal_votes": 2,
+      "total_votes": 3
+    },
+    {
+      "name": "P. RAJENDRAN",
+      "party": "Independent",
+      "evm_votes": 1,
+      "postal_votes": 0,
+      "total_votes": 1
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 16,
+      "postal_votes": 28,
+      "total_votes": 44
+    }
+  ]
+}

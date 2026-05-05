@@ -1,0 +1,117 @@
+{
+  "round": 4,
+  "candidates": [
+    {
+      "name": "PUGAZHENDHI D",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 982,
+      "postal_votes": 282,
+      "total_votes": 1264
+    },
+    {
+      "name": "RAJENDRAN S",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 12200,
+      "postal_votes": 3156,
+      "total_votes": 15356
+    },
+    {
+      "name": "LATHA BALU",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 8370,
+      "postal_votes": 2891,
+      "total_votes": 11261
+    },
+    {
+      "name": "STALIN V",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 46,
+      "postal_votes": 14,
+      "total_votes": 60
+    },
+    {
+      "name": "THANGA. SHANMUGA SUNDARAM",
+      "party": "Naadaalum Makkal Katchi",
+      "evm_votes": 71,
+      "postal_votes": 18,
+      "total_votes": 89
+    },
+    {
+      "name": "SIVAKUMAR M",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 7607,
+      "postal_votes": 3564,
+      "total_votes": 11171
+    },
+    {
+      "name": "SUDHAKAR M",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 19,
+      "postal_votes": 6,
+      "total_votes": 25
+    },
+    {
+      "name": "RAJKUMAR S",
+      "party": "All India Puratchi Thalaivar Makkal Munnettra Kazhagam",
+      "evm_votes": 15,
+      "postal_votes": 17,
+      "total_votes": 32
+    },
+    {
+      "name": "ELAIYARAJA C",
+      "party": "Independent",
+      "evm_votes": 12,
+      "postal_votes": 3,
+      "total_votes": 15
+    },
+    {
+      "name": "KRISHNAMOORTHY C",
+      "party": "Independent",
+      "evm_votes": 9,
+      "postal_votes": 3,
+      "total_votes": 12
+    },
+    {
+      "name": "KUMAR K",
+      "party": "Independent",
+      "evm_votes": 18,
+      "postal_votes": 6,
+      "total_votes": 24
+    },
+    {
+      "name": "SEMMALAI T",
+      "party": "Independent",
+      "evm_votes": 13,
+      "postal_votes": 15,
+      "total_votes": 28
+    },
+    {
+      "name": "RAJKUMAR K",
+      "party": "Independent",
+      "evm_votes": 29,
+      "postal_votes": 4,
+      "total_votes": 33
+    },
+    {
+      "name": "VETRIVEL G",
+      "party": "Independent",
+      "evm_votes": 62,
+      "postal_votes": 5,
+      "total_votes": 67
+    },
+    {
+      "name": "JOTHIBASU K",
+      "party": "Independent",
+      "evm_votes": 98,
+      "postal_votes": 16,
+      "total_votes": 114
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 67,
+      "postal_votes": 51,
+      "total_votes": 118
+    }
+  ]
+}

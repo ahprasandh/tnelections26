@@ -1,0 +1,54 @@
+{
+  "round": 17,
+  "candidates": [
+    {
+      "name": "UMADEVI. P",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 4690,
+      "postal_votes": 288,
+      "total_votes": 4978
+    },
+    {
+      "name": "KUTTY (ALIAS) SUDHAKAR. A",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 47139,
+      "postal_votes": 4096,
+      "total_votes": 51235
+    },
+    {
+      "name": "LEKSHMANA SINGH. D",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 40393,
+      "postal_votes": 1717,
+      "total_votes": 42110
+    },
+    {
+      "name": "DR. SRIDHARAN. A",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 41725,
+      "postal_votes": 1974,
+      "total_votes": 43699
+    },
+    {
+      "name": "PERUMAL. K",
+      "party": "Independent",
+      "evm_votes": 446,
+      "postal_votes": 15,
+      "total_votes": 461
+    },
+    {
+      "name": "LAKSHMI. N",
+      "party": "Independent",
+      "evm_votes": 289,
+      "postal_votes": 12,
+      "total_votes": 301
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 641,
+      "postal_votes": 15,
+      "total_votes": 656
+    }
+  ]
+}

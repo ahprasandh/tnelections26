@@ -1,0 +1,61 @@
+{
+  "round": 15,
+  "candidates": [
+    {
+      "name": "KARTHIKA. M",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 6982,
+      "postal_votes": 617,
+      "total_votes": 7599
+    },
+    {
+      "name": "LATHA. T",
+      "party": "Communist Party of India (Marxist)",
+      "evm_votes": 49239,
+      "postal_votes": 3477,
+      "total_votes": 52716
+    },
+    {
+      "name": "SURENTHAR. K",
+      "party": "Puthiya Tamilagam",
+      "evm_votes": 472,
+      "postal_votes": 48,
+      "total_votes": 520
+    },
+    {
+      "name": "SENTHIL PANDIAN. P",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 47917,
+      "postal_votes": 3176,
+      "total_votes": 51093
+    },
+    {
+      "name": "VADIVEL RAVANAN. S",
+      "party": "Pattali Makkal Katchi",
+      "evm_votes": 26767,
+      "postal_votes": 2870,
+      "total_votes": 29637
+    },
+    {
+      "name": "VEDHA MUKUNDHAN",
+      "party": "Aanaithinthiya Jananayaka Pathukappu Kazhagam",
+      "evm_votes": 371,
+      "postal_votes": 31,
+      "total_votes": 402
+    },
+    {
+      "name": "JAIVISHNUDEVI. M",
+      "party": "Independent",
+      "evm_votes": 357,
+      "postal_votes": 32,
+      "total_votes": 389
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 475,
+      "postal_votes": 39,
+      "total_votes": 514
+    }
+  ]
+}

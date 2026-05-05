@@ -1,0 +1,117 @@
+{
+  "round": 25,
+  "candidates": [
+    {
+      "name": "THIRUMARAN. K.C",
+      "party": "Bharatiya Janata Party",
+      "evm_votes": 26233,
+      "postal_votes": 1141,
+      "total_votes": 27374
+    },
+    {
+      "name": "PERIAKARUPPAN. KR",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 74784,
+      "postal_votes": 2989,
+      "total_votes": 77773
+    },
+    {
+      "name": "RAMYA MOHAN",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 13291,
+      "postal_votes": 662,
+      "total_votes": 13953
+    },
+    {
+      "name": "UMADEVI. S",
+      "party": "All India Puratchi Thalaivar Makkal Munnettra Kazhagam",
+      "evm_votes": 539,
+      "postal_votes": 22,
+      "total_votes": 561
+    },
+    {
+      "name": "SEENIVASA SETHUPATHY. R",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 73046,
+      "postal_votes": 3600,
+      "total_votes": 76646
+    },
+    {
+      "name": "SHANMUGAM. M",
+      "party": "Independent",
+      "evm_votes": 342,
+      "postal_votes": 16,
+      "total_votes": 358
+    },
+    {
+      "name": "SETHU. P",
+      "party": "Independent",
+      "evm_votes": 117,
+      "postal_votes": 9,
+      "total_votes": 126
+    },
+    {
+      "name": "PANCHAVARNAM. M",
+      "party": "Independent",
+      "evm_votes": 115,
+      "postal_votes": 6,
+      "total_votes": 121
+    },
+    {
+      "name": "BAKIYALAKSHMI. M",
+      "party": "Independent",
+      "evm_votes": 221,
+      "postal_votes": 20,
+      "total_votes": 241
+    },
+    {
+      "name": "PIRAMAN. P",
+      "party": "Independent",
+      "evm_votes": 200,
+      "postal_votes": 4,
+      "total_votes": 204
+    },
+    {
+      "name": "MALLIKA. A",
+      "party": "Independent",
+      "evm_votes": 120,
+      "postal_votes": 5,
+      "total_votes": 125
+    },
+    {
+      "name": "MARIMUTHU. S",
+      "party": "Independent",
+      "evm_votes": 310,
+      "postal_votes": 11,
+      "total_votes": 321
+    },
+    {
+      "name": "RAJA. K.P.M",
+      "party": "Independent",
+      "evm_votes": 696,
+      "postal_votes": 19,
+      "total_votes": 715
+    },
+    {
+      "name": "DR.VINAYAGA MEYYARASU. T",
+      "party": "Independent",
+      "evm_votes": 347,
+      "postal_votes": 11,
+      "total_votes": 358
+    },
+    {
+      "name": "VISHWANATHAN. S",
+      "party": "Independent",
+      "evm_votes": 460,
+      "postal_votes": 15,
+      "total_votes": 475
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 638,
+      "postal_votes": 28,
+      "total_votes": 666
+    }
+  ]
+}

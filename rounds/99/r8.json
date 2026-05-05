@@ -1,0 +1,103 @@
+{
+  "round": 8,
+  "candidates": [
+    {
+      "name": "V . PALANI",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 154,
+      "postal_votes": 20,
+      "total_votes": 174
+    },
+    {
+      "name": "S. MUTHUSAMY",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 22820,
+      "postal_votes": 2523,
+      "total_votes": 25343
+    },
+    {
+      "name": "M. YUVARAJA",
+      "party": "Bharatiya Janata Party",
+      "evm_votes": 11944,
+      "postal_votes": 1294,
+      "total_votes": 13238
+    },
+    {
+      "name": "N. VIJAY",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 2351,
+      "postal_votes": 405,
+      "total_votes": 2756
+    },
+    {
+      "name": "ANANTH MOGHAN K.K.",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 29480,
+      "postal_votes": 5044,
+      "total_votes": 34524
+    },
+    {
+      "name": "K. KALAIYARASAN",
+      "party": "Party for the Rights of Other backward Classes",
+      "evm_votes": 148,
+      "postal_votes": 10,
+      "total_votes": 158
+    },
+    {
+      "name": "V. DHANALAKSHMI",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 54,
+      "postal_votes": 7,
+      "total_votes": 61
+    },
+    {
+      "name": "M. NATARAJ",
+      "party": "Vishwa Tamil Kazhagam",
+      "evm_votes": 57,
+      "postal_votes": 31,
+      "total_votes": 88
+    },
+    {
+      "name": "M. RUKMANI",
+      "party": "Samaniya Makkal Nala Katchi",
+      "evm_votes": 38,
+      "postal_votes": 3,
+      "total_votes": 41
+    },
+    {
+      "name": "SHANMUGAM M.",
+      "party": "Independent",
+      "evm_votes": 69,
+      "postal_votes": 8,
+      "total_votes": 77
+    },
+    {
+      "name": "MOORTHI P.",
+      "party": "Independent",
+      "evm_votes": 65,
+      "postal_votes": 12,
+      "total_votes": 77
+    },
+    {
+      "name": "A. RAMU",
+      "party": "Independent",
+      "evm_votes": 84,
+      "postal_votes": 3,
+      "total_votes": 87
+    },
+    {
+      "name": "C. RAJENDRAN",
+      "party": "Independent",
+      "evm_votes": 122,
+      "postal_votes": 4,
+      "total_votes": 126
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 361,
+      "postal_votes": 37,
+      "total_votes": 398
+    }
+  ]
+}

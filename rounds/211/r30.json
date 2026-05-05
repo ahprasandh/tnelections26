@@ -1,0 +1,103 @@
+{
+  "round": 30,
+  "candidates": [
+    {
+      "name": "KATHARBATCHA MUTHURAMALINGAM",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 88106,
+      "postal_votes": 133,
+      "total_votes": 88239
+    },
+    {
+      "name": "GBS K.NAGENDRAN",
+      "party": "Bharatiya Janata Party",
+      "evm_votes": 56855,
+      "postal_votes": 160,
+      "total_votes": 57015
+    },
+    {
+      "name": "S.M. MUTHU KESAVAN",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 10609,
+      "postal_votes": 21,
+      "total_votes": 10630
+    },
+    {
+      "name": "DR.J. ABUBAKKAR SITHICK",
+      "party": "Anna Puratchi Thalaivar Amma Dravida Munnetra Kazhagam",
+      "evm_votes": 356,
+      "postal_votes": 2,
+      "total_votes": 358
+    },
+    {
+      "name": "SHAHUL HAMEED",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 75818,
+      "postal_votes": 209,
+      "total_votes": 76027
+    },
+    {
+      "name": "C. PARIRAJAN",
+      "party": "Veerath Thiyagi Viswanathadoss Thozhilalarkal Katchi",
+      "evm_votes": 225,
+      "postal_votes": 0,
+      "total_votes": 225
+    },
+    {
+      "name": "S. MURUGABOOPATHY",
+      "party": "Communist Party of India (Marxist-Leninist) (Liberation)",
+      "evm_votes": 144,
+      "postal_votes": 0,
+      "total_votes": 144
+    },
+    {
+      "name": "KAN ILANGO",
+      "party": "Independent",
+      "evm_votes": 340,
+      "postal_votes": 0,
+      "total_votes": 340
+    },
+    {
+      "name": "KARTHIGAI PANDI",
+      "party": "Independent",
+      "evm_votes": 157,
+      "postal_votes": 0,
+      "total_votes": 157
+    },
+    {
+      "name": "A. CHINNA RAJA",
+      "party": "Independent",
+      "evm_votes": 342,
+      "postal_votes": 1,
+      "total_votes": 343
+    },
+    {
+      "name": "BALAKRISHNAN",
+      "party": "Independent",
+      "evm_votes": 140,
+      "postal_votes": 0,
+      "total_votes": 140
+    },
+    {
+      "name": "PULLANI",
+      "party": "Independent",
+      "evm_votes": 223,
+      "postal_votes": 0,
+      "total_votes": 223
+    },
+    {
+      "name": "K. MALESWARAN",
+      "party": "Independent",
+      "evm_votes": 353,
+      "postal_votes": 0,
+      "total_votes": 353
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 935,
+      "postal_votes": 6,
+      "total_votes": 941
+    }
+  ]
+}

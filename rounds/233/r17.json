@@ -1,0 +1,110 @@
+{
+  "round": 17,
+  "candidates": [
+    {
+      "name": "PRAVEEN T.T",
+      "party": "Indian National Congress",
+      "evm_votes": 53363,
+      "postal_votes": 2984,
+      "total_votes": 56347
+    },
+    {
+      "name": "MARIA STELLA",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 4074,
+      "postal_votes": 334,
+      "total_votes": 4408
+    },
+    {
+      "name": "VIJAYADHARANI S",
+      "party": "Bharatiya Janata Party",
+      "evm_votes": 30936,
+      "postal_votes": 2044,
+      "total_votes": 32980
+    },
+    {
+      "name": "BAIJU T",
+      "party": "Viro Ke Vir Indian Party",
+      "evm_votes": 195,
+      "postal_votes": 34,
+      "total_votes": 229
+    },
+    {
+      "name": "MICHAEL KUMAR K",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 36658,
+      "postal_votes": 2279,
+      "total_votes": 38937
+    },
+    {
+      "name": "MOHAN KUMAR M",
+      "party": "All India Jananayaka Makkal Kazhagam",
+      "evm_votes": 171,
+      "postal_votes": 10,
+      "total_votes": 181
+    },
+    {
+      "name": "VENKADEASAN. K",
+      "party": "Thamizhaka Padaippalar Makkal Katchi",
+      "evm_votes": 139,
+      "postal_votes": 7,
+      "total_votes": 146
+    },
+    {
+      "name": "JOHN CHRISTOPHER T",
+      "party": "Rashtriya Janata Dal",
+      "evm_votes": 344,
+      "postal_votes": 9,
+      "total_votes": 353
+    },
+    {
+      "name": "KRISHNAN M",
+      "party": "Independent",
+      "evm_votes": 55,
+      "postal_votes": 1,
+      "total_votes": 56
+    },
+    {
+      "name": "DAVID T",
+      "party": "Independent",
+      "evm_votes": 60,
+      "postal_votes": 1,
+      "total_votes": 61
+    },
+    {
+      "name": "PRAVEEN KUMAR",
+      "party": "Independent",
+      "evm_votes": 80,
+      "postal_votes": 4,
+      "total_votes": 84
+    },
+    {
+      "name": "MURUGANANDHA PRASAD T",
+      "party": "Independent",
+      "evm_votes": 84,
+      "postal_votes": 3,
+      "total_votes": 87
+    },
+    {
+      "name": "JOSELAL L.V",
+      "party": "Independent",
+      "evm_votes": 153,
+      "postal_votes": 6,
+      "total_votes": 159
+    },
+    {
+      "name": "SHIBU AMOSE",
+      "party": "Independent",
+      "evm_votes": 64,
+      "postal_votes": 1,
+      "total_votes": 65
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 655,
+      "postal_votes": 20,
+      "total_votes": 675
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "round": 22,
+  "candidates": [
+    {
+      "name": "RADHAKRISHNAN K.",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 63511,
+      "postal_votes": 1645,
+      "total_votes": 65156
+    },
+    {
+      "name": "RAM KUMAR M.",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 6381,
+      "postal_votes": 248,
+      "total_votes": 6629
+    },
+    {
+      "name": "JAYAKUMAR M.",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 65060,
+      "postal_votes": 2667,
+      "total_votes": 67727
+    },
+    {
+      "name": "SANKAR K.",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 57054,
+      "postal_votes": 2452,
+      "total_votes": 59506
+    },
+    {
+      "name": "UMAR ALI D.",
+      "party": "Independent",
+      "evm_votes": 296,
+      "postal_votes": 18,
+      "total_votes": 314
+    },
+    {
+      "name": "ELSY C.",
+      "party": "Independent",
+      "evm_votes": 80,
+      "postal_votes": 2,
+      "total_votes": 82
+    },
+    {
+      "name": "GANESH S.",
+      "party": "Independent",
+      "evm_votes": 117,
+      "postal_votes": 3,
+      "total_votes": 120
+    },
+    {
+      "name": "KALIMUTHU S.",
+      "party": "Independent",
+      "evm_votes": 127,
+      "postal_votes": 8,
+      "total_votes": 135
+    },
+    {
+      "name": "PADMENDRAPRAKASH A.",
+      "party": "Independent",
+      "evm_votes": 445,
+      "postal_votes": 17,
+      "total_votes": 462
+    },
+    {
+      "name": "MAHENDRAN A.",
+      "party": "Independent",
+      "evm_votes": 316,
+      "postal_votes": 6,
+      "total_votes": 322
+    },
+    {
+      "name": "RAMASAMY S.",
+      "party": "Independent",
+      "evm_votes": 220,
+      "postal_votes": 3,
+      "total_votes": 223
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 1083,
+      "postal_votes": 45,
+      "total_votes": 1128
+    }
+  ]
+}

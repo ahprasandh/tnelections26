@@ -1,0 +1,117 @@
+{
+  "round": 8,
+  "candidates": [
+    {
+      "name": "P. GEETHA JEEVAN",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 16934,
+      "postal_votes": 2712,
+      "total_votes": 19646
+    },
+    {
+      "name": "CHELLAPANDIAN S.T.",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 7858,
+      "postal_votes": 1162,
+      "total_votes": 9020
+    },
+    {
+      "name": "JACOB DEVADOSS ABISHEAK R.",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 3401,
+      "postal_votes": 578,
+      "total_votes": 3979
+    },
+    {
+      "name": "YESADURAI S.",
+      "party": "All India Puratchi Thalaivar Makkal Munnettra Kazhagam",
+      "evm_votes": 282,
+      "postal_votes": 13,
+      "total_votes": 295
+    },
+    {
+      "name": "KIDAR SAMSDEEN N.A.",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 54,
+      "postal_votes": 3,
+      "total_votes": 57
+    },
+    {
+      "name": "SAHAYAM T.",
+      "party": "Communist Party of India (Marxist-Leninist) (Liberation)",
+      "evm_votes": 47,
+      "postal_votes": 9,
+      "total_votes": 56
+    },
+    {
+      "name": "PRASANNA KUMAR M.",
+      "party": "Makkal Nalvaazhvuk Katchi",
+      "evm_votes": 36,
+      "postal_votes": 6,
+      "total_votes": 42
+    },
+    {
+      "name": "PONKUMARAN P.P.M.T",
+      "party": "Nam Naadu Nam Makkal Nam Ethirkaalam Katchi",
+      "evm_votes": 59,
+      "postal_votes": 6,
+      "total_votes": 65
+    },
+    {
+      "name": "SRIKANTH M.V.",
+      "party": "Naam Indiar Party",
+      "evm_votes": 76,
+      "postal_votes": 6,
+      "total_votes": 82
+    },
+    {
+      "name": "SRINATH",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 26125,
+      "postal_votes": 4125,
+      "total_votes": 30250
+    },
+    {
+      "name": "SAMUEL J.",
+      "party": "Independent",
+      "evm_votes": 98,
+      "postal_votes": 16,
+      "total_votes": 114
+    },
+    {
+      "name": "DHINAKARAN S.T.R.M.",
+      "party": "Independent",
+      "evm_votes": 78,
+      "postal_votes": 15,
+      "total_votes": 93
+    },
+    {
+      "name": "BABU P.",
+      "party": "Independent",
+      "evm_votes": 26,
+      "postal_votes": 7,
+      "total_votes": 33
+    },
+    {
+      "name": "MARUTHU PANDIAN P.",
+      "party": "Independent",
+      "evm_votes": 17,
+      "postal_votes": 4,
+      "total_votes": 21
+    },
+    {
+      "name": "MUNEESWARA MOORTHY S.",
+      "party": "Independent",
+      "evm_votes": 26,
+      "postal_votes": 1,
+      "total_votes": 27
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 251,
+      "postal_votes": 32,
+      "total_votes": 283
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "round": 22,
+  "candidates": [
+    {
+      "name": "ESWARAN. P",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 559,
+      "postal_votes": 1,
+      "total_votes": 560
+    },
+    {
+      "name": "INGUR. C. LOGANATHAN",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 6394,
+      "postal_votes": 7,
+      "total_votes": 6401
+    },
+    {
+      "name": "THOPPU VENKATACHALAM (ALIAS) N.D. VENKATACHALAM",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 59466,
+      "postal_votes": 196,
+      "total_votes": 59662
+    },
+    {
+      "name": "JAYAKUMAR. S",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 69329,
+      "postal_votes": 79,
+      "total_votes": 69408
+    },
+    {
+      "name": "ARUNACHALAM. V. P",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 58825,
+      "postal_votes": 205,
+      "total_votes": 59030
+    },
+    {
+      "name": "SHANTHOSH KRISHNAN. S",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 267,
+      "postal_votes": 1,
+      "total_votes": 268
+    },
+    {
+      "name": "VALARMATHI. P",
+      "party": "Samaniya Makkal Nala Katchi",
+      "evm_votes": 77,
+      "postal_votes": 0,
+      "total_votes": 77
+    },
+    {
+      "name": "SANTHOSH. S",
+      "party": "Independent",
+      "evm_votes": 256,
+      "postal_votes": 1,
+      "total_votes": 257
+    },
+    {
+      "name": "SELVARAJU. M",
+      "party": "Independent",
+      "evm_votes": 152,
+      "postal_votes": 0,
+      "total_votes": 152
+    },
+    {
+      "name": "PALANISAMY. M",
+      "party": "Independent",
+      "evm_votes": 172,
+      "postal_votes": 0,
+      "total_votes": 172
+    },
+    {
+      "name": "VENKATACHALAM. C",
+      "party": "Independent",
+      "evm_votes": 868,
+      "postal_votes": 1,
+      "total_votes": 869
+    },
+    {
+      "name": "GEORGE STEPHEN. A",
+      "party": "Independent",
+      "evm_votes": 340,
+      "postal_votes": 1,
+      "total_votes": 341
+    },
+    {
+      "name": "JAYAPRAKASH. K",
+      "party": "Independent",
+      "evm_votes": 286,
+      "postal_votes": 1,
+      "total_votes": 287
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 791,
+      "postal_votes": 1,
+      "total_votes": 792
+    }
+  ]
+}

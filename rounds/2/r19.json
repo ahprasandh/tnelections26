@@ -1,0 +1,103 @@
+{
+  "round": 19,
+  "candidates": [
+    {
+      "name": "DURAI CHANDRASEKAR",
+      "party": "Indian National Congress",
+      "evm_votes": 42169,
+      "postal_votes": 2385,
+      "total_votes": 44554
+    },
+    {
+      "name": "SANTHOSHKUMAR.J",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 440,
+      "postal_votes": 21,
+      "total_votes": 461
+    },
+    {
+      "name": "BALARAMAN.P",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 38427,
+      "postal_votes": 2481,
+      "total_votes": 40908
+    },
+    {
+      "name": "RAJATHI.M",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 5303,
+      "postal_votes": 243,
+      "total_votes": 5546
+    },
+    {
+      "name": "ASHOK PRIYADARSHAN",
+      "party": "Desiya Makkal Sakthi Katchi",
+      "evm_votes": 296,
+      "postal_votes": 9,
+      "total_votes": 305
+    },
+    {
+      "name": "RAJA.S",
+      "party": "Vanchit Bahujan Aaghadi",
+      "evm_votes": 168,
+      "postal_votes": 19,
+      "total_votes": 187
+    },
+    {
+      "name": "KOTTEESWARAN. K",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 126,
+      "postal_votes": 9,
+      "total_votes": 135
+    },
+    {
+      "name": "MALATHI.S",
+      "party": "Tamizhaga Murpokku Makkal Katchi",
+      "evm_votes": 287,
+      "postal_votes": 15,
+      "total_votes": 302
+    },
+    {
+      "name": "DR.RAVI.M.S",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 83789,
+      "postal_votes": 5333,
+      "total_votes": 89122
+    },
+    {
+      "name": "NAGAIYAN.G",
+      "party": "Independent",
+      "evm_votes": 176,
+      "postal_votes": 6,
+      "total_votes": 182
+    },
+    {
+      "name": "BARATHIRAJA.K",
+      "party": "Independent",
+      "evm_votes": 112,
+      "postal_votes": 7,
+      "total_votes": 119
+    },
+    {
+      "name": "RAJASEKAR.J",
+      "party": "Independent",
+      "evm_votes": 211,
+      "postal_votes": 15,
+      "total_votes": 226
+    },
+    {
+      "name": "VENKATESAN.S",
+      "party": "Independent",
+      "evm_votes": 151,
+      "postal_votes": 2,
+      "total_votes": 153
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 658,
+      "postal_votes": 41,
+      "total_votes": 699
+    }
+  ]
+}

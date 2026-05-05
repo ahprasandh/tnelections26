@@ -1,0 +1,138 @@
+{
+  "round": 18,
+  "candidates": [
+    {
+      "name": "ANANTHAN AYYASAMY",
+      "party": "Bharatiya Janata Party",
+      "evm_votes": 41470,
+      "postal_votes": 2078,
+      "total_votes": 43548
+    },
+    {
+      "name": "ESAI MATHIVANAN",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 9453,
+      "postal_votes": 569,
+      "total_votes": 10022
+    },
+    {
+      "name": "R. RAMESHKUMAR",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 249,
+      "postal_votes": 19,
+      "total_votes": 268
+    },
+    {
+      "name": "E. RAJA",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 48544,
+      "postal_votes": 2513,
+      "total_votes": 51057
+    },
+    {
+      "name": "R. AMUTHARANI",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 35250,
+      "postal_votes": 2085,
+      "total_votes": 37335
+    },
+    {
+      "name": "K. PAULRAJ",
+      "party": "Puthiya Tamilagam",
+      "evm_votes": 3156,
+      "postal_votes": 166,
+      "total_votes": 3322
+    },
+    {
+      "name": "A. PONNUTHAI",
+      "party": "All India Puratchi Thalaivar Makkal Munnettra Kazhagam",
+      "evm_votes": 1686,
+      "postal_votes": 43,
+      "total_votes": 1729
+    },
+    {
+      "name": "K. RAJENDRAN",
+      "party": "Puthiya Makkal Tamil Desam Katchi",
+      "evm_votes": 105,
+      "postal_votes": 5,
+      "total_votes": 110
+    },
+    {
+      "name": "B. VEERALAKSHMI",
+      "party": "Tamilaga Makkal Nala Katchi",
+      "evm_votes": 84,
+      "postal_votes": 18,
+      "total_votes": 102
+    },
+    {
+      "name": "M. ARUMUGASAMY",
+      "party": "Independent",
+      "evm_votes": 91,
+      "postal_votes": 5,
+      "total_votes": 96
+    },
+    {
+      "name": "P. KARPAGAVALLI",
+      "party": "Independent",
+      "evm_votes": 362,
+      "postal_votes": 21,
+      "total_votes": 383
+    },
+    {
+      "name": "I. SARAVANAN",
+      "party": "Independent",
+      "evm_votes": 289,
+      "postal_votes": 15,
+      "total_votes": 304
+    },
+    {
+      "name": "SENTHILKUMAR",
+      "party": "Independent",
+      "evm_votes": 566,
+      "postal_votes": 32,
+      "total_votes": 598
+    },
+    {
+      "name": "SELVARAJ .C",
+      "party": "Independent",
+      "evm_votes": 129,
+      "postal_votes": 13,
+      "total_votes": 142
+    },
+    {
+      "name": "K. NAGARAJAN",
+      "party": "Independent",
+      "evm_votes": 209,
+      "postal_votes": 4,
+      "total_votes": 213
+    },
+    {
+      "name": "A. PALANIKUMAR",
+      "party": "Independent",
+      "evm_votes": 774,
+      "postal_votes": 40,
+      "total_votes": 814
+    },
+    {
+      "name": "PRABAKARAN .R",
+      "party": "Independent",
+      "evm_votes": 412,
+      "postal_votes": 29,
+      "total_votes": 441
+    },
+    {
+      "name": "K. RAMACHANDRAN",
+      "party": "Independent",
+      "evm_votes": 133,
+      "postal_votes": 20,
+      "total_votes": 153
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 476,
+      "postal_votes": 32,
+      "total_votes": 508
+    }
+  ]
+}

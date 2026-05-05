@@ -1,0 +1,117 @@
+{
+  "round": 4,
+  "candidates": [
+    {
+      "name": "C.RAJENDRAN",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 5005,
+      "postal_votes": 1840,
+      "total_votes": 6845
+    },
+    {
+      "name": "R.S.KIRUTHIKA DEVI",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 8107,
+      "postal_votes": 2006,
+      "total_votes": 10113
+    },
+    {
+      "name": "S.TAMILCHELVI",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 778,
+      "postal_votes": 255,
+      "total_votes": 1033
+    },
+    {
+      "name": "M.RAJA",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 30,
+      "postal_votes": 7,
+      "total_votes": 37
+    },
+    {
+      "name": "D.SARATHKUMAR",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 10747,
+      "postal_votes": 2943,
+      "total_votes": 13690
+    },
+    {
+      "name": "SIVARAMAN.S",
+      "party": "Veerath Thiyagi Viswanathadoss Thozhilalarkal Katchi",
+      "evm_votes": 8,
+      "postal_votes": 1,
+      "total_votes": 9
+    },
+    {
+      "name": "THAMBIRAJ.E",
+      "party": "Naam Indiar Party",
+      "evm_votes": 3,
+      "postal_votes": 2,
+      "total_votes": 5
+    },
+    {
+      "name": "S.PARTHIBAN",
+      "party": "Democratic National Allegiance",
+      "evm_votes": 0,
+      "postal_votes": 1,
+      "total_votes": 1
+    },
+    {
+      "name": "P.PON RAJA",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 2,
+      "postal_votes": 0,
+      "total_votes": 2
+    },
+    {
+      "name": "S.KARTHIK",
+      "party": "Independent",
+      "evm_votes": 13,
+      "postal_votes": 4,
+      "total_votes": 17
+    },
+    {
+      "name": "SARATHKUMAR. R",
+      "party": "Independent",
+      "evm_votes": 16,
+      "postal_votes": 2,
+      "total_votes": 18
+    },
+    {
+      "name": "T.DHIVAKARAN",
+      "party": "Independent",
+      "evm_votes": 7,
+      "postal_votes": 2,
+      "total_votes": 9
+    },
+    {
+      "name": "S.BALASUBRAMANIAN",
+      "party": "Independent",
+      "evm_votes": 7,
+      "postal_votes": 0,
+      "total_votes": 7
+    },
+    {
+      "name": "R.RAVIKUMAR",
+      "party": "Independent",
+      "evm_votes": 12,
+      "postal_votes": 2,
+      "total_votes": 14
+    },
+    {
+      "name": "M. JACOB",
+      "party": "Independent",
+      "evm_votes": 26,
+      "postal_votes": 24,
+      "total_votes": 50
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 96,
+      "postal_votes": 42,
+      "total_votes": 138
+    }
+  ]
+}

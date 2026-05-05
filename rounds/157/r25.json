@@ -1,0 +1,103 @@
+{
+  "round": 25,
+  "candidates": [
+    {
+      "name": "ARUNMOZHITHEVAN . A",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 74127,
+      "postal_votes": 335,
+      "total_votes": 74462
+    },
+    {
+      "name": "KUMARAVELU . M",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 360,
+      "postal_votes": 0,
+      "total_votes": 360
+    },
+    {
+      "name": "SARAVANAN. DURAI . K",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 71911,
+      "postal_votes": 172,
+      "total_votes": 72083
+    },
+    {
+      "name": "SUMATHI . S",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 4989,
+      "postal_votes": 22,
+      "total_votes": 5011
+    },
+    {
+      "name": "MAHALINGAM . T",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 49367,
+      "postal_votes": 86,
+      "total_votes": 49453
+    },
+    {
+      "name": "MUTHAMIZHAN . SEVA",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 893,
+      "postal_votes": 1,
+      "total_votes": 894
+    },
+    {
+      "name": "ARUNMOZHI . V",
+      "party": "Independent",
+      "evm_votes": 306,
+      "postal_votes": 0,
+      "total_votes": 306
+    },
+    {
+      "name": "EZHILVENTHAN . P",
+      "party": "Independent",
+      "evm_votes": 47,
+      "postal_votes": 1,
+      "total_votes": 48
+    },
+    {
+      "name": "IYYAPPAN . S",
+      "party": "Independent",
+      "evm_votes": 69,
+      "postal_votes": 0,
+      "total_votes": 69
+    },
+    {
+      "name": "SARAVANAN . J",
+      "party": "Independent",
+      "evm_votes": 83,
+      "postal_votes": 0,
+      "total_votes": 83
+    },
+    {
+      "name": "BALAMURUGAN . M. R",
+      "party": "Independent",
+      "evm_votes": 320,
+      "postal_votes": 3,
+      "total_votes": 323
+    },
+    {
+      "name": "BALAMURUGAN . G. C",
+      "party": "Independent",
+      "evm_votes": 334,
+      "postal_votes": 2,
+      "total_votes": 336
+    },
+    {
+      "name": "RAJA SEKAR . G",
+      "party": "Independent",
+      "evm_votes": 237,
+      "postal_votes": 2,
+      "total_votes": 239
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 670,
+      "postal_votes": 2,
+      "total_votes": 672
+    }
+  ]
+}

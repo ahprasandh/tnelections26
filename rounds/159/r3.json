@@ -1,0 +1,89 @@
+{
+  "round": 3,
+  "candidates": [
+    {
+      "name": "SATHEESHKUMAR .M",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 23,
+      "postal_votes": 22,
+      "total_votes": 45
+    },
+    {
+      "name": "SIVAJOTHI .M",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 386,
+      "postal_votes": 268,
+      "total_votes": 654
+    },
+    {
+      "name": "L.E. JOTHIMANI",
+      "party": "Viduthalai Chiruthaigal Katchi",
+      "evm_votes": 7998,
+      "postal_votes": 3474,
+      "total_votes": 11472
+    },
+    {
+      "name": "ALAVANTHAR .M",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 71,
+      "postal_votes": 15,
+      "total_votes": 86
+    },
+    {
+      "name": "G. KALYANA SUNDARAM",
+      "party": "All India Jananayaka Makkal Kazhagam",
+      "evm_votes": 21,
+      "postal_votes": 15,
+      "total_votes": 36
+    },
+    {
+      "name": "S. SEENUVASAN",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 3484,
+      "postal_votes": 1991,
+      "total_votes": 5475
+    },
+    {
+      "name": "A. SOZHAN",
+      "party": "Pattali Makkal Katchi",
+      "evm_votes": 6110,
+      "postal_votes": 3779,
+      "total_votes": 9889
+    },
+    {
+      "name": "BABU .B",
+      "party": "Rashtriya Samaj Dal (R)",
+      "evm_votes": 23,
+      "postal_votes": 14,
+      "total_votes": 37
+    },
+    {
+      "name": "S. MURALI",
+      "party": "Aanaithinthiya Jananayaka Pathukappu Kazhagam",
+      "evm_votes": 37,
+      "postal_votes": 20,
+      "total_votes": 57
+    },
+    {
+      "name": "M.A.T. ARCHUNAN",
+      "party": "Independent",
+      "evm_votes": 25,
+      "postal_votes": 15,
+      "total_votes": 40
+    },
+    {
+      "name": "SANKARKUMAR .S",
+      "party": "Independent",
+      "evm_votes": 46,
+      "postal_votes": 22,
+      "total_votes": 68
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 40,
+      "postal_votes": 21,
+      "total_votes": 61
+    }
+  ]
+}

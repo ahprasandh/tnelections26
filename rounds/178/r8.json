@@ -1,0 +1,82 @@
+{
+  "round": 8,
+  "candidates": [
+    {
+      "name": "C. UTHAYAKUMAR",
+      "party": "Bharatiya Janata Party",
+      "evm_votes": 18633,
+      "postal_votes": 2743,
+      "total_votes": 21376
+    },
+    {
+      "name": "M. CHINNADURAI",
+      "party": "Communist Party of India (Marxist)",
+      "evm_votes": 17910,
+      "postal_votes": 2356,
+      "total_votes": 20266
+    },
+    {
+      "name": "NATHIYA",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 4492,
+      "postal_votes": 505,
+      "total_votes": 4997
+    },
+    {
+      "name": "N. SUBRAMANIAN",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 23716,
+      "postal_votes": 3219,
+      "total_votes": 26935
+    },
+    {
+      "name": "DHANARASU",
+      "party": "Namadhu Makkal Katchi",
+      "evm_votes": 157,
+      "postal_votes": 34,
+      "total_votes": 191
+    },
+    {
+      "name": "ARUNKUMAR . S",
+      "party": "Independent",
+      "evm_votes": 154,
+      "postal_votes": 22,
+      "total_votes": 176
+    },
+    {
+      "name": "SASIKUMAR P",
+      "party": "Independent",
+      "evm_votes": 119,
+      "postal_votes": 11,
+      "total_votes": 130
+    },
+    {
+      "name": "SENTHILKUMAR N",
+      "party": "Independent",
+      "evm_votes": 227,
+      "postal_votes": 35,
+      "total_votes": 262
+    },
+    {
+      "name": "T. MURUGESAN",
+      "party": "Independent",
+      "evm_votes": 168,
+      "postal_votes": 17,
+      "total_votes": 185
+    },
+    {
+      "name": "M. LAKSHMANAN",
+      "party": "Independent",
+      "evm_votes": 249,
+      "postal_votes": 29,
+      "total_votes": 278
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 449,
+      "postal_votes": 57,
+      "total_votes": 506
+    }
+  ]
+}

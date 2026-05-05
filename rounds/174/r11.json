@@ -1,0 +1,89 @@
+{
+  "round": 11,
+  "candidates": [
+    {
+      "name": "SHAN. RAMANATHAN",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 30192,
+      "postal_votes": 2892,
+      "total_votes": 33084
+    },
+    {
+      "name": "N. KRISHNAKUMAR",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 3541,
+      "postal_votes": 432,
+      "total_votes": 3973
+    },
+    {
+      "name": "KARUPPU MURUGANANTHAM",
+      "party": "Bharatiya Janata Party",
+      "evm_votes": 12470,
+      "postal_votes": 1023,
+      "total_votes": 13493
+    },
+    {
+      "name": "H. MOHAMED ABDUL KHADIR",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 114,
+      "postal_votes": 15,
+      "total_votes": 129
+    },
+    {
+      "name": "S. MUTHUVEL",
+      "party": "Bahujan Dravida Party",
+      "evm_votes": 256,
+      "postal_votes": 26,
+      "total_votes": 282
+    },
+    {
+      "name": "R. VIJAYSARAVANAN",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 41062,
+      "postal_votes": 4307,
+      "total_votes": 45369
+    },
+    {
+      "name": "S. KARIKALA CHOLAN",
+      "party": "Independent",
+      "evm_votes": 362,
+      "postal_votes": 40,
+      "total_votes": 402
+    },
+    {
+      "name": "D. KUMARAN",
+      "party": "Independent",
+      "evm_votes": 70,
+      "postal_votes": 8,
+      "total_votes": 78
+    },
+    {
+      "name": "M. SANTHOSH",
+      "party": "Independent",
+      "evm_votes": 85,
+      "postal_votes": 7,
+      "total_votes": 92
+    },
+    {
+      "name": "R. SABTHAGIRI",
+      "party": "Independent",
+      "evm_votes": 59,
+      "postal_votes": 9,
+      "total_votes": 68
+    },
+    {
+      "name": "R. MURALIDHARAN",
+      "party": "Independent",
+      "evm_votes": 420,
+      "postal_votes": 23,
+      "total_votes": 443
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 536,
+      "postal_votes": 34,
+      "total_votes": 570
+    }
+  ]
+}

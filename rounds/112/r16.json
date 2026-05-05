@@ -1,0 +1,110 @@
+{
+  "round": 16,
+  "candidates": [
+    {
+      "name": "DR. GOKILAMANI.V",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 37920,
+      "postal_votes": 1937,
+      "total_votes": 39857
+    },
+    {
+      "name": "GOVINDAN.P",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 402,
+      "postal_votes": 21,
+      "total_votes": 423
+    },
+    {
+      "name": "DR. L. MURUGAN",
+      "party": "Bharatiya Janata Party",
+      "evm_votes": 40405,
+      "postal_votes": 2118,
+      "total_votes": 42523
+    },
+    {
+      "name": "MENAKA. V",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 3879,
+      "postal_votes": 343,
+      "total_votes": 4222
+    },
+    {
+      "name": "ARUMUGAM.R",
+      "party": "Ganasangam Party of India",
+      "evm_votes": 350,
+      "postal_votes": 19,
+      "total_votes": 369
+    },
+    {
+      "name": "KAMALI.S",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 42881,
+      "postal_votes": 3999,
+      "total_votes": 46880
+    },
+    {
+      "name": "CHINNASAMY.V",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 164,
+      "postal_votes": 9,
+      "total_votes": 173
+    },
+    {
+      "name": "ARUMUGAM. P",
+      "party": "Independent",
+      "evm_votes": 112,
+      "postal_votes": 8,
+      "total_votes": 120
+    },
+    {
+      "name": "ANANDHI.S",
+      "party": "Independent",
+      "evm_votes": 148,
+      "postal_votes": 7,
+      "total_votes": 155
+    },
+    {
+      "name": "GOKILAMANI. M",
+      "party": "Independent",
+      "evm_votes": 445,
+      "postal_votes": 24,
+      "total_votes": 469
+    },
+    {
+      "name": "SATHIYARASU. R",
+      "party": "Independent",
+      "evm_votes": 144,
+      "postal_votes": 6,
+      "total_votes": 150
+    },
+    {
+      "name": "SUBRAMANI.C.K",
+      "party": "Independent",
+      "evm_votes": 182,
+      "postal_votes": 8,
+      "total_votes": 190
+    },
+    {
+      "name": "DHANABAL.R",
+      "party": "Independent",
+      "evm_votes": 381,
+      "postal_votes": 19,
+      "total_votes": 400
+    },
+    {
+      "name": "MOORTHI.R",
+      "party": "Independent",
+      "evm_votes": 195,
+      "postal_votes": 12,
+      "total_votes": 207
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 966,
+      "postal_votes": 65,
+      "total_votes": 1031
+    }
+  ]
+}

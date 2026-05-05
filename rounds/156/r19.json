@@ -1,0 +1,89 @@
+{
+  "round": 19,
+  "candidates": [
+    {
+      "name": "KAVITHA RENGANATHAN",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 4401,
+      "postal_votes": 159,
+      "total_votes": 4560
+    },
+    {
+      "name": "M  KANAGARAJ",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 250,
+      "postal_votes": 12,
+      "total_votes": 262
+    },
+    {
+      "name": "M.R.K.PANNEERSELVAM",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 67843,
+      "postal_votes": 4187,
+      "total_votes": 72030
+    },
+    {
+      "name": "A  BHUVANENTHIRAN",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 64016,
+      "postal_votes": 2618,
+      "total_votes": 66634
+    },
+    {
+      "name": "T  KANNAN",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 6475,
+      "postal_votes": 320,
+      "total_votes": 6795
+    },
+    {
+      "name": "R  SRINIVASAN",
+      "party": "Tamil Telugu National Party",
+      "evm_votes": 289,
+      "postal_votes": 8,
+      "total_votes": 297
+    },
+    {
+      "name": "RAJKUMAR D",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 48311,
+      "postal_votes": 2165,
+      "total_votes": 50476
+    },
+    {
+      "name": "ARUMUGAM  R",
+      "party": "Independent",
+      "evm_votes": 828,
+      "postal_votes": 51,
+      "total_votes": 879
+    },
+    {
+      "name": "DHANAKESAVAMOORTHY A.C.T",
+      "party": "Independent",
+      "evm_votes": 241,
+      "postal_votes": 15,
+      "total_votes": 256
+    },
+    {
+      "name": "MANIMALA  R",
+      "party": "Independent",
+      "evm_votes": 405,
+      "postal_votes": 26,
+      "total_votes": 431
+    },
+    {
+      "name": "MUTHAZHAGAN  N",
+      "party": "Independent",
+      "evm_votes": 236,
+      "postal_votes": 9,
+      "total_votes": 245
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 562,
+      "postal_votes": 31,
+      "total_votes": 593
+    }
+  ]
+}

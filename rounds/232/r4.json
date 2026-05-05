@@ -1,0 +1,89 @@
+{
+  "round": 4,
+  "candidates": [
+    {
+      "name": "SEELAN",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 1072,
+      "postal_votes": 498,
+      "total_votes": 1570
+    },
+    {
+      "name": "CHELLASWAMY. R",
+      "party": "Communist Party of India (Marxist)",
+      "evm_votes": 7552,
+      "postal_votes": 2792,
+      "total_votes": 10344
+    },
+    {
+      "name": "RAMESH. P",
+      "party": "Bharatiya Janata Party",
+      "evm_votes": 6799,
+      "postal_votes": 2388,
+      "total_votes": 9187
+    },
+    {
+      "name": "KRISHNA KUMAR. S",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 7022,
+      "postal_votes": 2500,
+      "total_votes": 9522
+    },
+    {
+      "name": "SYEDALI. A",
+      "party": "Our Mahathma National Party",
+      "evm_votes": 34,
+      "postal_votes": 17,
+      "total_votes": 51
+    },
+    {
+      "name": "RAKESH KUMAR. M",
+      "party": "Thamizhaka Padaippalar Makkal Katchi",
+      "evm_votes": 48,
+      "postal_votes": 20,
+      "total_votes": 68
+    },
+    {
+      "name": "VAIKUNDAMANI. N",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 11,
+      "postal_votes": 8,
+      "total_votes": 19
+    },
+    {
+      "name": "ARUL MANI. H",
+      "party": "Independent",
+      "evm_votes": 27,
+      "postal_votes": 16,
+      "total_votes": 43
+    },
+    {
+      "name": "DR. KRISHNA PRASAD. B",
+      "party": "Independent",
+      "evm_votes": 34,
+      "postal_votes": 28,
+      "total_votes": 62
+    },
+    {
+      "name": "DURAI RAJ. S",
+      "party": "Independent",
+      "evm_votes": 52,
+      "postal_votes": 16,
+      "total_votes": 68
+    },
+    {
+      "name": "VASANTHI. R",
+      "party": "Independent",
+      "evm_votes": 78,
+      "postal_votes": 31,
+      "total_votes": 109
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 66,
+      "postal_votes": 27,
+      "total_votes": 93
+    }
+  ]
+}

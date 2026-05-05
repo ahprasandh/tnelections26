@@ -1,0 +1,103 @@
+{
+  "round": 10,
+  "candidates": [
+    {
+      "name": "SAKTHIVEL P.",
+      "party": "Viduthalai Chiruthaigal Katchi",
+      "evm_votes": 26293,
+      "postal_votes": 2804,
+      "total_votes": 29097
+    },
+    {
+      "name": "VIMALA R.",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 2995,
+      "postal_votes": 234,
+      "total_votes": 3229
+    },
+    {
+      "name": "DR KATHIRKAMU K.",
+      "party": "Amma Makkal Munnettra Kazagam",
+      "evm_votes": 14578,
+      "postal_votes": 1686,
+      "total_votes": 16264
+    },
+    {
+      "name": "SABARI IYNGARAN G.",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 28177,
+      "postal_votes": 3129,
+      "total_votes": 31306
+    },
+    {
+      "name": "MARISAMY V.",
+      "party": "Puthiya Tamilagam",
+      "evm_votes": 323,
+      "postal_votes": 37,
+      "total_votes": 360
+    },
+    {
+      "name": "RANJEETH KUMAR J.",
+      "party": "Socialist Unity Centre Of India (COMMUNIST)",
+      "evm_votes": 53,
+      "postal_votes": 5,
+      "total_votes": 58
+    },
+    {
+      "name": "ABITHA M.",
+      "party": "Independent",
+      "evm_votes": 131,
+      "postal_votes": 14,
+      "total_votes": 145
+    },
+    {
+      "name": "KUMAR S.",
+      "party": "Independent",
+      "evm_votes": 45,
+      "postal_votes": 4,
+      "total_votes": 49
+    },
+    {
+      "name": "SANMUGAVEL K.",
+      "party": "Independent",
+      "evm_votes": 44,
+      "postal_votes": 4,
+      "total_votes": 48
+    },
+    {
+      "name": "SELVARAJ R.",
+      "party": "Independent",
+      "evm_votes": 87,
+      "postal_votes": 14,
+      "total_votes": 101
+    },
+    {
+      "name": "PALANICHAMY T.",
+      "party": "Independent",
+      "evm_votes": 211,
+      "postal_votes": 23,
+      "total_votes": 234
+    },
+    {
+      "name": "DR. MOHANRAJ A.C. (P.T)",
+      "party": "Independent",
+      "evm_votes": 114,
+      "postal_votes": 19,
+      "total_votes": 133
+    },
+    {
+      "name": "VAIRAMUTHU D.",
+      "party": "Independent",
+      "evm_votes": 96,
+      "postal_votes": 6,
+      "total_votes": 102
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 461,
+      "postal_votes": 69,
+      "total_votes": 530
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "round": 19,
+  "candidates": [
+    {
+      "name": "SABA.RAJENDRAN",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 51297,
+      "postal_votes": 523,
+      "total_votes": 51820
+    },
+    {
+      "name": "RAJENDRAN.R",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 61625,
+      "postal_votes": 1178,
+      "total_votes": 62803
+    },
+    {
+      "name": "VEERAMANI.B",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 4336,
+      "postal_votes": 31,
+      "total_votes": 4367
+    },
+    {
+      "name": "JOTHIMURUGAN.V",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 129,
+      "postal_votes": 1,
+      "total_votes": 130
+    },
+    {
+      "name": "ANAND.K",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 33545,
+      "postal_votes": 269,
+      "total_votes": 33814
+    },
+    {
+      "name": "THIRUMALVALAVAN.T",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 11093,
+      "postal_votes": 144,
+      "total_votes": 11237
+    },
+    {
+      "name": "MAYAKRISHNAN.K",
+      "party": "Veerath Thiyagi Viswanathadoss Thozhilalarkal Katchi",
+      "evm_votes": 136,
+      "postal_votes": 0,
+      "total_votes": 136
+    },
+    {
+      "name": "KARTHIKEYAN.C.M",
+      "party": "Independent",
+      "evm_votes": 447,
+      "postal_votes": 10,
+      "total_votes": 457
+    },
+    {
+      "name": "SATHIYASEELAN.M",
+      "party": "Independent",
+      "evm_votes": 97,
+      "postal_votes": 2,
+      "total_votes": 99
+    },
+    {
+      "name": "CHEZHIYAN.G",
+      "party": "Independent",
+      "evm_votes": 216,
+      "postal_votes": 3,
+      "total_votes": 219
+    },
+    {
+      "name": "MANIMARAN.P",
+      "party": "Independent",
+      "evm_votes": 336,
+      "postal_votes": 7,
+      "total_votes": 343
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 758,
+      "postal_votes": 4,
+      "total_votes": 762
+    }
+  ]
+}

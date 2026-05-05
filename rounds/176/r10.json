@@ -1,0 +1,89 @@
+{
+  "round": 10,
+  "candidates": [
+    {
+      "name": "ANNADURAI K",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 25992,
+      "postal_votes": 2679,
+      "total_votes": 28671
+    },
+    {
+      "name": "KANNAN S",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 5748,
+      "postal_votes": 515,
+      "total_votes": 6263
+    },
+    {
+      "name": "SEKAR C V",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 22931,
+      "postal_votes": 1821,
+      "total_votes": 24752
+    },
+    {
+      "name": "GURUMOORTHY M",
+      "party": "Puthiya Tamilagam",
+      "evm_votes": 234,
+      "postal_votes": 12,
+      "total_votes": 246
+    },
+    {
+      "name": "MATHAN C",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 19933,
+      "postal_votes": 3050,
+      "total_votes": 22983
+    },
+    {
+      "name": "ANNADURAI C N",
+      "party": "Independent",
+      "evm_votes": 155,
+      "postal_votes": 10,
+      "total_votes": 165
+    },
+    {
+      "name": "SURESH M R",
+      "party": "Independent",
+      "evm_votes": 94,
+      "postal_votes": 17,
+      "total_votes": 111
+    },
+    {
+      "name": "SURESH R",
+      "party": "Independent",
+      "evm_votes": 90,
+      "postal_votes": 11,
+      "total_votes": 101
+    },
+    {
+      "name": "MOHAMED SHARIF M",
+      "party": "Independent",
+      "evm_votes": 69,
+      "postal_votes": 11,
+      "total_votes": 80
+    },
+    {
+      "name": "MUTHUKUMAR D",
+      "party": "Independent",
+      "evm_votes": 88,
+      "postal_votes": 5,
+      "total_votes": 93
+    },
+    {
+      "name": "ZIAUDEEN A J",
+      "party": "Independent",
+      "evm_votes": 89,
+      "postal_votes": 11,
+      "total_votes": 100
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 292,
+      "postal_votes": 32,
+      "total_votes": 324
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "round": 8,
+  "candidates": [
+    {
+      "name": "KAVITHA RENGANATHAN",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 1601,
+      "postal_votes": 273,
+      "total_votes": 1874
+    },
+    {
+      "name": "M  KANAGARAJ",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 67,
+      "postal_votes": 16,
+      "total_votes": 83
+    },
+    {
+      "name": "M.R.K.PANNEERSELVAM",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 23660,
+      "postal_votes": 3500,
+      "total_votes": 27160
+    },
+    {
+      "name": "A  BHUVANENTHIRAN",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 26697,
+      "postal_votes": 2754,
+      "total_votes": 29451
+    },
+    {
+      "name": "T  KANNAN",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 2858,
+      "postal_votes": 454,
+      "total_votes": 3312
+    },
+    {
+      "name": "R  SRINIVASAN",
+      "party": "Tamil Telugu National Party",
+      "evm_votes": 94,
+      "postal_votes": 20,
+      "total_votes": 114
+    },
+    {
+      "name": "RAJKUMAR D",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 15906,
+      "postal_votes": 2884,
+      "total_votes": 18790
+    },
+    {
+      "name": "ARUMUGAM  R",
+      "party": "Independent",
+      "evm_votes": 324,
+      "postal_votes": 66,
+      "total_votes": 390
+    },
+    {
+      "name": "DHANAKESAVAMOORTHY A.C.T",
+      "party": "Independent",
+      "evm_votes": 79,
+      "postal_votes": 8,
+      "total_votes": 87
+    },
+    {
+      "name": "MANIMALA  R",
+      "party": "Independent",
+      "evm_votes": 147,
+      "postal_votes": 30,
+      "total_votes": 177
+    },
+    {
+      "name": "MUTHAZHAGAN  N",
+      "party": "Independent",
+      "evm_votes": 92,
+      "postal_votes": 15,
+      "total_votes": 107
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 185,
+      "postal_votes": 19,
+      "total_votes": 204
+    }
+  ]
+}

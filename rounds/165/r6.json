@@ -1,0 +1,89 @@
+{
+  "round": 6,
+  "candidates": [
+    {
+      "name": "KARTHICK. T",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 3020,
+      "postal_votes": 644,
+      "total_votes": 3664
+    },
+    {
+      "name": "PUGAZHENDI. M",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 15495,
+      "postal_votes": 2520,
+      "total_votes": 18015
+    },
+    {
+      "name": "MANIAN. O.S",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 17898,
+      "postal_votes": 3549,
+      "total_votes": 21447
+    },
+    {
+      "name": "KINGSLY GERALD. A",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 11706,
+      "postal_votes": 2341,
+      "total_votes": 14047
+    },
+    {
+      "name": "LINGESWARAN. M",
+      "party": "All India Puratchi Thalaivar Makkal Munnettra Kazhagam",
+      "evm_votes": 97,
+      "postal_votes": 13,
+      "total_votes": 110
+    },
+    {
+      "name": "RAJASIMMAN. D",
+      "party": "Independent",
+      "evm_votes": 60,
+      "postal_votes": 22,
+      "total_votes": 82
+    },
+    {
+      "name": "GOWTHAMAN. M",
+      "party": "Independent",
+      "evm_votes": 53,
+      "postal_votes": 11,
+      "total_votes": 64
+    },
+    {
+      "name": "SATHIYASEELAN. M",
+      "party": "Independent",
+      "evm_votes": 41,
+      "postal_votes": 7,
+      "total_votes": 48
+    },
+    {
+      "name": "SELVAKUMAR. S",
+      "party": "Independent",
+      "evm_votes": 48,
+      "postal_votes": 6,
+      "total_votes": 54
+    },
+    {
+      "name": "THIVASKAR. B",
+      "party": "Independent",
+      "evm_votes": 140,
+      "postal_votes": 13,
+      "total_votes": 153
+    },
+    {
+      "name": "VEERAKUMAR. V",
+      "party": "Independent",
+      "evm_votes": 131,
+      "postal_votes": 21,
+      "total_votes": 152
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 168,
+      "postal_votes": 34,
+      "total_votes": 202
+    }
+  ]
+}

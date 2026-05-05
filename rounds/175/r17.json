@@ -1,0 +1,75 @@
+{
+  "round": 17,
+  "candidates": [
+    {
+      "name": "M. SEKAR",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 30105,
+      "postal_votes": 1834,
+      "total_votes": 31939
+    },
+    {
+      "name": "S.THIRUMURUGAN",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 7326,
+      "postal_votes": 533,
+      "total_votes": 7859
+    },
+    {
+      "name": "R. VAITHILINGAM",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 61967,
+      "postal_votes": 4025,
+      "total_votes": 65992
+    },
+    {
+      "name": "DR. K. ARVIND",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 38730,
+      "postal_votes": 1851,
+      "total_votes": 40581
+    },
+    {
+      "name": "C. GUNASEKARAN",
+      "party": "Thamizh Desiya Munnetra Kazhagam",
+      "evm_votes": 285,
+      "postal_votes": 11,
+      "total_votes": 296
+    },
+    {
+      "name": "M. SELVARAJ",
+      "party": "Party for the Rights of Other backward Classes",
+      "evm_votes": 295,
+      "postal_votes": 13,
+      "total_votes": 308
+    },
+    {
+      "name": "A. AJESHKANNAN",
+      "party": "Independent",
+      "evm_votes": 186,
+      "postal_votes": 10,
+      "total_votes": 196
+    },
+    {
+      "name": "M. KANAGARAJ",
+      "party": "Independent",
+      "evm_votes": 258,
+      "postal_votes": 15,
+      "total_votes": 273
+    },
+    {
+      "name": "T. VIJAYAKUMAR",
+      "party": "Independent",
+      "evm_votes": 204,
+      "postal_votes": 8,
+      "total_votes": 212
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 477,
+      "postal_votes": 16,
+      "total_votes": 493
+    }
+  ]
+}

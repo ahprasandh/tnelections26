@@ -1,0 +1,117 @@
+{
+  "round": 21,
+  "candidates": [
+    {
+      "name": "KAVITHA SRIKANTH",
+      "party": "Bharatiya Janata Party",
+      "evm_votes": 28789,
+      "postal_votes": 1608,
+      "total_votes": 30397
+    },
+    {
+      "name": "MUTHULAKSHMI. S",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 9283,
+      "postal_votes": 335,
+      "total_votes": 9618
+    },
+    {
+      "name": "RAMACHANDRAN . T",
+      "party": "Indian National Congress",
+      "evm_votes": 58426,
+      "postal_votes": 3029,
+      "total_votes": 61455
+    },
+    {
+      "name": "NAZIM KHAN. M",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 706,
+      "postal_votes": 50,
+      "total_votes": 756
+    },
+    {
+      "name": "MOHAMED FARVAS. J",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 67523,
+      "postal_votes": 3284,
+      "total_votes": 70807
+    },
+    {
+      "name": "ABDUL JAFFAR. S",
+      "party": "Independent",
+      "evm_votes": 304,
+      "postal_votes": 12,
+      "total_votes": 316
+    },
+    {
+      "name": "AIYAPPAN",
+      "party": "Independent",
+      "evm_votes": 128,
+      "postal_votes": 7,
+      "total_votes": 135
+    },
+    {
+      "name": "ARUNAGIRI . M",
+      "party": "Independent",
+      "evm_votes": 192,
+      "postal_votes": 13,
+      "total_votes": 205
+    },
+    {
+      "name": "UDAIYAPPAN. M",
+      "party": "Independent",
+      "evm_votes": 115,
+      "postal_votes": 12,
+      "total_votes": 127
+    },
+    {
+      "name": "KARTHIKEYAN. N",
+      "party": "Independent",
+      "evm_votes": 138,
+      "postal_votes": 8,
+      "total_votes": 146
+    },
+    {
+      "name": "KALIMUTHU. P",
+      "party": "Independent",
+      "evm_votes": 731,
+      "postal_votes": 8,
+      "total_votes": 739
+    },
+    {
+      "name": "SHAHUL HAMEED . N",
+      "party": "Independent",
+      "evm_votes": 753,
+      "postal_votes": 28,
+      "total_votes": 781
+    },
+    {
+      "name": "SUNDAR . A",
+      "party": "Independent",
+      "evm_votes": 279,
+      "postal_votes": 10,
+      "total_votes": 289
+    },
+    {
+      "name": "DHETCHNA MOORTHY. DOCTOR. S",
+      "party": "Independent",
+      "evm_votes": 382,
+      "postal_votes": 10,
+      "total_votes": 392
+    },
+    {
+      "name": "MURUGARETHINAM. T",
+      "party": "Independent",
+      "evm_votes": 297,
+      "postal_votes": 4,
+      "total_votes": 301
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 539,
+      "postal_votes": 26,
+      "total_votes": 565
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "round": 15,
+  "candidates": [
+    {
+      "name": "ABDUR RAHMAN. A.R",
+      "party": "Viduthalai Chiruthaigal Katchi",
+      "evm_votes": 44587,
+      "postal_votes": 2598,
+      "total_votes": 47185
+    },
+    {
+      "name": "BANUPRIYA. M",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 3123,
+      "postal_votes": 248,
+      "total_votes": 3371
+    },
+    {
+      "name": "MOHAN. K",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 49245,
+      "postal_votes": 3159,
+      "total_votes": 52404
+    },
+    {
+      "name": "SRIKANTHU. S",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 265,
+      "postal_votes": 17,
+      "total_votes": 282
+    },
+    {
+      "name": "SURENDAR. R",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 927,
+      "postal_votes": 27,
+      "total_votes": 954
+    },
+    {
+      "name": "PRAKASH. R",
+      "party": "Thamizhaka Padaippalar Makkal Katchi",
+      "evm_votes": 257,
+      "postal_votes": 31,
+      "total_votes": 288
+    },
+    {
+      "name": "MANIKANDAN. M",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 34995,
+      "postal_votes": 3535,
+      "total_votes": 38530
+    },
+    {
+      "name": "MOHAMMED SAFI. A",
+      "party": "Independent",
+      "evm_votes": 254,
+      "postal_votes": 24,
+      "total_votes": 278
+    },
+    {
+      "name": "RAMALINGAM. A",
+      "party": "Independent",
+      "evm_votes": 92,
+      "postal_votes": 5,
+      "total_votes": 97
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 598,
+      "postal_votes": 44,
+      "total_votes": 642
+    }
+  ]
+}

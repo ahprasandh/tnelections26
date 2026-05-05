@@ -1,0 +1,82 @@
+{
+  "round": 24,
+  "candidates": [
+    {
+      "name": "RAMACHANDRAN. T",
+      "party": "Communist Party of India",
+      "evm_votes": 76828,
+      "postal_votes": 642,
+      "total_votes": 77470
+    },
+    {
+      "name": "NARASIMMA REDDY ALIAS NARASIMMAN. R",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 4075,
+      "postal_votes": 3,
+      "total_votes": 4078
+    },
+    {
+      "name": "DR.NAGESH KUMAR. C",
+      "party": "Bharatiya Janata Party",
+      "evm_votes": 72584,
+      "postal_votes": 3,
+      "total_votes": 72587
+    },
+    {
+      "name": "AJITH. G",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 1004,
+      "postal_votes": 3,
+      "total_votes": 1007
+    },
+    {
+      "name": "SURESH. G",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 44962,
+      "postal_votes": 15,
+      "total_votes": 44977
+    },
+    {
+      "name": "JAYARAM. N",
+      "party": "Anna Makkal Katchi",
+      "evm_votes": 419,
+      "postal_votes": 1,
+      "total_votes": 420
+    },
+    {
+      "name": "ASANRAJA. K",
+      "party": "Independent",
+      "evm_votes": 697,
+      "postal_votes": 1,
+      "total_votes": 698
+    },
+    {
+      "name": "KUMAR. D.J",
+      "party": "Independent",
+      "evm_votes": 378,
+      "postal_votes": 2,
+      "total_votes": 380
+    },
+    {
+      "name": "DEVAPPA. Y",
+      "party": "Independent",
+      "evm_votes": 506,
+      "postal_votes": 0,
+      "total_votes": 506
+    },
+    {
+      "name": "JAGAN. M",
+      "party": "Independent",
+      "evm_votes": 620,
+      "postal_votes": 1,
+      "total_votes": 621
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 1542,
+      "postal_votes": 2,
+      "total_votes": 1544
+    }
+  ]
+}

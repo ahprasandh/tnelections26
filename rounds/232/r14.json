@@ -1,0 +1,89 @@
+{
+  "round": 14,
+  "candidates": [
+    {
+      "name": "SEELAN",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 5997,
+      "postal_votes": 578,
+      "total_votes": 6575
+    },
+    {
+      "name": "CHELLASWAMY. R",
+      "party": "Communist Party of India (Marxist)",
+      "evm_votes": 39754,
+      "postal_votes": 3582,
+      "total_votes": 43336
+    },
+    {
+      "name": "RAMESH. P",
+      "party": "Bharatiya Janata Party",
+      "evm_votes": 24654,
+      "postal_votes": 860,
+      "total_votes": 25514
+    },
+    {
+      "name": "KRISHNA KUMAR. S",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 31150,
+      "postal_votes": 2461,
+      "total_votes": 33611
+    },
+    {
+      "name": "SYEDALI. A",
+      "party": "Our Mahathma National Party",
+      "evm_votes": 181,
+      "postal_votes": 7,
+      "total_votes": 188
+    },
+    {
+      "name": "RAKESH KUMAR. M",
+      "party": "Thamizhaka Padaippalar Makkal Katchi",
+      "evm_votes": 189,
+      "postal_votes": 15,
+      "total_votes": 204
+    },
+    {
+      "name": "VAIKUNDAMANI. N",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 72,
+      "postal_votes": 6,
+      "total_votes": 78
+    },
+    {
+      "name": "ARUL MANI. H",
+      "party": "Independent",
+      "evm_votes": 115,
+      "postal_votes": 9,
+      "total_votes": 124
+    },
+    {
+      "name": "DR. KRISHNA PRASAD. B",
+      "party": "Independent",
+      "evm_votes": 154,
+      "postal_votes": 6,
+      "total_votes": 160
+    },
+    {
+      "name": "DURAI RAJ. S",
+      "party": "Independent",
+      "evm_votes": 248,
+      "postal_votes": 14,
+      "total_votes": 262
+    },
+    {
+      "name": "VASANTHI. R",
+      "party": "Independent",
+      "evm_votes": 285,
+      "postal_votes": 23,
+      "total_votes": 308
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 346,
+      "postal_votes": 22,
+      "total_votes": 368
+    }
+  ]
+}

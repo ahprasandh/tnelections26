@@ -1,0 +1,110 @@
+{
+  "round": 15,
+  "candidates": [
+    {
+      "name": "ANITHA. A",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 2928,
+      "postal_votes": 156,
+      "total_votes": 3084
+    },
+    {
+      "name": "SHANMUGAM. A",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 44161,
+      "postal_votes": 2264,
+      "total_votes": 46425
+    },
+    {
+      "name": "SAMPATHKUMAR. V",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 50262,
+      "postal_votes": 2681,
+      "total_votes": 52943
+    },
+    {
+      "name": "NEHRU. G",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 379,
+      "postal_votes": 32,
+      "total_votes": 411
+    },
+    {
+      "name": "KARUTHAMMAL. S",
+      "party": "Naadaalum Makkal Katchi",
+      "evm_votes": 265,
+      "postal_votes": 14,
+      "total_votes": 279
+    },
+    {
+      "name": "KUPPURAJ. K",
+      "party": "Tamilar Makkal Katchi",
+      "evm_votes": 60,
+      "postal_votes": 4,
+      "total_votes": 64
+    },
+    {
+      "name": "MANILA. S",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 105,
+      "postal_votes": 15,
+      "total_votes": 120
+    },
+    {
+      "name": "MARIKANNU. C",
+      "party": "Republican Party of India (Athawale)",
+      "evm_votes": 351,
+      "postal_votes": 31,
+      "total_votes": 382
+    },
+    {
+      "name": "RAKESH. K",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 35046,
+      "postal_votes": 2675,
+      "total_votes": 37721
+    },
+    {
+      "name": "VENKATESH (A) DR. V.K. SWAMY",
+      "party": "Bharat Jan Chikitsa Party",
+      "evm_votes": 95,
+      "postal_votes": 4,
+      "total_votes": 99
+    },
+    {
+      "name": "SAMPATH. K",
+      "party": "Independent",
+      "evm_votes": 53,
+      "postal_votes": 2,
+      "total_votes": 55
+    },
+    {
+      "name": "SAMPATH. C",
+      "party": "Independent",
+      "evm_votes": 108,
+      "postal_votes": 10,
+      "total_votes": 118
+    },
+    {
+      "name": "THANGAVEL. K",
+      "party": "Independent",
+      "evm_votes": 231,
+      "postal_votes": 9,
+      "total_votes": 240
+    },
+    {
+      "name": "PARTHIPAN. P",
+      "party": "Independent",
+      "evm_votes": 234,
+      "postal_votes": 23,
+      "total_votes": 257
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 410,
+      "postal_votes": 32,
+      "total_votes": 442
+    }
+  ]
+}

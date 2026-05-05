@@ -1,0 +1,89 @@
+{
+  "round": 19,
+  "candidates": [
+    {
+      "name": "KRISHNASWAMY.A",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 68594,
+      "postal_votes": 4589,
+      "total_votes": 73183
+    },
+    {
+      "name": "MEKALA.J",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 9078,
+      "postal_votes": 537,
+      "total_votes": 9615
+    },
+    {
+      "name": "RAJASEKARAN.K",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 746,
+      "postal_votes": 20,
+      "total_votes": 766
+    },
+    {
+      "name": "ELUMALAI.T.A",
+      "party": "Amma Makkal Munnettra Kazagam",
+      "evm_votes": 33849,
+      "postal_votes": 1343,
+      "total_votes": 35192
+    },
+    {
+      "name": "PRAKASAM.R",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 129187,
+      "postal_votes": 5985,
+      "total_votes": 135172
+    },
+    {
+      "name": "SIVAKUMAR.S",
+      "party": "Independent",
+      "evm_votes": 239,
+      "postal_votes": 5,
+      "total_votes": 244
+    },
+    {
+      "name": "DHASARATHAN.R",
+      "party": "Independent",
+      "evm_votes": 108,
+      "postal_votes": 2,
+      "total_votes": 110
+    },
+    {
+      "name": "PURUSHOTHAMAN.B",
+      "party": "Independent",
+      "evm_votes": 216,
+      "postal_votes": 6,
+      "total_votes": 222
+    },
+    {
+      "name": "RAVIKUMAR.M",
+      "party": "Independent",
+      "evm_votes": 286,
+      "postal_votes": 11,
+      "total_votes": 297
+    },
+    {
+      "name": "VELU.S",
+      "party": "Independent",
+      "evm_votes": 213,
+      "postal_votes": 8,
+      "total_votes": 221
+    },
+    {
+      "name": "DR.JAYANTHI.R",
+      "party": "Independent",
+      "evm_votes": 231,
+      "postal_votes": 14,
+      "total_votes": 245
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 1239,
+      "postal_votes": 72,
+      "total_votes": 1311
+    }
+  ]
+}

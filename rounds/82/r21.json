@@ -1,0 +1,117 @@
+{
+  "round": 21,
+  "candidates": [
+    {
+      "name": "ARTHANARI. S.K.",
+      "party": "Indian National Congress",
+      "evm_votes": 46835,
+      "postal_votes": 2117,
+      "total_votes": 48952
+    },
+    {
+      "name": "SELLAMMAL. V.M.",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 381,
+      "postal_votes": 7,
+      "total_votes": 388
+    },
+    {
+      "name": "MONISHA CHINNADURAI.",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 5861,
+      "postal_votes": 293,
+      "total_votes": 6154
+    },
+    {
+      "name": "JAYASANKARAN. A.P.",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 73277,
+      "postal_votes": 3203,
+      "total_votes": 76480
+    },
+    {
+      "name": "SELVABHARATHI. R.",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 60269,
+      "postal_votes": 2734,
+      "total_votes": 63003
+    },
+    {
+      "name": "PALANIYAMMAL. S.",
+      "party": "Desiya Makkal Sakthi Katchi",
+      "evm_votes": 189,
+      "postal_votes": 10,
+      "total_votes": 199
+    },
+    {
+      "name": "RAMESH. G.",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 159,
+      "postal_votes": 6,
+      "total_votes": 165
+    },
+    {
+      "name": "SELVAKANNAN. L.",
+      "party": "Independent",
+      "evm_votes": 154,
+      "postal_votes": 6,
+      "total_votes": 160
+    },
+    {
+      "name": "POOMALAI. C.",
+      "party": "Independent",
+      "evm_votes": 211,
+      "postal_votes": 11,
+      "total_votes": 222
+    },
+    {
+      "name": "MANIKANDAN. M.",
+      "party": "Independent",
+      "evm_votes": 79,
+      "postal_votes": 2,
+      "total_votes": 81
+    },
+    {
+      "name": "MANIMARAN. A.",
+      "party": "Independent",
+      "evm_votes": 94,
+      "postal_votes": 5,
+      "total_votes": 99
+    },
+    {
+      "name": "MANICKAM. K.",
+      "party": "Independent",
+      "evm_votes": 225,
+      "postal_votes": 10,
+      "total_votes": 235
+    },
+    {
+      "name": "RAJESHKANNAN. K.",
+      "party": "Independent",
+      "evm_votes": 460,
+      "postal_votes": 18,
+      "total_votes": 478
+    },
+    {
+      "name": "VARATHARAJ. G.",
+      "party": "Independent",
+      "evm_votes": 129,
+      "postal_votes": 5,
+      "total_votes": 134
+    },
+    {
+      "name": "JAGAN. T.",
+      "party": "Independent",
+      "evm_votes": 140,
+      "postal_votes": 6,
+      "total_votes": 146
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 927,
+      "postal_votes": 36,
+      "total_votes": 963
+    }
+  ]
+}

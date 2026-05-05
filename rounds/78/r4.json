@@ -1,0 +1,187 @@
+{
+  "round": 4,
+  "candidates": [
+    {
+      "name": "KARTHIKEYAN K",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 10570,
+      "postal_votes": 3526,
+      "total_votes": 14096
+    },
+    {
+      "name": "BALAKRISHNAN A",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 60,
+      "postal_votes": 11,
+      "total_votes": 71
+    },
+    {
+      "name": "RADHIKA P",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 897,
+      "postal_votes": 256,
+      "total_votes": 1153
+    },
+    {
+      "name": "ASHOK KUMAR G",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 9821,
+      "postal_votes": 3983,
+      "total_votes": 13804
+    },
+    {
+      "name": "ARUMUGAM G",
+      "party": "Parivartan Rajniti Party",
+      "evm_votes": 20,
+      "postal_votes": 19,
+      "total_votes": 39
+    },
+    {
+      "name": "SANKAR R",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 13,
+      "postal_votes": 4,
+      "total_votes": 17
+    },
+    {
+      "name": "SEVVANTHA G K",
+      "party": "Anna Makkal Katchi",
+      "evm_votes": 31,
+      "postal_votes": 8,
+      "total_votes": 39
+    },
+    {
+      "name": "CHEZHIYAN P",
+      "party": "Pattali Makkal Katchi",
+      "evm_votes": 6083,
+      "postal_votes": 1446,
+      "total_votes": 7529
+    },
+    {
+      "name": "RANGANATHAN N",
+      "party": "All India Puratchi Thalaivar Makkal Munnettra Kazhagam",
+      "evm_votes": 26,
+      "postal_votes": 6,
+      "total_votes": 32
+    },
+    {
+      "name": "VENKATRAMAN J",
+      "party": "Naadaalum Makkal Katchi",
+      "evm_votes": 37,
+      "postal_votes": 9,
+      "total_votes": 46
+    },
+    {
+      "name": "ANBU D",
+      "party": "Independent",
+      "evm_votes": 10,
+      "postal_votes": 0,
+      "total_votes": 10
+    },
+    {
+      "name": "ANBUMURUGAN S",
+      "party": "Independent",
+      "evm_votes": 47,
+      "postal_votes": 14,
+      "total_votes": 61
+    },
+    {
+      "name": "KARTHIKEYAN A",
+      "party": "Independent",
+      "evm_votes": 27,
+      "postal_votes": 7,
+      "total_votes": 34
+    },
+    {
+      "name": "KARTHIKEYAN V",
+      "party": "Independent",
+      "evm_votes": 22,
+      "postal_votes": 3,
+      "total_votes": 25
+    },
+    {
+      "name": "GOWTHAM C",
+      "party": "Independent",
+      "evm_votes": 9,
+      "postal_votes": 5,
+      "total_votes": 14
+    },
+    {
+      "name": "SENTHIKUMAR V N",
+      "party": "Independent",
+      "evm_votes": 113,
+      "postal_votes": 18,
+      "total_votes": 131
+    },
+    {
+      "name": "SELVARAJ P",
+      "party": "Independent",
+      "evm_votes": 91,
+      "postal_votes": 31,
+      "total_votes": 122
+    },
+    {
+      "name": "SEZHIYAN K",
+      "party": "Independent",
+      "evm_votes": 17,
+      "postal_votes": 4,
+      "total_votes": 21
+    },
+    {
+      "name": "NARAYANAN L",
+      "party": "Independent",
+      "evm_votes": 13,
+      "postal_votes": 4,
+      "total_votes": 17
+    },
+    {
+      "name": "MANIKANDAN C",
+      "party": "Independent",
+      "evm_votes": 22,
+      "postal_votes": 11,
+      "total_votes": 33
+    },
+    {
+      "name": "MARIKKANNU A",
+      "party": "Independent",
+      "evm_votes": 3,
+      "postal_votes": 1,
+      "total_votes": 4
+    },
+    {
+      "name": "RAJA K",
+      "party": "Independent",
+      "evm_votes": 10,
+      "postal_votes": 3,
+      "total_votes": 13
+    },
+    {
+      "name": "RAJA S",
+      "party": "Independent",
+      "evm_votes": 18,
+      "postal_votes": 3,
+      "total_votes": 21
+    },
+    {
+      "name": "VINOTH S",
+      "party": "Independent",
+      "evm_votes": 15,
+      "postal_votes": 8,
+      "total_votes": 23
+    },
+    {
+      "name": "VIJAYAKUMAR G",
+      "party": "Independent",
+      "evm_votes": 22,
+      "postal_votes": 8,
+      "total_votes": 30
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 56,
+      "postal_votes": 22,
+      "total_votes": 78
+    }
+  ]
+}

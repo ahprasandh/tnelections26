@@ -1,0 +1,110 @@
+{
+  "round": 23,
+  "candidates": [
+    {
+      "name": "V.G. RAAJENDRAN",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 60820,
+      "postal_votes": 3375,
+      "total_votes": 64195
+    },
+    {
+      "name": "K. SENTHILKUMAR",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 4903,
+      "postal_votes": 309,
+      "total_votes": 5212
+    },
+    {
+      "name": "BE  VEE RAMANAH",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 51472,
+      "postal_votes": 2766,
+      "total_votes": 54238
+    },
+    {
+      "name": "B. RAJESH KUMAR",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 633,
+      "postal_votes": 14,
+      "total_votes": 647
+    },
+    {
+      "name": "DR. T. ARUNKUMAR",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 83143,
+      "postal_votes": 4910,
+      "total_votes": 88053
+    },
+    {
+      "name": "E. MANI",
+      "party": "Republican Party of India (Athawale)",
+      "evm_votes": 592,
+      "postal_votes": 26,
+      "total_votes": 618
+    },
+    {
+      "name": "E. RAJARATHINAM",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 96,
+      "postal_votes": 34,
+      "total_votes": 130
+    },
+    {
+      "name": "N. VENKATESAN",
+      "party": "Aanaithinthiya Jananayaka Pathukappu Kazhagam",
+      "evm_votes": 322,
+      "postal_votes": 13,
+      "total_votes": 335
+    },
+    {
+      "name": "E.KOTHANDAN",
+      "party": "Independent",
+      "evm_votes": 188,
+      "postal_votes": 6,
+      "total_votes": 194
+    },
+    {
+      "name": "N. NAGENDRABABU",
+      "party": "Independent",
+      "evm_votes": 103,
+      "postal_votes": 59,
+      "total_votes": 162
+    },
+    {
+      "name": "N. BALAKRISHNAN",
+      "party": "Independent",
+      "evm_votes": 176,
+      "postal_votes": 5,
+      "total_votes": 181
+    },
+    {
+      "name": "R. RAMANAN",
+      "party": "Independent",
+      "evm_votes": 110,
+      "postal_votes": 5,
+      "total_votes": 115
+    },
+    {
+      "name": "G. RAJENDIRAN",
+      "party": "Independent",
+      "evm_votes": 211,
+      "postal_votes": 9,
+      "total_votes": 220
+    },
+    {
+      "name": "S. RAJENDRAN",
+      "party": "Independent",
+      "evm_votes": 802,
+      "postal_votes": 41,
+      "total_votes": 843
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 1037,
+      "postal_votes": 49,
+      "total_votes": 1086
+    }
+  ]
+}

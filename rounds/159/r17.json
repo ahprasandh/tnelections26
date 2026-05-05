@@ -1,0 +1,89 @@
+{
+  "round": 17,
+  "candidates": [
+    {
+      "name": "SATHEESHKUMAR .M",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 206,
+      "postal_votes": 15,
+      "total_votes": 221
+    },
+    {
+      "name": "SIVAJOTHI .M",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 3573,
+      "postal_votes": 177,
+      "total_votes": 3750
+    },
+    {
+      "name": "L.E. JOTHIMANI",
+      "party": "Viduthalai Chiruthaigal Katchi",
+      "evm_votes": 63224,
+      "postal_votes": 4089,
+      "total_votes": 67313
+    },
+    {
+      "name": "ALAVANTHAR .M",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 455,
+      "postal_votes": 26,
+      "total_votes": 481
+    },
+    {
+      "name": "G. KALYANA SUNDARAM",
+      "party": "All India Jananayaka Makkal Kazhagam",
+      "evm_votes": 191,
+      "postal_votes": 13,
+      "total_votes": 204
+    },
+    {
+      "name": "S. SEENUVASAN",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 34330,
+      "postal_votes": 2031,
+      "total_votes": 36361
+    },
+    {
+      "name": "A. SOZHAN",
+      "party": "Pattali Makkal Katchi",
+      "evm_votes": 38885,
+      "postal_votes": 2599,
+      "total_votes": 41484
+    },
+    {
+      "name": "BABU .B",
+      "party": "Rashtriya Samaj Dal (R)",
+      "evm_votes": 143,
+      "postal_votes": 8,
+      "total_votes": 151
+    },
+    {
+      "name": "S. MURALI",
+      "party": "Aanaithinthiya Jananayaka Pathukappu Kazhagam",
+      "evm_votes": 281,
+      "postal_votes": 9,
+      "total_votes": 290
+    },
+    {
+      "name": "M.A.T. ARCHUNAN",
+      "party": "Independent",
+      "evm_votes": 260,
+      "postal_votes": 15,
+      "total_votes": 275
+    },
+    {
+      "name": "SANKARKUMAR .S",
+      "party": "Independent",
+      "evm_votes": 385,
+      "postal_votes": 22,
+      "total_votes": 407
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 365,
+      "postal_votes": 17,
+      "total_votes": 382
+    }
+  ]
+}

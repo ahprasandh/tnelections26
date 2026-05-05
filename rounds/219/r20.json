@@ -1,0 +1,152 @@
+{
+  "round": 20,
+  "candidates": [
+    {
+      "name": "SANGAI. GANESAN",
+      "party": "Indian National Congress",
+      "evm_votes": 35653,
+      "postal_votes": 1710,
+      "total_votes": 37363
+    },
+    {
+      "name": "M. KAVITHA",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 10286,
+      "postal_votes": 415,
+      "total_votes": 10701
+    },
+    {
+      "name": "DR. DHILIPAN JAISHANKAR",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 54499,
+      "postal_votes": 2767,
+      "total_votes": 57266
+    },
+    {
+      "name": "S. MARIAPPAN",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 419,
+      "postal_votes": 15,
+      "total_votes": 434
+    },
+    {
+      "name": "N.SELVAM",
+      "party": "Naam Indiar Party",
+      "evm_votes": 112,
+      "postal_votes": 2,
+      "total_votes": 114
+    },
+    {
+      "name": "K. THANGAVEL",
+      "party": "Puthiya Makkal Tamil Desam Katchi",
+      "evm_votes": 130,
+      "postal_votes": 4,
+      "total_votes": 134
+    },
+    {
+      "name": "J. PANDI",
+      "party": "Bharatha Makkal Katchi",
+      "evm_votes": 148,
+      "postal_votes": 5,
+      "total_votes": 153
+    },
+    {
+      "name": "PRABAKARAN",
+      "party": "Puthiya Tamilagam",
+      "evm_votes": 3212,
+      "postal_votes": 68,
+      "total_votes": 3280
+    },
+    {
+      "name": "C. RAVI",
+      "party": "Tamilaga Makkal Nala Katchi",
+      "evm_votes": 416,
+      "postal_votes": 9,
+      "total_votes": 425
+    },
+    {
+      "name": "C. RAMARAJAN",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 49541,
+      "postal_votes": 2331,
+      "total_votes": 51872
+    },
+    {
+      "name": "VASANTHI MURUGESAN",
+      "party": "All India Puratchi Thalaivar Makkal Munnettra Kazhagam",
+      "evm_votes": 6091,
+      "postal_votes": 143,
+      "total_votes": 6234
+    },
+    {
+      "name": "VELRAJ .S",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 135,
+      "postal_votes": 5,
+      "total_votes": 140
+    },
+    {
+      "name": "S.ARULRAJ",
+      "party": "Independent",
+      "evm_votes": 221,
+      "postal_votes": 9,
+      "total_votes": 230
+    },
+    {
+      "name": "ANAND",
+      "party": "Independent",
+      "evm_votes": 558,
+      "postal_votes": 28,
+      "total_votes": 586
+    },
+    {
+      "name": "K. SUBBURAJ",
+      "party": "Independent",
+      "evm_votes": 175,
+      "postal_votes": 7,
+      "total_votes": 182
+    },
+    {
+      "name": "K.SURESH",
+      "party": "Independent",
+      "evm_votes": 600,
+      "postal_votes": 61,
+      "total_votes": 661
+    },
+    {
+      "name": "V. PAULPANDIAN",
+      "party": "Independent",
+      "evm_votes": 412,
+      "postal_votes": 20,
+      "total_votes": 432
+    },
+    {
+      "name": "S. MUTHUSELVAN",
+      "party": "Independent",
+      "evm_votes": 152,
+      "postal_votes": 6,
+      "total_votes": 158
+    },
+    {
+      "name": "K. RAVIKUMAR",
+      "party": "Independent",
+      "evm_votes": 323,
+      "postal_votes": 18,
+      "total_votes": 341
+    },
+    {
+      "name": "M. RAJ",
+      "party": "Independent",
+      "evm_votes": 94,
+      "postal_votes": 5,
+      "total_votes": 99
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 455,
+      "postal_votes": 19,
+      "total_votes": 474
+    }
+  ]
+}

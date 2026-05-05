@@ -1,0 +1,103 @@
+{
+  "round": 21,
+  "candidates": [
+    {
+      "name": "M. ANUSIYA",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 15017,
+      "postal_votes": 737,
+      "total_votes": 15754
+    },
+    {
+      "name": "P.M.RAMAJEYAM",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 46308,
+      "postal_votes": 2341,
+      "total_votes": 48649
+    },
+    {
+      "name": "C. ARUNA DEVI",
+      "party": "Nam Naadu Nam Makkal Nam Ethirkaalam Katchi",
+      "evm_votes": 672,
+      "postal_votes": 26,
+      "total_votes": 698
+    },
+    {
+      "name": "DR.K. KRISHNASAMY",
+      "party": "Puthiya Tamilagam",
+      "evm_votes": 14454,
+      "postal_votes": 217,
+      "total_votes": 14671
+    },
+    {
+      "name": "R SUNDARARAJ",
+      "party": "Amma Makkal Munnettra Kazagam",
+      "evm_votes": 22874,
+      "postal_votes": 998,
+      "total_votes": 23872
+    },
+    {
+      "name": "SUBBULAKSHMI. S",
+      "party": "Naam Indiar Party",
+      "evm_votes": 207,
+      "postal_votes": 7,
+      "total_votes": 214
+    },
+    {
+      "name": "C .SELVAKUMAR",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 471,
+      "postal_votes": 11,
+      "total_votes": 482
+    },
+    {
+      "name": "P .MATHANRAJA",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 71395,
+      "postal_votes": 3037,
+      "total_votes": 74432
+    },
+    {
+      "name": "M. ANANTH",
+      "party": "Independent",
+      "evm_votes": 291,
+      "postal_votes": 15,
+      "total_votes": 306
+    },
+    {
+      "name": "S .MUTHUSELVAM",
+      "party": "Independent",
+      "evm_votes": 241,
+      "postal_votes": 8,
+      "total_votes": 249
+    },
+    {
+      "name": "G .MURUGAN",
+      "party": "Independent",
+      "evm_votes": 143,
+      "postal_votes": 4,
+      "total_votes": 147
+    },
+    {
+      "name": "M .LAKSHMANAN",
+      "party": "Independent",
+      "evm_votes": 181,
+      "postal_votes": 4,
+      "total_votes": 185
+    },
+    {
+      "name": "VEDAPRAKASH. A",
+      "party": "Independent",
+      "evm_votes": 362,
+      "postal_votes": 11,
+      "total_votes": 373
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 765,
+      "postal_votes": 26,
+      "total_votes": 791
+    }
+  ]
+}

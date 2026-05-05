@@ -1,0 +1,89 @@
+{
+  "round": 7,
+  "candidates": [
+    {
+      "name": "SABA.RAJENDRAN",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 17833,
+      "postal_votes": 2273,
+      "total_votes": 20106
+    },
+    {
+      "name": "RAJENDRAN.R",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 25408,
+      "postal_votes": 4131,
+      "total_votes": 29539
+    },
+    {
+      "name": "VEERAMANI.B",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 1338,
+      "postal_votes": 167,
+      "total_votes": 1505
+    },
+    {
+      "name": "JOTHIMURUGAN.V",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 39,
+      "postal_votes": 5,
+      "total_votes": 44
+    },
+    {
+      "name": "ANAND.K",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 9295,
+      "postal_votes": 1355,
+      "total_votes": 10650
+    },
+    {
+      "name": "THIRUMALVALAVAN.T",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 5853,
+      "postal_votes": 759,
+      "total_votes": 6612
+    },
+    {
+      "name": "MAYAKRISHNAN.K",
+      "party": "Veerath Thiyagi Viswanathadoss Thozhilalarkal Katchi",
+      "evm_votes": 61,
+      "postal_votes": 5,
+      "total_votes": 66
+    },
+    {
+      "name": "KARTHIKEYAN.C.M",
+      "party": "Independent",
+      "evm_votes": 200,
+      "postal_votes": 28,
+      "total_votes": 228
+    },
+    {
+      "name": "SATHIYASEELAN.M",
+      "party": "Independent",
+      "evm_votes": 45,
+      "postal_votes": 5,
+      "total_votes": 50
+    },
+    {
+      "name": "CHEZHIYAN.G",
+      "party": "Independent",
+      "evm_votes": 89,
+      "postal_votes": 9,
+      "total_votes": 98
+    },
+    {
+      "name": "MANIMARAN.P",
+      "party": "Independent",
+      "evm_votes": 149,
+      "postal_votes": 26,
+      "total_votes": 175
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 245,
+      "postal_votes": 42,
+      "total_votes": 287
+    }
+  ]
+}

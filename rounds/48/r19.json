@@ -1,0 +1,124 @@
+{
+  "round": 19,
+  "candidates": [
+    {
+      "name": "AFSHIA NASRIN. S",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 3353,
+      "postal_votes": 202,
+      "total_votes": 3555
+    },
+    {
+      "name": "WAZEER AHMED. J",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 315,
+      "postal_votes": 18,
+      "total_votes": 333
+    },
+    {
+      "name": "VILWANATHAN. A.C.",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 65394,
+      "postal_votes": 2515,
+      "total_votes": 67909
+    },
+    {
+      "name": "VENKATESAN. R",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 35628,
+      "postal_votes": 2987,
+      "total_votes": 38615
+    },
+    {
+      "name": "ASADULLAH. B",
+      "party": "Indian National League",
+      "evm_votes": 351,
+      "postal_votes": 25,
+      "total_votes": 376
+    },
+    {
+      "name": "IMTHIYAZ PANDARATTUDU ABDU",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 54620,
+      "postal_votes": 3846,
+      "total_votes": 58466
+    },
+    {
+      "name": "KAREEM BASHA. A",
+      "party": "All India Majlis-E-Inquilab-E-Millat",
+      "evm_votes": 119,
+      "postal_votes": 17,
+      "total_votes": 136
+    },
+    {
+      "name": "GOVINDHAN. A",
+      "party": "All India Youth Development Party",
+      "evm_votes": 65,
+      "postal_votes": 7,
+      "total_votes": 72
+    },
+    {
+      "name": "SASI REKA. Y",
+      "party": "Makkal Arasial Katchi",
+      "evm_votes": 148,
+      "postal_votes": 8,
+      "total_votes": 156
+    },
+    {
+      "name": "HAROON RASHEED BADU",
+      "party": "All India Puratchi Thalaivar Makkal Munnettra Kazhagam",
+      "evm_votes": 80,
+      "postal_votes": 3,
+      "total_votes": 83
+    },
+    {
+      "name": "KUMARAVEL. P",
+      "party": "Independent",
+      "evm_votes": 157,
+      "postal_votes": 11,
+      "total_votes": 168
+    },
+    {
+      "name": "FIRDOSE AHMED. M",
+      "party": "Independent",
+      "evm_votes": 99,
+      "postal_votes": 6,
+      "total_votes": 105
+    },
+    {
+      "name": "MUSHTAQ AHMED KUTLAPPAI",
+      "party": "Independent",
+      "evm_votes": 110,
+      "postal_votes": 3,
+      "total_votes": 113
+    },
+    {
+      "name": "VISWANATHAN. J",
+      "party": "Independent",
+      "evm_votes": 408,
+      "postal_votes": 20,
+      "total_votes": 428
+    },
+    {
+      "name": "VENKATESAN. M",
+      "party": "Independent",
+      "evm_votes": 133,
+      "postal_votes": 7,
+      "total_votes": 140
+    },
+    {
+      "name": "SRINATH",
+      "party": "Independent",
+      "evm_votes": 158,
+      "postal_votes": 9,
+      "total_votes": 167
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 384,
+      "postal_votes": 23,
+      "total_votes": 407
+    }
+  ]
+}

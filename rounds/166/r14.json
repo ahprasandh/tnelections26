@@ -1,0 +1,75 @@
+{
+  "round": 14,
+  "candidates": [
+    {
+      "name": "BALATHANDAYUTHAM.U",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 25658,
+      "postal_votes": 2064,
+      "total_votes": 27722
+    },
+    {
+      "name": "MARIMUTHU.K",
+      "party": "Communist Party of India",
+      "evm_votes": 47553,
+      "postal_votes": 2989,
+      "total_votes": 50542
+    },
+    {
+      "name": "VIMALA.A",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 333,
+      "postal_votes": 23,
+      "total_votes": 356
+    },
+    {
+      "name": "VINOTHINI.R",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 6260,
+      "postal_votes": 439,
+      "total_votes": 6699
+    },
+    {
+      "name": "ARUMUGAM.N",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 284,
+      "postal_votes": 20,
+      "total_votes": 304
+    },
+    {
+      "name": "PANDIYAN.S",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 40550,
+      "postal_votes": 2716,
+      "total_votes": 43266
+    },
+    {
+      "name": "SIVAPRAKASAM.V",
+      "party": "Independent",
+      "evm_votes": 177,
+      "postal_votes": 11,
+      "total_votes": 188
+    },
+    {
+      "name": "MURUGANANTHAM.V",
+      "party": "Independent",
+      "evm_votes": 104,
+      "postal_votes": 4,
+      "total_votes": 108
+    },
+    {
+      "name": "JAYASANGAR.A",
+      "party": "Independent",
+      "evm_votes": 216,
+      "postal_votes": 34,
+      "total_votes": 250
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 449,
+      "postal_votes": 97,
+      "total_votes": 546
+    }
+  ]
+}

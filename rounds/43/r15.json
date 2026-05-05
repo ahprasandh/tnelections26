@@ -1,0 +1,117 @@
+{
+  "round": 15,
+  "candidates": [
+    {
+      "name": "S R K APPU",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 31408,
+      "postal_votes": 2929,
+      "total_votes": 34337
+    },
+    {
+      "name": "P.KARTHIKEYAN",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 50788,
+      "postal_votes": 2775,
+      "total_votes": 53563
+    },
+    {
+      "name": "A.SONIYA",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 2402,
+      "postal_votes": 249,
+      "total_votes": 2651
+    },
+    {
+      "name": "S.M.IRSHAD",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 90,
+      "postal_votes": 5,
+      "total_votes": 95
+    },
+    {
+      "name": "S.GIRIDHARA PRASAD",
+      "party": "Party for the Rights of Other backward Classes",
+      "evm_votes": 72,
+      "postal_votes": 6,
+      "total_votes": 78
+    },
+    {
+      "name": "K.MUNIYAPPAN",
+      "party": "ALL PENSIONER'S PARTY",
+      "evm_votes": 40,
+      "postal_votes": 5,
+      "total_votes": 45
+    },
+    {
+      "name": "K.M.VINAAYAGAM",
+      "party": "Viro Ke Vir Indian Party",
+      "evm_votes": 54,
+      "postal_votes": 5,
+      "total_votes": 59
+    },
+    {
+      "name": "K.VIMALA",
+      "party": "Naam Indiar Party",
+      "evm_votes": 148,
+      "postal_votes": 5,
+      "total_votes": 153
+    },
+    {
+      "name": "M.M.VINOTH KANNAN",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 51713,
+      "postal_votes": 4245,
+      "total_votes": 55958
+    },
+    {
+      "name": "M.VINOTHKUMAR",
+      "party": "Anna MGR Dravida Makkal Kalgam",
+      "evm_votes": 99,
+      "postal_votes": 6,
+      "total_votes": 105
+    },
+    {
+      "name": "S.APPU",
+      "party": "Independent",
+      "evm_votes": 72,
+      "postal_votes": 7,
+      "total_votes": 79
+    },
+    {
+      "name": "S.MADHAN KUMAR",
+      "party": "Independent",
+      "evm_votes": 87,
+      "postal_votes": 13,
+      "total_votes": 100
+    },
+    {
+      "name": "S.RAJKAMAL",
+      "party": "Independent",
+      "evm_votes": 39,
+      "postal_votes": 2,
+      "total_votes": 41
+    },
+    {
+      "name": "M.LOGANATHAN",
+      "party": "Independent",
+      "evm_votes": 39,
+      "postal_votes": 5,
+      "total_votes": 44
+    },
+    {
+      "name": "U.VIJAYA KUMAR",
+      "party": "Independent",
+      "evm_votes": 150,
+      "postal_votes": 4,
+      "total_votes": 154
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 483,
+      "postal_votes": 49,
+      "total_votes": 532
+    }
+  ]
+}

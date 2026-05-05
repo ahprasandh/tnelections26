@@ -1,0 +1,103 @@
+{
+  "round": 19,
+  "candidates": [
+    {
+      "name": "R KUPPUSAMY",
+      "party": "Indian National Congress",
+      "evm_votes": 45557,
+      "postal_votes": 2838,
+      "total_votes": 48395
+    },
+    {
+      "name": "T M  TAMILSELVAM",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 49821,
+      "postal_votes": 2842,
+      "total_votes": 52663
+    },
+    {
+      "name": "MEKALA",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 5231,
+      "postal_votes": 253,
+      "total_votes": 5484
+    },
+    {
+      "name": "N ELAIYARAJA",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 55522,
+      "postal_votes": 2623,
+      "total_votes": 58145
+    },
+    {
+      "name": "K THAVARAJ",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 235,
+      "postal_votes": 5,
+      "total_votes": 240
+    },
+    {
+      "name": "PALANI R",
+      "party": "Thakkam Katchi",
+      "evm_votes": 112,
+      "postal_votes": 6,
+      "total_votes": 118
+    },
+    {
+      "name": "RAMESHWARI",
+      "party": "Bharat Jan Chikitsa Party",
+      "evm_votes": 93,
+      "postal_votes": 4,
+      "total_votes": 97
+    },
+    {
+      "name": "VIJIYAL",
+      "party": "Aanaithinthiya Jananayaka Pathukappu Kazhagam",
+      "evm_votes": 156,
+      "postal_votes": 15,
+      "total_votes": 171
+    },
+    {
+      "name": "KUMARAVEL",
+      "party": "Independent",
+      "evm_votes": 217,
+      "postal_votes": 13,
+      "total_votes": 230
+    },
+    {
+      "name": "A SAMRAJ",
+      "party": "Independent",
+      "evm_votes": 113,
+      "postal_votes": 7,
+      "total_votes": 120
+    },
+    {
+      "name": "TAMILMANI",
+      "party": "Independent",
+      "evm_votes": 186,
+      "postal_votes": 5,
+      "total_votes": 191
+    },
+    {
+      "name": "BAKKIYARAJ R",
+      "party": "Independent",
+      "evm_votes": 141,
+      "postal_votes": 6,
+      "total_votes": 147
+    },
+    {
+      "name": "MUNIRAJ",
+      "party": "Independent",
+      "evm_votes": 207,
+      "postal_votes": 7,
+      "total_votes": 214
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 683,
+      "postal_votes": 30,
+      "total_votes": 713
+    }
+  ]
+}

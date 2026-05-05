@@ -1,0 +1,110 @@
+{
+  "round": 9,
+  "candidates": [
+    {
+      "name": "AALANGATTUR ANANDHI",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 1781,
+      "postal_votes": 297,
+      "total_votes": 2078
+    },
+    {
+      "name": "KAVIBHARATHI.K",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 170,
+      "postal_votes": 17,
+      "total_votes": 187
+    },
+    {
+      "name": "SIVABALAN.M",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 22845,
+      "postal_votes": 2980,
+      "total_votes": 25825
+    },
+    {
+      "name": "HARIBASKAR.P",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 23039,
+      "postal_votes": 2884,
+      "total_votes": 25923
+    },
+    {
+      "name": "RAMASAMY.S",
+      "party": "Samaniya Makkal Nala Katchi",
+      "evm_votes": 294,
+      "postal_votes": 26,
+      "total_votes": 320
+    },
+    {
+      "name": "EASWARAMURTHI.K",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 186,
+      "postal_votes": 16,
+      "total_votes": 202
+    },
+    {
+      "name": "GOBAL.S.C.R",
+      "party": "Aanaithinthiya Jananayaka Pathukappu Kazhagam",
+      "evm_votes": 214,
+      "postal_votes": 39,
+      "total_votes": 253
+    },
+    {
+      "name": "VIJAY VENKATESH.M",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 21969,
+      "postal_votes": 3330,
+      "total_votes": 25299
+    },
+    {
+      "name": "KARTHI.M",
+      "party": "Independent",
+      "evm_votes": 104,
+      "postal_votes": 12,
+      "total_votes": 116
+    },
+    {
+      "name": "SANKARKUMAR.K.A",
+      "party": "Independent",
+      "evm_votes": 161,
+      "postal_votes": 16,
+      "total_votes": 177
+    },
+    {
+      "name": "SELVI.A",
+      "party": "Independent",
+      "evm_votes": 82,
+      "postal_votes": 8,
+      "total_votes": 90
+    },
+    {
+      "name": "DHANABAL.C",
+      "party": "Independent",
+      "evm_votes": 356,
+      "postal_votes": 36,
+      "total_votes": 392
+    },
+    {
+      "name": "VEERAN.K",
+      "party": "Independent",
+      "evm_votes": 488,
+      "postal_votes": 42,
+      "total_votes": 530
+    },
+    {
+      "name": "SHEIK DAVOOD.A.M",
+      "party": "Independent",
+      "evm_votes": 136,
+      "postal_votes": 21,
+      "total_votes": 157
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 269,
+      "postal_votes": 31,
+      "total_votes": 300
+    }
+  ]
+}

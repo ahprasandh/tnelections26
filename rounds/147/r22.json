@@ -1,0 +1,89 @@
+{
+  "round": 22,
+  "candidates": [
+    {
+      "name": "ARIVAZHAGAN. D",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 509,
+      "postal_votes": 37,
+      "total_votes": 546
+    },
+    {
+      "name": "SUGANYA. J",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 6784,
+      "postal_votes": 383,
+      "total_votes": 7167
+    },
+    {
+      "name": "THAMIZHSELVAN. R",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 52913,
+      "postal_votes": 3075,
+      "total_votes": 55988
+    },
+    {
+      "name": "DR. JAYALAKSHMI. S.T",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 57296,
+      "postal_votes": 3239,
+      "total_votes": 60535
+    },
+    {
+      "name": "SIVAKUMAR. K",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 67155,
+      "postal_votes": 3294,
+      "total_votes": 70449
+    },
+    {
+      "name": "DHAMODHARAN. S",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 267,
+      "postal_votes": 12,
+      "total_votes": 279
+    },
+    {
+      "name": "ANANDAJOTHI PARAMASIVAM",
+      "party": "Independent",
+      "evm_votes": 175,
+      "postal_votes": 10,
+      "total_votes": 185
+    },
+    {
+      "name": "CHANDRAKUMAR. P",
+      "party": "Independent",
+      "evm_votes": 278,
+      "postal_votes": 6,
+      "total_votes": 284
+    },
+    {
+      "name": "SHIYAMALA. M",
+      "party": "Independent",
+      "evm_votes": 329,
+      "postal_votes": 17,
+      "total_votes": 346
+    },
+    {
+      "name": "SUBRAMANIAN. R",
+      "party": "Independent",
+      "evm_votes": 414,
+      "postal_votes": 25,
+      "total_votes": 439
+    },
+    {
+      "name": "JAYACHANDRAN. B",
+      "party": "Independent",
+      "evm_votes": 232,
+      "postal_votes": 10,
+      "total_votes": 242
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 849,
+      "postal_votes": 48,
+      "total_votes": 897
+    }
+  ]
+}

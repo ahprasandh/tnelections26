@@ -1,0 +1,103 @@
+{
+  "round": 14,
+  "candidates": [
+    {
+      "name": "SATHYA.S.A.",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 28846,
+      "postal_votes": 2666,
+      "total_votes": 31512
+    },
+    {
+      "name": "BALAKRISHNAREDDY. P",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 54005,
+      "postal_votes": 2597,
+      "total_votes": 56602
+    },
+    {
+      "name": "STALIN.R",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 2706,
+      "postal_votes": 286,
+      "total_votes": 2992
+    },
+    {
+      "name": "SURYA. Y",
+      "party": "Republican Party of India (Athawale)",
+      "evm_votes": 424,
+      "postal_votes": 36,
+      "total_votes": 460
+    },
+    {
+      "name": "PONNUMANI.R",
+      "party": "Tamilar Makkal Katchi",
+      "evm_votes": 97,
+      "postal_votes": 5,
+      "total_votes": 102
+    },
+    {
+      "name": "VENDARKARASAN.S",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 25437,
+      "postal_votes": 3252,
+      "total_votes": 28689
+    },
+    {
+      "name": "GANESH.M",
+      "party": "Independent",
+      "evm_votes": 67,
+      "postal_votes": 10,
+      "total_votes": 77
+    },
+    {
+      "name": "DR.SHANMUGAM.A.R.",
+      "party": "Independent",
+      "evm_votes": 33,
+      "postal_votes": 4,
+      "total_votes": 37
+    },
+    {
+      "name": "DEVAPPA.Y",
+      "party": "Independent",
+      "evm_votes": 57,
+      "postal_votes": 1,
+      "total_votes": 58
+    },
+    {
+      "name": "PATTABIRAMA. C",
+      "party": "Independent",
+      "evm_votes": 65,
+      "postal_votes": 3,
+      "total_votes": 68
+    },
+    {
+      "name": "MASOOD.S",
+      "party": "Independent",
+      "evm_votes": 109,
+      "postal_votes": 26,
+      "total_votes": 135
+    },
+    {
+      "name": "MARIYA FRANCIS.S",
+      "party": "Independent",
+      "evm_votes": 116,
+      "postal_votes": 6,
+      "total_votes": 122
+    },
+    {
+      "name": "RAJENDRAN.P",
+      "party": "Independent",
+      "evm_votes": 143,
+      "postal_votes": 5,
+      "total_votes": 148
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 610,
+      "postal_votes": 66,
+      "total_votes": 676
+    }
+  ]
+}

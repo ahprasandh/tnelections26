@@ -1,0 +1,103 @@
+{
+  "round": 18,
+  "candidates": [
+    {
+      "name": "SINTHANAI SELVAN",
+      "party": "Viduthalai Chiruthaigal Katchi",
+      "evm_votes": 47442,
+      "postal_votes": 2645,
+      "total_votes": 50087
+    },
+    {
+      "name": "SWATHILAKSHMI SEKAR",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 3926,
+      "postal_votes": 277,
+      "total_votes": 4203
+    },
+    {
+      "name": "RAJASEKAR. E",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 51049,
+      "postal_votes": 3287,
+      "total_votes": 54336
+    },
+    {
+      "name": "GANGADURAI. K",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 318,
+      "postal_votes": 13,
+      "total_votes": 331
+    },
+    {
+      "name": "MURUGAVEL. A",
+      "party": "All India Puratchi Thalaivar Makkal Munnettra Kazhagam",
+      "evm_votes": 338,
+      "postal_votes": 18,
+      "total_votes": 356
+    },
+    {
+      "name": "MOHAN RAJA.M.G.K",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 48487,
+      "postal_votes": 2656,
+      "total_votes": 51143
+    },
+    {
+      "name": "AMBETHKAR. S",
+      "party": "Independent",
+      "evm_votes": 260,
+      "postal_votes": 13,
+      "total_votes": 273
+    },
+    {
+      "name": "ARUN. C",
+      "party": "Independent",
+      "evm_votes": 64,
+      "postal_votes": 3,
+      "total_votes": 67
+    },
+    {
+      "name": "EZHIL. E",
+      "party": "Independent",
+      "evm_votes": 96,
+      "postal_votes": 6,
+      "total_votes": 102
+    },
+    {
+      "name": "KRISHNAKANTH. E",
+      "party": "Independent",
+      "evm_votes": 88,
+      "postal_votes": 9,
+      "total_votes": 97
+    },
+    {
+      "name": "GOPIKRISHNA. D",
+      "party": "Independent",
+      "evm_votes": 131,
+      "postal_votes": 9,
+      "total_votes": 140
+    },
+    {
+      "name": "RAJA. K",
+      "party": "Independent",
+      "evm_votes": 274,
+      "postal_votes": 17,
+      "total_votes": 291
+    },
+    {
+      "name": "JEGAN. M",
+      "party": "Independent",
+      "evm_votes": 132,
+      "postal_votes": 7,
+      "total_votes": 139
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 652,
+      "postal_votes": 37,
+      "total_votes": 689
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "round": 4,
+  "candidates": [
+    {
+      "name": "KARTHICK. T",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 1570,
+      "postal_votes": 684,
+      "total_votes": 2254
+    },
+    {
+      "name": "PUGAZHENDI. M",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 9503,
+      "postal_votes": 3085,
+      "total_votes": 12588
+    },
+    {
+      "name": "MANIAN. O.S",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 10737,
+      "postal_votes": 3518,
+      "total_votes": 14255
+    },
+    {
+      "name": "KINGSLY GERALD. A",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 6485,
+      "postal_votes": 2972,
+      "total_votes": 9457
+    },
+    {
+      "name": "LINGESWARAN. M",
+      "party": "All India Puratchi Thalaivar Makkal Munnettra Kazhagam",
+      "evm_votes": 35,
+      "postal_votes": 43,
+      "total_votes": 78
+    },
+    {
+      "name": "RAJASIMMAN. D",
+      "party": "Independent",
+      "evm_votes": 13,
+      "postal_votes": 32,
+      "total_votes": 45
+    },
+    {
+      "name": "GOWTHAMAN. M",
+      "party": "Independent",
+      "evm_votes": 29,
+      "postal_votes": 13,
+      "total_votes": 42
+    },
+    {
+      "name": "SATHIYASEELAN. M",
+      "party": "Independent",
+      "evm_votes": 22,
+      "postal_votes": 11,
+      "total_votes": 33
+    },
+    {
+      "name": "SELVAKUMAR. S",
+      "party": "Independent",
+      "evm_votes": 20,
+      "postal_votes": 18,
+      "total_votes": 38
+    },
+    {
+      "name": "THIVASKAR. B",
+      "party": "Independent",
+      "evm_votes": 50,
+      "postal_votes": 76,
+      "total_votes": 126
+    },
+    {
+      "name": "VEERAKUMAR. V",
+      "party": "Independent",
+      "evm_votes": 91,
+      "postal_votes": 15,
+      "total_votes": 106
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 95,
+      "postal_votes": 34,
+      "total_votes": 129
+    }
+  ]
+}

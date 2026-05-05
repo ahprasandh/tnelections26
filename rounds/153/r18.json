@@ -1,0 +1,89 @@
+{
+  "round": 18,
+  "candidates": [
+    {
+      "name": "SABA.RAJENDRAN",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 47869,
+      "postal_votes": 3428,
+      "total_votes": 51297
+    },
+    {
+      "name": "RAJENDRAN.R",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 57981,
+      "postal_votes": 3644,
+      "total_votes": 61625
+    },
+    {
+      "name": "VEERAMANI.B",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 4037,
+      "postal_votes": 299,
+      "total_votes": 4336
+    },
+    {
+      "name": "JOTHIMURUGAN.V",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 122,
+      "postal_votes": 7,
+      "total_votes": 129
+    },
+    {
+      "name": "ANAND.K",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 31448,
+      "postal_votes": 2097,
+      "total_votes": 33545
+    },
+    {
+      "name": "THIRUMALVALAVAN.T",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 10622,
+      "postal_votes": 471,
+      "total_votes": 11093
+    },
+    {
+      "name": "MAYAKRISHNAN.K",
+      "party": "Veerath Thiyagi Viswanathadoss Thozhilalarkal Katchi",
+      "evm_votes": 130,
+      "postal_votes": 6,
+      "total_votes": 136
+    },
+    {
+      "name": "KARTHIKEYAN.C.M",
+      "party": "Independent",
+      "evm_votes": 432,
+      "postal_votes": 15,
+      "total_votes": 447
+    },
+    {
+      "name": "SATHIYASEELAN.M",
+      "party": "Independent",
+      "evm_votes": 92,
+      "postal_votes": 5,
+      "total_votes": 97
+    },
+    {
+      "name": "CHEZHIYAN.G",
+      "party": "Independent",
+      "evm_votes": 198,
+      "postal_votes": 18,
+      "total_votes": 216
+    },
+    {
+      "name": "MANIMARAN.P",
+      "party": "Independent",
+      "evm_votes": 320,
+      "postal_votes": 16,
+      "total_votes": 336
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 713,
+      "postal_votes": 45,
+      "total_votes": 758
+    }
+  ]
+}

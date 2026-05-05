@@ -1,0 +1,54 @@
+{
+  "round": 10,
+  "candidates": [
+    {
+      "name": "KARTHIK.R",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 2879,
+      "postal_votes": 693,
+      "total_votes": 3572
+    },
+    {
+      "name": "DHRAVIDAMANI.M",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 33587,
+      "postal_votes": 4476,
+      "total_votes": 38063
+    },
+    {
+      "name": "PON.JAYASEELAN",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 22929,
+      "postal_votes": 2788,
+      "total_votes": 25717
+    },
+    {
+      "name": "DEEPAK SAI KISHORE.A",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 16653,
+      "postal_votes": 2417,
+      "total_votes": 19070
+    },
+    {
+      "name": "RAJ.S.K",
+      "party": "Veerath Thiyagi Viswanathadoss Thozhilalarkal Katchi",
+      "evm_votes": 243,
+      "postal_votes": 19,
+      "total_votes": 262
+    },
+    {
+      "name": "THILAGARAJ.N",
+      "party": "Independent",
+      "evm_votes": 282,
+      "postal_votes": 27,
+      "total_votes": 309
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 536,
+      "postal_votes": 38,
+      "total_votes": 574
+    }
+  ]
+}

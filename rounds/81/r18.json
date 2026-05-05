@@ -1,0 +1,103 @@
+{
+  "round": 18,
+  "candidates": [
+    {
+      "name": "ABIRAMI. A",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 4923,
+      "postal_votes": 321,
+      "total_votes": 5244
+    },
+    {
+      "name": "CHINNADURAI. K",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 47053,
+      "postal_votes": 3343,
+      "total_votes": 50396
+    },
+    {
+      "name": "NALLATHAMBI. A",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 61825,
+      "postal_votes": 2675,
+      "total_votes": 64500
+    },
+    {
+      "name": "BALAKRISHNAN. P",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 419,
+      "postal_votes": 13,
+      "total_votes": 432
+    },
+    {
+      "name": "ANBAZHAGAN. S",
+      "party": "Anna Makkal Katchi",
+      "evm_votes": 115,
+      "postal_votes": 6,
+      "total_votes": 121
+    },
+    {
+      "name": "KAVIARASAN. T.T",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 173,
+      "postal_votes": 5,
+      "total_votes": 178
+    },
+    {
+      "name": "SUJATHA. V",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 44753,
+      "postal_votes": 2833,
+      "total_votes": 47586
+    },
+    {
+      "name": "MARIMUTHU. S",
+      "party": "Puthiya Tamilagam",
+      "evm_votes": 180,
+      "postal_votes": 8,
+      "total_votes": 188
+    },
+    {
+      "name": "KANNAN. S",
+      "party": "Independent",
+      "evm_votes": 172,
+      "postal_votes": 8,
+      "total_votes": 180
+    },
+    {
+      "name": "GUNAPRAKASH. D",
+      "party": "Independent",
+      "evm_votes": 83,
+      "postal_votes": 2,
+      "total_votes": 85
+    },
+    {
+      "name": "TAMILARASAN. T",
+      "party": "Independent",
+      "evm_votes": 151,
+      "postal_votes": 5,
+      "total_votes": 156
+    },
+    {
+      "name": "DHANAPAL. S",
+      "party": "Independent",
+      "evm_votes": 349,
+      "postal_votes": 16,
+      "total_votes": 365
+    },
+    {
+      "name": "RAMESH. S",
+      "party": "Independent",
+      "evm_votes": 288,
+      "postal_votes": 10,
+      "total_votes": 298
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 578,
+      "postal_votes": 26,
+      "total_votes": 604
+    }
+  ]
+}

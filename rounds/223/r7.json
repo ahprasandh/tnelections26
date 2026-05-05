@@ -1,0 +1,103 @@
+{
+  "round": 7,
+  "candidates": [
+    {
+      "name": "PAUL MANOJ PANDIAN",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 16985,
+      "postal_votes": 2335,
+      "total_votes": 19320
+    },
+    {
+      "name": "R PAULRAJ",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 7201,
+      "postal_votes": 1016,
+      "total_votes": 8217
+    },
+    {
+      "name": "K R P PRABAKARAN",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 17055,
+      "postal_votes": 2091,
+      "total_votes": 19146
+    },
+    {
+      "name": "A UDHAYAKUMAR",
+      "party": "Puthiya Tamilagam",
+      "evm_votes": 353,
+      "postal_votes": 248,
+      "total_votes": 601
+    },
+    {
+      "name": "A SUBASH  CHANDRA BOSE",
+      "party": "Thakkam Katchi",
+      "evm_votes": 34,
+      "postal_votes": 16,
+      "total_votes": 50
+    },
+    {
+      "name": "MADASAMY",
+      "party": "All India Puratchi Thalaivar Makkal Munnettra Kazhagam",
+      "evm_votes": 525,
+      "postal_votes": 392,
+      "total_votes": 917
+    },
+    {
+      "name": "VIBIN CHAKKARAVARTHY",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 15995,
+      "postal_votes": 2434,
+      "total_votes": 18429
+    },
+    {
+      "name": "U ARAVIND",
+      "party": "Independent",
+      "evm_votes": 42,
+      "postal_votes": 17,
+      "total_votes": 59
+    },
+    {
+      "name": "K ARUNKUMAR",
+      "party": "Independent",
+      "evm_votes": 23,
+      "postal_votes": 12,
+      "total_votes": 35
+    },
+    {
+      "name": "R KOTHERIMOHIDEEN",
+      "party": "Independent",
+      "evm_votes": 35,
+      "postal_votes": 6,
+      "total_votes": 41
+    },
+    {
+      "name": "T  MARIKUMAR",
+      "party": "Independent",
+      "evm_votes": 44,
+      "postal_votes": 12,
+      "total_votes": 56
+    },
+    {
+      "name": "JEYANTHI",
+      "party": "Independent",
+      "evm_votes": 120,
+      "postal_votes": 26,
+      "total_votes": 146
+    },
+    {
+      "name": "W JAYSON",
+      "party": "Independent",
+      "evm_votes": 62,
+      "postal_votes": 15,
+      "total_votes": 77
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 237,
+      "postal_votes": 46,
+      "total_votes": 283
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "round": 20,
+  "candidates": [
+    {
+      "name": "ANIS FATHIMA",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 7960,
+      "postal_votes": 471,
+      "total_votes": 8431
+    },
+    {
+      "name": "DORAI. SHANMUGA PRABU",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 46532,
+      "postal_votes": 3085,
+      "total_votes": 49617
+    },
+    {
+      "name": "AZARUDEEN UDUMAN ALI",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 56279,
+      "postal_votes": 3443,
+      "total_votes": 59722
+    },
+    {
+      "name": "C. CHANDRASEKARAN",
+      "party": "Thamizh Desiya Munnetra Kazhagam",
+      "evm_votes": 374,
+      "postal_votes": 94,
+      "total_votes": 468
+    },
+    {
+      "name": "B. DHAMODHARAN",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 267,
+      "postal_votes": 21,
+      "total_votes": 288
+    },
+    {
+      "name": "K. MASILAMANI",
+      "party": "Communist Party of India (Marxist-Leninist) (Liberation)",
+      "evm_votes": 291,
+      "postal_votes": 10,
+      "total_votes": 301
+    },
+    {
+      "name": "A.M. SHAHJAHAN",
+      "party": "Indian Union Muslim League",
+      "evm_votes": 58487,
+      "postal_votes": 2883,
+      "total_votes": 61370
+    },
+    {
+      "name": "A. ANIS FATHIMA ABDUL RAHIM",
+      "party": "Independent",
+      "evm_votes": 435,
+      "postal_votes": 24,
+      "total_votes": 459
+    },
+    {
+      "name": "V. KULANDHAIVELU",
+      "party": "Independent",
+      "evm_votes": 173,
+      "postal_votes": 10,
+      "total_votes": 183
+    },
+    {
+      "name": "A S THANGARASU",
+      "party": "Independent",
+      "evm_votes": 163,
+      "postal_votes": 11,
+      "total_votes": 174
+    },
+    {
+      "name": "V. THIYAGARAJAN",
+      "party": "Independent",
+      "evm_votes": 198,
+      "postal_votes": 20,
+      "total_votes": 218
+    },
+    {
+      "name": "S. NATARAJAN",
+      "party": "Independent",
+      "evm_votes": 240,
+      "postal_votes": 25,
+      "total_votes": 265
+    },
+    {
+      "name": "K. RAJENDRAN",
+      "party": "Independent",
+      "evm_votes": 158,
+      "postal_votes": 13,
+      "total_votes": 171
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 583,
+      "postal_votes": 34,
+      "total_votes": 617
+    }
+  ]
+}

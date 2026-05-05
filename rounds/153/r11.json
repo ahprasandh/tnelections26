@@ -1,0 +1,89 @@
+{
+  "round": 11,
+  "candidates": [
+    {
+      "name": "SABA.RAJENDRAN",
+      "party": "Dravida Munnetra Kazhagam",
+      "evm_votes": 28435,
+      "postal_votes": 2671,
+      "total_votes": 31106
+    },
+    {
+      "name": "RAJENDRAN.R",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 43873,
+      "postal_votes": 3016,
+      "total_votes": 46889
+    },
+    {
+      "name": "VEERAMANI.B",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 2109,
+      "postal_votes": 239,
+      "total_votes": 2348
+    },
+    {
+      "name": "JOTHIMURUGAN.V",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 64,
+      "postal_votes": 0,
+      "total_votes": 64
+    },
+    {
+      "name": "ANAND.K",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 14487,
+      "postal_votes": 1756,
+      "total_votes": 16243
+    },
+    {
+      "name": "THIRUMALVALAVAN.T",
+      "party": "Tamizhaga Vaazhvurimai Katchi",
+      "evm_votes": 8796,
+      "postal_votes": 441,
+      "total_votes": 9237
+    },
+    {
+      "name": "MAYAKRISHNAN.K",
+      "party": "Veerath Thiyagi Viswanathadoss Thozhilalarkal Katchi",
+      "evm_votes": 100,
+      "postal_votes": 4,
+      "total_votes": 104
+    },
+    {
+      "name": "KARTHIKEYAN.C.M",
+      "party": "Independent",
+      "evm_votes": 298,
+      "postal_votes": 15,
+      "total_votes": 313
+    },
+    {
+      "name": "SATHIYASEELAN.M",
+      "party": "Independent",
+      "evm_votes": 62,
+      "postal_votes": 1,
+      "total_votes": 63
+    },
+    {
+      "name": "CHEZHIYAN.G",
+      "party": "Independent",
+      "evm_votes": 128,
+      "postal_votes": 13,
+      "total_votes": 141
+    },
+    {
+      "name": "MANIMARAN.P",
+      "party": "Independent",
+      "evm_votes": 233,
+      "postal_votes": 16,
+      "total_votes": 249
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 399,
+      "postal_votes": 34,
+      "total_votes": 433
+    }
+  ]
+}

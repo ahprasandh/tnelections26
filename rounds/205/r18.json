@@ -1,0 +1,110 @@
+{
+  "round": 18,
+  "candidates": [
+    {
+      "name": "ASHOKAN G",
+      "party": "Indian National Congress",
+      "evm_votes": 46476,
+      "postal_votes": 2884,
+      "total_votes": 49360
+    },
+    {
+      "name": "ESTHER MARY DIANA A",
+      "party": "Naam Tamilar Katchi",
+      "evm_votes": 8033,
+      "postal_votes": 498,
+      "total_votes": 8531
+    },
+    {
+      "name": "SURESH K",
+      "party": "Bahujan Samaj Party",
+      "evm_votes": 189,
+      "postal_votes": 14,
+      "total_votes": 203
+    },
+    {
+      "name": "RAJENTHRABHALAJI K T",
+      "party": "All India Anna Dravida Munnetra Kazhagam",
+      "evm_votes": 41595,
+      "postal_votes": 2596,
+      "total_votes": 44191
+    },
+    {
+      "name": "GANESAN M",
+      "party": "All India Puratchi Thalaivar Makkal Munnettra Kazhagam",
+      "evm_votes": 1506,
+      "postal_votes": 32,
+      "total_votes": 1538
+    },
+    {
+      "name": "KANIPANDI M",
+      "party": "Puthiya Tamilagam",
+      "evm_votes": 2226,
+      "postal_votes": 19,
+      "total_votes": 2245
+    },
+    {
+      "name": "KEERTHANA S",
+      "party": "Tamilaga Vettri Kazhagam",
+      "evm_votes": 53495,
+      "postal_votes": 3986,
+      "total_votes": 57481
+    },
+    {
+      "name": "CHINNADURAI ALIAS DIMITRO S",
+      "party": "Communist Party of India (Marxist-Leninist) (Liberation)",
+      "evm_votes": 125,
+      "postal_votes": 9,
+      "total_votes": 134
+    },
+    {
+      "name": "GANESAN S",
+      "party": "Independent",
+      "evm_votes": 86,
+      "postal_votes": 8,
+      "total_votes": 94
+    },
+    {
+      "name": "GANESAN V",
+      "party": "Independent",
+      "evm_votes": 66,
+      "postal_votes": 1,
+      "total_votes": 67
+    },
+    {
+      "name": "NAGALAKSHMI V",
+      "party": "Independent",
+      "evm_votes": 167,
+      "postal_votes": 8,
+      "total_votes": 175
+    },
+    {
+      "name": "MURUGAN M",
+      "party": "Independent",
+      "evm_votes": 106,
+      "postal_votes": 3,
+      "total_votes": 109
+    },
+    {
+      "name": "RAMESH P",
+      "party": "Independent",
+      "evm_votes": 169,
+      "postal_votes": 8,
+      "total_votes": 177
+    },
+    {
+      "name": "VENKATESH V",
+      "party": "Independent",
+      "evm_votes": 167,
+      "postal_votes": 12,
+      "total_votes": 179
+    },
+    {
+      "name": "NOTA",
+      "party": "None of the Above",
+      "evm_votes": 727,
+      "postal_votes": 66,
+      "total_votes": 793
+    }
+  ]
+}
